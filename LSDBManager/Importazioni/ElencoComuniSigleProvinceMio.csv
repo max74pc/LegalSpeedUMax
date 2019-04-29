@@ -1,0 +1,7915 @@
+﻿;Agrigento;A089;AG
+;Alessandria della Rocca;A181;AG
+;Aragona;A351;AG
+;Bivona;A896;AG
+;Burgio;B275;AG
+;Calamonaci;B377;AG
+;Caltabellotta;B427;AG
+;Camastra;B460;AG
+;Cammarata;B486;AG
+;Campobello di Licata;B520;AG
+;Canicattì;B602;AG
+;Casteltermini;C275;AG
+;Castrofilippo;C341;AG
+;Cattolica Eraclea;C356;AG
+;Cianciana;C668;AG
+;Comitini;C928;AG
+;Favara;D514;AG
+;Grotte;E209;AG
+;Joppolo Giancaxio;E390;AG
+;Lampedusa e Linosa;E431;AG
+;Licata;E573;AG
+;Lucca Sicula;E714;AG
+;Menfi;F126;AG
+;Montallegro;F414;AG
+;Montevago;F655;AG
+;Naro;F845;AG
+;Palma di Montechiaro;G282;AG
+;Porto Empedocle;F299;AG
+;Racalmuto;H148;AG
+;Raffadali;H159;AG
+;Ravanusa;H194;AG
+;Realmonte;H205;AG
+;Ribera;H269;AG
+;Sambuca di Sicilia;H743;AG
+;San Biagio Platani;H778;AG
+;San Giovanni Gemini;H914;AG
+;Santa Elisabetta;I185;AG
+;Santa Margherita di Belice;I224;AG
+;Sant'Angelo Muxaro;I290;AG
+;Santo Stefano Quisquina;I356;AG
+;Sciacca;I533;AG
+;Siculiana;I723;AG
+;Villafranca Sicula;L944;AG
+;Acqui Terme;A052;AL
+;Albera Ligure;A146;AL
+;Alessandria;A182;AL
+;Alfiano Natta;A189;AL
+;Alice Bel Colle;A197;AL
+;Alluvioni Piovera;M397;AL
+;Altavilla Monferrato;A227;AL
+;Alzano Scrivia;A245;AL
+;Arquata Scrivia;A436;AL
+;Avolasca;A523;AL
+;Balzola;A605;AL
+;Basaluzzo;A689;AL
+;Bassignana;A708;AL
+;Belforte Monferrato;A738;AL
+;Bergamasco;A793;AL
+;Berzano di Tortona;A813;AL
+;Bistagno;A889;AL
+;Borghetto di Borbera;A998;AL
+;Borgo San Martino;B037;AL
+;Borgoratto Alessandrino;B029;AL
+;Bosco Marengo;B071;AL
+;Bosio;B080;AL
+;Bozzole;B109;AL
+;Brignano-Frascata;B179;AL
+;Cabella Ligure;B311;AL
+;Camagna Monferrato;B453;AL
+;Camino;B482;AL
+;Cantalupo Ligure;B629;AL
+;Capriata d'Orba;B701;AL
+;Carbonara Scrivia;B736;AL
+;Carentino;B765;AL
+;Carezzano;B769;AL
+;Carpeneto;B818;AL
+;Carrega Ligure;B836;AL
+;Carrosio;B840;AL
+;Cartosio;B847;AL
+;Casal Cermelli;B870;AL
+;Casale Monferrato;B885;AL
+;Casaleggio Boiro;B882;AL
+;Casalnoceto;B902;AL
+;Casasco;B941;AL
+;Cassano Spinola;M388;AL
+;Cassine;C027;AL
+;Cassinelle;C030;AL
+;Castellania;C137;AL
+;Castellar Guidobono;C142;AL
+;Castellazzo Bormida;C148;AL
+;Castelletto d'Erro;C156;AL
+;Castelletto d'Orba;C158;AL
+;Castelletto Merli;C160;AL
+;Castelletto Monferrato;C162;AL
+;Castelnuovo Bormida;C229;AL
+;Castelnuovo Scrivia;C243;AL
+;Castelspina;C274;AL
+;Cavatore;C387;AL
+;Cella Monte;C432;AL
+;Cereseto;C503;AL
+;Cerreto Grue;C507;AL
+;Cerrina Monferrato;C531;AL
+;Coniolo;C962;AL
+;Conzano;C977;AL
+;Costa Vescovato;D102;AL
+;Cremolino;D149;AL
+;Denice;D272;AL
+;Dernice;D277;AL
+;Fabbrica Curone;D447;AL
+;Felizzano;D528;AL
+;Fraconalto;D559;AL
+;Francavilla Bisio;D759;AL
+;Frascaro;D770;AL
+;Frassinello Monferrato;D777;AL
+;Frassineto Po;D780;AL
+;Fresonara;D797;AL
+;Frugarolo;D813;AL
+;Fubine Monferrato;D814;AL
+;Gabiano;D835;AL
+;Gamalero;D890;AL
+;Garbagna;D910;AL
+;Gavi;D944;AL
+;Giarole;E015;AL
+;Gremiasco;E164;AL
+;Grognardo;E188;AL
+;Grondona;E191;AL
+;Guazzora;E255;AL
+;Isola Sant'Antonio;E360;AL
+;Lerma;E543;AL
+;Lu e Cuccaro Monferrato;M420;AL
+;Malvicino;E870;AL
+;Masio;F015;AL
+;Melazzo;F096;AL
+;Merana;F131;AL
+;Mirabello Monferrato;F232;AL
+;Molare;F281;AL
+;Molino dei Torti;F293;AL
+;Mombello Monferrato;F313;AL
+;Momperone;F320;AL
+;Moncestino;F337;AL
+;Mongiardino Ligure;F365;AL
+;Monleale;F374;AL
+;Montacuto;F387;AL
+;Montaldeo;F403;AL
+;Montaldo Bormida;F404;AL
+;Montecastello;F455;AL
+;Montechiaro d'Acqui;F469;AL
+;Montegioco;F518;AL
+;Montemarzino;F562;AL
+;Morano sul Po;F707;AL
+;Morbello;F713;AL
+;Mornese;F737;AL
+;Morsasco;F751;AL
+;Murisengo;F814;AL
+;Novi Ligure;F965;AL
+;Occimiano;F995;AL
+;Odalengo Grande;F997;AL
+;Odalengo Piccolo;F998;AL
+;Olivola;G042;AL
+;Orsara Bormida;G124;AL
+;Ottiglio;G193;AL
+;Ovada;G197;AL
+;Oviglio;G199;AL
+;Ozzano Monferrato;G204;AL
+;Paderna;G215;AL
+;Pareto;G334;AL
+;Parodi Ligure;G338;AL
+;Pasturana;G367;AL
+;Pecetto di Valenza;G397;AL
+;Pietra Marazzi;G619;AL
+;Pomaro Monferrato;G807;AL
+;Pontecurone;G839;AL
+;Pontestura;G858;AL
+;Ponti;G861;AL
+;Ponzano Monferrato;G872;AL
+;Ponzone;G877;AL
+;Pozzol Groppo;G960;AL
+;Pozzolo Formigaro;G961;AL
+;Prasco;G987;AL
+;Predosa;H021;AL
+;Quargnento;H104;AL
+;Quattordio;H121;AL
+;Ricaldone;H272;AL
+;Rivalta Bormida;H334;AL
+;Rivarone;H343;AL
+;Rocca Grimalda;H414;AL
+;Roccaforte Ligure;H406;AL
+;Rocchetta Ligure;H465;AL
+;Rosignano Monferrato;H569;AL
+;Sala Monferrato;H677;AL
+;Sale;H694;AL
+;San Cristoforo;H810;AL
+;San Giorgio Monferrato;H878;AL
+;San Salvatore Monferrato;I144;AL
+;San Sebastiano Curone;I150;AL
+;Sant'Agata Fossili;I190;AL
+;Sardigliano;I429;AL
+;Sarezzano;I432;AL
+;Serralunga di Crea;I645;AL
+;Serravalle Scrivia;I657;AL
+;Sezzadio;I711;AL
+;Silvano d'Orba;I738;AL
+;Solero;I798;AL
+;Solonghello;I808;AL
+;Spigno Monferrato;I901;AL
+;Spineto Scrivia;I911;AL
+;Stazzano;I941;AL
+;Strevi;I977;AL
+;Tagliolo Monferrato;L027;AL
+;Tassarolo;L059;AL
+;Terruggia;L139;AL
+;Terzo;L143;AL
+;Ticineto;L165;AL
+;Tortona;L304;AL
+;Treville;L403;AL
+;Trisobbio;L432;AL
+;Valenza;L570;AL
+;Valmacca;L633;AL
+;Vignale Monferrato;L881;AL
+;Vignole Borbera;L887;AL
+;Viguzzolo;L904;AL
+;Villadeati;L931;AL
+;Villalvernia;L963;AL
+;Villamiroglio;L970;AL
+;Villanova Monferrato;L972;AL
+;Villaromagnano;M009;AL
+;Visone;M077;AL
+;Volpedo;M120;AL
+;Volpeglino;M121;AL
+;Voltaggio;M123;AL
+;Agugliano;A092;AN
+;Ancona;A271;AN
+;Arcevia;A366;AN
+;Barbara;A626;AN
+;Belvedere Ostrense;A769;AN
+;Camerano;B468;AN
+;Camerata Picena;B470;AN
+;Castelbellino;C060;AN
+;Castelfidardo;C100;AN
+;Castelleone di Suasa;C152;AN
+;Castelplanio;C248;AN
+;Cerreto d'Esi;C524;AN
+;Chiaravalle;C615;AN
+;Corinaldo;D007;AN
+;Cupramontana;D211;AN
+;Fabriano;D451;AN
+;Falconara Marittima;D472;AN
+;Filottrano;D597;AN
+;Genga;D965;AN
+;Jesi;E388;AN
+;Loreto;E690;AN
+;Maiolati Spontini;E837;AN
+;Mergo;F145;AN
+;Monsano;F381;AN
+;Monte Roberto;F600;AN
+;Monte San Vito;F634;AN
+;Montecarotto;F453;AN
+;Montemarciano;F560;AN
+;Morro d'Alba;F745;AN
+;Numana;F978;AN
+;Offagna;G003;AN
+;Osimo;G157;AN
+;Ostra;F401;AN
+;Ostra Vetere;F581;AN
+;Poggio San Marcello;G771;AN
+;Polverigi;G803;AN
+;Rosora;H575;AN
+;San Marcello;H979;AN
+;San Paolo di Jesi;I071;AN
+;Santa Maria Nuova;I251;AN
+;Sassoferrato;I461;AN
+;Senigallia;I608;AN
+;Serra de' Conti;I643;AN
+;Serra San Quirico;I653;AN
+;Sirolo;I758;AN
+;Staffolo;I932;AN
+;Trecastelli;M318;AN
+;Anghiari;A291;AR
+;Arezzo;A390;AR
+;Badia Tedalda;A541;AR
+;Bibbiena;A851;AR
+;Bucine;B243;AR
+;Capolona;B670;AR
+;Caprese Michelangelo;B693;AR
+;Castel Focognano;C102;AR
+;Castel San Niccolò;C263;AR
+;Castelfranco Piandiscò;M322;AR
+;Castiglion Fibocchi;C318;AR
+;Castiglion Fiorentino;C319;AR
+;Cavriglia;C407;AR
+;Chitignano;C648;AR
+;Chiusi della Verna;C663;AR
+;Civitella in Val di Chiana;C774;AR
+;Cortona;D077;AR
+;Foiano della Chiana;D649;AR
+;Laterina Pergine Valdarno;M392;AR
+;Loro Ciuffenna;E693;AR
+;Lucignano;E718;AR
+;Marciano della Chiana;E933;AR
+;Monte San Savino;F628;AR
+;Montemignaio;F565;AR
+;Monterchi;F594;AR
+;Montevarchi;F656;AR
+;Ortignano Raggiolo;G139;AR
+;Pieve Santo Stefano;G653;AR
+;Poppi;G879;AR
+;Pratovecchio Stia;M329;AR
+;San Giovanni Valdarno;H901;AR
+;Sansepolcro;I155;AR
+;Sestino;I681;AR
+;Subbiano;I991;AR
+;Talla;L038;AR
+;Terranuova Bracciolini;L123;AR
+;Acquasanta Terme;A044;AP
+;Acquaviva Picena;A047;AP
+;Appignano del Tronto;A335;AP
+;Arquata del Tronto;A437;AP
+;Ascoli Piceno;A462;AP
+;Carassai;B727;AP
+;Castel di Lama;C093;AP
+;Castignano;C321;AP
+;Castorano;C331;AP
+;Colli del Tronto;C877;AP
+;Comunanza;C935;AP
+;Cossignano;D096;AP
+;Cupra Marittima;D210;AP
+;Folignano;D652;AP
+;Force;D691;AP
+;Grottammare;E207;AP
+;Maltignano;E868;AP
+;Massignano;F044;AP
+;Monsampolo del Tronto;F380;AP
+;Montalto delle Marche;F415;AP
+;Montedinove;F487;AP
+;Montefiore dell'Aso;F501;AP
+;Montegallo;F516;AP
+;Montemonaco;F570;AP
+;Monteprandone;F591;AP
+;Offida;G005;AP
+;Palmiano;G289;AP
+;Ripatransone;H321;AP
+;Roccafluvione;H390;AP
+;Rotella;H588;AP
+;San Benedetto del Tronto;H769;AP
+;Spinetoli;I912;AP
+;Venarotta;L728;AP
+;Agliano Terme;A072;AT
+;Albugnano;A173;AT
+;Antignano;A312;AT
+;Aramengo;A352;AT
+;Asti;A479;AT
+;Azzano d'Asti;A527;AT
+;Baldichieri d'Asti;A588;AT
+;Belveglio;A770;AT
+;Berzano di San Pietro;A812;AT
+;Bruno;B221;AT
+;Bubbio;B236;AT
+;Buttigliera d'Asti;B306;AT
+;Calamandrana;B376;AT
+;Calliano;B418;AT
+;Calosso;B425;AT
+;Camerano Casasco;B469;AT
+;Canelli;B594;AT
+;Cantarana;B633;AT
+;Capriglio;B707;AT
+;Casorzo;B991;AT
+;Cassinasco;C022;AT
+;Castagnole delle Lanze;C049;AT
+;Castagnole Monferrato;C047;AT
+;Castel Boglione;C064;AT
+;Castel Rocchero;C253;AT
+;Castell'Alfero;C127;AT
+;Castellero;C154;AT
+;Castelletto Molina;C161;AT
+;Castello di Annone;A300;AT
+;Castelnuovo Belbo;C226;AT
+;Castelnuovo Calcea;C230;AT
+;Castelnuovo Don Bosco;C232;AT
+;Cellarengo;C438;AT
+;Celle Enomondo;C440;AT
+;Cerreto d'Asti;C528;AT
+;Cerro Tanaro;C533;AT
+;Cessole;C583;AT
+;Chiusano d'Asti;C658;AT
+;Cinaglio;C701;AT
+;Cisterna d'Asti;C739;AT
+;Coazzolo;C804;AT
+;Cocconato;C807;AT
+;Corsione;D046;AT
+;Cortandone;D050;AT
+;Cortanze;D051;AT
+;Cortazzone;D052;AT
+;Cortiglione;D072;AT
+;Cossombrato;D101;AT
+;Costigliole d'Asti;D119;AT
+;Cunico;D207;AT
+;Dusino San Michele;D388;AT
+;Ferrere;D554;AT
+;Fontanile;D678;AT
+;Frinco;D802;AT
+;Grana;E134;AT
+;Grazzano Badoglio;E159;AT
+;Incisa Scapaccino;E295;AT
+;Isola d'Asti;E338;AT
+;Loazzolo;E633;AT
+;Maranzana;E917;AT
+;Maretto;E944;AT
+;Moasca;F254;AT
+;Mombaldone;F308;AT
+;Mombaruzzo;F311;AT
+;Mombercelli;F316;AT
+;Monale;F323;AT
+;Monastero Bormida;F325;AT
+;Moncalvo;F336;AT
+;Moncucco Torinese;F343;AT
+;Mongardino;F361;AT
+;Montabone;F386;AT
+;Montafia;F390;AT
+;Montaldo Scarampi;F409;AT
+;Montechiaro d'Asti;F468;AT
+;Montegrosso d'Asti;F527;AT
+;Montemagno;F556;AT
+;Montiglio Monferrato;M302;AT
+;Moransengo;F709;AT
+;Nizza Monferrato;F902;AT
+;Olmo Gentile;G048;AT
+;Passerano Marmorito;G358;AT
+;Penango;G430;AT
+;Piea;G593;AT
+;Pino d'Asti;G676;AT
+;Piovà Massaia;G692;AT
+;Portacomaro;G894;AT
+;Quaranti;H102;AT
+;Refrancore;H219;AT
+;Revigliasco d'Asti;H250;AT
+;Roatto;H366;AT
+;Robella;H376;AT
+;Rocca d'Arazzo;H392;AT
+;Roccaverano;H451;AT
+;Rocchetta Palafea;H466;AT
+;Rocchetta Tanaro;H468;AT
+;San Damiano d'Asti;H811;AT
+;San Giorgio Scarampi;H899;AT
+;San Martino Alfieri;H987;AT
+;San Marzano Oliveto;I017;AT
+;San Paolo Solbrito;I076;AT
+;Scurzolengo;I555;AT
+;Serole;I637;AT
+;Sessame;I678;AT
+;Settime;I698;AT
+;Soglio;I781;AT
+;Tigliole;L168;AT
+;Tonco;L203;AT
+;Tonengo;L204;AT
+;Vaglio Serra;L531;AT
+;Valfenera;L574;AT
+;Vesime;L807;AT
+;Viale;L829;AT
+;Viarigi;L834;AT
+;Vigliano d'Asti;L879;AT
+;Villa San Secondo;M019;AT
+;Villafranca d'Asti;L945;AT
+;Villanova d'Asti;L984;AT
+;Vinchio;M058;AT
+;Aiello del Sabato;A101;AV
+;Altavilla Irpina;A228;AV
+;Andretta;A284;AV
+;Aquilonia;A347;AV
+;Ariano Irpino;A399;AV
+;Atripalda;A489;AV
+;Avella;A508;AV
+;Avellino;A509;AV
+;Bagnoli Irpino;A566;AV
+;Baiano;A580;AV
+;Bisaccia;A881;AV
+;Bonito;A975;AV
+;Cairano;B367;AV
+;Calabritto;B374;AV
+;Calitri;B415;AV
+;Candida;B590;AV
+;Caposele;B674;AV
+;Capriglia Irpina;B706;AV
+;Carife;B776;AV
+;Casalbore;B866;AV
+;Cassano Irpino;B997;AV
+;Castel Baronia;C058;AV
+;Castelfranci;C105;AV
+;Castelvetere sul Calore;C283;AV
+;Cervinara;C557;AV
+;Cesinali;C576;AV
+;Chianche;C606;AV
+;Chiusano di San Domenico;C659;AV
+;Contrada;C971;AV
+;Conza della Campania;C976;AV
+;Domicella;D331;AV
+;Flumeri;D638;AV
+;Fontanarosa;D671;AV
+;Forino;D701;AV
+;Frigento;D798;AV
+;Gesualdo;D998;AV
+;Greci;E161;AV
+;Grottaminarda;E206;AV
+;Grottolella;E214;AV
+;Guardia Lombardi;E245;AV
+;Lacedonia;E397;AV
+;Lapio;E448;AV
+;Lauro;E487;AV
+;Lioni;E605;AV
+;Luogosano;E746;AV
+;Manocalzati;E891;AV
+;Marzano di Nola;E997;AV
+;Melito Irpino;F110;AV
+;Mercogliano;F141;AV
+;Mirabella Eclano;F230;AV
+;Montaguto;F397;AV
+;Montecalvo Irpino;F448;AV
+;Montefalcione;F491;AV
+;Monteforte Irpino;F506;AV
+;Montefredane;F511;AV
+;Montefusco;F512;AV
+;Montella;F546;AV
+;Montemarano;F559;AV
+;Montemiletto;F566;AV
+;Monteverde;F660;AV
+;Montoro;M330;AV
+;Morra De Sanctis;F744;AV
+;Moschiano;F762;AV
+;Mugnano del Cardinale;F798;AV
+;Nusco;F988;AV
+;Ospedaletto d'Alpinolo;G165;AV
+;Pago del Vallo di Lauro;G242;AV
+;Parolise;G340;AV
+;Paternopoli;G370;AV
+;Petruro Irpino;G519;AV
+;Pietradefusi;G611;AV
+;Pietrastornina;G629;AV
+;Prata di Principato Ultra;G990;AV
+;Pratola Serra;H006;AV
+;Quadrelle;H097;AV
+;Quindici;H128;AV
+;Rocca San Felice;H438;AV
+;Roccabascerana;H382;AV
+;Rotondi;H592;AV
+;Salza Irpina;H733;AV
+;San Mango sul Calore;H975;AV
+;San Martino Valle Caudina;I016;AV
+;San Michele di Serino;I034;AV
+;San Nicola Baronia;I061;AV
+;San Potito Ultra;I129;AV
+;San Sossio Baronia;I163;AV
+;Santa Lucia di Serino;I219;AV
+;Santa Paolina;I301;AV
+;Sant'Andrea di Conza;I264;AV
+;Sant'Angelo a Scala;I280;AV
+;Sant'Angelo all'Esca;I279;AV
+;Sant'Angelo dei Lombardi;I281;AV
+;Santo Stefano del Sole;I357;AV
+;Savignano Irpino;I471;AV
+;Scampitella;I493;AV
+;Senerchia;I606;AV
+;Serino;I630;AV
+;Sirignano;I756;AV
+;Solofra;I805;AV
+;Sorbo Serpico;I843;AV
+;Sperone;I893;AV
+;Sturno;I990;AV
+;Summonte;L004;AV
+;Taurano;L061;AV
+;Taurasi;L062;AV
+;Teora;L102;AV
+;Torella dei Lombardi;L214;AV
+;Torre Le Nocelle;L272;AV
+;Torrioni;L301;AV
+;Trevico;L399;AV
+;Tufo;L461;AV
+;Vallata;L589;AV
+;Vallesaccarda;L616;AV
+;Venticano;L739;AV
+;Villamaina;L965;AV
+;Villanova del Battista;L973;AV
+;Volturara Irpina;M130;AV
+;Zungoli;M203;AV
+;Acquaviva delle Fonti;A048;BA
+;Adelfia;A055;BA
+;Alberobello;A149;BA
+;Altamura;A225;BA
+;Bari;A662;BA
+;Binetto;A874;BA
+;Bitetto;A892;BA
+;Bitonto;A893;BA
+;Bitritto;A894;BA
+;Capurso;B716;BA
+;Casamassima;B923;BA
+;Cassano delle Murge;B998;BA
+;Castellana Grotte;C134;BA
+;Cellamare;C436;BA
+;Conversano;C975;BA
+;Corato;C983;BA
+;Gioia del Colle;E038;BA
+;Giovinazzo;E047;BA
+;Gravina in Puglia;E155;BA
+;Grumo Appula;E223;BA
+;Locorotondo;E645;BA
+;Modugno;F262;BA
+;Mola di Bari;F280;BA
+;Molfetta;F284;BA
+;Monopoli;F376;BA
+;Noci;F915;BA
+;Noicattaro;F923;BA
+;Palo del Colle;G291;BA
+;Poggiorsini;G769;BA
+;Polignano a Mare;G787;BA
+;Putignano;H096;BA
+;Rutigliano;H643;BA
+;Ruvo di Puglia;H645;BA
+;Sammichele di Bari;H749;BA
+;Sannicandro di Bari;I053;BA
+;Santeramo in Colle;I330;BA
+;Terlizzi;L109;BA
+;Toritto;L220;BA
+;Triggiano;L425;BA
+;Turi;L472;BA
+;Valenzano;L571;BA
+;Andria;A285;BT
+;Barletta;A669;BT
+;Bisceglie;A883;BT
+;Canosa di Puglia;B619;BT
+;Margherita di Savoia;E946;BT
+;Minervino Murge;F220;BT
+;San Ferdinando di Puglia;H839;BT
+;Spinazzola;I907;BT
+;Trani;L328;BT
+;Trinitapoli;B915;BT
+;Agordo;A083;BL
+;Alano di Piave;A121;BL
+;Alleghe;A206;BL
+;Alpago;M375;BL
+;Arsiè;A443;BL
+;Auronzo di Cadore;A501;BL
+;Belluno;A757;BL
+;Borca di Cadore;A982;BL
+;Borgo Valbelluna;M421;BL
+;Calalzo di Cadore;B375;BL
+;Canale d'Agordo;B574;BL
+;Cencenighe Agordino;C458;BL
+;Cesiomaggiore;C577;BL
+;Chies d'Alpago;C630;BL
+;Cibiana di Cadore;C672;BL
+;Colle Santa Lucia;C872;BL
+;Comelico Superiore;C920;BL
+;Cortina d'Ampezzo;A266;BL
+;Danta di Cadore;D247;BL
+;Domegge di Cadore;D330;BL
+;Falcade;D470;BL
+;Feltre;D530;BL
+;Fonzaso;D686;BL
+;Gosaldo;E113;BL
+;La Valle Agordina;E490;BL
+;Lamon;E429;BL
+;Limana;E588;BL
+;Livinallongo del Col di Lana;E622;BL
+;Longarone;M342;BL
+;Lorenzago di Cadore;E687;BL
+;Lozzo di Cadore;E708;BL
+;Ospitale di Cadore;G169;BL
+;Pedavena;G404;BL
+;Perarolo di Cadore;G442;BL
+;Pieve di Cadore;G642;BL
+;Ponte nelle Alpi;B662;BL
+;Quero Vas;M332;BL
+;Rivamonte Agordino;H327;BL
+;Rocca Pietore;H379;BL
+;San Gregorio nelle Alpi;H938;BL
+;San Nicolò di Comelico;I063;BL
+;San Pietro di Cadore;I088;BL
+;San Tomaso Agordino;I347;BL
+;San Vito di Cadore;I392;BL
+;Santa Giustina;I206;BL
+;Santo Stefano di Cadore;C919;BL
+;Sedico;I563;BL
+;Selva di Cadore;I592;BL
+;Seren del Grappa;I626;BL
+;Sospirolo;I866;BL
+;Soverzene;I876;BL
+;Sovramonte;I673;BL
+;Taibon Agordino;L030;BL
+;Tambre;L040;BL
+;Val di Zoldo;M374;BL
+;Vallada Agordina;L584;BL
+;Valle di Cadore;L590;BL
+;Vigo di Cadore;L890;BL
+;Vodo Cadore;M108;BL
+;Voltago Agordino;M124;BL
+;Zoppè di Cadore;M189;BL
+;Airola;A110;BN
+;Amorosi;A265;BN
+;Apice;A328;BN
+;Apollosa;A330;BN
+;Arpaia;A431;BN
+;Arpaise;A432;BN
+;Baselice;A696;BN
+;Benevento;A783;BN
+;Bonea;A970;BN
+;Bucciano;B239;BN
+;Buonalbergo;B267;BN
+;Calvi;B444;BN
+;Campolattaro;B541;BN
+;Campoli del Monte Taburno;B542;BN
+;Casalduni;B873;BN
+;Castelfranco in Miscano;C106;BN
+;Castelpagano;C245;BN
+;Castelpoto;C250;BN
+;Castelvenere;C280;BN
+;Castelvetere in Val Fortore;C284;BN
+;Cautano;C359;BN
+;Ceppaloni;C476;BN
+;Cerreto Sannita;C525;BN
+;Circello;C719;BN
+;Colle Sannita;C846;BN
+;Cusano Mutri;D230;BN
+;Dugenta;D380;BN
+;Durazzano;D386;BN
+;Faicchio;D469;BN
+;Foglianise;D644;BN
+;Foiano di Val Fortore;D650;BN
+;Forchia;D693;BN
+;Fragneto l'Abate;D755;BN
+;Fragneto Monforte;D756;BN
+;Frasso Telesino;D784;BN
+;Ginestra degli Schiavoni;E034;BN
+;Guardia Sanframondi;E249;BN
+;Limatola;E589;BN
+;Melizzano;F113;BN
+;Moiano;F274;BN
+;Molinara;F287;BN
+;Montefalcone di Val Fortore;F494;BN
+;Montesarchio;F636;BN
+;Morcone;F717;BN
+;Paduli;G227;BN
+;Pago Veiano;G243;BN
+;Pannarano;G311;BN
+;Paolisi;G318;BN
+;Paupisi;G386;BN
+;Pesco Sannita;G494;BN
+;Pietraroja;G626;BN
+;Pietrelcina;G631;BN
+;Ponte;G827;BN
+;Pontelandolfo;G848;BN
+;Puglianello;H087;BN
+;Reino;H227;BN
+;San Bartolomeo in Galdo;H764;BN
+;San Giorgio del Sannio;H894;BN
+;San Giorgio La Molara;H898;BN
+;San Leucio del Sannio;H953;BN
+;San Lorenzello;H955;BN
+;San Lorenzo Maggiore;H967;BN
+;San Lupo;H973;BN
+;San Marco dei Cavoti;H984;BN
+;San Martino Sannita;I002;BN
+;San Nazzaro;I049;BN
+;San Nicola Manfredi;I062;BN
+;San Salvatore Telesino;I145;BN
+;Santa Croce del Sannio;I179;BN
+;Sant'Agata de' Goti;I197;BN
+;Sant'Angelo a Cupolo;I277;BN
+;Sant'Arcangelo Trimonte;F557;BN
+;Sassinoro;I455;BN
+;Solopaca;I809;BN
+;Telese Terme;L086;BN
+;Tocco Caudio;L185;BN
+;Torrecuso;L254;BN
+;Vitulano;M093;BN
+;Adrara San Martino;A057;BG
+;Adrara San Rocco;A058;BG
+;Albano Sant'Alessandro;A129;BG
+;Albino;A163;BG
+;Algua;A193;BG
+;Almè;A214;BG
+;Almenno San Bartolomeo;A216;BG
+;Almenno San Salvatore;A217;BG
+;Alzano Lombardo;A246;BG
+;Ambivere;A259;BG
+;Antegnate;A304;BG
+;Arcene;A365;BG
+;Ardesio;A383;BG
+;Arzago d'Adda;A440;BG
+;Averara;A511;BG
+;Aviatico;A517;BG
+;Azzano San Paolo;A528;BG
+;Azzone;A533;BG
+;Bagnatica;A557;BG
+;Barbata;A631;BG
+;Bariano;A664;BG
+;Barzana;A684;BG
+;Bedulita;A732;BG
+;Berbenno;A786;BG
+;Bergamo;A794;BG
+;Berzo San Fermo;A815;BG
+;Bianzano;A846;BG
+;Blello;A903;BG
+;Bolgare;A937;BG
+;Boltiere;A950;BG
+;Bonate Sopra;A963;BG
+;Bonate Sotto;A962;BG
+;Borgo di Terzo;B010;BG
+;Bossico;B083;BG
+;Bottanuco;B088;BG
+;Bracca;B112;BG
+;Branzi;B123;BG
+;Brembate;B137;BG
+;Brembate di Sopra;B138;BG
+;Brignano Gera d'Adda;B178;BG
+;Brumano;B217;BG
+;Brusaporto;B223;BG
+;Calcinate;B393;BG
+;Calcio;B395;BG
+;Calusco d'Adda;B434;BG
+;Calvenzano;B442;BG
+;Camerata Cornello;B471;BG
+;Canonica d'Adda;B618;BG
+;Capizzone;B661;BG
+;Capriate San Gervasio;B703;BG
+;Caprino Bergamasco;B710;BG
+;Caravaggio;B731;BG
+;Carobbio degli Angeli;B801;BG
+;Carona;B803;BG
+;Carvico;B854;BG
+;Casazza;B947;BG
+;Casirate d'Adda;B971;BG
+;Casnigo;B978;BG
+;Cassiglio;C007;BG
+;Castel Rozzone;C255;BG
+;Castelli Calepio;C079;BG
+;Castione della Presolana;C324;BG
+;Castro;C337;BG
+;Cavernago;C396;BG
+;Cazzano Sant'Andrea;C410;BG
+;Cenate Sopra;C456;BG
+;Cenate Sotto;C457;BG
+;Cene;C459;BG
+;Cerete;C506;BG
+;Chignolo d'Isola;C635;BG
+;Chiuduno;C649;BG
+;Cisano Bergamasco;C728;BG
+;Ciserano;C730;BG
+;Cividate al Piano;C759;BG
+;Clusone;C800;BG
+;Colere;C835;BG
+;Cologno al Serio;C894;BG
+;Colzate;C910;BG
+;Comun Nuovo;C937;BG
+;Corna Imagna;D015;BG
+;Cornalba;D016;BG
+;Cortenuova;D066;BG
+;Costa di Mezzate;D110;BG
+;Costa Serina;D111;BG
+;Costa Valle Imagna;D103;BG
+;Costa Volpino;D117;BG
+;Covo;D126;BG
+;Credaro;D139;BG
+;Curno;D221;BG
+;Cusio;D233;BG
+;Dalmine;D245;BG
+;Dossena;D352;BG
+;Endine Gaiano;D406;BG
+;Entratico;D411;BG
+;Fara Gera d'Adda;D490;BG
+;Fara Olivana con Sola;D491;BG
+;Filago;D588;BG
+;Fino del Monte;D604;BG
+;Fiorano al Serio;D606;BG
+;Fontanella;D672;BG
+;Fonteno;D684;BG
+;Foppolo;D688;BG
+;Foresto Sparso;D697;BG
+;Fornovo San Giovanni;D727;BG
+;Fuipiano Valle Imagna;D817;BG
+;Gandellino;D903;BG
+;Gandino;D905;BG
+;Gandosso;D906;BG
+;Gaverina Terme;D943;BG
+;Gazzaniga;D952;BG
+;Ghisalba;E006;BG
+;Gorlago;E100;BG
+;Gorle;E103;BG
+;Gorno;E106;BG
+;Grassobbio;E148;BG
+;Gromo;E189;BG
+;Grone;E192;BG
+;Grumello del Monte;E219;BG
+;Isola di Fondra;E353;BG
+;Isso;E370;BG
+;Lallio;E422;BG
+;Leffe;E509;BG
+;Lenna;E524;BG
+;Levate;E562;BG
+;Locatello;E640;BG
+;Lovere;E704;BG
+;Lurano;E751;BG
+;Luzzana;E770;BG
+;Madone;E794;BG
+;Mapello;E901;BG
+;Martinengo;E987;BG
+;Medolago;F085;BG
+;Mezzoldo;F186;BG
+;Misano di Gera d'Adda;F243;BG
+;Moio de' Calvi;F276;BG
+;Monasterolo del Castello;F328;BG
+;Montello;F547;BG
+;Morengo;F720;BG
+;Mornico al Serio;F738;BG
+;Mozzanica;F786;BG
+;Mozzo;F791;BG
+;Nembro;F864;BG
+;Olmo al Brembo;G049;BG
+;Oltre il Colle;G050;BG
+;Oltressenda Alta;G054;BG
+;Oneta;G068;BG
+;Onore;G075;BG
+;Orio al Serio;G108;BG
+;Ornica;G118;BG
+;Osio Sopra;G159;BG
+;Osio Sotto;G160;BG
+;Pagazzano;G233;BG
+;Paladina;G249;BG
+;Palazzago;G259;BG
+;Palosco;G295;BG
+;Parre;G346;BG
+;Parzanica;G350;BG
+;Pedrengo;G412;BG
+;Peia;G418;BG
+;Pianico;G564;BG
+;Piario;G574;BG
+;Piazza Brembana;G579;BG
+;Piazzatorre;G583;BG
+;Piazzolo;G588;BG
+;Pognano;G774;BG
+;Ponte Nossa;F941;BG
+;Ponte San Pietro;G856;BG
+;Ponteranica;G853;BG
+;Pontida;G864;BG
+;Pontirolo Nuovo;G867;BG
+;Pradalunga;G968;BG
+;Predore;H020;BG
+;Premolo;H036;BG
+;Presezzo;H046;BG
+;Pumenengo;H091;BG
+;Ranica;H176;BG
+;Ranzanico;H177;BG
+;Riva di Solto;H331;BG
+;Rogno;H492;BG
+;Romano di Lombardia;H509;BG
+;Roncobello;H535;BG
+;Roncola;H544;BG
+;Rota d'Imagna;H584;BG
+;Rovetta;H615;BG
+;San Giovanni Bianco;H910;BG
+;San Paolo d'Argon;B310;BG
+;San Pellegrino Terme;I079;BG
+;Santa Brigida;I168;BG
+;Sant'Omobono Terme;M333;BG
+;Sarnico;I437;BG
+;Scanzorosciate;I506;BG
+;Schilpario;I530;BG
+;Sedrina;I567;BG
+;Selvino;I597;BG
+;Seriate;I628;BG
+;Serina;I629;BG
+;Solto Collina;I812;BG
+;Solza;I813;BG
+;Songavazzo;I830;BG
+;Sorisole;I858;BG
+;Sotto il Monte Giovanni XXIII;I869;BG
+;Sovere;I873;BG
+;Spinone al Lago;I916;BG
+;Spirano;I919;BG
+;Stezzano;I951;BG
+;Strozza;I986;BG
+;Suisio;I997;BG
+;Taleggio;L037;BG
+;Tavernola Bergamasca;L073;BG
+;Telgate;L087;BG
+;Terno d'Isola;L118;BG
+;Torre Boldone;L251;BG
+;Torre de' Busi;L257;BG
+;Torre de' Roveri;L265;BG
+;Torre Pallavicina;L276;BG
+;Trescore Balneario;L388;BG
+;Treviglio;L400;BG
+;Treviolo;L404;BG
+;Ubiale Clanezzo;C789;BG
+;Urgnano;L502;BG
+;Val Brembilla;M334;BG
+;Valbondione;L544;BG
+;Valbrembo;L545;BG
+;Valgoglio;L579;BG
+;Valleve;L623;BG
+;Valnegra;L642;BG
+;Valtorta;L655;BG
+;Vedeseta;L707;BG
+;Verdellino;L752;BG
+;Verdello;L753;BG
+;Vertova;L795;BG
+;Viadanica;L827;BG
+;Vigano San Martino;L865;BG
+;Vigolo;L894;BG
+;Villa d'Adda;L929;BG
+;Villa d'Almè;A215;BG
+;Villa di Serio;L936;BG
+;Villa d'Ogna;L938;BG
+;Villongo;M045;BG
+;Vilminore di Scalve;M050;BG
+;Zandobbio;M144;BG
+;Zanica;M147;BG
+;Zogno;M184;BG
+;Ailoche;A107;BI
+;Andorno Micca;A280;BI
+;Benna;A784;BI
+;Biella;A859;BI
+;Bioglio;A876;BI
+;Borriana;B058;BI
+;Brusnengo;B229;BI
+;Callabiana;B417;BI
+;Camandona;B457;BI
+;Camburzano;B465;BI
+;Campiglia Cervo;M373;BI
+;Candelo;B586;BI
+;Caprile;B708;BI
+;Casapinta;B933;BI
+;Castelletto Cervo;C155;BI
+;Cavaglià;C363;BI
+;Cerrione;C532;BI
+;Coggiola;C819;BI
+;Cossato;D094;BI
+;Crevacuore;D165;BI
+;Curino;D219;BI
+;Donato;D339;BI
+;Dorzano;D350;BI
+;Gaglianico;D848;BI
+;Gifflenga;E024;BI
+;Graglia;E130;BI
+;Lessona;M371;BI
+;Magnano;E821;BI
+;Massazza;F037;BI
+;Masserano;F042;BI
+;Mezzana Mortigliengo;F167;BI
+;Miagliano;F189;BI
+;Mongrando;F369;BI
+;Mottalciata;F776;BI
+;Muzzano;F833;BI
+;Netro;F878;BI
+;Occhieppo Inferiore;F992;BI
+;Occhieppo Superiore;F993;BI
+;Pettinengo;G521;BI
+;Piatto;G577;BI
+;Piedicavallo;G594;BI
+;Pollone;G798;BI
+;Ponderano;G820;BI
+;Portula;G927;BI
+;Pralungo;G980;BI
+;Pray;G974;BI
+;Quaregna Cerreto;M414;BI
+;Ronco Biellese;H538;BI
+;Roppolo;H553;BI
+;Rosazza;H561;BI
+;Sagliano Micca;H662;BI
+;Sala Biellese;H681;BI
+;Salussola;H726;BI
+;Sandigliano;H821;BI
+;Sordevolo;I847;BI
+;Sostegno;I868;BI
+;Strona;I980;BI
+;Tavigliano;L075;BI
+;Ternengo;L116;BI
+;Tollegno;L193;BI
+;Torrazzo;L239;BI
+;Valdengo;L556;BI
+;Valdilana;M417;BI
+;Vallanzengo;L586;BI
+;Valle San Nicolao;L620;BI
+;Veglio;L712;BI
+;Verrone;L785;BI
+;Vigliano Biellese;L880;BI
+;Villa del Bosco;L933;BI
+;Villanova Biellese;L978;BI
+;Viverone;M098;BI
+;Zimone;M179;BI
+;Zubiena;M196;BI
+;Zumaglia;M201;BI
+;Alto Reno Terme;M369;BO
+;Anzola dell'Emilia;A324;BO
+;Argelato;A392;BO
+;Baricella;A665;BO
+;Bentivoglio;A785;BO
+;Bologna;A944;BO
+;Borgo Tossignano;B044;BO
+;Budrio;B249;BO
+;Calderara di Reno;B399;BO
+;Camugnano;B572;BO
+;Casalecchio di Reno;B880;BO
+;Casalfiumanese;B892;BO
+;Castel d'Aiano;C075;BO
+;Castel del Rio;C086;BO
+;Castel di Casio;B969;BO
+;Castel Guelfo di Bologna;C121;BO
+;Castel Maggiore;C204;BO
+;Castel San Pietro Terme;C265;BO
+;Castello d'Argile;C185;BO
+;Castenaso;C292;BO
+;Castiglione dei Pepoli;C296;BO
+;Crevalcore;D166;BO
+;Dozza;D360;BO
+;Fontanelice;D668;BO
+;Gaggio Montano;D847;BO
+;Galliera;D878;BO
+;Granarolo dell'Emilia;E136;BO
+;Grizzana Morandi;E187;BO
+;Imola;E289;BO
+;Lizzano in Belvedere;A771;BO
+;Loiano;E655;BO
+;Malalbergo;E844;BO
+;Marzabotto;B689;BO
+;Medicina;F083;BO
+;Minerbio;F219;BO
+;Molinella;F288;BO
+;Monghidoro;F363;BO
+;Monte San Pietro;F627;BO
+;Monterenzio;F597;BO
+;Monzuno;F706;BO
+;Mordano;F718;BO
+;Ozzano dell'Emilia;G205;BO
+;Pianoro;G570;BO
+;Pieve di Cento;G643;BO
+;Sala Bolognese;H678;BO
+;San Benedetto Val di Sambro;G566;BO
+;San Giorgio di Piano;H896;BO
+;San Giovanni in Persiceto;G467;BO
+;San Lazzaro di Savena;H945;BO
+;San Pietro in Casale;I110;BO
+;Sant'Agata Bolognese;I191;BO
+;Sasso Marconi;G972;BO
+;Valsamoggia;M320;BO
+;Vergato;L762;BO
+;Zola Predosa;M185;BO
+;Aldino/Aldein;A179;BZ
+;Andriano/Andrian;A286;BZ
+;Anterivo/Altrei;A306;BZ
+;Appiano sulla strada del vino/Eppan an der Weinstraße;A332;BZ
+;Avelengo/Hafling;A507;BZ
+;Badia/Abtei;A537;BZ
+;Barbiano/Barbian;A635;BZ
+;Bolzano/Bozen;A952;BZ
+;Braies/Prags;B116;BZ
+;Brennero/Brenner;B145;BZ
+;Bressanone/Brixen;B160;BZ
+;Bronzolo/Branzoll;B203;BZ
+;Brunico/Bruneck;B220;BZ
+;Caines/Kuens;B364;BZ
+;Caldaro sulla strada del vino/Kaltern an der Weinstraße;B397;BZ
+;Campo di Trens/Freienfeld;B529;BZ
+;Campo Tures/Sand in Taufers;B570;BZ
+;Castelbello-Ciardes/Kastelbell-Tschars;C062;BZ
+;Castelrotto/Kastelruth;C254;BZ
+;Cermes/Tscherms;A022;BZ
+;Chienes/Kiens;C625;BZ
+;Chiusa/Klausen;C652;BZ
+;Cornedo all'Isarco/Karneid;B799;BZ
+;Cortaccia sulla strada del vino/Kurtatsch an der Weinstraße;D048;BZ
+;Cortina sulla strada del vino/Kurtinig an der Weinstraße;D075;BZ
+;Corvara in Badia/Corvara;D079;BZ
+;Curon Venosta/Graun im Vinschgau;D222;BZ
+;Dobbiaco/Toblach;D311;BZ
+;Egna/Neumarkt;D392;BZ
+;Falzes/Pfalzen;D484;BZ
+;Fiè allo Sciliar/Völs am Schlern;D571;BZ
+;Fortezza/Franzensfeste;D731;BZ
+;Funes/Villnöß;D821;BZ
+;Gais/Gais;D860;BZ
+;Gargazzone/Gargazon;D923;BZ
+;Glorenza/Glurns;E069;BZ
+;La Valle/Wengen;E491;BZ
+;Laces/Latsch;E398;BZ
+;Lagundo/Algund;E412;BZ
+;Laion/Lajen;E420;BZ
+;Laives/Leifers;E421;BZ
+;Lana/Lana;E434;BZ
+;Lasa/Laas;E457;BZ
+;Lauregno/Laurein;E481;BZ
+;Luson/Lüsen;E764;BZ
+;Magrè sulla strada del vino/Margreid an der Weinstraße;E829;BZ
+;Malles Venosta/Mals;E862;BZ
+;Marebbe/Enneberg;E938;BZ
+;Marlengo/Marling;E959;BZ
+;Martello/Martell;E981;BZ
+;Meltina/Mölten;F118;BZ
+;Merano/Meran;F132;BZ
+;Monguelfo-Tesido/Welsberg-Taisten;F371;BZ
+;Montagna/Montan;F392;BZ
+;Moso in Passiria/Moos in Passeier;F766;BZ
+;Nalles/Nals;F836;BZ
+;Naturno/Naturns;F849;BZ
+;Naz-Sciaves/Natz-Schabs;F856;BZ
+;Nova Levante/Welschnofen;F949;BZ
+;Nova Ponente/Deutschnofen;F950;BZ
+;Ora/Auer;G083;BZ
+;Ortisei/St. Ulrich;G140;BZ
+;Parcines/Partschins;G328;BZ
+;Perca/Percha;G443;BZ
+;Plaus/Plaus;G299;BZ
+;Ponte Gardena/Waidbruck;G830;BZ
+;Postal/Burgstall;G936;BZ
+;Prato allo Stelvio/Prad am Stilfserjoch;H004;BZ
+;Predoi/Prettau;H019;BZ
+;Proves/Proveis;H081;BZ
+;Racines/Ratschings;H152;BZ
+;Rasun-Anterselva/Rasen-Antholz;H189;BZ
+;Renon/Ritten;H236;BZ
+;Rifiano/Riffian;H284;BZ
+;Rio di Pusteria/Mühlbach;H299;BZ
+;Rodengo/Rodeneck;H475;BZ
+;Salorno/Salurn;H719;BZ
+;San Candido/Innichen;H786;BZ
+;San Genesio Atesino/Jenesien;H858;BZ
+;San Leonardo in Passiria/St. Leonhard in Passeier;H952;BZ
+;San Lorenzo di Sebato/St. Lorenzen;H956;BZ
+;San Martino in Badia/St. Martin in Thurn;H988;BZ
+;San Martino in Passiria/St. Martin in Passeier;H989;BZ
+;San Pancrazio/St. Pankraz;I065;BZ
+;Santa Cristina Valgardena/St. Christina in Gröden;I173;BZ
+;Sarentino/Sarntal;I431;BZ
+;Scena/Schenna;I519;BZ
+;Selva dei Molini/Mühlwald;I593;BZ
+;Selva di Val Gardena/Wolkenstein in Gröden;I591;BZ
+;Senales/Schnals;I604;BZ
+;Senale-San Felice/Unsere Liebe Frau im Walde-St. Felix;I603;BZ
+;Sesto/Sexten;I687;BZ
+;Silandro/Schlanders;I729;BZ
+;Sluderno/Schluderns;I771;BZ
+;Stelvio/Stilfs;I948;BZ
+;Terento/Terenten;L106;BZ
+;Terlano/Terlan;L108;BZ
+;Termeno sulla strada del vino/Tramin an der Weinstraße;L111;BZ
+;Tesimo/Tisens;L149;BZ
+;Tires/Tiers;L176;BZ
+;Tirolo/Tirol;L178;BZ
+;Trodena nel parco naturale/Truden im Naturpark;L444;BZ
+;Tubre/Taufers im Münstertal;L455;BZ
+;Ultimo/Ulten;L490;BZ
+;Vadena/Pfatten;L527;BZ
+;Val di Vizze/Pfitsch;L564;BZ
+;Valdaora/Olang;L552;BZ
+;Valle Aurina/Ahrntal;L595;BZ
+;Valle di Casies/Gsies;L601;BZ
+;Vandoies/Vintl;L660;BZ
+;Varna/Vahrn;L687;BZ
+;Velturno/Feldthurns;L724;BZ
+;Verano/Vöran;L745;BZ
+;Villabassa/Niederdorf;L915;BZ
+;Villandro/Villanders;L971;BZ
+;Vipiteno/Sterzing;M067;BZ
+;Acquafredda;A034;BS
+;Adro;A060;BS
+;Agnosine;A082;BS
+;Alfianello;A188;BS
+;Anfo;A288;BS
+;Angolo Terme;A293;BS
+;Artogne;A451;BS
+;Azzano Mella;A529;BS
+;Bagnolo Mella;A569;BS
+;Bagolino;A578;BS
+;Barbariga;A630;BS
+;Barghe;A661;BS
+;Bassano Bresciano;A702;BS
+;Bedizzole;A729;BS
+;Berlingo;A799;BS
+;Berzo Demo;A816;BS
+;Berzo Inferiore;A817;BS
+;Bienno;A861;BS
+;Bione;A878;BS
+;Borgo San Giacomo;B035;BS
+;Borgosatollo;B040;BS
+;Borno;B054;BS
+;Botticino;B091;BS
+;Bovegno;B100;BS
+;Bovezzo;B102;BS
+;Brandico;B120;BS
+;Braone;B124;BS
+;Breno;B149;BS
+;Brescia;B157;BS
+;Brione;B184;BS
+;Caino;B365;BS
+;Calcinato;B394;BS
+;Calvagese della Riviera;B436;BS
+;Calvisano;B450;BS
+;Capo di Ponte;B664;BS
+;Capovalle;B676;BS
+;Capriano del Colle;B698;BS
+;Capriolo;B711;BS
+;Carpenedolo;B817;BS
+;Castegnato;C055;BS
+;Castel Mella;C208;BS
+;Castelcovati;C072;BS
+;Castenedolo;C293;BS
+;Casto;C330;BS
+;Castrezzato;C332;BS
+;Cazzago San Martino;C408;BS
+;Cedegolo;C417;BS
+;Cellatica;C439;BS
+;Cerveno;C549;BS
+;Ceto;C585;BS
+;Cevo;C591;BS
+;Chiari;C618;BS
+;Cigole;C685;BS
+;Cimbergo;C691;BS
+;Cividate Camuno;C760;BS
+;Coccaglio;C806;BS
+;Collebeato;C850;BS
+;Collio;C883;BS
+;Cologne;C893;BS
+;Comezzano-Cizzago;C925;BS
+;Concesio;C948;BS
+;Corte Franca;D058;BS
+;Corteno Golgi;D064;BS
+;Corzano;D082;BS
+;Darfo Boario Terme;D251;BS
+;Dello;D270;BS
+;Desenzano del Garda;D284;BS
+;Edolo;D391;BS
+;Erbusco;D421;BS
+;Esine;D434;BS
+;Fiesse;D576;BS
+;Flero;D634;BS
+;Gambara;D891;BS
+;Gardone Riviera;D917;BS
+;Gardone Val Trompia;D918;BS
+;Gargnano;D924;BS
+;Gavardo;D940;BS
+;Ghedi;D999;BS
+;Gianico;E010;BS
+;Gottolengo;E116;BS
+;Gussago;E271;BS
+;Idro;E280;BS
+;Incudine;E297;BS
+;Irma;E325;BS
+;Iseo;E333;BS
+;Isorella;E364;BS
+;Lavenone;E497;BS
+;Leno;E526;BS
+;Limone sul Garda;E596;BS
+;Lodrino;E652;BS
+;Lograto;E654;BS
+;Lonato del Garda;M312;BS
+;Longhena;E673;BS
+;Losine;E698;BS
+;Lozio;E706;BS
+;Lumezzane;E738;BS
+;Maclodio;E787;BS
+;Magasa;E800;BS
+;Mairano;E841;BS
+;Malegno;E851;BS
+;Malonno;E865;BS
+;Manerba del Garda;E883;BS
+;Manerbio;E884;BS
+;Marcheno;E928;BS
+;Marmentino;E961;BS
+;Marone;E967;BS
+;Mazzano;F063;BS
+;Milzano;F216;BS
+;Moniga del Garda;F373;BS
+;Monno;F375;BS
+;Monte Isola;F532;BS
+;Monticelli Brusati;F672;BS
+;Montichiari;F471;BS
+;Montirone;F680;BS
+;Mura;F806;BS
+;Muscoline;F820;BS
+;Nave;F851;BS
+;Niardo;F884;BS
+;Nuvolento;F989;BS
+;Nuvolera;F990;BS
+;Odolo;G001;BS
+;Offlaga;G006;BS
+;Ome;G061;BS
+;Ono San Pietro;G074;BS
+;Orzinuovi;G149;BS
+;Orzivecchi;G150;BS
+;Ospitaletto;G170;BS
+;Ossimo;G179;BS
+;Padenghe sul Garda;G213;BS
+;Paderno Franciacorta;G217;BS
+;Paisco Loveno;G247;BS
+;Paitone;G248;BS
+;Palazzolo sull'Oglio;G264;BS
+;Paratico;G327;BS
+;Paspardo;G354;BS
+;Passirano;G361;BS
+;Pavone del Mella;G391;BS
+;Pertica Alta;G474;BS
+;Pertica Bassa;G475;BS
+;Pezzaze;G529;BS
+;Pian Camuno;G546;BS
+;Piancogno;G549;BS
+;Pisogne;G710;BS
+;Polaveno;G779;BS
+;Polpenazze del Garda;G801;BS
+;Pompiano;G815;BS
+;Poncarale;G818;BS
+;Ponte di Legno;G844;BS
+;Pontevico;G859;BS
+;Pontoglio;G869;BS
+;Pozzolengo;G959;BS
+;Pralboino;G977;BS
+;Preseglie;H043;BS
+;Prevalle;H055;BS
+;Provaglio d'Iseo;H078;BS
+;Provaglio Val Sabbia;H077;BS
+;Puegnago sul Garda;H086;BS
+;Quinzano d'Oglio;H140;BS
+;Remedello;H230;BS
+;Rezzato;H256;BS
+;Roccafranca;H410;BS
+;Rodengo Saiano;H477;BS
+;Roè Volciano;H484;BS
+;Roncadelle;H525;BS
+;Rovato;H598;BS
+;Rudiano;H630;BS
+;Sabbio Chiese;H650;BS
+;Sale Marasino;H699;BS
+;Salò;H717;BS
+;San Felice del Benaco;H838;BS
+;San Gervasio Bresciano;H865;BS
+;San Paolo;G407;BS
+;San Zeno Naviglio;I412;BS
+;Sarezzo;I433;BS
+;Saviore dell'Adamello;I476;BS
+;Sellero;I588;BS
+;Seniga;I607;BS
+;Serle;I631;BS
+;Sirmione;I633;BS
+;Soiano del Lago;I782;BS
+;Sonico;I831;BS
+;Sulzano;L002;BS
+;Tavernole sul Mella;C698;BS
+;Temù;L094;BS
+;Tignale;L169;BS
+;Torbole Casaglia;L210;BS
+;Toscolano-Maderno;L312;BS
+;Travagliato;L339;BS
+;Tremosine sul Garda;L372;BS
+;Trenzano;L380;BS
+;Treviso Bresciano;L406;BS
+;Urago d'Oglio;L494;BS
+;Vallio Terme;L626;BS
+;Valvestino;L468;BS
+;Verolanuova;L777;BS
+;Verolavecchia;L778;BS
+;Vestone;L812;BS
+;Vezza d'Oglio;L816;BS
+;Villa Carcina;L919;BS
+;Villachiara;L923;BS
+;Villanuova sul Clisi;L995;BS
+;Vione;M065;BS
+;Visano;M070;BS
+;Vobarno;M104;BS
+;Zone;M188;BS
+;Brindisi;B180;BR
+;Carovigno;B809;BR
+;Ceglie Messapica;C424;BR
+;Cellino San Marco;C448;BR
+;Cisternino;C741;BR
+;Erchie;D422;BR
+;Fasano;D508;BR
+;Francavilla Fontana;D761;BR
+;Latiano;E471;BR
+;Mesagne;F152;BR
+;Oria;G098;BR
+;Ostuni;G187;BR
+;San Donaci;H822;BR
+;San Michele Salentino;I045;BR
+;San Pancrazio Salentino;I066;BR
+;San Pietro Vernotico;I119;BR
+;San Vito dei Normanni;I396;BR
+;Torchiarolo;L213;BR
+;Torre Santa Susanna;L280;BR
+;Villa Castelli;L920;BR
+;Assemini;A474;CA
+;Cagliari;B354;CA
+;Capoterra;B675;CA
+;Decimomannu;D259;CA
+;Elmas;D399;CA
+;Maracalagonis;E903;CA
+;Monserrato;F383;CA
+;Pula;H088;CA
+;Quartu Sant'Elena;H118;CA
+;Quartucciu;H119;CA
+;Sarroch;I443;CA
+;Selargius;I580;CA
+;Sestu;I695;CA
+;Settimo San Pietro;I699;CA
+;Sinnai;I752;CA
+;Uta;L521;CA
+;Villa San Pietro;I118;CA
+;Acquaviva Platani;A049;CL
+;Bompensiere;A957;CL
+;Butera;B302;CL
+;Caltanissetta;B429;CL
+;Campofranco;B537;CL
+;Delia;D267;CL
+;Gela;D960;CL
+;Marianopoli;E953;CL
+;Mazzarino;F065;CL
+;Milena;E618;CL
+;Montedoro;F489;CL
+;Mussomeli;F830;CL
+;Niscemi;F899;CL
+;Resuttano;H245;CL
+;Riesi;H281;CL
+;San Cataldo;H792;CL
+;Santa Caterina Villarmosa;I169;CL
+;Serradifalco;I644;CL
+;Sommatino;I824;CL
+;Sutera;L016;CL
+;Vallelunga Pratameno;L609;CL
+;Villalba;L959;CL
+;Acquaviva Collecroce;A050;CB
+;Baranello;A616;CB
+;Bojano;A930;CB
+;Bonefro;A971;CB
+;Busso;B295;CB
+;Campobasso;B519;CB
+;Campochiaro;B522;CB
+;Campodipietra;B528;CB
+;Campolieto;B544;CB
+;Campomarino;B550;CB
+;Casacalenda;B858;CB
+;Casalciprano;B871;CB
+;Castelbottaccio;C066;CB
+;Castellino del Biferno;C175;CB
+;Castelmauro;C197;CB
+;Castropignano;C346;CB
+;Cercemaggiore;C486;CB
+;Cercepiccola;C488;CB
+;Civitacampomarano;C764;CB
+;Colle d'Anchise;C854;CB
+;Colletorto;C875;CB
+;Duronia;C772;CB
+;Ferrazzano;D550;CB
+;Fossalto;D737;CB
+;Gambatesa;D896;CB
+;Gildone;E030;CB
+;Guardialfiera;E244;CB
+;Guardiaregia;E248;CB
+;Guglionesi;E259;CB
+;Jelsi;E381;CB
+;Larino;E456;CB
+;Limosano;E599;CB
+;Lucito;E722;CB
+;Lupara;E748;CB
+;Macchia Valfortore;E780;CB
+;Mafalda;E799;CB
+;Matrice;F055;CB
+;Mirabello Sannitico;F233;CB
+;Molise;F294;CB
+;Monacilioni;F322;CB
+;Montagano;F391;CB
+;Montecilfone;F475;CB
+;Montefalcone nel Sannio;F495;CB
+;Montelongo;F548;CB
+;Montemitro;F569;CB
+;Montenero di Bisaccia;F576;CB
+;Montorio nei Frentani;F689;CB
+;Morrone del Sannio;F748;CB
+;Oratino;G086;CB
+;Palata;G257;CB
+;Petacciato;G506;CB
+;Petrella Tifernina;G512;CB
+;Pietracatella;G609;CB
+;Pietracupa;G610;CB
+;Portocannone;G910;CB
+;Provvidenti;H083;CB
+;Riccia;H273;CB
+;Ripabottoni;H311;CB
+;Ripalimosani;H313;CB
+;Roccavivara;H454;CB
+;Rotello;H589;CB
+;Salcito;H693;CB
+;San Biase;H782;CB
+;San Felice del Molise;H833;CB
+;San Giacomo degli Schiavoni;H867;CB
+;San Giovanni in Galdo;H920;CB
+;San Giuliano del Sannio;H928;CB
+;San Giuliano di Puglia;H929;CB
+;San Martino in Pensilis;H990;CB
+;San Massimo;I023;CB
+;San Polo Matese;I122;CB
+;Santa Croce di Magliano;I181;CB
+;Sant'Angelo Limosano;I289;CB
+;Sant'Elia a Pianisi;I320;CB
+;Sepino;I618;CB
+;Spinete;I910;CB
+;Tavenna;L069;CB
+;Termoli;L113;CB
+;Torella del Sannio;L215;CB
+;Toro;L230;CB
+;Trivento;L435;CB
+;Tufara;L458;CB
+;Ururi;L505;CB
+;Vinchiaturo;M057;CB
+;Ailano;A106;CE
+;Alife;A200;CE
+;Alvignano;A243;CE
+;Arienzo;A403;CE
+;Aversa;A512;CE
+;Baia e Latina;A579;CE
+;Bellona;A755;CE
+;Caianello;B361;CE
+;Caiazzo;B362;CE
+;Calvi Risorta;B445;CE
+;Camigliano;B477;CE
+;Cancello ed Arnone;B581;CE
+;Capodrise;B667;CE
+;Capriati a Volturno;B704;CE
+;Capua;B715;CE
+;Carinaro;B779;CE
+;Carinola;B781;CE
+;Casagiove;B860;CE
+;Casal di Principe;B872;CE
+;Casaluce;B916;CE
+;Casapesenna;M260;CE
+;Casapulla;B935;CE
+;Caserta;B963;CE
+;Castel Campagnano;B494;CE
+;Castel di Sasso;C097;CE
+;Castel Morrone;C211;CE
+;Castel Volturno;C291;CE
+;Castello del Matese;C178;CE
+;Cellole;M262;CE
+;Cervino;C558;CE
+;Cesa;C561;CE
+;Ciorlano;C716;CE
+;Conca della Campania;C939;CE
+;Curti;D228;CE
+;Dragoni;D361;CE
+;Falciano del Massico;D471;CE
+;Fontegreca;D683;CE
+;Formicola;D709;CE
+;Francolise;D769;CE
+;Frignano;D799;CE
+;Gallo Matese;D884;CE
+;Galluccio;D886;CE
+;Giano Vetusto;E011;CE
+;Gioia Sannitica;E039;CE
+;Grazzanise;E158;CE
+;Gricignano di Aversa;E173;CE
+;Letino;E554;CE
+;Liberi;E570;CE
+;Lusciano;E754;CE
+;Macerata Campania;E784;CE
+;Maddaloni;E791;CE
+;Marcianise;E932;CE
+;Marzano Appio;E998;CE
+;Mignano Monte Lungo;F203;CE
+;Mondragone;F352;CE
+;Orta di Atella;G130;CE
+;Parete;G333;CE
+;Pastorano;G364;CE
+;Piana di Monte Verna;G541;CE
+;Piedimonte Matese;G596;CE
+;Pietramelara;G620;CE
+;Pietravairano;G630;CE
+;Pignataro Maggiore;G661;CE
+;Pontelatone;G849;CE
+;Portico di Caserta;G903;CE
+;Prata Sannita;G991;CE
+;Pratella;G995;CE
+;Presenzano;H045;CE
+;Raviscanina;H202;CE
+;Recale;H210;CE
+;Riardo;H268;CE
+;Rocca d'Evandro;H398;CE
+;Roccamonfina;H423;CE
+;Roccaromana;H436;CE
+;Rocchetta e Croce;H459;CE
+;Ruviano;H165;CE
+;San Cipriano d'Aversa;H798;CE
+;San Felice a Cancello;H834;CE
+;San Gregorio Matese;H939;CE
+;San Marcellino;H978;CE
+;San Marco Evangelista;F043;CE
+;San Nicola la Strada;I056;CE
+;San Pietro Infine;I113;CE
+;San Potito Sannitico;I130;CE
+;San Prisco;I131;CE
+;San Tammaro;I261;CE
+;Santa Maria a Vico;I233;CE
+;Santa Maria Capua Vetere;I234;CE
+;Santa Maria la Fossa;I247;CE
+;Sant'Angelo d'Alife;I273;CE
+;Sant'Arpino;I306;CE
+;Sessa Aurunca;I676;CE
+;Sparanise;I885;CE
+;Succivo;I993;CE
+;Teano;L083;CE
+;Teverola;L155;CE
+;Tora e Piccilli;L205;CE
+;Trentola Ducenta;L379;CE
+;Vairano Patenora;L540;CE
+;Valle Agricola;L594;CE
+;Valle di Maddaloni;L591;CE
+;Villa di Briano;D801;CE
+;Villa Literno;L844;CE
+;Vitulazio;M092;CE
+;Aci Bonaccorsi;A025;CT
+;Aci Castello;A026;CT
+;Aci Catena;A027;CT
+;Aci Sant'Antonio;A029;CT
+;Acireale;A028;CT
+;Adrano;A056;CT
+;Belpasso;A766;CT
+;Biancavilla;A841;CT
+;Bronte;B202;CT
+;Calatabiano;B384;CT
+;Caltagirone;B428;CT
+;Camporotondo Etneo;B561;CT
+;Castel di Iudica;C091;CT
+;Castiglione di Sicilia;C297;CT
+;Catania;C351;CT
+;Fiumefreddo di Sicilia;D623;CT
+;Giarre;E017;CT
+;Grammichele;E133;CT
+;Gravina di Catania;E156;CT
+;Licodia Eubea;E578;CT
+;Linguaglossa;E602;CT
+;Maletto;E854;CT
+;Maniace;M283;CT
+;Mascali;F004;CT
+;Mascalucia;F005;CT
+;Mazzarrone;M271;CT
+;Militello in Val di Catania;F209;CT
+;Milo;F214;CT
+;Mineo;F217;CT
+;Mirabella Imbaccari;F231;CT
+;Misterbianco;F250;CT
+;Motta Sant'Anastasia;F781;CT
+;Nicolosi;F890;CT
+;Palagonia;G253;CT
+;Paternò;G371;CT
+;Pedara;G402;CT
+;Piedimonte Etneo;G597;CT
+;Raddusa;H154;CT
+;Ragalna;M287;CT
+;Ramacca;H168;CT
+;Randazzo;H175;CT
+;Riposto;H325;CT
+;San Cono;H805;CT
+;San Giovanni la Punta;H922;CT
+;San Gregorio di Catania;H940;CT
+;San Michele di Ganzaria;I035;CT
+;San Pietro Clarenza;I098;CT
+;Santa Maria di Licodia;I240;CT
+;Santa Venerina;I314;CT
+;Sant'Agata li Battiati;I202;CT
+;Sant'Alfio;I216;CT
+;Scordia;I548;CT
+;Trecastagni;L355;CT
+;Tremestieri Etneo;L369;CT
+;Valverde;L658;CT
+;Viagrande;L828;CT
+;Vizzini;M100;CT
+;Zafferana Etnea;M139;CT
+;Albi;A155;CZ
+;Amaroni;A255;CZ
+;Amato;A257;CZ
+;Andali;A272;CZ
+;Argusto;A397;CZ
+;Badolato;A542;CZ
+;Belcastro;A736;CZ
+;Borgia;B002;CZ
+;Botricello;B085;CZ
+;Caraffa di Catanzaro;B717;CZ
+;Cardinale;B758;CZ
+;Carlopoli;B790;CZ
+;Catanzaro;C352;CZ
+;Cenadi;C453;CZ
+;Centrache;C472;CZ
+;Cerva;C542;CZ
+;Chiaravalle Centrale;C616;CZ
+;Cicala;C674;CZ
+;Conflenti;C960;CZ
+;Cortale;D049;CZ
+;Cropani;D181;CZ
+;Curinga;D218;CZ
+;Davoli;D257;CZ
+;Decollatura;D261;CZ
+;Falerna;D476;CZ
+;Feroleto Antico;D544;CZ
+;Fossato Serralta;D744;CZ
+;Gagliato;D852;CZ
+;Gasperina;D932;CZ
+;Gimigliano;E031;CZ
+;Girifalco;E050;CZ
+;Gizzeria;E068;CZ
+;Guardavalle;E239;CZ
+;Isca sullo Ionio;E328;CZ
+;Jacurso;E274;CZ
+;Lamezia Terme;M208;CZ
+;Magisano;E806;CZ
+;Maida;E834;CZ
+;Marcedusa;E923;CZ
+;Marcellinara;E925;CZ
+;Martirano;E990;CZ
+;Martirano Lombardo;E991;CZ
+;Miglierina;F200;CZ
+;Montauro;F432;CZ
+;Montepaone;F586;CZ
+;Motta Santa Lucia;F780;CZ
+;Nocera Terinese;F910;CZ
+;Olivadi;G034;CZ
+;Palermiti;G272;CZ
+;Pentone;G439;CZ
+;Petrizzi;G517;CZ
+;Petronà;G518;CZ
+;Pianopoli;D546;CZ
+;Platania;G734;CZ
+;San Floro;H846;CZ
+;San Mango d'Aquino;H976;CZ
+;San Pietro a Maida;I093;CZ
+;San Pietro Apostolo;I095;CZ
+;San Sostene;I164;CZ
+;San Vito sullo Ionio;I393;CZ
+;Santa Caterina dello Ionio;I170;CZ
+;Sant'Andrea Apostolo dello Ionio;I266;CZ
+;Satriano;I463;CZ
+;Sellia;I589;CZ
+;Sellia Marina;I590;CZ
+;Serrastretta;I655;CZ
+;Sersale;I671;CZ
+;Settingiano;I704;CZ
+;Simeri Crichi;I745;CZ
+;Sorbo San Basile;I844;CZ
+;Soverato;I872;CZ
+;Soveria Mannelli;I874;CZ
+;Soveria Simeri;I875;CZ
+;Squillace;I929;CZ
+;Stalettì;I937;CZ
+;Taverna;L070;CZ
+;Tiriolo;L177;CZ
+;Torre di Ruggiero;L240;CZ
+;Vallefiorita;I322;CZ
+;Zagarise;M140;CZ
+;Altino;A235;CH
+;Archi;A367;CH
+;Ari;A398;CH
+;Arielli;A402;CH
+;Atessa;A485;CH
+;Bomba;A956;CH
+;Borrello;B057;CH
+;Bucchianico;B238;CH
+;Canosa Sannita;B620;CH
+;Carpineto Sinello;B826;CH
+;Carunchio;B853;CH
+;Casacanditella;B859;CH
+;Casalanguida;B861;CH
+;Casalbordino;B865;CH
+;Casalincontrada;B896;CH
+;Casoli;B985;CH
+;Castel Frentano;C114;CH
+;Castelguidone;C123;CH
+;Castiglione Messer Marino;C298;CH
+;Celenza sul Trigno;C428;CH
+;Chieti;C632;CH
+;Civitaluparella;C768;CH
+;Civitella Messer Raimondo;C776;CH
+;Colledimacine;C855;CH
+;Colledimezzo;C856;CH
+;Crecchio;D137;CH
+;Cupello;D209;CH
+;Dogliola;D315;CH
+;Fallo;D480;CH
+;Fara Filiorum Petri;D494;CH
+;Fara San Martino;D495;CH
+;Filetto;D592;CH
+;Fossacesia;D738;CH
+;Fraine;D757;CH
+;Francavilla al Mare;D763;CH
+;Fresagrandinaria;D796;CH
+;Frisa;D803;CH
+;Furci;D823;CH
+;Gamberale;D898;CH
+;Gessopalena;D996;CH
+;Gissi;E052;CH
+;Giuliano Teatino;E056;CH
+;Guardiagrele;E243;CH
+;Guilmi;E266;CH
+;Lama dei Peligni;E424;CH
+;Lanciano;E435;CH
+;Lentella;E531;CH
+;Lettopalena;E559;CH
+;Liscia;E611;CH
+;Miglianico;F196;CH
+;Montazzoli;F433;CH
+;Montebello sul Sangro;B268;CH
+;Monteferrante;F498;CH
+;Montelapiano;F535;CH
+;Montenerodomo;F578;CH
+;Monteodorisio;F582;CH
+;Mozzagrogna;F785;CH
+;Orsogna;G128;CH
+;Ortona;G141;CH
+;Paglieta;G237;CH
+;Palena;G271;CH
+;Palmoli;G290;CH
+;Palombaro;G294;CH
+;Pennadomo;G434;CH
+;Pennapiedimonte;G435;CH
+;Perano;G441;CH
+;Pietraferrazzana;G613;CH
+;Pizzoferrato;G724;CH
+;Poggiofiorito;G760;CH
+;Pollutri;G799;CH
+;Pretoro;H052;CH
+;Quadri;H098;CH
+;Rapino;H184;CH
+;Ripa Teatina;H320;CH
+;Rocca San Giovanni;H439;CH
+;Roccamontepiano;H424;CH
+;Roccascalegna;H442;CH
+;Roccaspinalveti;H448;CH
+;Roio del Sangro;H495;CH
+;Rosello;H566;CH
+;San Buono;H784;CH
+;San Giovanni Lipioni;H923;CH
+;San Giovanni Teatino;D690;CH
+;San Martino sulla Marrucina;H991;CH
+;San Salvo;I148;CH
+;San Vito Chietino;I394;CH
+;Santa Maria Imbaro;I244;CH
+;Sant'Eusanio del Sangro;I335;CH
+;Scerni;I520;CH
+;Schiavi di Abruzzo;I526;CH
+;Taranta Peligna;L047;CH
+;Tollo;L194;CH
+;Torino di Sangro;L218;CH
+;Tornareccio;L224;CH
+;Torrebruna;L253;CH
+;Torrevecchia Teatina;L284;CH
+;Torricella Peligna;L291;CH
+;Treglio;L363;CH
+;Tufillo;L459;CH
+;Vacri;L526;CH
+;Vasto;E372;CH
+;Villa Santa Maria;M022;CH
+;Villalfonsina;L961;CH
+;Villamagna;L964;CH
+;Albavilla;A143;CO
+;Albese con Cassano;A153;CO
+;Albiolo;A164;CO
+;Alserio;A224;CO
+;Alta Valle Intelvi;M383;CO
+;Alzate Brianza;A249;CO
+;Anzano del Parco;A319;CO
+;Appiano Gentile;A333;CO
+;Argegno;A391;CO
+;Arosio;A430;CO
+;Asso;A476;CO
+;Barni;A670;CO
+;Bellagio;M335;CO
+;Bene Lario;A778;CO
+;Beregazzo con Figliaro;A791;CO
+;Binago;A870;CO
+;Bizzarone;A898;CO
+;Blessagno;A904;CO
+;Blevio;A905;CO
+;Bregnano;B134;CO
+;Brenna;B144;CO
+;Brienno;B172;CO
+;Brunate;B218;CO
+;Bulgarograsso;B262;CO
+;Cabiate;B313;CO
+;Cadorago;B346;CO
+;Caglio;B355;CO
+;Campione d'Italia;B513;CO
+;Cantù;B639;CO
+;Canzo;B641;CO
+;Capiago Intimiano;B653;CO
+;Carate Urio;B730;CO
+;Carbonate;B742;CO
+;Carimate;B778;CO
+;Carlazzo;B785;CO
+;Carugo;B851;CO
+;Caslino d'Erba;B974;CO
+;Casnate con Bernate;B977;CO
+;Cassina Rizzardi;C020;CO
+;Castelmarte;C206;CO
+;Castelnuovo Bozzente;C220;CO
+;Cavargna;C381;CO
+;Centro Valle Intelvi;M394;CO
+;Cerano d'Intelvi;C482;CO
+;Cermenate;C516;CO
+;Cernobbio;C520;CO
+;Cirimido;C724;CO
+;Claino con Osteno;C787;CO
+;Colonno;C902;CO
+;Colverde;M336;CO
+;Como;C933;CO
+;Corrido;D041;CO
+;Cremia;D147;CO
+;Cucciago;D196;CO
+;Cusino;D232;CO
+;Dizzasco;D310;CO
+;Domaso;D329;CO
+;Dongo;D341;CO
+;Dosso del Liro;D355;CO
+;Erba;D416;CO
+;Eupilio;D445;CO
+;Faggeto Lario;D462;CO
+;Faloppio;D482;CO
+;Fenegrò;D531;CO
+;Figino Serenza;D579;CO
+;Fino Mornasco;D605;CO
+;Garzeno;D930;CO
+;Gera Lario;D974;CO
+;Grandate;E139;CO
+;Grandola ed Uniti;E141;CO
+;Gravedona ed Uniti;M315;CO
+;Griante;E172;CO
+;Guanzate;E235;CO
+;Inverigo;E309;CO
+;Laglio;E405;CO
+;Laino;E416;CO
+;Lambrugo;E428;CO
+;Lasnigo;E462;CO
+;Lezzeno;E569;CO
+;Limido Comasco;E593;CO
+;Lipomo;E607;CO
+;Livo;E623;CO
+;Locate Varesino;E638;CO
+;Lomazzo;E659;CO
+;Longone al Segrino;E679;CO
+;Luisago;E735;CO
+;Lurago d'Erba;E749;CO
+;Lurago Marinone;E750;CO
+;Lurate Caccivio;E753;CO
+;Magreglio;E830;CO
+;Mariano Comense;E951;CO
+;Maslianico;F017;CO
+;Menaggio;F120;CO
+;Merone;F151;CO
+;Moltrasio;F305;CO
+;Monguzzo;F372;CO
+;Montano Lucino;F427;CO
+;Montemezzo;F564;CO
+;Montorfano;F688;CO
+;Mozzate;F788;CO
+;Musso;F828;CO
+;Nesso;F877;CO
+;Novedrate;F958;CO
+;Olgiate Comasco;G025;CO
+;Oltrona di San Mamette;G056;CO
+;Orsenigo;G126;CO
+;Peglio;G415;CO
+;Pianello del Lario;G556;CO
+;Pigra;G665;CO
+;Plesio;G737;CO
+;Pognana Lario;G773;CO
+;Ponna;G821;CO
+;Ponte Lambro;G847;CO
+;Porlezza;G889;CO
+;Proserpio;H074;CO
+;Pusiano;H094;CO
+;Rezzago;H255;CO
+;Rodero;H478;CO
+;Ronago;H521;CO
+;Rovellasca;H601;CO
+;Rovello Porro;H602;CO
+;Sala Comacina;H679;CO
+;San Bartolomeo Val Cavargna;H760;CO
+;San Fermo della Battaglia;H840;CO
+;San Nazzaro Val Cavargna;I051;CO
+;San Siro;I162;CO
+;Schignano;I529;CO
+;Senna Comasco;I611;CO
+;Solbiate con Cagno;M412;CO
+;Sorico;I856;CO
+;Sormano;I860;CO
+;Stazzona;I943;CO
+;Tavernerio;L071;CO
+;Torno;L228;CO
+;Tremezzina;M341;CO
+;Trezzone;L413;CO
+;Turate;L470;CO
+;Uggiate-Trevano;L487;CO
+;Val Rezzo;H259;CO
+;Valbrona;L547;CO
+;Valmorea;L640;CO
+;Valsolda;C936;CO
+;Veleso;L715;CO
+;Veniano;L737;CO
+;Vercana;L748;CO
+;Vertemate con Minoprio;L792;CO
+;Villa Guardia;L956;CO
+;Zelbio;M156;CO
+;Acquaformosa;A033;CS
+;Acquappesa;A041;CS
+;Acri;A053;CS
+;Aiello Calabro;A102;CS
+;Aieta;A105;CS
+;Albidona;A160;CS
+;Alessandria del Carretto;A183;CS
+;Altilia;A234;CS
+;Altomonte;A240;CS
+;Amantea;A253;CS
+;Amendolara;A263;CS
+;Aprigliano;A340;CS
+;Belmonte Calabro;A762;CS
+;Belsito;A768;CS
+;Belvedere Marittimo;A773;CS
+;Bianchi;A842;CS
+;Bisignano;A887;CS
+;Bocchigliero;A912;CS
+;Bonifati;A973;CS
+;Buonvicino;B270;CS
+;Calopezzati;B424;CS
+;Caloveto;B426;CS
+;Campana;B500;CS
+;Canna;B607;CS
+;Cariati;B774;CS
+;Carolei;B802;CS
+;Carpanzano;B813;CS
+;Casali del Manco;M385;CS
+;Cassano all'Ionio;C002;CS
+;Castiglione Cosentino;C301;CS
+;Castrolibero;C108;CS
+;Castroregio;C348;CS
+;Castrovillari;C349;CS
+;Celico;C430;CS
+;Cellara;C437;CS
+;Cerchiara di Calabria;C489;CS
+;Cerisano;C515;CS
+;Cervicati;C554;CS
+;Cerzeto;C560;CS
+;Cetraro;C588;CS
+;Civita;C763;CS
+;Cleto;C795;CS
+;Colosimi;C905;CS
+;Corigliano-Rossano;M403;CS
+;Cosenza;D086;CS
+;Cropalati;D180;CS
+;Crosia;D184;CS
+;Diamante;D289;CS
+;Dipignano;D304;CS
+;Domanico;D328;CS
+;Fagnano Castello;D464;CS
+;Falconara Albanese;D473;CS
+;Figline Vegliaturo;D582;CS
+;Firmo;D614;CS
+;Fiumefreddo Bruzio;D624;CS
+;Francavilla Marittima;D764;CS
+;Frascineto;D774;CS
+;Fuscaldo;D828;CS
+;Grimaldi;E180;CS
+;Grisolia;E185;CS
+;Guardia Piemontese;E242;CS
+;Lago;E407;CS
+;Laino Borgo;E417;CS
+;Laino Castello;E419;CS
+;Lappano;E450;CS
+;Lattarico;E475;CS
+;Longobardi;E677;CS
+;Longobucco;E678;CS
+;Lungro;E745;CS
+;Luzzi;E773;CS
+;Maierà;E835;CS
+;Malito;E859;CS
+;Malvito;E872;CS
+;Mandatoriccio;E878;CS
+;Mangone;E888;CS
+;Marano Marchesato;E914;CS
+;Marano Principato;E915;CS
+;Marzi;F001;CS
+;Mendicino;F125;CS
+;Mongrassano;F370;CS
+;Montalto Uffugo;F416;CS
+;Montegiordano;F519;CS
+;Morano Calabro;F708;CS
+;Mormanno;F735;CS
+;Mottafollone;F775;CS
+;Nocara;F907;CS
+;Oriolo;G110;CS
+;Orsomarso;G129;CS
+;Paludi;G298;CS
+;Panettieri;G307;CS
+;Paola;G317;CS
+;Papasidero;G320;CS
+;Parenti;G331;CS
+;Paterno Calabro;G372;CS
+;Pedivigliano;G411;CS
+;Piane Crati;G553;CS
+;Pietrafitta;G615;CS
+;Pietrapaola;G622;CS
+;Plataci;G733;CS
+;Praia a Mare;G975;CS
+;Rende;H235;CS
+;Rocca Imperiale;H416;CS
+;Roggiano Gravina;H488;CS
+;Rogliano;H490;CS
+;Rose;H565;CS
+;Roseto Capo Spulico;H572;CS
+;Rota Greca;H585;CS
+;Rovito;H621;CS
+;San Basile;H765;CS
+;San Benedetto Ullano;H774;CS
+;San Cosmo Albanese;H806;CS
+;San Demetrio Corone;H818;CS
+;San Donato di Ninea;H825;CS
+;San Fili;H841;CS
+;San Giorgio Albanese;H881;CS
+;San Giovanni in Fiore;H919;CS
+;San Lorenzo Bellizzi;H961;CS
+;San Lorenzo del Vallo;H962;CS
+;San Lucido;H971;CS
+;San Marco Argentano;H981;CS
+;San Martino di Finita;H992;CS
+;San Nicola Arcella;I060;CS
+;San Pietro in Amantea;I108;CS
+;San Pietro in Guarano;I114;CS
+;San Sosti;I165;CS
+;San Vincenzo La Costa;I388;CS
+;Sangineto;H877;CS
+;Santa Caterina Albanese;I171;CS
+;Santa Domenica Talao;I183;CS
+;Santa Maria del Cedro;C717;CS
+;Santa Sofia d'Epiro;I309;CS
+;Sant'Agata di Esaro;I192;CS
+;Santo Stefano di Rogliano;I359;CS
+;Saracena;I423;CS
+;Scala Coeli;I485;CS
+;Scalea;I489;CS
+;Scigliano;D290;CS
+;Serra d'Aiello;I642;CS
+;Spezzano Albanese;I895;CS
+;Spezzano della Sila;I896;CS
+;Tarsia;L055;CS
+;Terranova da Sibari;L124;CS
+;Terravecchia;L134;CS
+;Torano Castello;L206;CS
+;Tortora;L305;CS
+;Trebisacce;L353;CS
+;Vaccarizzo Albanese;L524;CS
+;Verbicaro;L747;CS
+;Villapiana;B903;CS
+;Zumpano;M202;CS
+;Acquanegra Cremonese;A039;CR
+;Agnadello;A076;CR
+;Annicco;A299;CR
+;Azzanello;A526;CR
+;Bagnolo Cremasco;A570;CR
+;Bonemerse;A972;CR
+;Bordolano;A986;CR
+;Calvatone;B439;CR
+;Camisano;B484;CR
+;Campagnola Cremasca;B498;CR
+;Capergnanica;B650;CR
+;Cappella Cantone;B679;CR
+;Cappella de' Picenardi;B680;CR
+;Capralba;B686;CR
+;Casalbuttano ed Uniti;B869;CR
+;Casale Cremasco-Vidolasco;B881;CR
+;Casaletto Ceredano;B889;CR
+;Casaletto di Sopra;B890;CR
+;Casaletto Vaprio;B891;CR
+;Casalmaggiore;B898;CR
+;Casalmorano;B900;CR
+;Castel Gabbiano;C115;CR
+;Casteldidone;C089;CR
+;Castelleone;C153;CR
+;Castelverde;B129;CR
+;Castelvisconti;C290;CR
+;Cella Dati;C435;CR
+;Chieve;C634;CR
+;Cicognolo;C678;CR
+;Cingia de' Botti;C703;CR
+;Corte de' Cortesi con Cignone;D056;CR
+;Corte de' Frati;D057;CR
+;Credera Rubbiano;D141;CR
+;Crema;D142;CR
+;Cremona;D150;CR
+;Cremosano;D151;CR
+;Crotta d'Adda;D186;CR
+;Cumignano sul Naviglio;D203;CR
+;Derovere;D278;CR
+;Dovera;D358;CR
+;Fiesco;D574;CR
+;Formigara;D710;CR
+;Gabbioneta-Binanuova;D834;CR
+;Gadesco-Pieve Delmona;D841;CR
+;Genivolta;D966;CR
+;Gerre de' Caprioli;D993;CR
+;Gombito;E082;CR
+;Grontardo;E193;CR
+;Grumello Cremonese ed Uniti;E217;CR
+;Gussola;E272;CR
+;Isola Dovarese;E356;CR
+;Izano;E380;CR
+;Madignano;E793;CR
+;Malagnino;E843;CR
+;Martignana di Po;E983;CR
+;Monte Cremasco;F434;CR
+;Montodine;F681;CR
+;Moscazzano;F761;CR
+;Motta Baluffi;F771;CR
+;Offanengo;G004;CR
+;Olmeneta;G047;CR
+;Ostiano;G185;CR
+;Paderno Ponchielli;G222;CR
+;Palazzo Pignano;G260;CR
+;Pandino;G306;CR
+;Persico Dosimo;G469;CR
+;Pescarolo ed Uniti;G483;CR
+;Pessina Cremonese;G504;CR
+;Piadena Drizzona;M418;CR
+;Pianengo;G558;CR
+;Pieranica;G603;CR
+;Pieve d'Olmi;G647;CR
+;Pieve San Giacomo;G651;CR
+;Pizzighettone;G721;CR
+;Pozzaglio ed Uniti;B914;CR
+;Quintano;H130;CR
+;Ricengo;H276;CR
+;Ripalta Arpina;H314;CR
+;Ripalta Cremasca;H315;CR
+;Ripalta Guerina;H316;CR
+;Rivarolo del Re ed Uniti;H341;CR
+;Rivolta d'Adda;H357;CR
+;Robecco d'Oglio;H372;CR
+;Romanengo;H508;CR
+;Salvirola;H731;CR
+;San Bassano;H767;CR
+;San Daniele Po;H815;CR
+;San Giovanni in Croce;H918;CR
+;San Martino del Lago;I007;CR
+;Scandolara Ravara;I497;CR
+;Scandolara Ripa d'Oglio;I498;CR
+;Sergnano;I627;CR
+;Sesto ed Uniti;I683;CR
+;Solarolo Rainerio;I790;CR
+;Soncino;I827;CR
+;Soresina;I849;CR
+;Sospiro;I865;CR
+;Spinadesco;I906;CR
+;Spineda;I909;CR
+;Spino d'Adda;I914;CR
+;Stagno Lombardo;I935;CR
+;Ticengo;L164;CR
+;Torlino Vimercati;L221;CR
+;Tornata;L225;CR
+;Torre de' Picenardi;L258;CR
+;Torricella del Pizzo;L296;CR
+;Trescore Cremasco;L389;CR
+;Trigolo;L426;CR
+;Vaiano Cremasco;L535;CR
+;Vailate;L539;CR
+;Vescovato;L806;CR
+;Volongo;M116;CR
+;Voltido;M127;CR
+;Belvedere di Spinello;A772;KR
+;Caccuri;B319;KR
+;Carfizzi;B771;KR
+;Casabona;B857;KR
+;Castelsilano;B968;KR
+;Cerenzia;C501;KR
+;Cirò;C725;KR
+;Cirò Marina;C726;KR
+;Cotronei;D123;KR
+;Crotone;D122;KR
+;Crucoli;D189;KR
+;Cutro;D236;KR
+;Isola di Capo Rizzuto;E339;KR
+;Melissa;F108;KR
+;Mesoraca;F157;KR
+;Pallagorio;G278;KR
+;Petilia Policastro;G508;KR
+;Rocca di Neto;H403;KR
+;Roccabernarda;H383;KR
+;San Mauro Marchesato;I026;KR
+;San Nicola dell'Alto;I057;KR
+;Santa Severina;I308;KR
+;Savelli;I468;KR
+;Scandale;I494;KR
+;Strongoli;I982;KR
+;Umbriatico;L492;KR
+;Verzino;L802;KR
+;Acceglio;A016;CN
+;Aisone;A113;CN
+;Alba;A124;CN
+;Albaretto della Torre;A139;CN
+;Alto;A238;CN
+;Argentera;A394;CN
+;Arguello;A396;CN
+;Bagnasco;A555;CN
+;Bagnolo Piemonte;A571;CN
+;Baldissero d'Alba;A589;CN
+;Barbaresco;A629;CN
+;Barge;A660;CN
+;Barolo;A671;CN
+;Bastia Mondovì;A709;CN
+;Battifollo;A716;CN
+;Beinette;A735;CN
+;Bellino;A750;CN
+;Belvedere Langhe;A774;CN
+;Bene Vagienna;A779;CN
+;Benevello;A782;CN
+;Bergolo;A798;CN
+;Bernezzo;A805;CN
+;Bonvicino;A979;CN
+;Borgo San Dalmazzo;B033;CN
+;Borgomale;B018;CN
+;Bosia;B079;CN
+;Bossolasco;B084;CN
+;Boves;B101;CN
+;Bra;B111;CN
+;Briaglia;B167;CN
+;Briga Alta;B175;CN
+;Brondello;B200;CN
+;Brossasco;B204;CN
+;Busca;B285;CN
+;Camerana;B467;CN
+;Canale;B573;CN
+;Canosio;B621;CN
+;Caprauna;B692;CN
+;Caraglio;B719;CN
+;Caramagna Piemonte;B720;CN
+;Cardè;B755;CN
+;Carrù;B841;CN
+;Cartignano;B845;CN
+;Casalgrasso;B894;CN
+;Castagnito;C046;CN
+;Casteldelfino;C081;CN
+;Castelletto Stura;C165;CN
+;Castelletto Uzzone;C167;CN
+;Castellinaldo d'Alba;C173;CN
+;Castellino Tanaro;C176;CN
+;Castelmagno;C205;CN
+;Castelnuovo di Ceva;C214;CN
+;Castiglione Falletto;C314;CN
+;Castiglione Tinella;C317;CN
+;Castino;C323;CN
+;Cavallerleone;C375;CN
+;Cavallermaggiore;C376;CN
+;Celle di Macra;C441;CN
+;Centallo;C466;CN
+;Ceresole Alba;C504;CN
+;Cerretto Langhe;C530;CN
+;Cervasca;C547;CN
+;Cervere;C550;CN
+;Ceva;C589;CN
+;Cherasco;C599;CN
+;Chiusa di Pesio;C653;CN
+;Cigliè;C681;CN
+;Cissone;C738;CN
+;Clavesana;C792;CN
+;Corneliano d'Alba;D022;CN
+;Cortemilia;D062;CN
+;Cossano Belbo;D093;CN
+;Costigliole Saluzzo;D120;CN
+;Cravanzana;D133;CN
+;Crissolo;D172;CN
+;Cuneo;D205;CN
+;Demonte;D271;CN
+;Diano d'Alba;D291;CN
+;Dogliani;D314;CN
+;Dronero;D372;CN
+;Elva;D401;CN
+;Entracque;D410;CN
+;Envie;D412;CN
+;Farigliano;D499;CN
+;Faule;D511;CN
+;Feisoglio;D523;CN
+;Fossano;D742;CN
+;Frabosa Soprana;D751;CN
+;Frabosa Sottana;D752;CN
+;Frassino;D782;CN
+;Gaiola;D856;CN
+;Gambasca;D894;CN
+;Garessio;D920;CN
+;Genola;D967;CN
+;Gorzegno;E111;CN
+;Gottasecca;E115;CN
+;Govone;E118;CN
+;Grinzane Cavour;E182;CN
+;Guarene;E251;CN
+;Igliano;E282;CN
+;Isasca;E327;CN
+;La Morra;E430;CN
+;Lagnasco;E406;CN
+;Lequio Berria;E540;CN
+;Lequio Tanaro;E539;CN
+;Lesegno;E546;CN
+;Levice;E564;CN
+;Limone Piemonte;E597;CN
+;Lisio;E615;CN
+;Macra;E789;CN
+;Magliano Alfieri;E809;CN
+;Magliano Alpi;E808;CN
+;Mango;E887;CN
+;Manta;E894;CN
+;Marene;E939;CN
+;Margarita;E945;CN
+;Marmora;E963;CN
+;Marsaglia;E973;CN
+;Martiniana Po;E988;CN
+;Melle;F114;CN
+;Moiola;F279;CN
+;Mombarcaro;F309;CN
+;Mombasiglio;F312;CN
+;Monastero di Vasco;F326;CN
+;Monasterolo Casotto;F329;CN
+;Monasterolo di Savigliano;F330;CN
+;Monchiero;F338;CN
+;Mondovì;F351;CN
+;Monesiglio;F355;CN
+;Monforte d'Alba;F358;CN
+;Montà;F385;CN
+;Montaldo di Mondovì;F405;CN
+;Montaldo Roero;F408;CN
+;Montanera;F424;CN
+;Montelupo Albese;F550;CN
+;Montemale di Cuneo;F558;CN
+;Monterosso Grana;F608;CN
+;Monteu Roero;F654;CN
+;Montezemolo;F666;CN
+;Monticello d'Alba;F669;CN
+;Moretta;F723;CN
+;Morozzo;F743;CN
+;Murazzano;F809;CN
+;Murello;F811;CN
+;Narzole;F846;CN
+;Neive;F863;CN
+;Neviglie;F883;CN
+;Niella Belbo;F894;CN
+;Niella Tanaro;F895;CN
+;Novello;F961;CN
+;Nucetto;F972;CN
+;Oncino;G066;CN
+;Ormea;G114;CN
+;Ostana;G183;CN
+;Paesana;G228;CN
+;Pagno;G240;CN
+;Pamparato;G302;CN
+;Paroldo;G339;CN
+;Perletto;G457;CN
+;Perlo;G458;CN
+;Peveragno;G526;CN
+;Pezzolo Valle Uzzone;G532;CN
+;Pianfei;G561;CN
+;Piasco;G575;CN
+;Pietraporzio;G625;CN
+;Piobesi d'Alba;G683;CN
+;Piozzo;G697;CN
+;Pocapaglia;G742;CN
+;Polonghera;G800;CN
+;Pontechianale;G837;CN
+;Pradleves;G970;CN
+;Prazzo;H011;CN
+;Priero;H059;CN
+;Priocca;H068;CN
+;Priola;H069;CN
+;Prunetto;H085;CN
+;Racconigi;H150;CN
+;Revello;H247;CN
+;Rifreddo;H285;CN
+;Rittana;H326;CN
+;Roaschia;H362;CN
+;Roascio;H363;CN
+;Robilante;H377;CN
+;Roburent;H378;CN
+;Rocca Cigliè;H391;CN
+;Rocca de' Baldi;H395;CN
+;Roccabruna;H385;CN
+;Roccaforte Mondovì;H407;CN
+;Roccasparvera;H447;CN
+;Roccavione;H453;CN
+;Rocchetta Belbo;H462;CN
+;Roddi;H472;CN
+;Roddino;H473;CN
+;Rodello;H474;CN
+;Rossana;H578;CN
+;Ruffia;H633;CN
+;Sale delle Langhe;H695;CN
+;Sale San Giovanni;H704;CN
+;Saliceto;H710;CN
+;Salmour;H716;CN
+;Saluzzo;H727;CN
+;Sambuco;H746;CN
+;Sampeyre;H755;CN
+;San Benedetto Belbo;H770;CN
+;San Damiano Macra;H812;CN
+;San Michele Mondovì;I037;CN
+;Sanfrè;H851;CN
+;Sanfront;H852;CN
+;Santa Vittoria d'Alba;I316;CN
+;Sant'Albano Stura;I210;CN
+;Santo Stefano Belbo;I367;CN
+;Santo Stefano Roero;I372;CN
+;Savigliano;I470;CN
+;Scagnello;I484;CN
+;Scarnafigi;I512;CN
+;Serralunga d'Alba;I646;CN
+;Serravalle Langhe;I659;CN
+;Sinio;I750;CN
+;Somano;I817;CN
+;Sommariva del Bosco;I822;CN
+;Sommariva Perno;I823;CN
+;Stroppo;I985;CN
+;Tarantasca;L048;CN
+;Torre Bormida;L252;CN
+;Torre Mondovì;L241;CN
+;Torre San Giorgio;L278;CN
+;Torresina;L281;CN
+;Treiso;L367;CN
+;Trezzo Tinella;L410;CN
+;Trinità;L427;CN
+;Valdieri;L558;CN
+;Valgrana;L580;CN
+;Valloriate;L631;CN
+;Venasca;L729;CN
+;Verduno;L758;CN
+;Vernante;L771;CN
+;Verzuolo;L804;CN
+;Vezza d'Alba;L817;CN
+;Vicoforte;L841;CN
+;Vignolo;L888;CN
+;Villafalletto;L942;CN
+;Villanova Mondovì;L974;CN
+;Villanova Solaro;L990;CN
+;Villar San Costanzo;M015;CN
+;Vinadio;M055;CN
+;Viola;M063;CN
+;Vottignasco;M136;CN
+;Agira;A070;EN
+;Aidone;A098;EN
+;Assoro;A478;EN
+;Barrafranca;A676;EN
+;Calascibetta;B381;EN
+;Catenanuova;C353;EN
+;Centuripe;C471;EN
+;Cerami;C480;EN
+;Enna;C342;EN
+;Gagliano Castelferrato;D849;EN
+;Leonforte;E536;EN
+;Nicosia;F892;EN
+;Nissoria;F900;EN
+;Piazza Armerina;G580;EN
+;Pietraperzia;G624;EN
+;Regalbuto;H221;EN
+;Sperlinga;I891;EN
+;Troina;L448;EN
+;Valguarnera Caropepe;L583;EN
+;Villarosa;M011;EN
+;Altidona;A233;FM
+;Amandola;A252;FM
+;Belmonte Piceno;A760;FM
+;Campofilone;B534;FM
+;Falerone;D477;FM
+;Fermo;D542;FM
+;Francavilla d'Ete;D760;FM
+;Grottazzolina;E208;FM
+;Lapedona;E447;FM
+;Magliano di Tenna;E807;FM
+;Massa Fermana;F021;FM
+;Monsampietro Morico;F379;FM
+;Montappone;F428;FM
+;Monte Giberto;F517;FM
+;Monte Rinaldo;F599;FM
+;Monte San Pietrangeli;F626;FM
+;Monte Urano;F653;FM
+;Monte Vidon Combatte;F664;FM
+;Monte Vidon Corrado;F665;FM
+;Montefalcone Appennino;F493;FM
+;Montefortino;F509;FM
+;Montegiorgio;F520;FM
+;Montegranaro;F522;FM
+;Monteleone di Fermo;F536;FM
+;Montelparo;F549;FM
+;Monterubbiano;F614;FM
+;Montottone;F697;FM
+;Moresco;F722;FM
+;Ortezzano;G137;FM
+;Pedaso;G403;FM
+;Petritoli;G516;FM
+;Ponzano di Fermo;G873;FM
+;Porto San Giorgio;G920;FM
+;Porto Sant'Elpidio;G921;FM
+;Rapagnano;H182;FM
+;Santa Vittoria in Matenano;I315;FM
+;Sant'Elpidio a Mare;I324;FM
+;Servigliano;C070;FM
+;Smerillo;I774;FM
+;Torre San Patrizio;L279;FM
+;Argenta;A393;FE
+;Bondeno;A965;FE
+;Cento;C469;FE
+;Codigoro;C814;FE
+;Comacchio;C912;FE
+;Copparo;C980;FE
+;Ferrara;D548;FE
+;Fiscaglia;M323;FE
+;Goro;E107;FE
+;Jolanda di Savoia;E320;FE
+;Lagosanto;E410;FE
+;Masi Torello;F016;FE
+;Mesola;F156;FE
+;Ostellato;G184;FE
+;Poggio Renatico;G768;FE
+;Portomaggiore;G916;FE
+;Riva del Po;M410;FE
+;Terre del Reno;M381;FE
+;Tresignana;M409;FE
+;Vigarano Mainarda;L868;FE
+;Voghiera;M110;FE
+;Bagno a Ripoli;A564;FI
+;Barberino di Mugello;A632;FI
+;Barberino Tavarnelle;M408;FI
+;Borgo San Lorenzo;B036;FI
+;Calenzano;B406;FI
+;Campi Bisenzio;B507;FI
+;Capraia e Limite;B684;FI
+;Castelfiorentino;C101;FI
+;Cerreto Guidi;C529;FI
+;Certaldo;C540;FI
+;Dicomano;D299;FI
+;Empoli;D403;FI
+;Fiesole;D575;FI
+;Figline e Incisa Valdarno;M321;FI
+;Firenze;D612;FI
+;Firenzuola;D613;FI
+;Fucecchio;D815;FI
+;Gambassi Terme;D895;FI
+;Greve in Chianti;E169;FI
+;Impruneta;E291;FI
+;Lastra a Signa;E466;FI
+;Londa;E668;FI
+;Marradi;E971;FI
+;Montaione;F398;FI
+;Montelupo Fiorentino;F551;FI
+;Montespertoli;F648;FI
+;Palazzuolo sul Senio;G270;FI
+;Pelago;G420;FI
+;Pontassieve;G825;FI
+;Reggello;H222;FI
+;Rignano sull'Arno;H286;FI
+;Rufina;H635;FI
+;San Casciano in Val di Pesa;H791;FI
+;San Godenzo;H937;FI
+;Scandicci;B962;FI
+;Scarperia e San Piero;M326;FI
+;Sesto Fiorentino;I684;FI
+;Signa;I728;FI
+;Vaglia;L529;FI
+;Vicchio;L838;FI
+;Vinci;M059;FI
+;Accadia;A015;FG
+;Alberona;A150;FG
+;Anzano di Puglia;A320;FG
+;Apricena;A339;FG
+;Ascoli Satriano;A463;FG
+;Biccari;A854;FG
+;Bovino;B104;FG
+;Cagnano Varano;B357;FG
+;Candela;B584;FG
+;Carapelle;B724;FG
+;Carlantino;B784;FG
+;Carpino;B829;FG
+;Casalnuovo Monterotaro;B904;FG
+;Casalvecchio di Puglia;B917;FG
+;Castelluccio dei Sauri;C198;FG
+;Castelluccio Valmaggiore;C202;FG
+;Castelnuovo della Daunia;C222;FG
+;Celenza Valfortore;C429;FG
+;Celle di San Vito;C442;FG
+;Cerignola;C514;FG
+;Chieuti;C633;FG
+;Deliceto;D269;FG
+;Faeto;D459;FG
+;Foggia;D643;FG
+;Ischitella;E332;FG
+;Isole Tremiti;E363;FG
+;Lesina;E549;FG
+;Lucera;E716;FG
+;Manfredonia;E885;FG
+;Mattinata;F059;FG
+;Monte Sant'Angelo;F631;FG
+;Monteleone di Puglia;F538;FG
+;Motta Montecorvino;F777;FG
+;Ordona;M266;FG
+;Orsara di Puglia;G125;FG
+;Orta Nova;G131;FG
+;Panni;G312;FG
+;Peschici;G487;FG
+;Pietramontecorvino;G604;FG
+;Poggio Imperiale;G761;FG
+;Rignano Garganico;H287;FG
+;Rocchetta Sant'Antonio;H467;FG
+;Rodi Garganico;H480;FG
+;Roseto Valfortore;H568;FG
+;San Giovanni Rotondo;H926;FG
+;San Marco in Lamis;H985;FG
+;San Marco la Catola;H986;FG
+;San Nicandro Garganico;I054;FG
+;San Paolo di Civitate;I072;FG
+;San Severo;I158;FG
+;Sant'Agata di Puglia;I193;FG
+;Serracapriola;I641;FG
+;Stornara;I962;FG
+;Stornarella;I963;FG
+;Torremaggiore;L273;FG
+;Troia;L447;FG
+;Vico del Gargano;L842;FG
+;Vieste;L858;FG
+;Volturara Appula;M131;FG
+;Volturino;M132;FG
+;Zapponeta;M267;FG
+;Bagno di Romagna;A565;FC
+;Bertinoro;A809;FC
+;Borghi;B001;FC
+;Castrocaro Terme e Terra del Sole;C339;FC
+;Cesena;C573;FC
+;Cesenatico;C574;FC
+;Civitella di Romagna;C777;FC
+;Dovadola;D357;FC
+;Forlì;D704;FC
+;Forlimpopoli;D705;FC
+;Galeata;D867;FC
+;Gambettola;D899;FC
+;Gatteo;D935;FC
+;Longiano;E675;FC
+;Meldola;F097;FC
+;Mercato Saraceno;F139;FC
+;Modigliana;F259;FC
+;Montiano;F668;FC
+;Portico e San Benedetto;G904;FC
+;Predappio;H017;FC
+;Premilcuore;H034;FC
+;Rocca San Casciano;H437;FC
+;Roncofreddo;H542;FC
+;San Mauro Pascoli;I027;FC
+;Santa Sofia;I310;FC
+;Sarsina;I444;FC
+;Savignano sul Rubicone;I472;FC
+;Sogliano al Rubicone;I779;FC
+;Tredozio;L361;FC
+;Verghereto;L764;FC
+;Acquafondata;A032;FR
+;Acuto;A054;FR
+;Alatri;A123;FR
+;Alvito;A244;FR
+;Amaseno;A256;FR
+;Anagni;A269;FR
+;Aquino;A348;FR
+;Arce;A363;FR
+;Arnara;A421;FR
+;Arpino;A433;FR
+;Atina;A486;FR
+;Ausonia;A502;FR
+;Belmonte Castello;A763;FR
+;Boville Ernica;A720;FR
+;Broccostella;B195;FR
+;Campoli Appennino;B543;FR
+;Casalattico;B862;FR
+;Casalvieri;B919;FR
+;Cassino;C034;FR
+;Castelliri;C177;FR
+;Castelnuovo Parano;C223;FR
+;Castro dei Volsci;C338;FR
+;Castrocielo;C340;FR
+;Ceccano;C413;FR
+;Ceprano;C479;FR
+;Cervaro;C545;FR
+;Colfelice;C836;FR
+;Colle San Magno;C870;FR
+;Collepardo;C864;FR
+;Coreno Ausonio;C998;FR
+;Esperia;D440;FR
+;Falvaterra;D483;FR
+;Ferentino;D539;FR
+;Filettino;D591;FR
+;Fiuggi;A310;FR
+;Fontana Liri;D667;FR
+;Fontechiari;D682;FR
+;Frosinone;D810;FR
+;Fumone;D819;FR
+;Gallinaro;D881;FR
+;Giuliano di Roma;E057;FR
+;Guarcino;E236;FR
+;Isola del Liri;E340;FR
+;Monte San Giovanni Campano;F620;FR
+;Morolo;F740;FR
+;Paliano;G276;FR
+;Pastena;G362;FR
+;Patrica;G374;FR
+;Pescosolido;G500;FR
+;Picinisco;G591;FR
+;Pico;G592;FR
+;Piedimonte San Germano;G598;FR
+;Piglio;G659;FR
+;Pignataro Interamna;G662;FR
+;Pofi;G749;FR
+;Pontecorvo;G838;FR
+;Posta Fibreno;G935;FR
+;Ripi;H324;FR
+;Rocca d'Arce;H393;FR
+;Roccasecca;H443;FR
+;San Biagio Saracinisco;H779;FR
+;San Donato Val di Comino;H824;FR
+;San Giorgio a Liri;H880;FR
+;San Giovanni Incarico;H917;FR
+;San Vittore del Lazio;I408;FR
+;Sant'Ambrogio sul Garigliano;I256;FR
+;Sant'Andrea del Garigliano;I265;FR
+;Sant'Apollinare;I302;FR
+;Sant'Elia Fiumerapido;I321;FR
+;Santopadre;I351;FR
+;Serrone;I669;FR
+;Settefrati;I697;FR
+;Sgurgola;I716;FR
+;Sora;I838;FR
+;Strangolagalli;I973;FR
+;Supino;L009;FR
+;Terelle;L105;FR
+;Torre Cajetani;L243;FR
+;Torrice;L290;FR
+;Trevi nel Lazio;L398;FR
+;Trivigliano;L437;FR
+;Vallecorsa;L598;FR
+;Vallemaio;L605;FR
+;Vallerotonda;L614;FR
+;Veroli;L780;FR
+;Vicalvi;L836;FR
+;Vico nel Lazio;L843;FR
+;Villa Latina;A081;FR
+;Villa Santa Lucia;L905;FR
+;Villa Santo Stefano;I364;FR
+;Viticuso;M083;FR
+;Arenzano;A388;GE
+;Avegno;A506;GE
+;Bargagli;A658;GE
+;Bogliasco;A922;GE
+;Borzonasca;B067;GE
+;Busalla;B282;GE
+;Camogli;B490;GE
+;Campo Ligure;B538;GE
+;Campomorone;B551;GE
+;Carasco;B726;GE
+;Casarza Ligure;B939;GE
+;Casella;B956;GE
+;Castiglione Chiavarese;C302;GE
+;Ceranesi;C481;GE
+;Chiavari;C621;GE
+;Cicagna;C673;GE
+;Cogoleto;C823;GE
+;Cogorno;C826;GE
+;Coreglia Ligure;C995;GE
+;Crocefieschi;D175;GE
+;Davagna;D255;GE
+;Fascia;D509;GE
+;Favale di Malvaro;D512;GE
+;Fontanigorda;D677;GE
+;Genova;D969;GE
+;Gorreto;E109;GE
+;Isola del Cantone;E341;GE
+;Lavagna;E488;GE
+;Leivi;E519;GE
+;Lorsica;E695;GE
+;Lumarzo;E737;GE
+;Masone;F020;GE
+;Mele;F098;GE
+;Mezzanego;F173;GE
+;Mignanego;F202;GE
+;Moconesi;F256;GE
+;Moneglia;F354;GE
+;Montebruno;F445;GE
+;Montoggio;F682;GE
+;Ne;F858;GE
+;Neirone;F862;GE
+;Orero;G093;GE
+;Pieve Ligure;G646;GE
+;Portofino;G913;GE
+;Propata;H073;GE
+;Rapallo;H183;GE
+;Recco;H212;GE
+;Rezzoaglio;H258;GE
+;Ronco Scrivia;H536;GE
+;Rondanina;H546;GE
+;Rossiglione;H581;GE
+;Rovegno;H599;GE
+;San Colombano Certenoli;H802;GE
+;Santa Margherita Ligure;I225;GE
+;Santo Stefano d'Aveto;I368;GE
+;Sant'Olcese;I346;GE
+;Savignone;I475;GE
+;Serra Riccò;I640;GE
+;Sestri Levante;I693;GE
+;Sori;I852;GE
+;Tiglieto;L167;GE
+;Torriglia;L298;GE
+;Tribogna;L416;GE
+;Uscio;L507;GE
+;Valbrevenna;L546;GE
+;Vobbia;M105;GE
+;Zoagli;M182;GE
+;Capriva del Friuli;B712;GO
+;Cormons;D014;GO
+;Doberdò del Lago-Doberdob;D312;GO
+;Dolegna del Collio;D321;GO
+;Farra d'Isonzo;D504;GO
+;Fogliano Redipuglia;D645;GO
+;Gorizia;E098;GO
+;Gradisca d'Isonzo;E124;GO
+;Grado;E125;GO
+;Mariano del Friuli;E952;GO
+;Medea;F081;GO
+;Monfalcone;F356;GO
+;Moraro;F710;GO
+;Mossa;F767;GO
+;Romans d'Isonzo;H514;GO
+;Ronchi dei Legionari;H531;GO
+;Sagrado;H665;GO
+;San Canzian d'Isonzo;H787;GO
+;San Floriano del Collio-Števerjan;H845;GO
+;San Lorenzo Isontino;H964;GO
+;San Pier d'Isonzo;I082;GO
+;Savogna d'Isonzo-Sovodnje ob Soči;I479;GO
+;Staranzano;I939;GO
+;Turriaco;L474;GO
+;Villesse;M043;GO
+;Arcidosso;A369;GR
+;Campagnatico;B497;GR
+;Capalbio;B646;GR
+;Castel del Piano;C085;GR
+;Castell'Azzara;C147;GR
+;Castiglione della Pescaia;C310;GR
+;Cinigiano;C705;GR
+;Civitella Paganico;C782;GR
+;Follonica;D656;GR
+;Gavorrano;D948;GR
+;Grosseto;E202;GR
+;Isola del Giglio;E348;GR
+;Magliano in Toscana;E810;GR
+;Manciano;E875;GR
+;Massa Marittima;F032;GR
+;Monte Argentario;F437;GR
+;Monterotondo Marittimo;F612;GR
+;Montieri;F677;GR
+;Orbetello;G088;GR
+;Pitigliano;G716;GR
+;Roccalbegna;H417;GR
+;Roccastrada;H449;GR
+;Santa Fiora;I187;GR
+;Scansano;I504;GR
+;Scarlino;I510;GR
+;Seggiano;I571;GR
+;Semproniano;I601;GR
+;Sorano;I841;GR
+;Airole;A111;IM
+;Apricale;A338;IM
+;Aquila d'Arroscia;A344;IM
+;Armo;A418;IM
+;Aurigo;A499;IM
+;Badalucco;A536;IM
+;Bajardo;A581;IM
+;Bordighera;A984;IM
+;Borghetto d'Arroscia;A993;IM
+;Borgomaro;B020;IM
+;Camporosso;B559;IM
+;Caravonica;B734;IM
+;Castel Vittorio;C110;IM
+;Castellaro;C143;IM
+;Ceriana;C511;IM
+;Cervo;C559;IM
+;Cesio;C578;IM
+;Chiusanico;C657;IM
+;Chiusavecchia;C660;IM
+;Cipressa;C718;IM
+;Civezza;C755;IM
+;Cosio d'Arroscia;D087;IM
+;Costarainera;D114;IM
+;Diano Arentino;D293;IM
+;Diano Castello;D296;IM
+;Diano Marina;D297;IM
+;Diano San Pietro;D298;IM
+;Dolceacqua;D318;IM
+;Dolcedo;D319;IM
+;Imperia;E290;IM
+;Isolabona;E346;IM
+;Lucinasco;E719;IM
+;Mendatica;F123;IM
+;Molini di Triora;F290;IM
+;Montalto Carpasio;M387;IM
+;Montegrosso Pian Latte;F528;IM
+;Olivetta San Michele;G041;IM
+;Ospedaletti;G164;IM
+;Perinaldo;G454;IM
+;Pietrabruna;G607;IM
+;Pieve di Teco;G632;IM
+;Pigna;G660;IM
+;Pompeiana;G814;IM
+;Pontedassio;G840;IM
+;Pornassio;G890;IM
+;Prelà;H027;IM
+;Ranzo;H180;IM
+;Rezzo;H257;IM
+;Riva Ligure;H328;IM
+;Rocchetta Nervina;H460;IM
+;San Bartolomeo al Mare;H763;IM
+;San Biagio della Cima;H780;IM
+;San Lorenzo al Mare;H957;IM
+;Sanremo;I138;IM
+;Santo Stefano al Mare;I365;IM
+;Seborga;I556;IM
+;Soldano;I796;IM
+;Taggia;L024;IM
+;Terzorio;L146;IM
+;Triora;L430;IM
+;Vallebona;L596;IM
+;Vallecrosia;L599;IM
+;Vasia;L693;IM
+;Ventimiglia;L741;IM
+;Vessalico;L809;IM
+;Villa Faraldi;L943;IM
+;Acquaviva d'Isernia;A051;IS
+;Agnone;A080;IS
+;Bagnoli del Trigno;A567;IS
+;Belmonte del Sannio;A761;IS
+;Cantalupo nel Sannio;B630;IS
+;Capracotta;B682;IS
+;Carovilli;B810;IS
+;Carpinone;B830;IS
+;Castel del Giudice;C082;IS
+;Castel San Vincenzo;C270;IS
+;Castelpetroso;C246;IS
+;Castelpizzuto;C247;IS
+;Castelverrino;C200;IS
+;Cerro al Volturno;C534;IS
+;Chiauci;C620;IS
+;Civitanova del Sannio;C769;IS
+;Colli a Volturno;C878;IS
+;Conca Casale;C941;IS
+;Filignano;D595;IS
+;Forlì del Sannio;D703;IS
+;Fornelli;D715;IS
+;Frosolone;D811;IS
+;Isernia;E335;IS
+;Longano;E669;IS
+;Macchia d'Isernia;E778;IS
+;Macchiagodena;E779;IS
+;Miranda;F239;IS
+;Montaquila;F429;IS
+;Montenero Val Cocchiara;F580;IS
+;Monteroduni;F601;IS
+;Pesche;G486;IS
+;Pescolanciano;G495;IS
+;Pescopennataro;G497;IS
+;Pettoranello del Molise;G523;IS
+;Pietrabbondante;G606;IS
+;Pizzone;G727;IS
+;Poggio Sannita;B317;IS
+;Pozzilli;G954;IS
+;Rionero Sannitico;H308;IS
+;Roccamandolfi;H420;IS
+;Roccasicura;H445;IS
+;Rocchetta a Volturno;H458;IS
+;San Pietro Avellana;I096;IS
+;Santa Maria del Molise;I238;IS
+;Sant'Agapito;I189;IS
+;Sant'Angelo del Pesco;I282;IS
+;Sant'Elena Sannita;B466;IS
+;Scapoli;I507;IS
+;Sessano del Molise;I679;IS
+;Sesto Campano;I682;IS
+;Vastogirardi;L696;IS
+;Venafro;L725;IS
+;Ameglia;A261;SP
+;Arcola;A373;SP
+;Beverino;A836;SP
+;Bolano;A932;SP
+;Bonassola;A961;SP
+;Borghetto di Vara;A992;SP
+;Brugnato;B214;SP
+;Calice al Cornoviglio;B410;SP
+;Carro;B838;SP
+;Carrodano;B839;SP
+;Castelnuovo Magra;C240;SP
+;Deiva Marina;D265;SP
+;Follo;D655;SP
+;Framura;D758;SP
+;La Spezia;E463;SP
+;Lerici;E542;SP
+;Levanto;E560;SP
+;Luni;G143;SP
+;Maissana;E842;SP
+;Monterosso al Mare;F609;SP
+;Pignone;G664;SP
+;Portovenere;G925;SP
+;Riccò del Golfo di Spezia;H275;SP
+;Riomaggiore;H304;SP
+;Rocchetta di Vara;H461;SP
+;Santo Stefano di Magra;I363;SP
+;Sarzana;I449;SP
+;Sesta Godano;E070;SP
+;Varese Ligure;L681;SP
+;Vernazza;L774;SP
+;Vezzano Ligure;L819;SP
+;Zignago;M177;SP
+;Acciano;A018;AQ
+;Aielli;A100;AQ
+;Alfedena;A187;AQ
+;Anversa degli Abruzzi;A318;AQ
+;Ateleta;A481;AQ
+;Avezzano;A515;AQ
+;Balsorano;A603;AQ
+;Barete;A656;AQ
+;Barisciano;A667;AQ
+;Barrea;A678;AQ
+;Bisegna;A884;AQ
+;Bugnara;B256;AQ
+;Cagnano Amiterno;B358;AQ
+;Calascio;B382;AQ
+;Campo di Giove;B526;AQ
+;Campotosto;B569;AQ
+;Canistro;B606;AQ
+;Cansano;B624;AQ
+;Capestrano;B651;AQ
+;Capistrello;B656;AQ
+;Capitignano;B658;AQ
+;Caporciano;B672;AQ
+;Cappadocia;B677;AQ
+;Carapelle Calvisio;B725;AQ
+;Carsoli;B842;AQ
+;Castel del Monte;C083;AQ
+;Castel di Ieri;C090;AQ
+;Castel di Sangro;C096;AQ
+;Castellafiume;C126;AQ
+;Castelvecchio Calvisio;C278;AQ
+;Castelvecchio Subequo;C279;AQ
+;Celano;C426;AQ
+;Cerchio;C492;AQ
+;Civita d'Antino;C766;AQ
+;Civitella Alfedena;C778;AQ
+;Civitella Roveto;C783;AQ
+;Cocullo;C811;AQ
+;Collarmele;C844;AQ
+;Collelongo;C862;AQ
+;Collepietro;C866;AQ
+;Corfinio;C999;AQ
+;Fagnano Alto;D465;AQ
+;Fontecchio;D681;AQ
+;Fossa;D736;AQ
+;Gagliano Aterno;D850;AQ
+;Gioia dei Marsi;E040;AQ
+;Goriano Sicoli;E096;AQ
+;Introdacqua;E307;AQ
+;L'Aquila;A345;AQ
+;Lecce nei Marsi;E505;AQ
+;Luco dei Marsi;E723;AQ
+;Lucoli;E724;AQ
+;Magliano de' Marsi;E811;AQ
+;Massa d'Albe;F022;AQ
+;Molina Aterno;M255;AQ
+;Montereale;F595;AQ
+;Morino;F732;AQ
+;Navelli;F852;AQ
+;Ocre;F996;AQ
+;Ofena;G002;AQ
+;Opi;G079;AQ
+;Oricola;G102;AQ
+;Ortona dei Marsi;G142;AQ
+;Ortucchio;G145;AQ
+;Ovindoli;G200;AQ
+;Pacentro;G210;AQ
+;Pereto;G449;AQ
+;Pescasseroli;G484;AQ
+;Pescina;G492;AQ
+;Pescocostanzo;G493;AQ
+;Pettorano sul Gizio;G524;AQ
+;Pizzoli;G726;AQ
+;Poggio Picenze;G766;AQ
+;Prata d'Ansidonia;G992;AQ
+;Pratola Peligna;H007;AQ
+;Prezza;H056;AQ
+;Raiano;H166;AQ
+;Rivisondoli;H353;AQ
+;Rocca di Botte;H399;AQ
+;Rocca di Cambio;H400;AQ
+;Rocca di Mezzo;H402;AQ
+;Rocca Pia;H429;AQ
+;Roccacasale;H389;AQ
+;Roccaraso;H434;AQ
+;San Benedetto dei Marsi;H772;AQ
+;San Benedetto in Perillis;H773;AQ
+;San Demetrio ne' Vestini;H819;AQ
+;San Pio delle Camere;I121;AQ
+;San Vincenzo Valle Roveto;I389;AQ
+;Sante Marie;I326;AQ
+;Sant'Eusanio Forconese;I336;AQ
+;Santo Stefano di Sessanio;I360;AQ
+;Scanno;I501;AQ
+;Scontrone;I543;AQ
+;Scoppito;I546;AQ
+;Scurcola Marsicana;I553;AQ
+;Secinaro;I558;AQ
+;Sulmona;I804;AQ
+;Tagliacozzo;L025;AQ
+;Tione degli Abruzzi;L173;AQ
+;Tornimparte;L227;AQ
+;Trasacco;L334;AQ
+;Villa Santa Lucia degli Abruzzi;M021;AQ
+;Villa Sant'Angelo;M023;AQ
+;Villalago;L958;AQ
+;Villavallelonga;M031;AQ
+;Villetta Barrea;M041;AQ
+;Vittorito;M090;AQ
+;Aprilia;A341;LT
+;Bassiano;A707;LT
+;Campodimele;B527;LT
+;Castelforte;C104;LT
+;Cisterna di Latina;C740;LT
+;Cori;D003;LT
+;Fondi;D662;LT
+;Formia;D708;LT
+;Gaeta;D843;LT
+;Itri;E375;LT
+;Latina;E472;LT
+;Lenola;E527;LT
+;Maenza;E798;LT
+;Minturno;F224;LT
+;Monte San Biagio;F616;LT
+;Norma;F937;LT
+;Pontinia;G865;LT
+;Ponza;G871;LT
+;Priverno;G698;LT
+;Prossedi;H076;LT
+;Rocca Massima;H421;LT
+;Roccagorga;H413;LT
+;Roccasecca dei Volsci;H444;LT
+;Sabaudia;H647;LT
+;San Felice Circeo;H836;LT
+;Santi Cosma e Damiano;I339;LT
+;Sermoneta;I634;LT
+;Sezze;I712;LT
+;Sonnino;I832;LT
+;Sperlonga;I892;LT
+;Spigno Saturnia;I902;LT
+;Terracina;L120;LT
+;Ventotene;L742;LT
+;Acquarica del Capo;A042;LE
+;Alessano;A184;LE
+;Alezio;A185;LE
+;Alliste;A208;LE
+;Andrano;A281;LE
+;Aradeo;A350;LE
+;Arnesano;A425;LE
+;Bagnolo del Salento;A572;LE
+;Botrugno;B086;LE
+;Calimera;B413;LE
+;Campi Salentina;B506;LE
+;Cannole;B616;LE
+;Caprarica di Lecce;B690;LE
+;Carmiano;B792;LE
+;Carpignano Salentino;B822;LE
+;Casarano;B936;LE
+;Castri di Lecce;C334;LE
+;Castrignano de' Greci;C335;LE
+;Castrignano del Capo;C336;LE
+;Castro;M261;LE
+;Cavallino;C377;LE
+;Collepasso;C865;LE
+;Copertino;C978;LE
+;Corigliano d'Otranto;D006;LE
+;Corsano;D044;LE
+;Cursi;D223;LE
+;Cutrofiano;D237;LE
+;Diso;D305;LE
+;Gagliano del Capo;D851;LE
+;Galatina;D862;LE
+;Galatone;D863;LE
+;Gallipoli;D883;LE
+;Giuggianello;E053;LE
+;Giurdignano;E061;LE
+;Guagnano;E227;LE
+;Lecce;E506;LE
+;Lequile;E538;LE
+;Leverano;E563;LE
+;Lizzanello;E629;LE
+;Maglie;E815;LE
+;Martano;E979;LE
+;Martignano;E984;LE
+;Matino;F054;LE
+;Melendugno;F101;LE
+;Melissano;F109;LE
+;Melpignano;F117;LE
+;Miggiano;F194;LE
+;Minervino di Lecce;F221;LE
+;Monteroni di Lecce;F604;LE
+;Montesano Salentino;F623;LE
+;Morciano di Leuca;F716;LE
+;Muro Leccese;F816;LE
+;Nardò;F842;LE
+;Neviano;F881;LE
+;Nociglia;F916;LE
+;Novoli;F970;LE
+;Ortelle;G136;LE
+;Otranto;G188;LE
+;Palmariggi;G285;LE
+;Parabita;G325;LE
+;Patù;G378;LE
+;Poggiardo;G751;LE
+;Porto Cesareo;M263;LE
+;Presicce;H047;LE
+;Racale;H147;LE
+;Ruffano;H632;LE
+;Salice Salentino;H708;LE
+;Salve;H729;LE
+;San Cassiano;M264;LE
+;San Cesario di Lecce;H793;LE
+;San Donato di Lecce;H826;LE
+;San Pietro in Lama;I115;LE
+;Sanarica;H757;LE
+;Sannicola;I059;LE
+;Santa Cesarea Terme;I172;LE
+;Scorrano;I549;LE
+;Seclì;I559;LE
+;Sogliano Cavour;I780;LE
+;Soleto;I800;LE
+;Specchia;I887;LE
+;Spongano;I923;LE
+;Squinzano;I930;LE
+;Sternatia;I950;LE
+;Supersano;L008;LE
+;Surano;L010;LE
+;Surbo;L011;LE
+;Taurisano;L064;LE
+;Taviano;L074;LE
+;Tiggiano;L166;LE
+;Trepuzzi;L383;LE
+;Tricase;L419;LE
+;Tuglie;L462;LE
+;Ugento;L484;LE
+;Uggiano la Chiesa;L485;LE
+;Veglie;L711;LE
+;Vernole;L776;LE
+;Zollino;M187;LE
+;Abbadia Lariana;A005;LC
+;Airuno;A112;LC
+;Annone di Brianza;A301;LC
+;Ballabio;A594;LC
+;Barzago;A683;LC
+;Barzanò;A686;LC
+;Barzio;A687;LC
+;Bellano;A745;LC
+;Bosisio Parini;B081;LC
+;Brivio;B194;LC
+;Bulciago;B261;LC
+;Calco;B396;LC
+;Calolziocorte;B423;LC
+;Carenno;B763;LC
+;Casargo;B937;LC
+;Casatenovo;B943;LC
+;Cassago Brianza;B996;LC
+;Cassina Valsassina;C024;LC
+;Castello di Brianza;C187;LC
+;Cernusco Lombardone;C521;LC
+;Cesana Brianza;C563;LC
+;Civate;C752;LC
+;Colico;C839;LC
+;Colle Brianza;C851;LC
+;Cortenova;D065;LC
+;Costa Masnaga;D112;LC
+;Crandola Valsassina;D131;LC
+;Cremella;D143;LC
+;Cremeno;D145;LC
+;Dervio;D280;LC
+;Dolzago;D327;LC
+;Dorio;D346;LC
+;Ello;D398;LC
+;Erve;D428;LC
+;Esino Lario;D436;LC
+;Galbiate;D865;LC
+;Garbagnate Monastero;D913;LC
+;Garlate;D926;LC
+;Imbersago;E287;LC
+;Introbio;E305;LC
+;La Valletta Brianza;M348;LC
+;Lecco;E507;LC
+;Lierna;E581;LC
+;Lomagna;E656;LC
+;Malgrate;E858;LC
+;Mandello del Lario;E879;LC
+;Margno;E947;LC
+;Merate;F133;LC
+;Missaglia;F248;LC
+;Moggio;F265;LC
+;Molteno;F304;LC
+;Monte Marenzo;F561;LC
+;Montevecchia;F657;LC
+;Monticello Brianza;F674;LC
+;Morterone;F758;LC
+;Nibionno;F887;LC
+;Oggiono;G009;LC
+;Olgiate Molgora;G026;LC
+;Olginate;G030;LC
+;Oliveto Lario;G040;LC
+;Osnago;G161;LC
+;Paderno d'Adda;G218;LC
+;Pagnona;G241;LC
+;Parlasco;G336;LC
+;Pasturo;G368;LC
+;Perledo;G456;LC
+;Pescate;G485;LC
+;Premana;H028;LC
+;Primaluna;H063;LC
+;Robbiate;G223;LC
+;Rogeno;H486;LC
+;Santa Maria Hoè;I243;LC
+;Sirone;I759;LC
+;Sirtori;I761;LC
+;Sueglio;I994;LC
+;Suello;I996;LC
+;Taceno;L022;LC
+;Valgreghentino;L581;LC
+;Valmadrera;L634;LC
+;Valvarrone;M395;LC
+;Varenna;L680;LC
+;Vendrogno;L731;LC
+;Vercurago;L751;LC
+;Verderio;M337;LC
+;Viganò;L866;LC
+;Bibbona;A852;LI
+;Campiglia Marittima;B509;LI
+;Campo nell'Elba;B553;LI
+;Capoliveri;B669;LI
+;Capraia Isola;B685;LI
+;Castagneto Carducci;C044;LI
+;Cecina;C415;LI
+;Collesalvetti;C869;LI
+;Livorno;E625;LI
+;Marciana;E930;LI
+;Marciana Marina;E931;LI
+;Piombino;G687;LI
+;Porto Azzurro;E680;LI
+;Portoferraio;G912;LI
+;Rio;M391;LI
+;Rosignano Marittimo;H570;LI
+;San Vincenzo;I390;LI
+;Sassetta;I454;LI
+;Suvereto;L019;LI
+;Abbadia Cerreto;A004;LO
+;Bertonico;A811;LO
+;Boffalora d'Adda;A919;LO
+;Borghetto Lodigiano;A995;LO
+;Borgo San Giovanni;B017;LO
+;Brembio;B141;LO
+;Casaletto Lodigiano;B887;LO
+;Casalmaiocco;B899;LO
+;Casalpusterlengo;B910;LO
+;Caselle Landi;B961;LO
+;Caselle Lurani;B958;LO
+;Castelgerundo;M393;LO
+;Castelnuovo Bocca d'Adda;C228;LO
+;Castiglione d'Adda;C304;LO
+;Castiraga Vidardo;C329;LO
+;Cavenago d'Adda;C394;LO
+;Cervignano d'Adda;C555;LO
+;Codogno;C816;LO
+;Comazzo;C917;LO
+;Cornegliano Laudense;D021;LO
+;Corno Giovine;D028;LO
+;Cornovecchio;D029;LO
+;Corte Palasio;D068;LO
+;Crespiatica;D159;LO
+;Fombio;D660;LO
+;Galgagnano;D868;LO
+;Graffignana;E127;LO
+;Guardamiglio;E238;LO
+;Livraga;E627;LO
+;Lodi;E648;LO
+;Lodi Vecchio;E651;LO
+;Maccastorna;E777;LO
+;Mairago;E840;LO
+;Maleo;E852;LO
+;Marudo;E994;LO
+;Massalengo;F028;LO
+;Meleti;F102;LO
+;Merlino;F149;LO
+;Montanaso Lombardo;F423;LO
+;Mulazzano;F801;LO
+;Orio Litta;G107;LO
+;Ospedaletto Lodigiano;G166;LO
+;Ossago Lodigiano;G171;LO
+;Pieve Fissiraga;G096;LO
+;Salerano sul Lambro;H701;LO
+;San Fiorano;H844;LO
+;San Martino in Strada;I012;LO
+;San Rocco al Porto;I140;LO
+;Sant'Angelo Lodigiano;I274;LO
+;Santo Stefano Lodigiano;I362;LO
+;Secugnago;I561;LO
+;Senna Lodigiana;I612;LO
+;Somaglia;I815;LO
+;Sordio;I848;LO
+;Tavazzano con Villavesco;F260;LO
+;Terranova dei Passerini;L125;LO
+;Turano Lodigiano;L469;LO
+;Valera Fratta;L572;LO
+;Villanova del Sillaro;L977;LO
+;Zelo Buon Persico;M158;LO
+;Altopascio;A241;LU
+;Bagni di Lucca;A560;LU
+;Barga;A657;LU
+;Borgo a Mozzano;B007;LU
+;Camaiore;B455;LU
+;Camporgiano;B557;LU
+;Capannori;B648;LU
+;Careggine;B760;LU
+;Castelnuovo di Garfagnana;C236;LU
+;Castiglione di Garfagnana;C303;LU
+;Coreglia Antelminelli;C996;LU
+;Fabbriche di Vergemoli;M319;LU
+;Forte dei Marmi;D730;LU
+;Fosciandora;D734;LU
+;Gallicano;D874;LU
+;Lucca;E715;LU
+;Massarosa;F035;LU
+;Minucciano;F225;LU
+;Molazzana;F283;LU
+;Montecarlo;F452;LU
+;Pescaglia;G480;LU
+;Piazza al Serchio;G582;LU
+;Pietrasanta;G628;LU
+;Pieve Fosciana;G648;LU
+;Porcari;G882;LU
+;San Romano in Garfagnana;I142;LU
+;Seravezza;I622;LU
+;Sillano Giuncugnano;M347;LU
+;Stazzema;I942;LU
+;Vagli Sotto;L533;LU
+;Viareggio;L833;LU
+;Villa Basilica;L913;LU
+;Villa Collemandina;L926;LU
+;Apiro;A329;MC
+;Appignano;A334;MC
+;Belforte del Chienti;A739;MC
+;Bolognola;A947;MC
+;Caldarola;B398;MC
+;Camerino;B474;MC
+;Camporotondo di Fiastrone;B562;MC
+;Castelraimondo;C251;MC
+;Castelsantangelo sul Nera;C267;MC
+;Cessapalombo;C582;MC
+;Cingoli;C704;MC
+;Civitanova Marche;C770;MC
+;Colmurano;C886;MC
+;Corridonia;D042;MC
+;Esanatoglia;D429;MC
+;Fiastra;D564;MC
+;Fiuminata;D628;MC
+;Gagliole;D853;MC
+;Gualdo;E228;MC
+;Loro Piceno;E694;MC
+;Macerata;E783;MC
+;Matelica;F051;MC
+;Mogliano;F268;MC
+;Monte Cavallo;F460;MC
+;Monte San Giusto;F621;MC
+;Monte San Martino;F622;MC
+;Montecassiano;F454;MC
+;Montecosaro;F482;MC
+;Montefano;F496;MC
+;Montelupone;F552;MC
+;Morrovalle;F749;MC
+;Muccia;F793;MC
+;Penna San Giovanni;G436;MC
+;Petriolo;G515;MC
+;Pieve Torina;G657;MC
+;Pioraco;G690;MC
+;Poggio San Vicino;D566;MC
+;Pollenza;F567;MC
+;Porto Recanati;G919;MC
+;Potenza Picena;F632;MC
+;Recanati;H211;MC
+;Ripe San Ginesio;H323;MC
+;San Ginesio;H876;MC
+;San Severino Marche;I156;MC
+;Sant'Angelo in Pontano;I286;MC
+;Sarnano;I436;MC
+;Sefro;I569;MC
+;Serrapetrona;I651;MC
+;Serravalle di Chienti;I661;MC
+;Tolentino;L191;MC
+;Treia;L366;MC
+;Urbisaglia;L501;MC
+;Ussita;L517;MC
+;Valfornace;M382;MC
+;Visso;M078;MC
+;Acquanegra sul Chiese;A038;MN
+;Asola;A470;MN
+;Bagnolo San Vito;A575;MN
+;Borgo Mantovano;M396;MN
+;Borgo Virgilio;M340;MN
+;Borgocarbonara  ;M406;MN
+;Bozzolo;B110;MN
+;Canneto sull'Oglio;B612;MN
+;Casalmoro;B901;MN
+;Casaloldo;B907;MN
+;Casalromano;B911;MN
+;Castel d'Ario;C076;MN
+;Castel Goffredo;C118;MN
+;Castelbelforte;C059;MN
+;Castellucchio;C195;MN
+;Castiglione delle Stiviere;C312;MN
+;Cavriana;C406;MN
+;Ceresara;C502;MN
+;Commessaggio;C930;MN
+;Curtatone;D227;MN
+;Dosolo;D351;MN
+;Gazoldo degli Ippoliti;D949;MN
+;Gazzuolo;D959;MN
+;Goito;E078;MN
+;Gonzaga;E089;MN
+;Guidizzolo;E261;MN
+;Magnacavallo;E818;MN
+;Mantova;E897;MN
+;Marcaria;E922;MN
+;Mariana Mantovana;E949;MN
+;Marmirolo;E962;MN
+;Medole;F086;MN
+;Moglia;F267;MN
+;Monzambano;F705;MN
+;Motteggiana;B012;MN
+;Ostiglia;G186;MN
+;Pegognaga;G417;MN
+;Piubega;G717;MN
+;Poggio Rusco;G753;MN
+;Pomponesco;G816;MN
+;Ponti sul Mincio;G862;MN
+;Porto Mantovano;G917;MN
+;Quingentole;H129;MN
+;Quistello;H143;MN
+;Redondesco;H218;MN
+;Rivarolo Mantovano;H342;MN
+;Rodigo;H481;MN
+;Roncoferraro;H541;MN
+;Roverbella;H604;MN
+;Sabbioneta;H652;MN
+;San Benedetto Po;H771;MN
+;San Giacomo delle Segnate;H870;MN
+;San Giorgio Bigarello;H883;MN
+;San Giovanni del Dosso;H912;MN
+;San Martino dall'Argine;I005;MN
+;Schivenoglia;I532;MN
+;Sermide e Felonica;I632;MN
+;Serravalle a Po;I662;MN
+;Solferino;I801;MN
+;Sustinente;L015;MN
+;Suzzara;L020;MN
+;Viadana;L826;MN
+;Villimpenta;M044;MN
+;Volta Mantovana;M125;MN
+;Aulla;A496;MS
+;Bagnone;A576;MS
+;Carrara;B832;MS
+;Casola in Lunigiana;B979;MS
+;Comano;C914;MS
+;Filattiera;D590;MS
+;Fivizzano;D629;MS
+;Fosdinovo;D735;MS
+;Licciana Nardi;E574;MS
+;Massa;F023;MS
+;Montignoso;F679;MS
+;Mulazzo;F802;MS
+;Podenzana;G746;MS
+;Pontremoli;G870;MS
+;Tresana;L386;MS
+;Villafranca in Lunigiana;L946;MS
+;Zeri;M169;MS
+;Accettura;A017;MT
+;Aliano;A196;MT
+;Bernalda;A801;MT
+;Calciano;B391;MT
+;Cirigliano;C723;MT
+;Colobraro;C888;MT
+;Craco;D128;MT
+;Ferrandina;D547;MT
+;Garaguso;D909;MT
+;Gorgoglione;E093;MT
+;Grassano;E147;MT
+;Grottole;E213;MT
+;Irsina;E326;MT
+;Matera;F052;MT
+;Miglionico;F201;MT
+;Montalbano Jonico;F399;MT
+;Montescaglioso;F637;MT
+;Nova Siri;A942;MT
+;Oliveto Lucano;G037;MT
+;Pisticci;G712;MT
+;Policoro;G786;MT
+;Pomarico;G806;MT
+;Rotondella;H591;MT
+;Salandra;H687;MT
+;San Giorgio Lucano;H888;MT
+;San Mauro Forte;I029;MT
+;Scanzano Jonico;M256;MT
+;Stigliano;I954;MT
+;Tricarico;L418;MT
+;Tursi;L477;MT
+;Valsinni;D513;MT
+;Acquedolci;M211;ME
+;Alcara li Fusi;A177;ME
+;Alì;A194;ME
+;Alì Terme;A201;ME
+;Antillo;A313;ME
+;Barcellona Pozzo di Gotto;A638;ME
+;Basicò;A698;ME
+;Brolo;B198;ME
+;Capizzi;B660;ME
+;Capo d'Orlando;B666;ME
+;Capri Leone;B695;ME
+;Caronia;B804;ME
+;Casalvecchio Siculo;B918;ME
+;Castel di Lucio;C094;ME
+;Castell'Umberto;C051;ME
+;Castelmola;C210;ME
+;Castroreale;C347;ME
+;Cesarò;C568;ME
+;Condrò;C956;ME
+;Falcone;D474;ME
+;Ficarra;D569;ME
+;Fiumedinisi;D622;ME
+;Floresta;D635;ME
+;Fondachelli-Fantina;D661;ME
+;Forza d'Agrò;D733;ME
+;Francavilla di Sicilia;D765;ME
+;Frazzanò;D793;ME
+;Furci Siculo;D824;ME
+;Furnari;D825;ME
+;Gaggi;D844;ME
+;Galati Mamertino;D861;ME
+;Gallodoro;D885;ME
+;Giardini-Naxos;E014;ME
+;Gioiosa Marea;E043;ME
+;Graniti;E142;ME
+;Gualtieri Sicaminò;E233;ME
+;Itala;E374;ME
+;Leni;E523;ME
+;Letojanni;E555;ME
+;Librizzi;E571;ME
+;Limina;E594;ME
+;Lipari;E606;ME
+;Longi;E674;ME
+;Malfa;E855;ME
+;Malvagna;E869;ME
+;Mandanici;E876;ME
+;Mazzarrà Sant'Andrea;F066;ME
+;Merì;F147;ME
+;Messina;F158;ME
+;Milazzo;F206;ME
+;Militello Rosmarino;F210;ME
+;Mirto;F242;ME
+;Mistretta;F251;ME
+;Moio Alcantara;F277;ME
+;Monforte San Giorgio;F359;ME
+;Mongiuffi Melia;F368;ME
+;Montagnareale;F395;ME
+;Montalbano Elicona;F400;ME
+;Motta Camastra;F772;ME
+;Motta d'Affermo;F773;ME
+;Naso;F848;ME
+;Nizza di Sicilia;F901;ME
+;Novara di Sicilia;F951;ME
+;Oliveri;G036;ME
+;Pace del Mela;G209;ME
+;Pagliara;G234;ME
+;Patti;G377;ME
+;Pettineo;G522;ME
+;Piraino;G699;ME
+;Raccuja;H151;ME
+;Reitano;H228;ME
+;Roccafiorita;H405;ME
+;Roccalumera;H418;ME
+;Roccavaldina;H380;ME
+;Roccella Valdemone;H455;ME
+;Rodì Milici;H479;ME
+;Rometta;H519;ME
+;San Filippo del Mela;H842;ME
+;San Fratello;H850;ME
+;San Marco d'Alunzio;H982;ME
+;San Pier Niceto;I084;ME
+;San Piero Patti;I086;ME
+;San Salvatore di Fitalia;I147;ME
+;San Teodoro;I328;ME
+;Santa Domenica Vittoria;I184;ME
+;Santa Lucia del Mela;I220;ME
+;Santa Marina Salina;I254;ME
+;Santa Teresa di Riva;I311;ME
+;Sant'Agata di Militello;I199;ME
+;Sant'Alessio Siculo;I215;ME
+;Sant'Angelo di Brolo;I283;ME
+;Santo Stefano di Camastra;I370;ME
+;Saponara;I420;ME
+;Savoca;I477;ME
+;Scaletta Zanclea;I492;ME
+;Sinagra;I747;ME
+;Spadafora;I881;ME
+;Taormina;L042;ME
+;Terme Vigliatore;M210;ME
+;Torregrotta;L271;ME
+;Torrenova;M286;ME
+;Tortorici;L308;ME
+;Tripi;L431;ME
+;Tusa;L478;ME
+;Ucria;L482;ME
+;Valdina;L561;ME
+;Venetico;L735;ME
+;Villafranca Tirrena;L950;ME
+;Abbiategrasso;A010;MI
+;Albairate;A127;MI
+;Arconate;A375;MI
+;Arese;A389;MI
+;Arluno;A413;MI
+;Assago;A473;MI
+;Baranzate;A618;MI
+;Bareggio;A652;MI
+;Basiano;A697;MI
+;Basiglio;A699;MI
+;Bellinzago Lombardo;A751;MI
+;Bernate Ticino;A804;MI
+;Besate;A820;MI
+;Binasco;A872;MI
+;Boffalora sopra Ticino;A920;MI
+;Bollate;A940;MI
+;Bresso;B162;MI
+;Bubbiano;B235;MI
+;Buccinasco;B240;MI
+;Buscate;B286;MI
+;Bussero;B292;MI
+;Busto Garolfo;B301;MI
+;Calvignasco;B448;MI
+;Cambiago;B461;MI
+;Canegrate;B593;MI
+;Carpiano;B820;MI
+;Carugate;B850;MI
+;Casarile;B938;MI
+;Casorezzo;B989;MI
+;Cassano d'Adda;C003;MI
+;Cassina de' Pecchi;C014;MI
+;Cassinetta di Lugagnano;C033;MI
+;Castano Primo;C052;MI
+;Cernusco sul Naviglio;C523;MI
+;Cerro al Lambro;C536;MI
+;Cerro Maggiore;C537;MI
+;Cesano Boscone;C565;MI
+;Cesate;C569;MI
+;Cinisello Balsamo;C707;MI
+;Cisliano;C733;MI
+;Cologno Monzese;C895;MI
+;Colturano;C908;MI
+;Corbetta;C986;MI
+;Cormano;D013;MI
+;Cornaredo;D018;MI
+;Corsico;D045;MI
+;Cuggiono;D198;MI
+;Cusago;D229;MI
+;Cusano Milanino;D231;MI
+;Dairago;D244;MI
+;Dresano;D367;MI
+;Gaggiano;D845;MI
+;Garbagnate Milanese;D912;MI
+;Gessate;D995;MI
+;Gorgonzola;E094;MI
+;Grezzago;E170;MI
+;Gudo Visconti;E258;MI
+;Inveruno;E313;MI
+;Inzago;E317;MI
+;Lacchiarella;E395;MI
+;Lainate;E415;MI
+;Legnano;E514;MI
+;Liscate;E610;MI
+;Locate di Triulzi;E639;MI
+;Magenta;E801;MI
+;Magnago;E819;MI
+;Marcallo con Casone;E921;MI
+;Masate;F003;MI
+;Mediglia;F084;MI
+;Melegnano;F100;MI
+;Melzo;F119;MI
+;Mesero;F155;MI
+;Milano;F205;MI
+;Morimondo;D033;MI
+;Motta Visconti;F783;MI
+;Nerviano;F874;MI
+;Nosate;F939;MI
+;Novate Milanese;F955;MI
+;Noviglio;F968;MI
+;Opera;G078;MI
+;Ossona;G181;MI
+;Ozzero;G206;MI
+;Paderno Dugnano;G220;MI
+;Pantigliate;G316;MI
+;Parabiago;G324;MI
+;Paullo;G385;MI
+;Pero;C013;MI
+;Peschiera Borromeo;G488;MI
+;Pessano con Bornago;G502;MI
+;Pieve Emanuele;G634;MI
+;Pioltello;G686;MI
+;Pogliano Milanese;G772;MI
+;Pozzo d'Adda;G955;MI
+;Pozzuolo Martesana;G965;MI
+;Pregnana Milanese;H026;MI
+;Rescaldina;H240;MI
+;Rho;H264;MI
+;Robecchetto con Induno;H371;MI
+;Robecco sul Naviglio;H373;MI
+;Rodano;H470;MI
+;Rosate;H560;MI
+;Rozzano;H623;MI
+;San Colombano al Lambro;H803;MI
+;San Donato Milanese;H827;MI
+;San Giorgio su Legnano;H884;MI
+;San Giuliano Milanese;H930;MI
+;San Vittore Olona;I409;MI
+;San Zenone al Lambro;I415;MI
+;Santo Stefano Ticino;I361;MI
+;Sedriano;I566;MI
+;Segrate;I577;MI
+;Senago;I602;MI
+;Sesto San Giovanni;I690;MI
+;Settala;I696;MI
+;Settimo Milanese;I700;MI
+;Solaro;I786;MI
+;Trezzano Rosa;L408;MI
+;Trezzano sul Naviglio;L409;MI
+;Trezzo sull'Adda;L411;MI
+;Tribiano;L415;MI
+;Truccazzano;L454;MI
+;Turbigo;L471;MI
+;Vanzaghello;L664;MI
+;Vanzago;L665;MI
+;Vaprio d'Adda;L667;MI
+;Vermezzo con Zelo;M424;MI
+;Vernate;L773;MI
+;Vignate;L883;MI
+;Villa Cortese;L928;MI
+;Vimodrone;M053;MI
+;Vittuone;M091;MI
+;Vizzolo Predabissi;M102;MI
+;Zibido San Giacomo;M176;MI
+;Bastiglia;A713;MO
+;Bomporto;A959;MO
+;Campogalliano;B539;MO
+;Camposanto;B566;MO
+;Carpi;B819;MO
+;Castelfranco Emilia;C107;MO
+;Castelnuovo Rangone;C242;MO
+;Castelvetro di Modena;C287;MO
+;Cavezzo;C398;MO
+;Concordia sulla Secchia;C951;MO
+;Fanano;D486;MO
+;Finale Emilia;D599;MO
+;Fiorano Modenese;D607;MO
+;Fiumalbo;D617;MO
+;Formigine;D711;MO
+;Frassinoro;D783;MO
+;Guiglia;E264;MO
+;Lama Mocogno;E426;MO
+;Maranello;E904;MO
+;Marano sul Panaro;E905;MO
+;Medolla;F087;MO
+;Mirandola;F240;MO
+;Modena;F257;MO
+;Montecreto;F484;MO
+;Montefiorino;F503;MO
+;Montese;F642;MO
+;Nonantola;F930;MO
+;Novi di Modena;F966;MO
+;Palagano;G250;MO
+;Pavullo nel Frignano;G393;MO
+;Pievepelago;G649;MO
+;Polinago;G789;MO
+;Prignano sulla Secchia;H061;MO
+;Ravarino;H195;MO
+;Riolunato;H303;MO
+;San Cesario sul Panaro;H794;MO
+;San Felice sul Panaro;H835;MO
+;San Possidonio;I128;MO
+;San Prospero;I133;MO
+;Sassuolo;I462;MO
+;Savignano sul Panaro;I473;MO
+;Serramazzoni;F357;MO
+;Sestola;I689;MO
+;Soliera;I802;MO
+;Spilamberto;I903;MO
+;Vignola;L885;MO
+;Zocca;M183;MO
+;Agrate Brianza;A087;MB
+;Aicurzio;A096;MB
+;Albiate;A159;MB
+;Arcore;A376;MB
+;Barlassina;A668;MB
+;Bellusco;A759;MB
+;Bernareggio;A802;MB
+;Besana in Brianza;A818;MB
+;Biassono;A849;MB
+;Bovisio-Masciago;B105;MB
+;Briosco;B187;MB
+;Brugherio;B212;MB
+;Burago di Molgora;B272;MB
+;Busnago;B289;MB
+;Camparada;B501;MB
+;Caponago;B671;MB
+;Carate Brianza;B729;MB
+;Carnate;B798;MB
+;Cavenago di Brianza;C395;MB
+;Ceriano Laghetto;C512;MB
+;Cesano Maderno;C566;MB
+;Cogliate;C820;MB
+;Concorezzo;C952;MB
+;Cornate d'Adda;D019;MB
+;Correzzana;D038;MB
+;Desio;D286;MB
+;Giussano;E063;MB
+;Lazzate;E504;MB
+;Lentate sul Seveso;E530;MB
+;Lesmo;E550;MB
+;Limbiate;E591;MB
+;Lissone;E617;MB
+;Macherio;E786;MB
+;Meda;F078;MB
+;Mezzago;F165;MB
+;Misinto;F247;MB
+;Monza;F704;MB
+;Muggiò;F797;MB
+;Nova Milanese;F944;MB
+;Ornago;G116;MB
+;Renate;H233;MB
+;Roncello;H529;MB
+;Ronco Briantino;H537;MB
+;Seregno;I625;MB
+;Seveso;I709;MB
+;Sovico;I878;MB
+;Sulbiate;I998;MB
+;Triuggio;L434;MB
+;Usmate Velate;L511;MB
+;Varedo;L677;MB
+;Vedano al Lambro;L704;MB
+;Veduggio con Colzano;L709;MB
+;Verano Brianza;L744;MB
+;Villasanta;M017;MB
+;Vimercate;M052;MB
+;Acerra;A024;NA
+;Afragola;A064;NA
+;Agerola;A068;NA
+;Anacapri;A268;NA
+;Arzano;A455;NA
+;Bacoli;A535;NA
+;Barano d'Ischia;A617;NA
+;Boscoreale;B076;NA
+;Boscotrecase;B077;NA
+;Brusciano;B227;NA
+;Caivano;B371;NA
+;Calvizzano;B452;NA
+;Camposano;B565;NA
+;Capri;B696;NA
+;Carbonara di Nola;B740;NA
+;Cardito;B759;NA
+;Casalnuovo di Napoli;B905;NA
+;Casamarciano;B922;NA
+;Casamicciola Terme;B924;NA
+;Casandrino;B925;NA
+;Casavatore;B946;NA
+;Casola di Napoli;B980;NA
+;Casoria;B990;NA
+;Castellammare di Stabia;C129;NA
+;Castello di Cisterna;C188;NA
+;Cercola;C495;NA
+;Cicciano;C675;NA
+;Cimitile;C697;NA
+;Comiziano;C929;NA
+;Crispano;D170;NA
+;Ercolano;H243;NA
+;Forio;D702;NA
+;Frattamaggiore;D789;NA
+;Frattaminore;D790;NA
+;Giugliano in Campania;E054;NA
+;Gragnano;E131;NA
+;Grumo Nevano;E224;NA
+;Ischia;E329;NA
+;Lacco Ameno;E396;NA
+;Lettere;E557;NA
+;Liveri;E620;NA
+;Marano di Napoli;E906;NA
+;Mariglianella;E954;NA
+;Marigliano;E955;NA
+;Massa di Somma;M289;NA
+;Massa Lubrense;F030;NA
+;Melito di Napoli;F111;NA
+;Meta;F162;NA
+;Monte di Procida;F488;NA
+;Mugnano di Napoli;F799;NA
+;Napoli;F839;NA
+;Nola;F924;NA
+;Ottaviano;G190;NA
+;Palma Campania;G283;NA
+;Piano di Sorrento;G568;NA
+;Pimonte;G670;NA
+;Poggiomarino;G762;NA
+;Pollena Trocchia;G795;NA
+;Pomigliano d'Arco;G812;NA
+;Pompei;G813;NA
+;Portici;G902;NA
+;Pozzuoli;G964;NA
+;Procida;H072;NA
+;Qualiano;H101;NA
+;Quarto;H114;NA
+;Roccarainola;H433;NA
+;San Gennaro Vesuviano;H860;NA
+;San Giorgio a Cremano;H892;NA
+;San Giuseppe Vesuviano;H931;NA
+;San Paolo Bel Sito;I073;NA
+;San Sebastiano al Vesuvio;I151;NA
+;San Vitaliano;I391;NA
+;Santa Maria la Carità;M273;NA
+;Sant'Agnello;I208;NA
+;Sant'Anastasia;I262;NA
+;Sant'Antimo;I293;NA
+;Sant'Antonio Abate;I300;NA
+;Saviano;I469;NA
+;Scisciano;I540;NA
+;Serrara Fontana;I652;NA
+;Somma Vesuviana;I820;NA
+;Sorrento;I862;NA
+;Striano;I978;NA
+;Terzigno;L142;NA
+;Torre Annunziata;L245;NA
+;Torre del Greco;L259;NA
+;Trecase;M280;NA
+;Tufino;L460;NA
+;Vico Equense;L845;NA
+;Villaricca;G309;NA
+;Visciano;M072;NA
+;Volla;M115;NA
+;Agrate Conturbia;A088;NO
+;Ameno;A264;NO
+;Armeno;A414;NO
+;Arona;A429;NO
+;Barengo;A653;NO
+;Bellinzago Novarese;A752;NO
+;Biandrate;A844;NO
+;Boca;A911;NO
+;Bogogno;A929;NO
+;Bolzano Novarese;A953;NO
+;Borgo Ticino;B043;NO
+;Borgolavezzaro;B016;NO
+;Borgomanero;B019;NO
+;Briga Novarese;B176;NO
+;Briona;B183;NO
+;Caltignaga;B431;NO
+;Cameri;B473;NO
+;Carpignano Sesia;B823;NO
+;Casalbeltrame;B864;NO
+;Casaleggio Novara;B883;NO
+;Casalino;B897;NO
+;Casalvolone;B920;NO
+;Castellazzo Novarese;C149;NO
+;Castelletto sopra Ticino;C166;NO
+;Cavaglietto;C364;NO
+;Cavaglio d'Agogna;C365;NO
+;Cavallirio;C378;NO
+;Cerano;C483;NO
+;Colazza;C829;NO
+;Comignago;C926;NO
+;Cressa;D162;NO
+;Cureggio;D216;NO
+;Divignano;D309;NO
+;Dormelletto;D347;NO
+;Fara Novarese;D492;NO
+;Fontaneto d'Agogna;D675;NO
+;Galliate;D872;NO
+;Garbagna Novarese;D911;NO
+;Gargallo;D921;NO
+;Gattico-Veruno;M416;NO
+;Ghemme;E001;NO
+;Gozzano;E120;NO
+;Granozzo con Monticello;E143;NO
+;Grignasco;E177;NO
+;Invorio;E314;NO
+;Landiona;E436;NO
+;Lesa;E544;NO
+;Maggiora;E803;NO
+;Mandello Vitta;E880;NO
+;Marano Ticino;E907;NO
+;Massino Visconti;F047;NO
+;Meina;F093;NO
+;Mezzomerico;F188;NO
+;Miasino;F191;NO
+;Momo;F317;NO
+;Nebbiuno;F859;NO
+;Nibbiola;F886;NO
+;Novara;F952;NO
+;Oleggio;G019;NO
+;Oleggio Castello;G020;NO
+;Orta San Giulio;G134;NO
+;Paruzzaro;G349;NO
+;Pella;G421;NO
+;Pettenasco;G520;NO
+;Pisano;G703;NO
+;Pogno;G775;NO
+;Pombia;G809;NO
+;Prato Sesia;H001;NO
+;Recetto;H213;NO
+;Romagnano Sesia;H502;NO
+;Romentino;H518;NO
+;San Maurizio d'Opaglio;I025;NO
+;San Nazzaro Sesia;I052;NO
+;San Pietro Mosezzo;I116;NO
+;Sillavengo;I736;NO
+;Sizzano;I767;NO
+;Soriso;I857;NO
+;Sozzago;I880;NO
+;Suno;L007;NO
+;Terdobbiate;L104;NO
+;Tornaco;L223;NO
+;Trecate;L356;NO
+;Vaprio d'Agogna;L668;NO
+;Varallo Pombia;L670;NO
+;Vespolate;L808;NO
+;Vicolungo;L847;NO
+;Vinzaglio;M062;NO
+;Aritzo;A407;NU
+;Arzana;A454;NU
+;Atzara;A492;NU
+;Austis;A503;NU
+;Bari Sardo;A663;NU
+;Baunei;A722;NU
+;Belvì;A776;NU
+;Birori;A880;NU
+;Bitti;A895;NU
+;Bolotana;A948;NU
+;Borore;B056;NU
+;Bortigali;B062;NU
+;Cardedu;M285;NU
+;Desulo;D287;NU
+;Dorgali;D345;NU
+;Dualchi;D376;NU
+;Elini;D395;NU
+;Fonni;D665;NU
+;Gadoni;D842;NU
+;Gairo;D859;NU
+;Galtellì;D888;NU
+;Gavoi;D947;NU
+;Girasole;E049;NU
+;Ilbono;E283;NU
+;Irgoli;E323;NU
+;Jerzu;E387;NU
+;Lanusei;E441;NU
+;Lei;E517;NU
+;Loceri;E644;NU
+;Loculi;E646;NU
+;Lodè;E647;NU
+;Lodine;E649;NU
+;Lotzorai;E700;NU
+;Lula;E736;NU
+;Macomer;E788;NU
+;Mamoiada;E874;NU
+;Meana Sardo;F073;NU
+;Noragugume;F933;NU
+;Nuoro;F979;NU
+;Oliena;G031;NU
+;Ollolai;G044;NU
+;Olzai;G058;NU
+;Onanì;G064;NU
+;Onifai;G070;NU
+;Oniferi;G071;NU
+;Orani;G084;NU
+;Orgosolo;G097;NU
+;Orosei;G119;NU
+;Orotelli;G120;NU
+;Ortueri;G146;NU
+;Orune;G147;NU
+;Osidda;G154;NU
+;Osini;G158;NU
+;Ottana;G191;NU
+;Ovodda;G201;NU
+;Perdasdefogu;G445;NU
+;Posada;G929;NU
+;Sarule;I448;NU
+;Silanus;I730;NU
+;Sindia;I748;NU
+;Siniscola;I751;NU
+;Sorgono;I851;NU
+;Talana;L036;NU
+;Tertenia;L140;NU
+;Teti;L153;NU
+;Tiana;L160;NU
+;Tonara;L202;NU
+;Torpè;L231;NU
+;Tortolì;A355;NU
+;Triei;L423;NU
+;Ulassai;L489;NU
+;Urzulei;L506;NU
+;Ussassai;L514;NU
+;Villagrande Strisaili;L953;NU
+;Abbasanta;A007;OR
+;Aidomaggiore;A097;OR
+;Albagiara;A126;OR
+;Ales;A180;OR
+;Allai;A204;OR
+;Arborea;A357;OR
+;Ardauli;A380;OR
+;Assolo;A477;OR
+;Asuni;A480;OR
+;Baradili;A614;OR
+;Baratili San Pietro;A621;OR
+;Baressa;A655;OR
+;Bauladu;A721;OR
+;Bidonì;A856;OR
+;Bonarcado;A960;OR
+;Boroneddu;B055;OR
+;Bosa;B068;OR
+;Busachi;B281;OR
+;Cabras;B314;OR
+;Cuglieri;D200;OR
+;Curcuris;D214;OR
+;Flussio;D640;OR
+;Fordongianus;D695;OR
+;Ghilarza;E004;OR
+;Gonnoscodina;E087;OR
+;Gonnosnò;D585;OR
+;Gonnostramatza;E088;OR
+;Laconi;E400;OR
+;Magomadas;E825;OR
+;Marrubiu;E972;OR
+;Masullas;F050;OR
+;Milis;F208;OR
+;Modolo;F261;OR
+;Mogorella;F270;OR
+;Mogoro;F272;OR
+;Montresta;F698;OR
+;Morgongiori;F727;OR
+;Narbolia;F840;OR
+;Neoneli;F867;OR
+;Norbello;F934;OR
+;Nughedu Santa Vittoria;F974;OR
+;Nurachi;F980;OR
+;Nureci;F985;OR
+;Ollastra;G043;OR
+;Oristano;G113;OR
+;Palmas Arborea;G286;OR
+;Pau;G379;OR
+;Paulilatino;G384;OR
+;Pompu;G817;OR
+;Riola Sardo;H301;OR
+;Ruinas;F271;OR
+;Sagama;H661;OR
+;Samugheo;H756;OR
+;San Nicolò d'Arcidano;A368;OR
+;San Vero Milis;I384;OR
+;Santa Giusta;I205;OR
+;Santu Lussurgiu;I374;OR
+;Scano di Montiferro;I503;OR
+;Sedilo;I564;OR
+;Seneghe;I605;OR
+;Senis;I609;OR
+;Sennariolo;I613;OR
+;Siamaggiore;I717;OR
+;Siamanna;I718;OR
+;Siapiccia;I721;OR
+;Simala;I742;OR
+;Simaxis;I743;OR
+;Sini;I749;OR
+;Siris;I757;OR
+;Soddì;I778;OR
+;Solarussa;I791;OR
+;Sorradile;I861;OR
+;Suni;L006;OR
+;Tadasuni;L023;OR
+;Terralba;L122;OR
+;Tinnura;L172;OR
+;Tramatza;L321;OR
+;Tresnuraghes;L393;OR
+;Ulà Tirso;L488;OR
+;Uras;L496;OR
+;Usellus;L508;OR
+;Villa Sant'Antonio;I298;OR
+;Villa Verde;A609;OR
+;Villanova Truschedu;L991;OR
+;Villaurbana;M030;OR
+;Zeddiani;M153;OR
+;Zerfaliu;M168;OR
+;Abano Terme;A001;PD
+;Agna;A075;PD
+;Albignasego;A161;PD
+;Anguillara Veneta;A296;PD
+;Arquà Petrarca;A434;PD
+;Arre;A438;PD
+;Arzergrande;A458;PD
+;Bagnoli di Sopra;A568;PD
+;Baone;A613;PD
+;Barbona;A637;PD
+;Battaglia Terme;A714;PD
+;Boara Pisani;A906;PD
+;Borgo Veneto;M402;PD
+;Borgoricco;B031;PD
+;Bovolenta;B106;PD
+;Brugine;B213;PD
+;Cadoneghe;B345;PD
+;Campo San Martino;B564;PD
+;Campodarsego;B524;PD
+;Campodoro;B531;PD
+;Camposampiero;B563;PD
+;Candiana;B589;PD
+;Carceri;B749;PD
+;Carmignano di Brenta;B795;PD
+;Cartura;B848;PD
+;Casale di Scodosia;B877;PD
+;Casalserugo;B912;PD
+;Castelbaldo;C057;PD
+;Cervarese Santa Croce;C544;PD
+;Cinto Euganeo;C713;PD
+;Cittadella;C743;PD
+;Codevigo;C812;PD
+;Conselve;C964;PD
+;Correzzola;D040;PD
+;Curtarolo;D226;PD
+;Due Carrare;M300;PD
+;Este;D442;PD
+;Fontaniva;D679;PD
+;Galliera Veneta;D879;PD
+;Galzignano Terme;D889;PD
+;Gazzo;D956;PD
+;Grantorto;E145;PD
+;Granze;E146;PD
+;Legnaro;E515;PD
+;Limena;E592;PD
+;Loreggia;E684;PD
+;Lozzo Atestino;E709;PD
+;Maserà di Padova;F011;PD
+;Masi;F013;PD
+;Massanzago;F033;PD
+;Megliadino San Vitale;F092;PD
+;Merlara;F148;PD
+;Mestrino;F161;PD
+;Monselice;F382;PD
+;Montagnana;F394;PD
+;Montegrotto Terme;F529;PD
+;Noventa Padovana;F962;PD
+;Ospedaletto Euganeo;G167;PD
+;Padova;G224;PD
+;Pernumia;G461;PD
+;Piacenza d'Adige;G534;PD
+;Piazzola sul Brenta;G587;PD
+;Piombino Dese;G688;PD
+;Piove di Sacco;G693;PD
+;Polverara;G802;PD
+;Ponso;G823;PD
+;Ponte San Nicolò;G855;PD
+;Pontelongo;G850;PD
+;Pozzonovo;G963;PD
+;Rovolon;H622;PD
+;Rubano;H625;PD
+;Saccolongo;H655;PD
+;San Giorgio delle Pertiche;H893;PD
+;San Giorgio in Bosco;H897;PD
+;San Martino di Lupari;I008;PD
+;San Pietro in Gu;I107;PD
+;San Pietro Viminario;I120;PD
+;Santa Giustina in Colle;I207;PD
+;Sant'Angelo di Piove di Sacco;I275;PD
+;Sant'Elena;I319;PD
+;Sant'Urbano;I375;PD
+;Saonara;I418;PD
+;Selvazzano Dentro;I595;PD
+;Solesino;I799;PD
+;Stanghella;I938;PD
+;Teolo;L100;PD
+;Terrassa Padovana;L132;PD
+;Tombolo;L199;PD
+;Torreglia;L270;PD
+;Trebaseleghe;L349;PD
+;Tribano;L414;PD
+;Urbana;L497;PD
+;Veggiano;L710;PD
+;Vescovana;L805;PD
+;Vighizzolo d'Este;L878;PD
+;Vigodarzere;L892;PD
+;Vigonza;L900;PD
+;Villa del Conte;L934;PD
+;Villa Estense;L937;PD
+;Villafranca Padovana;L947;PD
+;Villanova di Camposampiero;L979;PD
+;Vo';M103;PD
+;Alia;A195;PA
+;Alimena;A202;PA
+;Aliminusa;A203;PA
+;Altavilla Milicia;A229;PA
+;Altofonte;A239;PA
+;Bagheria;A546;PA
+;Balestrate;A592;PA
+;Baucina;A719;PA
+;Belmonte Mezzagno;A764;PA
+;Bisacquino;A882;PA
+;Blufi;M268;PA
+;Bolognetta;A946;PA
+;Bompietro;A958;PA
+;Borgetto;A991;PA
+;Caccamo;B315;PA
+;Caltavuturo;B430;PA
+;Campofelice di Fitalia;B533;PA
+;Campofelice di Roccella;B532;PA
+;Campofiorito;B535;PA
+;Camporeale;B556;PA
+;Capaci;B645;PA
+;Carini;B780;PA
+;Castelbuono;C067;PA
+;Casteldaccia;C074;PA
+;Castellana Sicula;C135;PA
+;Castronovo di Sicilia;C344;PA
+;Cefalà Diana;C420;PA
+;Cefalù;C421;PA
+;Cerda;C496;PA
+;Chiusa Sclafani;C654;PA
+;Ciminna;C696;PA
+;Cinisi;C708;PA
+;Collesano;C871;PA
+;Contessa Entellina;C968;PA
+;Corleone;D009;PA
+;Ficarazzi;D567;PA
+;Gangi;D907;PA
+;Geraci Siculo;D977;PA
+;Giardinello;E013;PA
+;Giuliana;E055;PA
+;Godrano;E074;PA
+;Gratteri;E149;PA
+;Isnello;E337;PA
+;Isola delle Femmine;E350;PA
+;Lascari;E459;PA
+;Lercara Friddi;E541;PA
+;Marineo;E957;PA
+;Mezzojuso;F184;PA
+;Misilmeri;F246;PA
+;Monreale;F377;PA
+;Montelepre;F544;PA
+;Montemaggiore Belsito;F553;PA
+;Palazzo Adriano;G263;PA
+;Palermo;G273;PA
+;Partinico;G348;PA
+;Petralia Soprana;G510;PA
+;Petralia Sottana;G511;PA
+;Piana degli Albanesi;G543;PA
+;Polizzi Generosa;G792;PA
+;Pollina;G797;PA
+;Prizzi;H070;PA
+;Roccamena;H422;PA
+;Roccapalumba;H428;PA
+;San Cipirello;H797;PA
+;San Giuseppe Jato;H933;PA
+;San Mauro Castelverde;I028;PA
+;Santa Cristina Gela;I174;PA
+;Santa Flavia;I188;PA
+;Sciara;I534;PA
+;Scillato;I538;PA
+;Sclafani Bagni;I541;PA
+;Termini Imerese;L112;PA
+;Terrasini;L131;PA
+;Torretta;L282;PA
+;Trabia;L317;PA
+;Trappeto;L332;PA
+;Ustica;L519;PA
+;Valledolmo;L603;PA
+;Ventimiglia di Sicilia;L740;PA
+;Vicari;L837;PA
+;Villabate;L916;PA
+;Villafrati;L951;PA
+;Albareto;A138;PR
+;Bardi;A646;PR
+;Bedonia;A731;PR
+;Berceto;A788;PR
+;Bore;A987;PR
+;Borgo Val di Taro;B042;PR
+;Busseto;B293;PR
+;Calestano;B408;PR
+;Collecchio;C852;PR
+;Colorno;C904;PR
+;Compiano;C934;PR
+;Corniglio;D026;PR
+;Felino;D526;PR
+;Fidenza;B034;PR
+;Fontanellato;D673;PR
+;Fontevivo;D685;PR
+;Fornovo di Taro;D728;PR
+;Langhirano;E438;PR
+;Lesignano de' Bagni;E547;PR
+;Medesano;F082;PR
+;Monchio delle Corti;F340;PR
+;Montechiarugolo;F473;PR
+;Neviano degli Arduini;F882;PR
+;Noceto;F914;PR
+;Palanzano;G255;PR
+;Parma;G337;PR
+;Pellegrino Parmense;G424;PR
+;Polesine Zibello;M367;PR
+;Roccabianca;H384;PR
+;Sala Baganza;H682;PR
+;Salsomaggiore Terme;H720;PR
+;San Secondo Parmense;I153;PR
+;Sissa Trecasali;M325;PR
+;Solignano;I803;PR
+;Soragna;I840;PR
+;Sorbolo Mezzani;M411;PR
+;Terenzo;E548;PR
+;Tizzano Val Parma;L183;PR
+;Tornolo;L229;PR
+;Torrile;L299;PR
+;Traversetolo;L346;PR
+;Valmozzola;L641;PR
+;Varano de' Melegari;L672;PR
+;Varsi;L689;PR
+;Alagna;A118;PV
+;Albaredo Arnaboldi;A134;PV
+;Albonese;A171;PV
+;Albuzzano;A175;PV
+;Arena Po;A387;PV
+;Badia Pavese;A538;PV
+;Bagnaria;A550;PV
+;Barbianello;A634;PV
+;Bascapè;A690;PV
+;Bastida Pancarana;A712;PV
+;Battuda;A718;PV
+;Belgioioso;A741;PV
+;Bereguardo;A792;PV
+;Borgarello;A989;PV
+;Borgo Priolo;B028;PV
+;Borgo San Siro;B038;PV
+;Borgoratto Mormorolo;B030;PV
+;Bornasco;B051;PV
+;Bosnasco;B082;PV
+;Brallo di Pregola;B117;PV
+;Breme;B142;PV
+;Bressana Bottarone;B159;PV
+;Broni;B201;PV
+;Calvignano;B447;PV
+;Campospinoso;B567;PV
+;Candia Lomellina;B587;PV
+;Canneto Pavese;B613;PV
+;Carbonara al Ticino;B741;PV
+;Casanova Lonati;B929;PV
+;Casatisma;B945;PV
+;Casei Gerola;B954;PV
+;Casorate Primo;B988;PV
+;Cassolnovo;C038;PV
+;Castana;C050;PV
+;Casteggio;C053;PV
+;Castelletto di Branduzzo;C157;PV
+;Castello d'Agogna;C184;PV
+;Castelnovetto;C213;PV
+;Cava Manara;C360;PV
+;Cecima;C414;PV
+;Ceranova;C484;PV
+;Ceretto Lomellina;C508;PV
+;Cergnago;C509;PV
+;Certosa di Pavia;C541;PV
+;Cervesina;C551;PV
+;Chignolo Po;C637;PV
+;Cigognola;C684;PV
+;Cilavegna;C686;PV
+;Codevilla;C813;PV
+;Colli Verdi;M419;PV
+;Confienza;C958;PV
+;Copiano;C979;PV
+;Corana;C982;PV
+;Cornale e Bastida;M338;PV
+;Corteolona e Genzone;M372;PV
+;Corvino San Quirico;D081;PV
+;Costa de' Nobili;D109;PV
+;Cozzo;D127;PV
+;Cura Carpignano;B824;PV
+;Dorno;D348;PV
+;Ferrera Erbognone;D552;PV
+;Filighera;D594;PV
+;Fortunago;D732;PV
+;Frascarolo;D771;PV
+;Galliavola;D873;PV
+;Gambarana;D892;PV
+;Gambolò;D901;PV
+;Garlasco;D925;PV
+;Gerenzago;D980;PV
+;Giussago;E062;PV
+;Godiasco Salice Terme;E072;PV
+;Golferenzo;E081;PV
+;Gravellona Lomellina;E152;PV
+;Gropello Cairoli;E195;PV
+;Inverno e Monteleone;E310;PV
+;Landriano;E437;PV
+;Langosco;E439;PV
+;Lardirago;E454;PV
+;Linarolo;E600;PV
+;Lirio;E608;PV
+;Lomello;E662;PV
+;Lungavilla;B387;PV
+;Magherno;E804;PV
+;Marcignago;E934;PV
+;Marzano;E999;PV
+;Mede;F080;PV
+;Menconico;F122;PV
+;Mezzana Bigli;F170;PV
+;Mezzana Rabattone;F171;PV
+;Mezzanino;F175;PV
+;Miradolo Terme;F238;PV
+;Montalto Pavese;F417;PV
+;Montebello della Battaglia;F440;PV
+;Montecalvo Versiggia;F449;PV
+;Montescano;F638;PV
+;Montesegale;F644;PV
+;Monticelli Pavese;F670;PV
+;Montù Beccaria;F701;PV
+;Mornico Losana;F739;PV
+;Mortara;F754;PV
+;Nicorvo;F891;PV
+;Olevano di Lomellina;G021;PV
+;Oliva Gessi;G032;PV
+;Ottobiano;G194;PV
+;Palestro;G275;PV
+;Pancarana;G304;PV
+;Parona;G342;PV
+;Pavia;G388;PV
+;Pietra de' Giorgi;G612;PV
+;Pieve Albignola;G635;PV
+;Pieve del Cairo;G639;PV
+;Pieve Porto Morone;G650;PV
+;Pinarolo Po;G671;PV
+;Pizzale;G720;PV
+;Ponte Nizza;G851;PV
+;Portalbera;G895;PV
+;Rea;H204;PV
+;Redavalle;H216;PV
+;Retorbido;H246;PV
+;Rivanazzano Terme;H336;PV
+;Robbio;H369;PV
+;Robecco Pavese;H375;PV
+;Rocca de' Giorgi;H396;PV
+;Rocca Susella;H450;PV
+;Rognano;H491;PV
+;Romagnese;H505;PV
+;Roncaro;H527;PV
+;Rosasco;H559;PV
+;Rovescala;H614;PV
+;San Cipriano Po;H799;PV
+;San Damiano al Colle;H814;PV
+;San Genesio ed Uniti;H859;PV
+;San Giorgio di Lomellina;H885;PV
+;San Martino Siccomario;I014;PV
+;San Zenone al Po;I416;PV
+;Sannazzaro de' Burgondi;I048;PV
+;Santa Cristina e Bissone;I175;PV
+;Santa Giuletta;I203;PV
+;Santa Margherita di Staffora;I230;PV
+;Santa Maria della Versa;I237;PV
+;Sant'Alessio con Vialone;I213;PV
+;Sant'Angelo Lomellina;I276;PV
+;Sartirana Lomellina;I447;PV
+;Scaldasole;I487;PV
+;Semiana;I599;PV
+;Silvano Pietra;I739;PV
+;Siziano;E265;PV
+;Sommo;I825;PV
+;Spessa;I894;PV
+;Stradella;I968;PV
+;Suardi;B014;PV
+;Torrazza Coste;L237;PV
+;Torre Beretti e Castellaro;L250;PV
+;Torre d'Arese;L256;PV
+;Torre de' Negri;L262;PV
+;Torre d'Isola;L269;PV
+;Torrevecchia Pia;L285;PV
+;Torricella Verzate;L292;PV
+;Travacò Siccomario;I236;PV
+;Trivolzio;L440;PV
+;Tromello;L449;PV
+;Trovo;L453;PV
+;Val di Nizza;L562;PV
+;Valeggio;L568;PV
+;Valle Lomellina;L593;PV
+;Valle Salimbene;L617;PV
+;Varzi;L690;PV
+;Velezzo Lomellina;L716;PV
+;Vellezzo Bellini;L720;PV
+;Verretto;L784;PV
+;Verrua Po;L788;PV
+;Vidigulfo;L854;PV
+;Vigevano;L872;PV
+;Villa Biscossi;L917;PV
+;Villanova d'Ardenghi;L983;PV
+;Villanterio;L994;PV
+;Vistarino;M079;PV
+;Voghera;M109;PV
+;Volpara;M119;PV
+;Zavattarello;M150;PV
+;Zeccone;M152;PV
+;Zeme;M161;PV
+;Zenevredo;M162;PV
+;Zerbo;M166;PV
+;Zerbolò;M167;PV
+;Zinasco;M180;PV
+;Assisi;A475;PG
+;Bastia Umbra;A710;PG
+;Bettona;A832;PG
+;Bevagna;A835;PG
+;Campello sul Clitunno;B504;PG
+;Cannara;B609;PG
+;Cascia;B948;PG
+;Castel Ritaldi;C252;PG
+;Castiglione del Lago;C309;PG
+;Cerreto di Spoleto;C527;PG
+;Citerna;C742;PG
+;Città della Pieve;C744;PG
+;Città di Castello;C745;PG
+;Collazzone;C845;PG
+;Corciano;C990;PG
+;Costacciaro;D108;PG
+;Deruta;D279;PG
+;Foligno;D653;PG
+;Fossato di Vico;D745;PG
+;Fratta Todina;D787;PG
+;Giano dell'Umbria;E012;PG
+;Gualdo Cattaneo;E229;PG
+;Gualdo Tadino;E230;PG
+;Gubbio;E256;PG
+;Lisciano Niccone;E613;PG
+;Magione;E805;PG
+;Marsciano;E975;PG
+;Massa Martana;F024;PG
+;Monte Castello di Vibio;F456;PG
+;Monte Santa Maria Tiberina;F629;PG
+;Montefalco;F492;PG
+;Monteleone di Spoleto;F540;PG
+;Montone;F685;PG
+;Nocera Umbra;F911;PG
+;Norcia;F935;PG
+;Paciano;G212;PG
+;Panicale;G308;PG
+;Passignano sul Trasimeno;G359;PG
+;Perugia;G478;PG
+;Piegaro;G601;PG
+;Pietralunga;G618;PG
+;Poggiodomo;G758;PG
+;Preci;H015;PG
+;San Giustino;H935;PG
+;Sant'Anatolia di Narco;I263;PG
+;Scheggia e Pascelupo;I522;PG
+;Scheggino;I523;PG
+;Sellano;I585;PG
+;Sigillo;I727;PG
+;Spello;I888;PG
+;Spoleto;I921;PG
+;Todi;L188;PG
+;Torgiano;L216;PG
+;Trevi;L397;PG
+;Tuoro sul Trasimeno;L466;PG
+;Umbertide;D786;PG
+;Valfabbrica;L573;PG
+;Vallo di Nera;L627;PG
+;Valtopina;L653;PG
+;Acqualagna;A035;PU
+;Apecchio;A327;PU
+;Belforte all'Isauro;A740;PU
+;Borgo Pace;B026;PU
+;Cagli;B352;PU
+;Cantiano;B636;PU
+;Carpegna;B816;PU
+;Cartoceto;B846;PU
+;Colli al Metauro;M380;PU
+;Fano;D488;PU
+;Fermignano;D541;PU
+;Fossombrone;D749;PU
+;Fratte Rosa;D791;PU
+;Frontino;D807;PU
+;Frontone;D808;PU
+;Gabicce Mare;D836;PU
+;Gradara;E122;PU
+;Isola del Piano;E351;PU
+;Lunano;E743;PU
+;Macerata Feltria;E785;PU
+;Mercatello sul Metauro;F135;PU
+;Mercatino Conca;F136;PU
+;Mombaroccio;F310;PU
+;Mondavio;F347;PU
+;Mondolfo;F348;PU
+;Monte Cerignone;F467;PU
+;Monte Grimano Terme;F524;PU
+;Monte Porzio;F589;PU
+;Montecalvo in Foglia;F450;PU
+;Monteciccardo;F474;PU
+;Montecopiolo;F478;PU
+;Montefelcino;F497;PU
+;Montelabbate;F533;PU
+;Peglio;G416;PU
+;Pergola;G453;PU
+;Pesaro;G479;PU
+;Petriano;G514;PU
+;Piandimeleto;G551;PU
+;Pietrarubbia;G627;PU
+;Piobbico;G682;PU
+;San Costanzo;H809;PU
+;San Lorenzo in Campo;H958;PU
+;Sant'Angelo in Vado;I287;PU
+;Sant'Ippolito;I344;PU
+;Sassocorvaro Auditore;M413;PU
+;Sassofeltrio;I460;PU
+;Serra Sant'Abbondio;I654;PU
+;Tavoleto;L078;PU
+;Tavullia;L081;PU
+;Terre Roveresche;M379;PU
+;Urbania;L498;PU
+;Urbino;L500;PU
+;Vallefoglia;M331;PU
+;Abbateggio;A008;PE
+;Alanno;A120;PE
+;Bolognano;A945;PE
+;Brittoli;B193;PE
+;Bussi sul Tirino;B294;PE
+;Cappelle sul Tavo;B681;PE
+;Caramanico Terme;B722;PE
+;Carpineto della Nora;B827;PE
+;Castiglione a Casauria;C308;PE
+;Catignano;C354;PE
+;Cepagatti;C474;PE
+;Città Sant'Angelo;C750;PE
+;Civitaquana;C771;PE
+;Civitella Casanova;C779;PE
+;Collecorvino;C853;PE
+;Corvara;D078;PE
+;Cugnoli;D201;PE
+;Elice;D394;PE
+;Farindola;D501;PE
+;Lettomanoppello;E558;PE
+;Loreto Aprutino;E691;PE
+;Manoppello;E892;PE
+;Montebello di Bertona;F441;PE
+;Montesilvano;F646;PE
+;Moscufo;F765;PE
+;Nocciano;F908;PE
+;Penne;G438;PE
+;Pescara;G482;PE
+;Pescosansonesco;G499;PE
+;Pianella;G555;PE
+;Picciano;G589;PE
+;Pietranico;G621;PE
+;Popoli;G878;PE
+;Roccamorice;H425;PE
+;Rosciano;H562;PE
+;Salle;H715;PE
+;San Valentino in Abruzzo Citeriore;I376;PE
+;Sant'Eufemia a Maiella;I332;PE
+;Scafa;I482;PE
+;Serramonacesca;I649;PE
+;Spoltore;I922;PE
+;Tocco da Casauria;L186;PE
+;Torre de' Passeri;L263;PE
+;Turrivalignani;L475;PE
+;Vicoli;L846;PE
+;Villa Celiera;L922;PE
+;Agazzano;A067;PC
+;Alseno;A223;PC
+;Alta Val Tidone;M386;PC
+;Besenzone;A823;PC
+;Bettola;A831;PC
+;Bobbio;A909;PC
+;Borgonovo Val Tidone;B025;PC
+;Cadeo;B332;PC
+;Calendasco;B405;PC
+;Caorso;B643;PC
+;Carpaneto Piacentino;B812;PC
+;Castel San Giovanni;C261;PC
+;Castell'Arquato;C145;PC
+;Castelvetro Piacentino;C288;PC
+;Cerignale;C513;PC
+;Coli;C838;PC
+;Corte Brugnatella;D054;PC
+;Cortemaggiore;D061;PC
+;Farini;D502;PC
+;Ferriere;D555;PC
+;Fiorenzuola d'Arda;D611;PC
+;Gazzola;D958;PC
+;Gossolengo;E114;PC
+;Gragnano Trebbiense;E132;PC
+;Gropparello;E196;PC
+;Lugagnano Val d'Arda;E726;PC
+;Monticelli d'Ongina;F671;PC
+;Morfasso;F724;PC
+;Ottone;G195;PC
+;Piacenza;G535;PC
+;Pianello Val Tidone;G557;PC
+;Piozzano;G696;PC
+;Podenzano;G747;PC
+;Ponte dell'Olio;G842;PC
+;Pontenure;G852;PC
+;Rivergaro;H350;PC
+;Rottofreno;H593;PC
+;San Giorgio Piacentino;H887;PC
+;San Pietro in Cerro;G788;PC
+;Sarmato;I434;PC
+;Travo;L348;PC
+;Vernasca;L772;PC
+;Vigolzone;L897;PC
+;Villanova sull'Arda;L980;PC
+;Zerba;M165;PC
+;Ziano Piacentino;L848;PC
+;Bientina;A864;PI
+;Buti;B303;PI
+;Calci;B390;PI
+;Calcinaia;B392;PI
+;Capannoli;B647;PI
+;Casale Marittimo;B878;PI
+;Casciana Terme Lari;M327;PI
+;Cascina;B950;PI
+;Castelfranco di Sotto;C113;PI
+;Castellina Marittima;C174;PI
+;Castelnuovo di Val di Cecina;C244;PI
+;Chianni;C609;PI
+;Crespina Lorenzana;M328;PI
+;Fauglia;D510;PI
+;Guardistallo;E250;PI
+;Lajatico;E413;PI
+;Montecatini Val di Cecina;F458;PI
+;Montescudaio;F640;PI
+;Monteverdi Marittimo;F661;PI
+;Montopoli in Val d'Arno;F686;PI
+;Orciano Pisano;G090;PI
+;Palaia;G254;PI
+;Peccioli;G395;PI
+;Pisa;G702;PI
+;Pomarance;G804;PI
+;Ponsacco;G822;PI
+;Pontedera;G843;PI
+;Riparbella;H319;PI
+;San Giuliano Terme;A562;PI
+;San Miniato;I046;PI
+;Santa Croce sull'Arno;I177;PI
+;Santa Luce;I217;PI
+;Santa Maria a Monte;I232;PI
+;Terricciola;L138;PI
+;Vecchiano;L702;PI
+;Vicopisano;L850;PI
+;Volterra;M126;PI
+;Abetone Cutigliano;M376;PT
+;Agliana;A071;PT
+;Buggiano;B251;PT
+;Chiesina Uzzanese;C631;PT
+;Lamporecchio;E432;PT
+;Larciano;E451;PT
+;Marliana;E960;PT
+;Massa e Cozzile;F025;PT
+;Monsummano Terme;F384;PT
+;Montale;F410;PT
+;Montecatini-Terme;A561;PT
+;Pescia;G491;PT
+;Pieve a Nievole;G636;PT
+;Pistoia;G713;PT
+;Ponte Buggianese;G833;PT
+;Quarrata;H109;PT
+;Sambuca Pistoiese;H744;PT
+;San Marcello Piteglio;M377;PT
+;Serravalle Pistoiese;I660;PT
+;Uzzano;L522;PT
+;Andreis;A283;PN
+;Arba;A354;PN
+;Aviano;A516;PN
+;Azzano Decimo;A530;PN
+;Barcis;A640;PN
+;Brugnera;B215;PN
+;Budoia;B247;PN
+;Caneva;B598;PN
+;Casarsa della Delizia;B940;PN
+;Castelnovo del Friuli;C217;PN
+;Cavasso Nuovo;C385;PN
+;Chions;C640;PN
+;Cimolais;C699;PN
+;Claut;C790;PN
+;Clauzetto;C791;PN
+;Cordenons;C991;PN
+;Cordovado;C993;PN
+;Erto e Casso;D426;PN
+;Fanna;D487;PN
+;Fiume Veneto;D621;PN
+;Fontanafredda;D670;PN
+;Frisanco;D804;PN
+;Maniago;E889;PN
+;Meduno;F089;PN
+;Montereale Valcellina;F596;PN
+;Morsano al Tagliamento;F750;PN
+;Pasiano di Pordenone;G353;PN
+;Pinzano al Tagliamento;G680;PN
+;Polcenigo;G780;PN
+;Porcia;G886;PN
+;Pordenone;G888;PN
+;Prata di Pordenone;G994;PN
+;Pravisdomini;H010;PN
+;Roveredo in Piano;H609;PN
+;Sacile;H657;PN
+;San Giorgio della Richinvelda;H891;PN
+;San Martino al Tagliamento;H999;PN
+;San Quirino;I136;PN
+;San Vito al Tagliamento;I403;PN
+;Sequals;I621;PN
+;Sesto al Reghena;I686;PN
+;Spilimbergo;I904;PN
+;Tramonti di Sopra;L324;PN
+;Tramonti di Sotto;L325;PN
+;Travesio;L347;PN
+;Vajont;M265;PN
+;Valvasone Arzene;M346;PN
+;Vito d'Asio;M085;PN
+;Vivaro;M096;PN
+;Zoppola;M190;PN
+;Abriola;A013;PZ
+;Acerenza;A020;PZ
+;Albano di Lucania;A131;PZ
+;Anzi;A321;PZ
+;Armento;A415;PZ
+;Atella;A482;PZ
+;Avigliano;A519;PZ
+;Balvano;A604;PZ
+;Banzi;A612;PZ
+;Baragiano;A615;PZ
+;Barile;A666;PZ
+;Bella;A743;PZ
+;Brienza;B173;PZ
+;Brindisi Montagna;B181;PZ
+;Calvello;B440;PZ
+;Calvera;B443;PZ
+;Campomaggiore;B549;PZ
+;Cancellara;B580;PZ
+;Carbone;B743;PZ
+;Castelgrande;C120;PZ
+;Castelluccio Inferiore;C199;PZ
+;Castelluccio Superiore;C201;PZ
+;Castelmezzano;C209;PZ
+;Castelsaraceno;C271;PZ
+;Castronuovo di Sant'Andrea;C345;PZ
+;Cersosimo;C539;PZ
+;Chiaromonte;C619;PZ
+;Corleto Perticara;D010;PZ
+;Episcopia;D414;PZ
+;Fardella;D497;PZ
+;Filiano;D593;PZ
+;Forenza;D696;PZ
+;Francavilla in Sinni;D766;PZ
+;Gallicchio;D876;PZ
+;Genzano di Lucania;D971;PZ
+;Ginestra;E033;PZ
+;Grumento Nova;E221;PZ
+;Guardia Perticara;E246;PZ
+;Lagonegro;E409;PZ
+;Latronico;E474;PZ
+;Laurenzana;E482;PZ
+;Lauria;E483;PZ
+;Lavello;E493;PZ
+;Maratea;E919;PZ
+;Marsico Nuovo;E976;PZ
+;Marsicovetere;E977;PZ
+;Maschito;F006;PZ
+;Melfi;F104;PZ
+;Missanello;F249;PZ
+;Moliterno;F295;PZ
+;Montemilone;F568;PZ
+;Montemurro;F573;PZ
+;Muro Lucano;F817;PZ
+;Nemoli;F866;PZ
+;Noepoli;F917;PZ
+;Oppido Lucano;G081;PZ
+;Palazzo San Gervasio;G261;PZ
+;Paterno;M269;PZ
+;Pescopagano;G496;PZ
+;Picerno;G590;PZ
+;Pietragalla;G616;PZ
+;Pietrapertosa;G623;PZ
+;Pignola;G663;PZ
+;Potenza;G942;PZ
+;Rapolla;H186;PZ
+;Rapone;H187;PZ
+;Rionero in Vulture;H307;PZ
+;Ripacandida;H312;PZ
+;Rivello;H348;PZ
+;Roccanova;H426;PZ
+;Rotonda;H590;PZ
+;Ruoti;H641;PZ
+;Ruvo del Monte;H646;PZ
+;San Chirico Nuovo;H795;PZ
+;San Chirico Raparo;H796;PZ
+;San Costantino Albanese;H808;PZ
+;San Fele;H831;PZ
+;San Martino d'Agri;H994;PZ
+;San Paolo Albanese;B906;PZ
+;San Severino Lucano;I157;PZ
+;Sant'Angelo Le Fratte;I288;PZ
+;Sant'Arcangelo;I305;PZ
+;Sarconi;I426;PZ
+;Sasso di Castalda;I457;PZ
+;Satriano di Lucania;G614;PZ
+;Savoia di Lucania;H730;PZ
+;Senise;I610;PZ
+;Spinoso;I917;PZ
+;Teana;L082;PZ
+;Terranova di Pollino;L126;PZ
+;Tito;L181;PZ
+;Tolve;L197;PZ
+;Tramutola;L326;PZ
+;Trecchina;L357;PZ
+;Trivigno;L439;PZ
+;Vaglio Basilicata;L532;PZ
+;Venosa;L738;PZ
+;Vietri di Potenza;L859;PZ
+;Viggianello;L873;PZ
+;Viggiano;L874;PZ
+;Cantagallo;B626;PO
+;Carmignano;B794;PO
+;Montemurlo;F572;PO
+;Poggio a Caiano;G754;PO
+;Prato;G999;PO
+;Vaiano;L537;PO
+;Vernio;L775;PO
+;Acate;A014;RG
+;Chiaramonte Gulfi;C612;RG
+;Comiso;C927;RG
+;Giarratana;E016;RG
+;Ispica;E366;RG
+;Modica;F258;RG
+;Monterosso Almo;F610;RG
+;Pozzallo;G953;RG
+;Ragusa;H163;RG
+;Santa Croce Camerina;I178;RG
+;Scicli;I535;RG
+;Vittoria;M088;RG
+;Alfonsine;A191;RA
+;Bagnacavallo;A547;RA
+;Bagnara di Romagna;A551;RA
+;Brisighella;B188;RA
+;Casola Valsenio;B982;RA
+;Castel Bolognese;C065;RA
+;Cervia;C553;RA
+;Conselice;C963;RA
+;Cotignola;D121;RA
+;Faenza;D458;RA
+;Fusignano;D829;RA
+;Lugo;E730;RA
+;Massa Lombarda;F029;RA
+;Ravenna;H199;RA
+;Riolo Terme;H302;RA
+;Russi;H642;RA
+;Sant'Agata sul Santerno;I196;RA
+;Solarolo;I787;RA
+;Africo;A065;RC
+;Agnana Calabra;A077;RC
+;Anoia;A303;RC
+;Antonimina;A314;RC
+;Ardore;A385;RC
+;Bagaladi;A544;RC
+;Bagnara Calabra;A552;RC
+;Benestare;A780;RC
+;Bianco;A843;RC
+;Bivongi;A897;RC
+;Bova;B097;RC
+;Bova Marina;B099;RC
+;Bovalino;B098;RC
+;Brancaleone;B118;RC
+;Bruzzano Zeffirio;B234;RC
+;Calanna;B379;RC
+;Camini;B481;RC
+;Campo Calabro;B516;RC
+;Candidoni;B591;RC
+;Canolo;B617;RC
+;Caraffa del Bianco;B718;RC
+;Cardeto;B756;RC
+;Careri;B766;RC
+;Casignana;B966;RC
+;Caulonia;C285;RC
+;Ciminà;C695;RC
+;Cinquefrondi;C710;RC
+;Cittanova;C747;RC
+;Condofuri;C954;RC
+;Cosoleto;D089;RC
+;Delianuova;D268;RC
+;Feroleto della Chiesa;D545;RC
+;Ferruzzano;D557;RC
+;Fiumara;D619;RC
+;Galatro;D864;RC
+;Gerace;D975;RC
+;Giffone;E025;RC
+;Gioia Tauro;E041;RC
+;Gioiosa Ionica;E044;RC
+;Grotteria;E212;RC
+;Laganadi;E402;RC
+;Laureana di Borrello;E479;RC
+;Locri;D976;RC
+;Mammola;E873;RC
+;Marina di Gioiosa Ionica;E956;RC
+;Maropati;E968;RC
+;Martone;E993;RC
+;Melicuccà;F105;RC
+;Melicucco;F106;RC
+;Melito di Porto Salvo;F112;RC
+;Molochio;F301;RC
+;Monasterace;F324;RC
+;Montebello Jonico;D746;RC
+;Motta San Giovanni;F779;RC
+;Oppido Mamertina;G082;RC
+;Palizzi;G277;RC
+;Palmi;G288;RC
+;Pazzano;G394;RC
+;Placanica;G729;RC
+;Platì;G735;RC
+;Polistena;G791;RC
+;Portigliola;G905;RC
+;Reggio di Calabria;H224;RC
+;Riace;H265;RC
+;Rizziconi;H359;RC
+;Roccaforte del Greco;H408;RC
+;Roccella Ionica;H456;RC
+;Roghudi;H489;RC
+;Rosarno;H558;RC
+;Samo;H013;RC
+;San Ferdinando;M277;RC
+;San Giorgio Morgeto;H889;RC
+;San Giovanni di Gerace;H903;RC
+;San Lorenzo;H959;RC
+;San Luca;H970;RC
+;San Pietro di Caridà;I102;RC
+;San Procopio;I132;RC
+;San Roberto;I139;RC
+;Santa Cristina d'Aspromonte;I176;RC
+;Sant'Agata del Bianco;I198;RC
+;Sant'Alessio in Aspromonte;I214;RC
+;Sant'Eufemia d'Aspromonte;I333;RC
+;Sant'Ilario dello Ionio;I341;RC
+;Santo Stefano in Aspromonte;I371;RC
+;Scido;I536;RC
+;Scilla;I537;RC
+;Seminara;I600;RC
+;Serrata;I656;RC
+;Siderno;I725;RC
+;Sinopoli;I753;RC
+;Staiti;I936;RC
+;Stignano;I955;RC
+;Stilo;I956;RC
+;Taurianova;L063;RC
+;Terranova Sappo Minulio;L127;RC
+;Varapodio;L673;RC
+;Villa San Giovanni;M018;RC
+;Albinea;A162;RE
+;Bagnolo in Piano;A573;RE
+;Baiso;A586;RE
+;Bibbiano;A850;RE
+;Boretto;A988;RE
+;Brescello;B156;RE
+;Cadelbosco di Sopra;B328;RE
+;Campagnola Emilia;B499;RE
+;Campegine;B502;RE
+;Canossa;C669;RE
+;Carpineti;B825;RE
+;Casalgrande;B893;RE
+;Casina;B967;RE
+;Castellarano;C141;RE
+;Castelnovo di Sotto;C218;RE
+;Castelnovo ne' Monti;C219;RE
+;Cavriago;C405;RE
+;Correggio;D037;RE
+;Fabbrico;D450;RE
+;Gattatico;D934;RE
+;Gualtieri;E232;RE
+;Guastalla;E253;RE
+;Luzzara;E772;RE
+;Montecchio Emilia;F463;RE
+;Novellara;F960;RE
+;Poviglio;G947;RE
+;Quattro Castella;H122;RE
+;Reggio nell'Emilia;H223;RE
+;Reggiolo;H225;RE
+;Rio Saliceto;H298;RE
+;Rolo;H500;RE
+;Rubiera;H628;RE
+;San Martino in Rio;I011;RE
+;San Polo d'Enza;I123;RE
+;Sant'Ilario d'Enza;I342;RE
+;Scandiano;I496;RE
+;Toano;L184;RE
+;Ventasso;M364;RE
+;Vetto;L815;RE
+;Vezzano sul Crostolo;L820;RE
+;Viano;L831;RE
+;Villa Minozzo;L969;RE
+;Accumoli;A019;RI
+;Amatrice;A258;RI
+;Antrodoco;A315;RI
+;Ascrea;A464;RI
+;Belmonte in Sabina;A765;RI
+;Borbona;A981;RI
+;Borgo Velino;A996;RI
+;Borgorose;B008;RI
+;Cantalice;B627;RI
+;Cantalupo in Sabina;B631;RI
+;Casaprota;B934;RI
+;Casperia;A472;RI
+;Castel di Tora;C098;RI
+;Castel Sant'Angelo;C268;RI
+;Castelnuovo di Farfa;C224;RI
+;Cittaducale;C746;RI
+;Cittareale;C749;RI
+;Collalto Sabino;C841;RI
+;Colle di Tora;C857;RI
+;Collegiove;C859;RI
+;Collevecchio;C876;RI
+;Colli sul Velino;C880;RI
+;Concerviano;C946;RI
+;Configni;C959;RI
+;Contigliano;C969;RI
+;Cottanello;D124;RI
+;Fara in Sabina;D493;RI
+;Fiamignano;D560;RI
+;Forano;D689;RI
+;Frasso Sabino;D785;RI
+;Greccio;E160;RI
+;Labro;E393;RI
+;Leonessa;E535;RI
+;Longone Sabino;E681;RI
+;Magliano Sabina;E812;RI
+;Marcetelli;E927;RI
+;Micigliano;F193;RI
+;Mompeo;F319;RI
+;Montasola;F430;RI
+;Monte San Giovanni in Sabina;F619;RI
+;Montebuono;F446;RI
+;Monteleone Sabino;F541;RI
+;Montenero Sabino;F579;RI
+;Montopoli di Sabina;F687;RI
+;Morro Reatino;F746;RI
+;Nespolo;F876;RI
+;Orvinio;B595;RI
+;Paganico Sabino;G232;RI
+;Pescorocchiano;G498;RI
+;Petrella Salto;G513;RI
+;Poggio Bustone;G756;RI
+;Poggio Catino;G757;RI
+;Poggio Mirteto;G763;RI
+;Poggio Moiano;G764;RI
+;Poggio Nativo;G765;RI
+;Poggio San Lorenzo;G770;RI
+;Posta;G934;RI
+;Pozzaglia Sabina;G951;RI
+;Rieti;H282;RI
+;Rivodutri;H354;RI
+;Rocca Sinibalda;H446;RI
+;Roccantica;H427;RI
+;Salisano;H713;RI
+;Scandriglia;I499;RI
+;Selci;I581;RI
+;Stimigliano;I959;RI
+;Tarano;L046;RI
+;Toffia;L189;RI
+;Torri in Sabina;L286;RI
+;Torricella in Sabina;L293;RI
+;Turania;G507;RI
+;Vacone;L525;RI
+;Varco Sabino;L676;RI
+;Bellaria-Igea Marina;A747;RN
+;Casteldelci;C080;RN
+;Cattolica;C357;RN
+;Coriano;D004;RN
+;Gemmano;D961;RN
+;Maiolo;E838;RN
+;Misano Adriatico;F244;RN
+;Mondaino;F346;RN
+;Montefiore Conca;F502;RN
+;Montegridolfo;F523;RN
+;Montescudo-Monte Colombo;M368;RN
+;Morciano di Romagna;F715;RN
+;Novafeltria;F137;RN
+;Pennabilli;G433;RN
+;Poggio Torriana;M324;RN
+;Riccione;H274;RN
+;Rimini;H294;RN
+;Saludecio;H724;RN
+;San Clemente;H801;RN
+;San Giovanni in Marignano;H921;RN
+;San Leo;H949;RN
+;Sant'Agata Feltria;I201;RN
+;Santarcangelo di Romagna;I304;RN
+;Talamello;L034;RN
+;Verucchio;L797;RN
+;Affile;A062;RM
+;Agosta;A084;RM
+;Albano Laziale;A132;RM
+;Allumiere;A210;RM
+;Anguillara Sabazia;A297;RM
+;Anticoli Corrado;A309;RM
+;Anzio;A323;RM
+;Arcinazzo Romano;A370;RM
+;Ardea;M213;RM
+;Ariccia;A401;RM
+;Arsoli;A446;RM
+;Artena;A449;RM
+;Bellegra;A749;RM
+;Bracciano;B114;RM
+;Camerata Nuova;B472;RM
+;Campagnano di Roma;B496;RM
+;Canale Monterano;B576;RM
+;Canterano;B635;RM
+;Capena;B649;RM
+;Capranica Prenestina;B687;RM
+;Carpineto Romano;B828;RM
+;Casape;B932;RM
+;Castel Gandolfo;C116;RM
+;Castel Madama;C203;RM
+;Castel San Pietro Romano;C266;RM
+;Castelnuovo di Porto;C237;RM
+;Cave;C390;RM
+;Cerreto Laziale;C518;RM
+;Cervara di Roma;C543;RM
+;Cerveteri;C552;RM
+;Ciampino;M272;RM
+;Ciciliano;C677;RM
+;Cineto Romano;C702;RM
+;Civitavecchia;C773;RM
+;Civitella San Paolo;C784;RM
+;Colleferro;C858;RM
+;Colonna;C900;RM
+;Fiano Romano;D561;RM
+;Filacciano;D586;RM
+;Fiumicino;M297;RM
+;Fonte Nuova;M309;RM
+;Formello;D707;RM
+;Frascati;D773;RM
+;Gallicano nel Lazio;D875;RM
+;Gavignano;D945;RM
+;Genazzano;D964;RM
+;Genzano di Roma;D972;RM
+;Gerano;D978;RM
+;Gorga;E091;RM
+;Grottaferrata;E204;RM
+;Guidonia Montecelio;E263;RM
+;Jenne;E382;RM
+;Labico;E392;RM
+;Ladispoli;M212;RM
+;Lanuvio;C767;RM
+;Lariano;M207;RM
+;Licenza;E576;RM
+;Magliano Romano;E813;RM
+;Mandela;B632;RM
+;Manziana;E900;RM
+;Marano Equo;E908;RM
+;Marcellina;E924;RM
+;Marino;E958;RM
+;Mazzano Romano;F064;RM
+;Mentana;F127;RM
+;Monte Compatri;F477;RM
+;Monte Porzio Catone;F590;RM
+;Monteflavio;F504;RM
+;Montelanico;F534;RM
+;Montelibretti;F545;RM
+;Monterotondo;F611;RM
+;Montorio Romano;F692;RM
+;Moricone;F730;RM
+;Morlupo;F734;RM
+;Nazzano;F857;RM
+;Nemi;F865;RM
+;Nerola;F871;RM
+;Nettuno;F880;RM
+;Olevano Romano;G022;RM
+;Palestrina;G274;RM
+;Palombara Sabina;G293;RM
+;Percile;G444;RM
+;Pisoniano;G704;RM
+;Poli;G784;RM
+;Pomezia;G811;RM
+;Ponzano Romano;G874;RM
+;Riano;H267;RM
+;Rignano Flaminio;H288;RM
+;Riofreddo;H300;RM
+;Rocca Canterano;H387;RM
+;Rocca di Cave;H401;RM
+;Rocca di Papa;H404;RM
+;Rocca Priora;H432;RM
+;Rocca Santo Stefano;H441;RM
+;Roccagiovine;H411;RM
+;Roiate;H494;RM
+;Roma;H501;RM
+;Roviano;H618;RM
+;Sacrofano;H658;RM
+;Sambuci;H745;RM
+;San Cesareo;M295;RM
+;San Gregorio da Sassola;H942;RM
+;San Polo dei Cavalieri;I125;RM
+;San Vito Romano;I400;RM
+;Santa Marinella;I255;RM
+;Sant'Angelo Romano;I284;RM
+;Sant'Oreste;I352;RM
+;Saracinesco;I424;RM
+;Segni;I573;RM
+;Subiaco;I992;RM
+;Tivoli;L182;RM
+;Tolfa;L192;RM
+;Torrita Tiberina;L302;RM
+;Trevignano Romano;L401;RM
+;Vallepietra;L611;RM
+;Vallinfreda;L625;RM
+;Valmontone;L639;RM
+;Velletri;L719;RM
+;Vicovaro;L851;RM
+;Vivaro Romano;M095;RM
+;Zagarolo;M141;RM
+;Adria;A059;RO
+;Ariano nel Polesine;A400;RO
+;Arquà Polesine;A435;RO
+;Badia Polesine;A539;RO
+;Bagnolo di Po;A574;RO
+;Bergantino;A795;RO
+;Bosaro;B069;RO
+;Calto;B432;RO
+;Canaro;B578;RO
+;Canda;B582;RO
+;Castelguglielmo;C122;RO
+;Castelmassa;C207;RO
+;Castelnovo Bariano;C215;RO
+;Ceneselli;C461;RO
+;Ceregnano;C500;RO
+;Corbola;C987;RO
+;Costa di Rovigo;D105;RO
+;Crespino;D161;RO
+;Ficarolo;D568;RO
+;Fiesso Umbertiano;D577;RO
+;Frassinelle Polesine;D776;RO
+;Fratta Polesine;D788;RO
+;Gaiba;D855;RO
+;Gavello;D942;RO
+;Giacciano con Baruchella;E008;RO
+;Guarda Veneta;E240;RO
+;Lendinara;E522;RO
+;Loreo;E689;RO
+;Lusia;E761;RO
+;Melara;F095;RO
+;Occhiobello;F994;RO
+;Papozze;G323;RO
+;Pettorazza Grimani;G525;RO
+;Pincara;G673;RO
+;Polesella;G782;RO
+;Pontecchio Polesine;G836;RO
+;Porto Tolle;G923;RO
+;Porto Viro;G926;RO
+;Rosolina;H573;RO
+;Rovigo;H620;RO
+;Salara;H689;RO
+;San Bellino;H768;RO
+;San Martino di Venezze;H996;RO
+;Stienta;I953;RO
+;Taglio di Po;L026;RO
+;Trecenta;L359;RO
+;Villadose;L939;RO
+;Villamarzana;L967;RO
+;Villanova del Ghebbo;L985;RO
+;Villanova Marchesana;L988;RO
+;Acerno;A023;SA
+;Agropoli;A091;SA
+;Albanella;A128;SA
+;Alfano;A186;SA
+;Altavilla Silentina;A230;SA
+;Amalfi;A251;SA
+;Angri;A294;SA
+;Aquara;A343;SA
+;Ascea;A460;SA
+;Atena Lucana;A484;SA
+;Atrani;A487;SA
+;Auletta;A495;SA
+;Baronissi;A674;SA
+;Battipaglia;A717;SA
+;Bellizzi;M294;SA
+;Bellosguardo;A756;SA
+;Bracigliano;B115;SA
+;Buccino;B242;SA
+;Buonabitacolo;B266;SA
+;Caggiano;B351;SA
+;Calvanico;B437;SA
+;Camerota;B476;SA
+;Campagna;B492;SA
+;Campora;B555;SA
+;Cannalonga;B608;SA
+;Capaccio Paestum;B644;SA
+;Casal Velino;B895;SA
+;Casalbuono;B868;SA
+;Casaletto Spartano;B888;SA
+;Caselle in Pittari;B959;SA
+;Castel San Giorgio;C259;SA
+;Castel San Lorenzo;C262;SA
+;Castelcivita;C069;SA
+;Castellabate;C125;SA
+;Castelnuovo Cilento;C231;SA
+;Castelnuovo di Conza;C235;SA
+;Castiglione del Genovesi;C306;SA
+;Cava de' Tirreni;C361;SA
+;Celle di Bulgheria;C444;SA
+;Centola;C470;SA
+;Ceraso;C485;SA
+;Cetara;C584;SA
+;Cicerale;C676;SA
+;Colliano;C879;SA
+;Conca dei Marini;C940;SA
+;Controne;C973;SA
+;Contursi Terme;C974;SA
+;Corbara;C984;SA
+;Corleto Monforte;D011;SA
+;Cuccaro Vetere;D195;SA
+;Eboli;D390;SA
+;Felitto;D527;SA
+;Fisciano;D615;SA
+;Furore;D826;SA
+;Futani;D832;SA
+;Giffoni Sei Casali;E026;SA
+;Giffoni Valle Piana;E027;SA
+;Gioi;E037;SA
+;Giungano;E060;SA
+;Ispani;E365;SA
+;Laureana Cilento;E480;SA
+;Laurino;E485;SA
+;Laurito;E486;SA
+;Laviano;E498;SA
+;Lustra;E767;SA
+;Magliano Vetere;E814;SA
+;Maiori;E839;SA
+;Mercato San Severino;F138;SA
+;Minori;F223;SA
+;Moio della Civitella;F278;SA
+;Montano Antilia;F426;SA
+;Monte San Giacomo;F618;SA
+;Montecorice;F479;SA
+;Montecorvino Pugliano;F480;SA
+;Montecorvino Rovella;F481;SA
+;Monteforte Cilento;F507;SA
+;Montesano sulla Marcellana;F625;SA
+;Morigerati;F731;SA
+;Nocera Inferiore;F912;SA
+;Nocera Superiore;F913;SA
+;Novi Velia;F967;SA
+;Ogliastro Cilento;G011;SA
+;Olevano sul Tusciano;G023;SA
+;Oliveto Citra;G039;SA
+;Omignano;G063;SA
+;Orria;G121;SA
+;Ottati;G192;SA
+;Padula;G226;SA
+;Pagani;G230;SA
+;Palomonte;G292;SA
+;Pellezzano;G426;SA
+;Perdifumo;G447;SA
+;Perito;G455;SA
+;Pertosa;G476;SA
+;Petina;G509;SA
+;Piaggine;G538;SA
+;Pisciotta;G707;SA
+;Polla;G793;SA
+;Pollica;G796;SA
+;Pontecagnano Faiano;G834;SA
+;Positano;G932;SA
+;Postiglione;G939;SA
+;Praiano;G976;SA
+;Prignano Cilento;H062;SA
+;Ravello;H198;SA
+;Ricigliano;H277;SA
+;Roccadaspide;H394;SA
+;Roccagloriosa;H412;SA
+;Roccapiemonte;H431;SA
+;Rofrano;H485;SA
+;Romagnano al Monte;H503;SA
+;Roscigno;H564;SA
+;Rutino;H644;SA
+;Sacco;H654;SA
+;Sala Consilina;H683;SA
+;Salento;H686;SA
+;Salerno;H703;SA
+;Salvitelle;H732;SA
+;San Cipriano Picentino;H800;SA
+;San Giovanni a Piro;H907;SA
+;San Gregorio Magno;H943;SA
+;San Mango Piemonte;H977;SA
+;San Marzano sul Sarno;I019;SA
+;San Mauro Cilento;I031;SA
+;San Mauro la Bruca;I032;SA
+;San Pietro al Tanagro;I089;SA
+;San Rufo;I143;SA
+;San Valentino Torio;I377;SA
+;Santa Marina;I253;SA
+;Sant'Angelo a Fasanella;I278;SA
+;Sant'Arsenio;I307;SA
+;Sant'Egidio del Monte Albino;I317;SA
+;Santomenna;I260;SA
+;Sanza;I410;SA
+;Sapri;I422;SA
+;Sarno;I438;SA
+;Sassano;I451;SA
+;Scafati;I483;SA
+;Scala;I486;SA
+;Serramezzana;I648;SA
+;Serre;I666;SA
+;Sessa Cilento;I677;SA
+;Siano;I720;SA
+;Sicignano degli Alburni;M253;SA
+;Stella Cilento;G887;SA
+;Stio;I960;SA
+;Teggiano;D292;SA
+;Torchiara;L212;SA
+;Torraca;L233;SA
+;Torre Orsaia;L274;SA
+;Tortorella;L306;SA
+;Tramonti;L323;SA
+;Trentinara;L377;SA
+;Valle dell'Angelo;G540;SA
+;Vallo della Lucania;L628;SA
+;Valva;L656;SA
+;Vibonati;L835;SA
+;Vietri sul Mare;L860;SA
+;Aggius;A069;SS
+;Aglientu;H848;SS
+;Alà dei Sardi;A115;SS
+;Alghero;A192;SS
+;Anela;A287;SS
+;Ardara;A379;SS
+;Arzachena;A453;SS
+;Badesi;M214;SS
+;Banari;A606;SS
+;Benetutti;A781;SS
+;Berchidda;A789;SS
+;Bessude;A827;SS
+;Bonnanaro;A976;SS
+;Bono;A977;SS
+;Bonorva;A978;SS
+;Bortigiadas;B063;SS
+;Borutta;B064;SS
+;Bottidda;B094;SS
+;Buddusò;B246;SS
+;Budoni;B248;SS
+;Bultei;B264;SS
+;Bulzi;B265;SS
+;Burgos;B276;SS
+;Calangianus;B378;SS
+;Cargeghe;B772;SS
+;Castelsardo;C272;SS
+;Cheremule;C600;SS
+;Chiaramonti;C613;SS
+;Codrongianos;C818;SS
+;Cossoine;D100;SS
+;Erula;M292;SS
+;Esporlatu;D441;SS
+;Florinas;D637;SS
+;Giave;E019;SS
+;Golfo Aranci;M274;SS
+;Illorai;E285;SS
+;Ittireddu;E376;SS
+;Ittiri;E377;SS
+;La Maddalena;E425;SS
+;Laerru;E401;SS
+;Loiri Porto San Paolo;M275;SS
+;Luogosanto;E747;SS
+;Luras;E752;SS
+;Mara;E902;SS
+;Martis;E992;SS
+;Monteleone Rocca Doria;F542;SS
+;Monti;F667;SS
+;Mores;F721;SS
+;Muros;F818;SS
+;Nughedu San Nicolò;F975;SS
+;Nule;F976;SS
+;Nulvi;F977;SS
+;Olbia;G015;SS
+;Olmedo;G046;SS
+;Oschiri;G153;SS
+;Osilo;G156;SS
+;Ossi;G178;SS
+;Ozieri;G203;SS
+;Padria;G225;SS
+;Padru;M301;SS
+;Palau;G258;SS
+;Pattada;G376;SS
+;Perfugas;G450;SS
+;Ploaghe;G740;SS
+;Porto Torres;G924;SS
+;Pozzomaggiore;G962;SS
+;Putifigari;H095;SS
+;Romana;H507;SS
+;San Teodoro;I329;SS
+;Santa Maria Coghinas;M284;SS
+;Santa Teresa Gallura;I312;SS
+;Sant'Antonio di Gallura;M276;SS
+;Sassari;I452;SS
+;Sedini;I565;SS
+;Semestene;I598;SS
+;Sennori;I614;SS
+;Siligo;I732;SS
+;Sorso;I863;SS
+;Stintino;M290;SS
+;Telti;L088;SS
+;Tempio Pausania;L093;SS
+;Tergu;M282;SS
+;Thiesi;L158;SS
+;Tissi;L180;SS
+;Torralba;L235;SS
+;Trinità d'Agultu e Vignola;L428;SS
+;Tula;L464;SS
+;Uri;L503;SS
+;Usini;L509;SS
+;Valledoria;L604;SS
+;Viddalba;M259;SS
+;Villanova Monteleone;L989;SS
+;Alassio;A122;SV
+;Albenga;A145;SV
+;Albisola Superiore;A166;SV
+;Albissola Marina;A165;SV
+;Altare;A226;SV
+;Andora;A278;SV
+;Arnasco;A422;SV
+;Balestrino;A593;SV
+;Bardineto;A647;SV
+;Bergeggi;A796;SV
+;Boissano;A931;SV
+;Borghetto Santo Spirito;A999;SV
+;Borgio Verezzi;B005;SV
+;Bormida;B048;SV
+;Cairo Montenotte;B369;SV
+;Calice Ligure;B409;SV
+;Calizzano;B416;SV
+;Carcare;B748;SV
+;Casanova Lerrone;B927;SV
+;Castelbianco;C063;SV
+;Castelvecchio di Rocca Barbena;C276;SV
+;Celle Ligure;C443;SV
+;Cengio;C463;SV
+;Ceriale;C510;SV
+;Cisano sul Neva;C729;SV
+;Cosseria;D095;SV
+;Dego;D264;SV
+;Erli;D424;SV
+;Finale Ligure;D600;SV
+;Garlenda;D927;SV
+;Giustenice;E064;SV
+;Giusvalla;E066;SV
+;Laigueglia;E414;SV
+;Loano;E632;SV
+;Magliolo;E816;SV
+;Mallare;E860;SV
+;Massimino;F046;SV
+;Millesimo;F213;SV
+;Mioglia;F226;SV
+;Murialdo;F813;SV
+;Nasino;F847;SV
+;Noli;F926;SV
+;Onzo;G076;SV
+;Orco Feglino;D522;SV
+;Ortovero;G144;SV
+;Osiglia;G155;SV
+;Pallare;G281;SV
+;Piana Crixia;G542;SV
+;Pietra Ligure;G605;SV
+;Plodio;G741;SV
+;Pontinvrea;G866;SV
+;Quiliano;H126;SV
+;Rialto;H266;SV
+;Roccavignale;H452;SV
+;Sassello;I453;SV
+;Savona;I480;SV
+;Spotorno;I926;SV
+;Stella;I946;SV
+;Stellanello;I947;SV
+;Testico;L152;SV
+;Toirano;L190;SV
+;Tovo San Giacomo;L315;SV
+;Urbe;L499;SV
+;Vado Ligure;L528;SV
+;Varazze;L675;SV
+;Vendone;L730;SV
+;Vezzi Portio;L823;SV
+;Villanova d'Albenga;L975;SV
+;Zuccarello;M197;SV
+;Abbadia San Salvatore;A006;SI
+;Asciano;A461;SI
+;Buonconvento;B269;SI
+;Casole d'Elsa;B984;SI
+;Castellina in Chianti;C172;SI
+;Castelnuovo Berardenga;C227;SI
+;Castiglione d'Orcia;C313;SI
+;Cetona;C587;SI
+;Chianciano Terme;C608;SI
+;Chiusdino;C661;SI
+;Chiusi;C662;SI
+;Colle di Val d'Elsa;C847;SI
+;Gaiole in Chianti;D858;SI
+;Montalcino;M378;SI
+;Montepulciano;F592;SI
+;Monteriggioni;F598;SI
+;Monteroni d'Arbia;F605;SI
+;Monticiano;F676;SI
+;Murlo;F815;SI
+;Piancastagnaio;G547;SI
+;Pienza;G602;SI
+;Poggibonsi;G752;SI
+;Radda in Chianti;H153;SI
+;Radicofani;H156;SI
+;Radicondoli;H157;SI
+;Rapolano Terme;H185;SI
+;San Casciano dei Bagni;H790;SI
+;San Gimignano;H875;SI
+;San Quirico d'Orcia;I135;SI
+;Sarteano;I445;SI
+;Siena;I726;SI
+;Sinalunga;A468;SI
+;Sovicille;I877;SI
+;Torrita di Siena;L303;SI
+;Trequanda;L384;SI
+;Augusta;A494;SR
+;Avola;A522;SR
+;Buccheri;B237;SR
+;Buscemi;B287;SR
+;Canicattini Bagni;B603;SR
+;Carlentini;B787;SR
+;Cassaro;C006;SR
+;Ferla;D540;SR
+;Floridia;D636;SR
+;Francofonte;D768;SR
+;Lentini;E532;SR
+;Melilli;F107;SR
+;Noto;F943;SR
+;Pachino;G211;SR
+;Palazzolo Acreide;G267;SR
+;Portopalo di Capo Passero;M257;SR
+;Priolo Gargallo;M279;SR
+;Rosolini;H574;SR
+;Siracusa;I754;SR
+;Solarino;I785;SR
+;Sortino;I864;SR
+;Albaredo per San Marco;A135;SO
+;Albosaggia;A172;SO
+;Andalo Valtellino;A273;SO
+;Aprica;A337;SO
+;Ardenno;A382;SO
+;Bema;A777;SO
+;Berbenno di Valtellina;A787;SO
+;Bianzone;A848;SO
+;Bormio;B049;SO
+;Buglio in Monte;B255;SO
+;Caiolo;B366;SO
+;Campodolcino;B530;SO
+;Caspoggio;B993;SO
+;Castello dell'Acqua;C186;SO
+;Castione Andevenno;C325;SO
+;Cedrasco;C418;SO
+;Cercino;C493;SO
+;Chiavenna;C623;SO
+;Chiesa in Valmalenco;C628;SO
+;Chiuro;C651;SO
+;Cino;C709;SO
+;Civo;C785;SO
+;Colorina;C903;SO
+;Cosio Valtellino;D088;SO
+;Dazio;D258;SO
+;Delebio;D266;SO
+;Dubino;D377;SO
+;Faedo Valtellino;D456;SO
+;Forcola;D694;SO
+;Fusine;D830;SO
+;Gerola Alta;D990;SO
+;Gordona;E090;SO
+;Grosio;E200;SO
+;Grosotto;E201;SO
+;Lanzada;E443;SO
+;Livigno;E621;SO
+;Lovero;E705;SO
+;Madesimo;E342;SO
+;Mantello;E896;SO
+;Mazzo di Valtellina;F070;SO
+;Mello;F115;SO
+;Mese;F153;SO
+;Montagna in Valtellina;F393;SO
+;Morbegno;F712;SO
+;Novate Mezzola;F956;SO
+;Pedesina;G410;SO
+;Piantedo;G572;SO
+;Piateda;G576;SO
+;Piuro;G718;SO
+;Poggiridenti;G431;SO
+;Ponte in Valtellina;G829;SO
+;Postalesio;G937;SO
+;Prata Camportaccio;G993;SO
+;Rasura;H192;SO
+;Rogolo;H493;SO
+;Samolaco;H752;SO
+;San Giacomo Filippo;H868;SO
+;Sernio;I636;SO
+;Sondalo;I828;SO
+;Sondrio;I829;SO
+;Spriana;I928;SO
+;Talamona;L035;SO
+;Tartano;L056;SO
+;Teglio;L084;SO
+;Tirano;L175;SO
+;Torre di Santa Maria;L244;SO
+;Tovo di Sant'Agata;L316;SO
+;Traona;L330;SO
+;Tresivio;L392;SO
+;Val Masino;L638;SO
+;Valdidentro;L557;SO
+;Valdisotto;L563;SO
+;Valfurva;L576;SO
+;Verceia;L749;SO
+;Vervio;L799;SO
+;Villa di Chiavenna;L907;SO
+;Villa di Tirano;L908;SO
+;Arbus;A359;SU
+;Armungia;A419;SU
+;Ballao;A597;SU
+;Barrali;A677;SU
+;Barumini;A681;SU
+;Buggerru;B250;SU
+;Burcei;B274;SU
+;Calasetta;B383;SU
+;Carbonia;B745;SU
+;Carloforte;B789;SU
+;Castiadas;M288;SU
+;Collinas;C882;SU
+;Decimoputzu;D260;SU
+;Dolianova;D323;SU
+;Domus de Maria;D333;SU
+;Domusnovas;D334;SU
+;Donori;D344;SU
+;Escalaplano;D430;SU
+;Escolca;D431;SU
+;Esterzili;D443;SU
+;Fluminimaggiore;D639;SU
+;Furtei;D827;SU
+;Genoni;D968;SU
+;Genuri;D970;SU
+;Gergei;D982;SU
+;Gesico;D994;SU
+;Gesturi;D997;SU
+;Giba;E022;SU
+;Goni;E084;SU
+;Gonnesa;E086;SU
+;Gonnosfanadiga;E085;SU
+;Guamaggiore;E234;SU
+;Guasila;E252;SU
+;Guspini;E270;SU
+;Iglesias;E281;SU
+;Isili;E336;SU
+;Las Plassas;E464;SU
+;Lunamatrona;E742;SU
+;Mandas;E877;SU
+;Masainas;M270;SU
+;Monastir;F333;SU
+;Muravera;F808;SU
+;Musei;F822;SU
+;Narcao;F841;SU
+;Nuragus;F981;SU
+;Nurallao;F982;SU
+;Nuraminis;F983;SU
+;Nurri;F986;SU
+;Nuxis;F991;SU
+;Orroli;G122;SU
+;Ortacesus;G133;SU
+;Pabillonis;G207;SU
+;Pauli Arbarei;G382;SU
+;Perdaxius;G446;SU
+;Pimentel;G669;SU
+;Piscinas;M291;SU
+;Portoscuso;G922;SU
+;Sadali;H659;SU
+;Samassi;H738;SU
+;Samatzai;H739;SU
+;San Basilio;H766;SU
+;San Gavino Monreale;H856;SU
+;San Giovanni Suergiu;G287;SU
+;San Nicolò Gerrei;G383;SU
+;San Sperate;I166;SU
+;San Vito;I402;SU
+;Sanluri;H974;SU
+;Santadi;I182;SU
+;Sant'Andrea Frius;I271;SU
+;Sant'Anna Arresi;M209;SU
+;Sant'Antioco;I294;SU
+;Sardara;I428;SU
+;Segariu;I570;SU
+;Selegas;I582;SU
+;Senorbì;I615;SU
+;Serdiana;I624;SU
+;Serramanna;I647;SU
+;Serrenti;I667;SU
+;Serri;I668;SU
+;Setzu;I705;SU
+;Seui;I706;SU
+;Seulo;I707;SU
+;Siddi;I724;SU
+;Siliqua;I734;SU
+;Silius;I735;SU
+;Siurgus Donigala;I765;SU
+;Soleminis;I797;SU
+;Suelli;I995;SU
+;Teulada;L154;SU
+;Tratalias;L337;SU
+;Tuili;L463;SU
+;Turri;L473;SU
+;Ussana;L512;SU
+;Ussaramanna;L513;SU
+;Vallermosa;L613;SU
+;Villacidro;L924;SU
+;Villamar;L966;SU
+;Villamassargia;L968;SU
+;Villanova Tulo;L992;SU
+;Villanovaforru;L986;SU
+;Villanovafranca;L987;SU
+;Villaperuccio;M278;SU
+;Villaputzu;L998;SU
+;Villasalto;M016;SU
+;Villasimius;B738;SU
+;Villasor;M025;SU
+;Villaspeciosa;M026;SU
+;Avetrana;A514;TA
+;Carosino;B808;TA
+;Castellaneta;C136;TA
+;Crispiano;D171;TA
+;Faggiano;D463;TA
+;Fragagnano;D754;TA
+;Ginosa;E036;TA
+;Grottaglie;E205;TA
+;Laterza;E469;TA
+;Leporano;E537;TA
+;Lizzano;E630;TA
+;Manduria;E882;TA
+;Martina Franca;E986;TA
+;Maruggio;E995;TA
+;Massafra;F027;TA
+;Monteiasi;F531;TA
+;Montemesola;F563;TA
+;Monteparano;F587;TA
+;Mottola;F784;TA
+;Palagianello;G251;TA
+;Palagiano;G252;TA
+;Pulsano;H090;TA
+;Roccaforzata;H409;TA
+;San Giorgio Ionico;H882;TA
+;San Marzano di San Giuseppe;I018;TA
+;Sava;I467;TA
+;Statte;M298;TA
+;Taranto;L049;TA
+;Torricella;L294;TA
+;Alba Adriatica;A125;TE
+;Ancarano;A270;TE
+;Arsita;A445;TE
+;Atri;A488;TE
+;Basciano;A692;TE
+;Bellante;A746;TE
+;Bisenti;A885;TE
+;Campli;B515;TE
+;Canzano;B640;TE
+;Castel Castagna;C040;TE
+;Castellalto;C128;TE
+;Castelli;C169;TE
+;Castiglione Messer Raimondo;C316;TE
+;Castilenti;C322;TE
+;Cellino Attanasio;C449;TE
+;Cermignano;C517;TE
+;Civitella del Tronto;C781;TE
+;Colledara;C311;TE
+;Colonnella;C901;TE
+;Controguerra;C972;TE
+;Corropoli;D043;TE
+;Cortino;D076;TE
+;Crognaleto;D179;TE
+;Fano Adriano;D489;TE
+;Giulianova;E058;TE
+;Isola del Gran Sasso d'Italia;E343;TE
+;Martinsicuro;E989;TE
+;Montefino;F500;TE
+;Montorio al Vomano;F690;TE
+;Morro d'Oro;F747;TE
+;Mosciano Sant'Angelo;F764;TE
+;Nereto;F870;TE
+;Notaresco;F942;TE
+;Penna Sant'Andrea;G437;TE
+;Pietracamela;G608;TE
+;Pineto;F831;TE
+;Rocca Santa Maria;H440;TE
+;Roseto degli Abruzzi;F585;TE
+;Sant'Egidio alla Vibrata;I318;TE
+;Sant'Omero;I348;TE
+;Silvi;I741;TE
+;Teramo;L103;TE
+;Torano Nuovo;L207;TE
+;Torricella Sicura;L295;TE
+;Tortoreto;L307;TE
+;Tossicia;L314;TE
+;Valle Castellana;L597;TE
+;Acquasparta;A045;TR
+;Allerona;A207;TR
+;Alviano;A242;TR
+;Amelia;A262;TR
+;Arrone;A439;TR
+;Attigliano;A490;TR
+;Avigliano Umbro;M258;TR
+;Baschi;A691;TR
+;Calvi dell'Umbria;B446;TR
+;Castel Giorgio;C117;TR
+;Castel Viscardo;C289;TR
+;Fabro;D454;TR
+;Ferentillo;D538;TR
+;Ficulle;D570;TR
+;Giove;E045;TR
+;Guardea;E241;TR
+;Lugnano in Teverina;E729;TR
+;Montecastrilli;F457;TR
+;Montecchio;F462;TR
+;Montefranco;F510;TR
+;Montegabbione;F513;TR
+;Monteleone d'Orvieto;F543;TR
+;Narni;F844;TR
+;Orvieto;G148;TR
+;Otricoli;G189;TR
+;Parrano;G344;TR
+;Penna in Teverina;G432;TR
+;Polino;G790;TR
+;Porano;G881;TR
+;San Gemini;H857;TR
+;San Venanzo;I381;TR
+;Stroncone;I981;TR
+;Terni;L117;TR
+;Agliè;A074;TO
+;Airasca;A109;TO
+;Ala di Stura;A117;TO
+;Albiano d'Ivrea;A157;TO
+;Almese;A218;TO
+;Alpette;A221;TO
+;Alpignano;A222;TO
+;Andezeno;A275;TO
+;Andrate;A282;TO
+;Angrogna;A295;TO
+;Arignano;A405;TO
+;Avigliana;A518;TO
+;Azeglio;A525;TO
+;Bairo;A584;TO
+;Balangero;A587;TO
+;Baldissero Canavese;A590;TO
+;Baldissero Torinese;A591;TO
+;Balme;A599;TO
+;Banchette;A607;TO
+;Barbania;A625;TO
+;Bardonecchia;A651;TO
+;Barone Canavese;A673;TO
+;Beinasco;A734;TO
+;Bibiana;A853;TO
+;Bobbio Pellice;A910;TO
+;Bollengo;A941;TO
+;Borgaro Torinese;A990;TO
+;Borgiallo;B003;TO
+;Borgofranco d'Ivrea;B015;TO
+;Borgomasino;B021;TO
+;Borgone Susa;B024;TO
+;Bosconero;B075;TO
+;Brandizzo;B121;TO
+;Bricherasio;B171;TO
+;Brosso;B205;TO
+;Brozolo;B209;TO
+;Bruino;B216;TO
+;Brusasco;B225;TO
+;Bruzolo;B232;TO
+;Buriasco;B278;TO
+;Burolo;B279;TO
+;Busano;B284;TO
+;Bussoleno;B297;TO
+;Buttigliera Alta;B305;TO
+;Cafasse;B350;TO
+;Caluso;B435;TO
+;Cambiano;B462;TO
+;Campiglione Fenile;B512;TO
+;Candia Canavese;B588;TO
+;Candiolo;B592;TO
+;Canischio;B605;TO
+;Cantalupa;B628;TO
+;Cantoira;B637;TO
+;Caprie;B705;TO
+;Caravino;B733;TO
+;Carema;B762;TO
+;Carignano;B777;TO
+;Carmagnola;B791;TO
+;Casalborgone;B867;TO
+;Cascinette d'Ivrea;B953;TO
+;Caselette;B955;TO
+;Caselle Torinese;B960;TO
+;Castagneto Po;C045;TO
+;Castagnole Piemonte;C048;TO
+;Castellamonte;C133;TO
+;Castelnuovo Nigra;C241;TO
+;Castiglione Torinese;C307;TO
+;Cavagnolo;C369;TO
+;Cavour;C404;TO
+;Cercenasco;C487;TO
+;Ceres;C497;TO
+;Ceresole Reale;C505;TO
+;Cesana Torinese;C564;TO
+;Chialamberto;C604;TO
+;Chianocco;C610;TO
+;Chiaverano;C624;TO
+;Chieri;C627;TO
+;Chiesanuova;C629;TO
+;Chiomonte;C639;TO
+;Chiusa di San Michele;C655;TO
+;Chivasso;C665;TO
+;Ciconio;C679;TO
+;Cintano;C711;TO
+;Cinzano;C715;TO
+;Ciriè;C722;TO
+;Claviere;C793;TO
+;Coassolo Torinese;C801;TO
+;Coazze;C803;TO
+;Collegno;C860;TO
+;Colleretto Castelnuovo;C867;TO
+;Colleretto Giacosa;C868;TO
+;Condove;C955;TO
+;Corio;D008;TO
+;Cossano Canavese;D092;TO
+;Cuceglio;D197;TO
+;Cumiana;D202;TO
+;Cuorgnè;D208;TO
+;Druento;D373;TO
+;Exilles;D433;TO
+;Favria;D520;TO
+;Feletto;D524;TO
+;Fenestrelle;D532;TO
+;Fiano;D562;TO
+;Fiorano Canavese;D608;TO
+;Foglizzo;D646;TO
+;Forno Canavese;D725;TO
+;Frassinetto;D781;TO
+;Front;D805;TO
+;Frossasco;D812;TO
+;Garzigliana;D931;TO
+;Gassino Torinese;D933;TO
+;Germagnano;D983;TO
+;Giaglione;E009;TO
+;Giaveno;E020;TO
+;Givoletto;E067;TO
+;Gravere;E154;TO
+;Groscavallo;E199;TO
+;Grosso;E203;TO
+;Grugliasco;E216;TO
+;Ingria;E301;TO
+;Inverso Pinasca;E311;TO
+;Isolabella;E345;TO
+;Issiglio;E368;TO
+;Ivrea;E379;TO
+;La Cassa;E394;TO
+;La Loggia;E423;TO
+;Lanzo Torinese;E445;TO
+;Lauriano;E484;TO
+;Leini;E518;TO
+;Lemie;E520;TO
+;Lessolo;E551;TO
+;Levone;E566;TO
+;Locana;E635;TO
+;Lombardore;E660;TO
+;Lombriasco;E661;TO
+;Loranzè;E683;TO
+;Luserna San Giovanni;E758;TO
+;Lusernetta;E759;TO
+;Lusigliè;E763;TO
+;Macello;E782;TO
+;Maglione;E817;TO
+;Mappano;M316;TO
+;Marentino;E941;TO
+;Massello;F041;TO
+;Mathi;F053;TO
+;Mattie;F058;TO
+;Mazzè;F067;TO
+;Meana di Susa;F074;TO
+;Mercenasco;F140;TO
+;Mezzenile;F182;TO
+;Mombello di Torino;F315;TO
+;Mompantero;F318;TO
+;Monastero di Lanzo;F327;TO
+;Moncalieri;F335;TO
+;Moncenisio;D553;TO
+;Montaldo Torinese;F407;TO
+;Montalenghe;F411;TO
+;Montalto Dora;F420;TO
+;Montanaro;F422;TO
+;Monteu da Po;F651;TO
+;Moriondo Torinese;F733;TO
+;Nichelino;F889;TO
+;Noasca;F906;TO
+;Nole;F925;TO
+;Nomaglio;F927;TO
+;None;F931;TO
+;Novalesa;F948;TO
+;Oglianico;G010;TO
+;Orbassano;G087;TO
+;Orio Canavese;G109;TO
+;Osasco;G151;TO
+;Osasio;G152;TO
+;Oulx;G196;TO
+;Ozegna;G202;TO
+;Palazzo Canavese;G262;TO
+;Pancalieri;G303;TO
+;Parella;G330;TO
+;Pavarolo;G387;TO
+;Pavone Canavese;G392;TO
+;Pecetto Torinese;G398;TO
+;Perosa Argentina;G463;TO
+;Perosa Canavese;G462;TO
+;Perrero;G465;TO
+;Pertusio;G477;TO
+;Pessinetto;G505;TO
+;Pianezza;G559;TO
+;Pinasca;G672;TO
+;Pinerolo;G674;TO
+;Pino Torinese;G678;TO
+;Piobesi Torinese;G684;TO
+;Piossasco;G691;TO
+;Piscina;G705;TO
+;Piverone;G719;TO
+;Poirino;G777;TO
+;Pomaretto;G805;TO
+;Pont-Canavese;G826;TO
+;Porte;G900;TO
+;Pragelato;G973;TO
+;Prali;G978;TO
+;Pralormo;G979;TO
+;Pramollo;G982;TO
+;Prarostino;G986;TO
+;Prascorsano;G988;TO
+;Pratiglione;G997;TO
+;Quagliuzzo;H100;TO
+;Quassolo;H120;TO
+;Quincinetto;H127;TO
+;Reano;H207;TO
+;Ribordone;H270;TO
+;Riva presso Chieri;H337;TO
+;Rivalba;H333;TO
+;Rivalta di Torino;H335;TO
+;Rivara;H338;TO
+;Rivarolo Canavese;H340;TO
+;Rivarossa;H344;TO
+;Rivoli;H355;TO
+;Robassomero;H367;TO
+;Rocca Canavese;H386;TO
+;Roletto;H498;TO
+;Romano Canavese;H511;TO
+;Ronco Canavese;H539;TO
+;Rondissone;H547;TO
+;Rorà;H554;TO
+;Rosta;H583;TO
+;Roure;H555;TO
+;Rubiana;H627;TO
+;Rueglio;H631;TO
+;Salassa;H691;TO
+;Salbertrand;H684;TO
+;Salerano Canavese;H702;TO
+;Salza di Pinerolo;H734;TO
+;Samone;H753;TO
+;San Benigno Canavese;H775;TO
+;San Carlo Canavese;H789;TO
+;San Colombano Belmonte;H804;TO
+;San Didero;H820;TO
+;San Francesco al Campo;H847;TO
+;San Germano Chisone;H862;TO
+;San Gillio;H873;TO
+;San Giorgio Canavese;H890;TO
+;San Giorio di Susa;H900;TO
+;San Giusto Canavese;H936;TO
+;San Martino Canavese;H997;TO
+;San Maurizio Canavese;I024;TO
+;San Mauro Torinese;I030;TO
+;San Pietro Val Lemina;I090;TO
+;San Ponso;I126;TO
+;San Raffaele Cimena;I137;TO
+;San Sebastiano da Po;I152;TO
+;San Secondo di Pinerolo;I154;TO
+;Sangano;H855;TO
+;Sant'Ambrogio di Torino;I258;TO
+;Sant'Antonino di Susa;I296;TO
+;Santena;I327;TO
+;Sauze di Cesana;I465;TO
+;Sauze d'Oulx;I466;TO
+;Scalenghe;I490;TO
+;Scarmagno;I511;TO
+;Sciolze;I539;TO
+;Sestriere;I692;TO
+;Settimo Rottaro;I701;TO
+;Settimo Torinese;I703;TO
+;Settimo Vittone;I702;TO
+;Sparone;I886;TO
+;Strambinello;I969;TO
+;Strambino;I970;TO
+;Susa;L013;TO
+;Tavagnasco;L066;TO
+;Torino;L219;TO
+;Torrazza Piemonte;L238;TO
+;Torre Canavese;L247;TO
+;Torre Pellice;L277;TO
+;Trana;L327;TO
+;Traversella;L345;TO
+;Traves;L340;TO
+;Trofarello;L445;TO
+;Usseaux;L515;TO
+;Usseglio;L516;TO
+;Vaie;L538;TO
+;Val della Torre;L555;TO
+;Val di Chy;M405;TO
+;Valchiusa;M415;TO
+;Valgioie;L578;TO
+;Vallo Torinese;L629;TO
+;Valperga;L644;TO
+;Valprato Soana;B510;TO
+;Varisella;L685;TO
+;Vauda Canavese;L698;TO
+;Venaria Reale;L727;TO
+;Venaus;L726;TO
+;Verolengo;L779;TO
+;Verrua Savoia;L787;TO
+;Vestignè;L811;TO
+;Vialfrè;L830;TO
+;Vidracco;L857;TO
+;Vigone;L898;TO
+;Villafranca Piemonte;L948;TO
+;Villanova Canavese;L982;TO
+;Villar Dora;L999;TO
+;Villar Focchiardo;M007;TO
+;Villar Pellice;M013;TO
+;Villar Perosa;M014;TO
+;Villarbasse;M002;TO
+;Villareggia;M004;TO
+;Villastellone;M027;TO
+;Vinovo;M060;TO
+;Virle Piemonte;M069;TO
+;Vische;M071;TO
+;Vistrorio;M080;TO
+;Viù;M094;TO
+;Volpiano;M122;TO
+;Volvera;M133;TO
+;Alcamo;A176;TP
+;Buseto Palizzolo;B288;TP
+;Calatafimi-Segesta;B385;TP
+;Campobello di Mazara;B521;TP
+;Castellammare del Golfo;C130;TP
+;Castelvetrano;C286;TP
+;Custonaci;D234;TP
+;Erice;D423;TP
+;Favignana;D518;TP
+;Gibellina;E023;TP
+;Marsala;E974;TP
+;Mazara del Vallo;F061;TP
+;Paceco;G208;TP
+;Pantelleria;G315;TP
+;Partanna;G347;TP
+;Petrosino;M281;TP
+;Poggioreale;G767;TP
+;Salaparuta;H688;TP
+;Salemi;H700;TP
+;San Vito Lo Capo;I407;TP
+;Santa Ninfa;I291;TP
+;Trapani;L331;TP
+;Valderice;G319;TP
+;Vita;M081;TP
+;Ala;A116;TN
+;Albiano;A158;TN
+;Aldeno;A178;TN
+;Altavalle;M349;TN
+;Altopiano della Vigolana;M350;TN
+;Amblar-Don;M351;TN
+;Andalo;A274;TN
+;Arco;A372;TN
+;Avio;A520;TN
+;Baselga di Pinè;A694;TN
+;Bedollo;A730;TN
+;Besenello;A821;TN
+;Bieno;A863;TN
+;Bleggio Superiore;A902;TN
+;Bocenago;A916;TN
+;Bondone;A968;TN
+;Borgo Chiese;M352;TN
+;Borgo Lares;M353;TN
+;Borgo Valsugana;B006;TN
+;Brentonico;B153;TN
+;Bresimo;B158;TN
+;Brez;B165;TN
+;Caderzone Terme;B335;TN
+;Cagnò;B360;TN
+;Calceranica al Lago;B389;TN
+;Caldes;B400;TN
+;Caldonazzo;B404;TN
+;Calliano;B419;TN
+;Campitello di Fassa;B514;TN
+;Campodenno;B525;TN
+;Canal San Bovo;B577;TN
+;Canazei;B579;TN
+;Capriana;B697;TN
+;Carano;B723;TN
+;Carisolo;B783;TN
+;Carzano;B856;TN
+;Castel Condino;C183;TN
+;Castel Ivano;M354;TN
+;Castelfondo;C103;TN
+;Castello Tesino;C194;TN
+;Castello-Molina di Fiemme;C189;TN
+;Castelnuovo;C216;TN
+;Cavalese;C372;TN
+;Cavareno;C380;TN
+;Cavedago;C392;TN
+;Cavedine;C393;TN
+;Cavizzana;C400;TN
+;Cembra Lisignago;M355;TN
+;Cimone;C700;TN
+;Cinte Tesino;C712;TN
+;Cis;C727;TN
+;Civezzano;C756;TN
+;Cles;C794;TN
+;Cloz;C797;TN
+;Comano Terme;M314;TN
+;Commezzadura;C931;TN
+;Contà;M356;TN
+;Croviana;D188;TN
+;Daiano;D243;TN
+;Dambel;D246;TN
+;Denno;D273;TN
+;Dimaro Folgarida;M366;TN
+;Drena;D365;TN
+;Dro;D371;TN
+;Faedo;D457;TN
+;Fai della Paganella;D468;TN
+;Fiavè;D565;TN
+;Fierozzo;D573;TN
+;Folgaria;D651;TN
+;Fondo;D663;TN
+;Fornace;D714;TN
+;Frassilongo;D775;TN
+;Garniga Terme;D928;TN
+;Giovo;E048;TN
+;Giustino;E065;TN
+;Grigno;E178;TN
+;Imer;E288;TN
+;Isera;E334;TN
+;Lavarone;E492;TN
+;Lavis;E500;TN
+;Ledro;M313;TN
+;Levico Terme;E565;TN
+;Livo;E624;TN
+;Lona-Lases;E664;TN
+;Luserna;E757;TN
+;Madruzzo;M357;TN
+;Malé;E850;TN
+;Malosco;E866;TN
+;Massimeno;F045;TN
+;Mazzin;F068;TN
+;Mezzana;F168;TN
+;Mezzano;F176;TN
+;Mezzocorona;F183;TN
+;Mezzolombardo;F187;TN
+;Moena;F263;TN
+;Molveno;F307;TN
+;Mori;F728;TN
+;Nago-Torbole;F835;TN
+;Nogaredo;F920;TN
+;Nomi;F929;TN
+;Novaledo;F947;TN
+;Ospedaletto;G168;TN
+;Ossana;G173;TN
+;Palù del Fersina;G296;TN
+;Panchià;G305;TN
+;Peio;G419;TN
+;Pellizzano;G428;TN
+;Pelugo;G429;TN
+;Pergine Valsugana;G452;TN
+;Pieve di Bono-Prezzo;M365;TN
+;Pieve Tesino;G656;TN
+;Pinzolo;G681;TN
+;Pomarolo;G808;TN
+;Porte di Rendena;M358;TN
+;Predaia;M344;TN
+;Predazzo;H018;TN
+;Primiero San Martino di Castrozza;M359;TN
+;Rabbi;H146;TN
+;Revò;H254;TN
+;Riva del Garda;H330;TN
+;Romallo;H506;TN
+;Romeno;H517;TN
+;Roncegno Terme;H528;TN
+;Ronchi Valsugana;H532;TN
+;Ronzo-Chienis;M303;TN
+;Ronzone;H552;TN
+;Roverè della Luna;H607;TN
+;Rovereto;H612;TN
+;Ruffrè-Mendola;H634;TN
+;Rumo;H639;TN
+;Sagron Mis;H666;TN
+;Samone;H754;TN
+;San Giovanni di FassaSèn Jan;M390;TN
+;San Lorenzo Dorsino;M345;TN
+;San Michele all'Adige;I042;TN
+;Sant'Orsola Terme;I354;TN
+;Sanzeno;I411;TN
+;Sarnonico;I439;TN
+;Scurelle;I554;TN
+;Segonzano;I576;TN
+;Sella Giudicarie;M360;TN
+;Sfruz;I714;TN
+;Soraga di Fassa;I839;TN
+;Sover;I871;TN
+;Spiazzo;I899;TN
+;Spormaggiore;I924;TN
+;Sporminore;I925;TN
+;Stenico;I949;TN
+;Storo;I964;TN
+;Strembo;I975;TN
+;Telve;L089;TN
+;Telve di Sopra;L090;TN
+;Tenna;L096;TN
+;Tenno;L097;TN
+;Terragnolo;L121;TN
+;Terre d'Adige;M407;TN
+;Terzolas;L145;TN
+;Tesero;L147;TN
+;Tione di Trento;L174;TN
+;Ton;L200;TN
+;Torcegno;L211;TN
+;Trambileno;L322;TN
+;Tre Ville;M361;TN
+;Trento;L378;TN
+;Valdaone;M343;TN
+;Valfloriana;L575;TN
+;Vallarsa;L588;TN
+;Vallelaghi;M362;TN
+;Varena;L678;TN
+;Vermiglio;L769;TN
+;Vignola-Falesina;L886;TN
+;Villa Lagarina;L957;TN
+;Ville d'Anaunia;M363;TN
+;Volano;M113;TN
+;Ziano di Fiemme;M173;TN
+;Altivole;A237;TV
+;Arcade;A360;TV
+;Asolo;A471;TV
+;Borso del Grappa;B061;TV
+;Breda di Piave;B128;TV
+;Caerano di San Marco;B349;TV
+;Cappella Maggiore;B678;TV
+;Carbonera;B744;TV
+;Casale sul Sile;B879;TV
+;Casier;B965;TV
+;Castelcucco;C073;TV
+;Castelfranco Veneto;C111;TV
+;Castello di Godego;C190;TV
+;Cavaso del Tomba;C384;TV
+;Cessalto;C580;TV
+;Chiarano;C614;TV
+;Cimadolmo;C689;TV
+;Cison di Valmarino;C735;TV
+;Codognè;C815;TV
+;Colle Umberto;C848;TV
+;Conegliano;C957;TV
+;Cordignano;C992;TV
+;Cornuda;D030;TV
+;Crocetta del Montello;C670;TV
+;Farra di Soligo;D505;TV
+;Follina;D654;TV
+;Fontanelle;D674;TV
+;Fonte;D680;TV
+;Fregona;D794;TV
+;Gaiarine;D854;TV
+;Giavera del Montello;E021;TV
+;Godega di Sant'Urbano;E071;TV
+;Gorgo al Monticano;E092;TV
+;Istrana;E373;TV
+;Loria;E692;TV
+;Mansuè;E893;TV
+;Mareno di Piave;E940;TV
+;Maser;F009;TV
+;Maserada sul Piave;F012;TV
+;Meduna di Livenza;F088;TV
+;Miane;F190;TV
+;Mogliano Veneto;F269;TV
+;Monastier di Treviso;F332;TV
+;Monfumo;F360;TV
+;Montebelluna;F443;TV
+;Morgano;F725;TV
+;Moriago della Battaglia;F729;TV
+;Motta di Livenza;F770;TV
+;Nervesa della Battaglia;F872;TV
+;Oderzo;F999;TV
+;Ormelle;G115;TV
+;Orsago;G123;TV
+;Paese;G229;TV
+;Pederobba;G408;TV
+;Pieve del Grappa;M422;TV
+;Pieve di Soligo;G645;TV
+;Ponte di Piave;G846;TV
+;Ponzano Veneto;G875;TV
+;Portobuffolè;G909;TV
+;Possagno;G933;TV
+;Povegliano;G944;TV
+;Preganziol;H022;TV
+;Quinto di Treviso;H131;TV
+;Refrontolo;H220;TV
+;Resana;H238;TV
+;Revine Lago;H253;TV
+;Riese Pio X;H280;TV
+;Roncade;H523;TV
+;Salgareda;H706;TV
+;San Biagio di Callalta;H781;TV
+;San Fior;H843;TV
+;San Pietro di Feletto;I103;TV
+;San Polo di Piave;I124;TV
+;San Vendemiano;I382;TV
+;San Zenone degli Ezzelini;I417;TV
+;Santa Lucia di Piave;I221;TV
+;Sarmede;I435;TV
+;Segusino;I578;TV
+;Sernaglia della Battaglia;I635;TV
+;Silea;F116;TV
+;Spresiano;I927;TV
+;Susegana;L014;TV
+;Tarzo;L058;TV
+;Trevignano;L402;TV
+;Treviso;L407;TV
+;Valdobbiadene;L565;TV
+;Vazzola;L700;TV
+;Vedelago;L706;TV
+;Vidor;L856;TV
+;Villorba;M048;TV
+;Vittorio Veneto;M089;TV
+;Volpago del Montello;M118;TV
+;Zenson di Piave;M163;TV
+;Zero Branco;M171;TV
+;Duino Aurisina-Devin Nabrežina;D383;TS
+;Monrupino-Repentabor;F378;TS
+;Muggia;F795;TS
+;San Dorligo della Valle-Dolina;D324;TS
+;Sgonico-Zgonik;I715;TS
+;Trieste;L424;TS
+;Aiello del Friuli;A103;UD
+;Amaro;A254;UD
+;Ampezzo;A267;UD
+;Aquileia;A346;UD
+;Arta Terme;A447;UD
+;Artegna;A448;UD
+;Attimis;A491;UD
+;Bagnaria Arsa;A553;UD
+;Basiliano;A700;UD
+;Bertiolo;A810;UD
+;Bicinicco;A855;UD
+;Bordano;A983;UD
+;Buja;B259;UD
+;Buttrio;B309;UD
+;Camino al Tagliamento;B483;UD
+;Campoformido;B536;UD
+;Campolongo Tapogliano;M311;UD
+;Carlino;B788;UD
+;Cassacco;B994;UD
+;Castions di Strada;C327;UD
+;Cavazzo Carnico;C389;UD
+;Cercivento;C494;UD
+;Cervignano del Friuli;C556;UD
+;Chiopris-Viscone;C641;UD
+;Chiusaforte;C656;UD
+;Cividale del Friuli;C758;UD
+;Codroipo;C817;UD
+;Colloredo di Monte Albano;C885;UD
+;Comeglians;C918;UD
+;Corno di Rosazzo;D027;UD
+;Coseano;D085;UD
+;Dignano;D300;UD
+;Dogna;D316;UD
+;Drenchia;D366;UD
+;Enemonzo;D408;UD
+;Faedis;D455;UD
+;Fagagna;D461;UD
+;Fiumicello Villa Vicentina;M400;UD
+;Flaibano;D630;UD
+;Forgaria nel Friuli;D700;UD
+;Forni Avoltri;D718;UD
+;Forni di Sopra;D719;UD
+;Forni di Sotto;D720;UD
+;Gemona del Friuli;D962;UD
+;Gonars;E083;UD
+;Grimacco;E179;UD
+;Latisana;E473;UD
+;Lauco;E476;UD
+;Lestizza;E553;UD
+;Lignano Sabbiadoro;E584;UD
+;Lusevera;E760;UD
+;Magnano in Riviera;E820;UD
+;Majano;E833;UD
+;Malborghetto Valbruna;E847;UD
+;Manzano;E899;UD
+;Marano Lagunare;E910;UD
+;Martignacco;E982;UD
+;Mereto di Tomba;F144;UD
+;Moggio Udinese;F266;UD
+;Moimacco;F275;UD
+;Montenars;F574;UD
+;Mortegliano;F756;UD
+;Moruzzo;F760;UD
+;Muzzana del Turgnano;F832;UD
+;Nimis;F898;UD
+;Osoppo;G163;UD
+;Ovaro;G198;UD
+;Pagnacco;G238;UD
+;Palazzolo dello Stella;G268;UD
+;Palmanova;G284;UD
+;Paluzza;G300;UD
+;Pasian di Prato;G352;UD
+;Paularo;G381;UD
+;Pavia di Udine;G389;UD
+;Pocenia;G743;UD
+;Pontebba;G831;UD
+;Porpetto;G891;UD
+;Povoletto;G949;UD
+;Pozzuolo del Friuli;G966;UD
+;Pradamano;G969;UD
+;Prato Carnico;H002;UD
+;Precenicco;H014;UD
+;Premariacco;H029;UD
+;Preone;H038;UD
+;Prepotto;H040;UD
+;Pulfero;H089;UD
+;Ragogna;H161;UD
+;Ravascletto;H196;UD
+;Raveo;H200;UD
+;Reana del Rojale;H206;UD
+;Remanzacco;H229;UD
+;Resia;H242;UD
+;Resiutta;H244;UD
+;Rigolato;H289;UD
+;Rive d'Arcano;H347;UD
+;Rivignano Teor;M317;UD
+;Ronchis;H533;UD
+;Ruda;H629;UD
+;San Daniele del Friuli;H816;UD
+;San Giorgio di Nogaro;H895;UD
+;San Giovanni al Natisone;H906;UD
+;San Leonardo;H951;UD
+;San Pietro al Natisone;I092;UD
+;San Vito al Torre;I404;UD
+;San Vito di Fagagna;I405;UD
+;Santa Maria la Longa;I248;UD
+;Sappada;I421;UD
+;Sauris;I464;UD
+;Savogna;I478;UD
+;Sedegliano;I562;UD
+;Socchieve;I777;UD
+;Stregna;I974;UD
+;Sutrio;L018;UD
+;Taipana;G736;UD
+;Talmassons;L039;UD
+;Tarcento;L050;UD
+;Tarvisio;L057;UD
+;Tavagnacco;L065;UD
+;Terzo d'Aquileia;L144;UD
+;Tolmezzo;L195;UD
+;Torreano;L246;UD
+;Torviscosa;L309;UD
+;Trasaghis;L335;UD
+;Treppo Grande;L382;UD
+;Treppo Ligosullo;M399;UD
+;Tricesimo;L421;UD
+;Trivignano Udinese;L438;UD
+;Udine;L483;UD
+;Varmo;L686;UD
+;Venzone;L743;UD
+;Verzegnis;L801;UD
+;Villa Santina;L909;UD
+;Visco;M073;UD
+;Zuglio;M200;UD
+;Allein;A205;AO
+;Antey-Saint-André;A305;AO
+;Aosta;A326;AO
+;Arnad;A424;AO
+;Arvier;A452;AO
+;Avise;A521;AO
+;Ayas;A094;AO
+;Aymavilles;A108;AO
+;Bard;A643;AO
+;Bionaz;A877;AO
+;Brissogne;B192;AO
+;Brusson;B230;AO
+;Challand-Saint-Anselme;C593;AO
+;Challand-Saint-Victor;C594;AO
+;Chambave;C595;AO
+;Chamois;B491;AO
+;Champdepraz;C596;AO
+;Champorcher;B540;AO
+;Charvensod;C598;AO
+;Châtillon;C294;AO
+;Cogne;C821;AO
+;Courmayeur;D012;AO
+;Donnas;D338;AO
+;Doues;D356;AO
+;Emarèse;D402;AO
+;Etroubles;D444;AO
+;Fénis;D537;AO
+;Fontainemore;D666;AO
+;Gaby;D839;AO
+;Gignod;E029;AO
+;Gressan;E165;AO
+;Gressoney-La-Trinité;E167;AO
+;Gressoney-Saint-Jean;E168;AO
+;Hône;E273;AO
+;Introd;E306;AO
+;Issime;E369;AO
+;Issogne;E371;AO
+;Jovençan;E391;AO
+;La Magdeleine;A308;AO
+;La Salle;E458;AO
+;La Thuile;E470;AO
+;Lillianes;E587;AO
+;Montjovet;F367;AO
+;Morgex;F726;AO
+;Nus;F987;AO
+;Ollomont;G045;AO
+;Oyace;G012;AO
+;Perloz;G459;AO
+;Pollein;G794;AO
+;Pontboset;G545;AO
+;Pontey;G860;AO
+;Pont-Saint-Martin;G854;AO
+;Pré-Saint-Didier;H042;AO
+;Quart;H110;AO
+;Rhêmes-Notre-Dame;H262;AO
+;Rhêmes-Saint-Georges;H263;AO
+;Roisan;H497;AO
+;Saint-Christophe;H669;AO
+;Saint-Denis;H670;AO
+;Saint-Marcel;H671;AO
+;Saint-Nicolas;H672;AO
+;Saint-Oyen;H673;AO
+;Saint-Pierre;H674;AO
+;Saint-Rhémy-en-Bosses;H675;AO
+;Saint-Vincent;H676;AO
+;Sarre;I442;AO
+;Torgnon;L217;AO
+;Valgrisenche;L582;AO
+;Valpelline;L643;AO
+;Valsavarenche;L647;AO
+;Valtournenche;L654;AO
+;Verrayes;L783;AO
+;Verrès;C282;AO
+;Villeneuve;L981;AO
+;Agra;A085;VA
+;Albizzate;A167;VA
+;Angera;A290;VA
+;Arcisate;A371;VA
+;Arsago Seprio;A441;VA
+;Azzate;A531;VA
+;Azzio;A532;VA
+;Barasso;A619;VA
+;Bardello;A645;VA
+;Bedero Valcuvia;A728;VA
+;Besano;A819;VA
+;Besnate;A825;VA
+;Besozzo;A826;VA
+;Biandronno;A845;VA
+;Bisuschio;A891;VA
+;Bodio Lomnago;A918;VA
+;Brebbia;B126;VA
+;Bregano;B131;VA
+;Brenta;B150;VA
+;Brezzo di Bedero;B166;VA
+;Brinzio;B182;VA
+;Brissago-Valtravaglia;B191;VA
+;Brunello;B219;VA
+;Brusimpiano;B228;VA
+;Buguggiate;B258;VA
+;Busto Arsizio;B300;VA
+;Cadegliano-Viconago;B326;VA
+;Cadrezzate con Osmate;M425;VA
+;Cairate;B368;VA
+;Cantello;B634;VA
+;Caravate;B732;VA
+;Cardano al Campo;B754;VA
+;Carnago;B796;VA
+;Caronno Pertusella;B805;VA
+;Caronno Varesino;B807;VA
+;Casale Litta;B875;VA
+;Casalzuigno;B921;VA
+;Casciago;B949;VA
+;Casorate Sempione;B987;VA
+;Cassano Magnago;C004;VA
+;Cassano Valcuvia;B999;VA
+;Castellanza;C139;VA
+;Castello Cabiaglio;B312;VA
+;Castelseprio;C273;VA
+;Castelveccana;C181;VA
+;Castiglione Olona;C300;VA
+;Castronno;C343;VA
+;Cavaria con Premezzo;C382;VA
+;Cazzago Brabbia;C409;VA
+;Cislago;C732;VA
+;Cittiglio;C751;VA
+;Clivio;C796;VA
+;Cocquio-Trevisago;C810;VA
+;Comabbio;C911;VA
+;Comerio;C922;VA
+;Cremenaga;D144;VA
+;Crosio della Valle;D185;VA
+;Cuasso al Monte;D192;VA
+;Cugliate-Fabiasco;D199;VA
+;Cunardo;D204;VA
+;Curiglia con Monteviasco;D217;VA
+;Cuveglio;D238;VA
+;Cuvio;D239;VA
+;Daverio;D256;VA
+;Dumenza;D384;VA
+;Duno;D385;VA
+;Fagnano Olona;D467;VA
+;Ferno;D543;VA
+;Ferrera di Varese;D551;VA
+;Gallarate;D869;VA
+;Galliate Lombardo;D871;VA
+;Gavirate;D946;VA
+;Gazzada Schianno;D951;VA
+;Gemonio;D963;VA
+;Gerenzano;D981;VA
+;Germignaga;D987;VA
+;Golasecca;E079;VA
+;Gorla Maggiore;E101;VA
+;Gorla Minore;E102;VA
+;Gornate Olona;E104;VA
+;Grantola;E144;VA
+;Inarzo;E292;VA
+;Induno Olona;E299;VA
+;Ispra;E367;VA
+;Jerago con Orago;E386;VA
+;Lavena Ponte Tresa;E494;VA
+;Laveno-Mombello;E496;VA
+;Leggiuno;E510;VA
+;Lonate Ceppino;E665;VA
+;Lonate Pozzolo;E666;VA
+;Lozza;E707;VA
+;Luino;E734;VA
+;Luvinate;E769;VA
+;Maccagno con Pino e Veddasca;M339;VA
+;Malgesso;E856;VA
+;Malnate;E863;VA
+;Marchirolo;E929;VA
+;Marnate;E965;VA
+;Marzio;F002;VA
+;Masciago Primo;F007;VA
+;Mercallo;F134;VA
+;Mesenzana;F154;VA
+;Montegrino Valtravaglia;F526;VA
+;Monvalle;F703;VA
+;Morazzone;F711;VA
+;Mornago;F736;VA
+;Oggiona con Santo Stefano;G008;VA
+;Olgiate Olona;G028;VA
+;Origgio;G103;VA
+;Orino;G105;VA
+;Porto Ceresio;G906;VA
+;Porto Valtravaglia;G907;VA
+;Rancio Valcuvia;H173;VA
+;Ranco;H174;VA
+;Saltrio;H723;VA
+;Samarate;H736;VA
+;Sangiano;H872;VA
+;Saronno;I441;VA
+;Sesto Calende;I688;VA
+;Solbiate Arno;I793;VA
+;Solbiate Olona;I794;VA
+;Somma Lombardo;I819;VA
+;Sumirago;L003;VA
+;Taino;L032;VA
+;Ternate;L115;VA
+;Tradate;L319;VA
+;Travedona-Monate;L342;VA
+;Tronzano Lago Maggiore;A705;VA
+;Uboldo;L480;VA
+;Valganna;L577;VA
+;Varano Borghi;L671;VA
+;Varese;L682;VA
+;Vedano Olona;L703;VA
+;Venegono Inferiore;L733;VA
+;Venegono Superiore;L734;VA
+;Vergiate;L765;VA
+;Viggiù;L876;VA
+;Vizzola Ticino;M101;VA
+;Annone Veneto;A302;VE
+;Campagna Lupia;B493;VE
+;Campolongo Maggiore;B546;VE
+;Camponogara;B554;VE
+;Caorle;B642;VE
+;Cavallino-Treporti;M308;VE
+;Cavarzere;C383;VE
+;Ceggia;C422;VE
+;Chioggia;C638;VE
+;Cinto Caomaggiore;C714;VE
+;Cona;C938;VE
+;Concordia Sagittaria;C950;VE
+;Dolo;D325;VE
+;Eraclea;D415;VE
+;Fiesso d'Artico;D578;VE
+;Fossalta di Piave;D740;VE
+;Fossalta di Portogruaro;D741;VE
+;Fossò;D748;VE
+;Gruaro;E215;VE
+;Jesolo;C388;VE
+;Marcon;E936;VE
+;Martellago;E980;VE
+;Meolo;F130;VE
+;Mira;F229;VE
+;Mirano;F241;VE
+;Musile di Piave;F826;VE
+;Noale;F904;VE
+;Noventa di Piave;F963;VE
+;Pianiga;G565;VE
+;Portogruaro;G914;VE
+;Pramaggiore;G981;VE
+;Quarto d'Altino;H117;VE
+;Salzano;H735;VE
+;San Donà di Piave;H823;VE
+;San Michele al Tagliamento;I040;VE
+;San Stino di Livenza;I373;VE
+;Santa Maria di Sala;I242;VE
+;Scorzè;I551;VE
+;Spinea;I908;VE
+;Stra;I965;VE
+;Teglio Veneto;L085;VE
+;Torre di Mosto;L267;VE
+;Venezia;L736;VE
+;Vigonovo;L899;VE
+;Antrona Schieranco;A317;VB
+;Anzola d'Ossola;A325;VB
+;Arizzano;A409;VB
+;Arola;A427;VB
+;Aurano;A497;VB
+;Baceno;A534;VB
+;Bannio Anzino;A610;VB
+;Baveno;A725;VB
+;Bee;A733;VB
+;Belgirate;A742;VB
+;Beura-Cardezza;A834;VB
+;Bognanco;A925;VB
+;Borgomezzavalle;M370;VB
+;Brovello-Carpugnino;B207;VB
+;Calasca-Castiglione;B380;VB
+;Cambiasca;B463;VB
+;Cannero Riviera;B610;VB
+;Cannobio;B615;VB
+;Caprezzo;B694;VB
+;Casale Corte Cerro;B876;VB
+;Ceppo Morelli;C478;VB
+;Cesara;C567;VB
+;Cossogno;D099;VB
+;Craveggia;D134;VB
+;Crevoladossola;D168;VB
+;Crodo;D177;VB
+;Domodossola;D332;VB
+;Druogno;D374;VB
+;Formazza;D706;VB
+;Germagno;D984;VB
+;Ghiffa;E003;VB
+;Gignese;E028;VB
+;Gravellona Toce;E153;VB
+;Gurro;E269;VB
+;Intragna;E304;VB
+;Loreglia;E685;VB
+;Macugnaga;E790;VB
+;Madonna del Sasso;E795;VB
+;Malesco;E853;VB
+;Masera;F010;VB
+;Massiola;F048;VB
+;Mergozzo;F146;VB
+;Miazzina;F192;VB
+;Montecrestese;F483;VB
+;Montescheno;F639;VB
+;Nonio;F932;VB
+;Oggebbio;G007;VB
+;Omegna;G062;VB
+;Ornavasso;G117;VB
+;Pallanzeno;G280;VB
+;Piedimulera;G600;VB
+;Pieve Vergonte;G658;VB
+;Premeno;H030;VB
+;Premia;H033;VB
+;Premosello-Chiovenda;H037;VB
+;Quarna Sopra;H106;VB
+;Quarna Sotto;H107;VB
+;Re;H203;VB
+;San Bernardino Verbano;H777;VB
+;Santa Maria Maggiore;I249;VB
+;Stresa;I976;VB
+;Toceno;L187;VB
+;Trarego Viggiona;L333;VB
+;Trasquera;L336;VB
+;Trontano;L450;VB
+;Valle Cannobina;M404;VB
+;Valstrona;L651;VB
+;Vanzone con San Carlo;L666;VB
+;Varzo;L691;VB
+;Verbania;L746;VB
+;Vignone;L889;VB
+;Villadossola;L906;VB
+;Villette;M042;VB
+;Vogogna;M111;VB
+;Alagna Valsesia;A119;VC
+;Albano Vercellese;A130;VC
+;Alice Castello;A198;VC
+;Alto Sermenza;M389;VC
+;Arborio;A358;VC
+;Asigliano Vercellese;A466;VC
+;Balmuccia;A600;VC
+;Balocco;A601;VC
+;Bianzè;A847;VC
+;Boccioleto;A914;VC
+;Borgo d'Ale;B009;VC
+;Borgo Vercelli;B046;VC
+;Borgosesia;B041;VC
+;Buronzo;B280;VC
+;Campertogno;B505;VC
+;Carcoforo;B752;VC
+;Caresana;B767;VC
+;Caresanablot;B768;VC
+;Carisio;B782;VC
+;Casanova Elvo;B928;VC
+;Cellio con Breia;M398;VC
+;Cervatto;C548;VC
+;Cigliano;C680;VC
+;Civiasco;C757;VC
+;Collobiano;C884;VC
+;Costanzana;D113;VC
+;Cravagliana;D132;VC
+;Crescentino;D154;VC
+;Crova;D187;VC
+;Desana;D281;VC
+;Fobello;D641;VC
+;Fontanetto Po;D676;VC
+;Formigliana;D712;VC
+;Gattinara;D938;VC
+;Ghislarengo;E007;VC
+;Greggio;E163;VC
+;Guardabosone;E237;VC
+;Lamporo;E433;VC
+;Lenta;E528;VC
+;Lignana;E583;VC
+;Livorno Ferraris;E626;VC
+;Lozzolo;E711;VC
+;Mollia;F297;VC
+;Moncrivello;F342;VC
+;Motta de' Conti;F774;VC
+;Olcenengo;G016;VC
+;Oldenico;G018;VC
+;Palazzolo Vercellese;G266;VC
+;Pertengo;G471;VC
+;Pezzana;G528;VC
+;Pila;G666;VC
+;Piode;G685;VC
+;Postua;G940;VC
+;Prarolo;G985;VC
+;Quarona;H108;VC
+;Quinto Vercellese;H132;VC
+;Rassa;H188;VC
+;Rimella;H293;VC
+;Rive;H346;VC
+;Roasio;H365;VC
+;Ronsecco;H549;VC
+;Rossa;H577;VC
+;Rovasenda;H364;VC
+;Salasco;H690;VC
+;Sali Vercellese;H707;VC
+;Saluggia;H725;VC
+;San Germano Vercellese;H861;VC
+;San Giacomo Vercellese;B952;VC
+;Santhià;I337;VC
+;Scopa;I544;VC
+;Scopello;I545;VC
+;Serravalle Sesia;I663;VC
+;Stroppiana;I984;VC
+;Tricerro;L420;VC
+;Trino;L429;VC
+;Tronzano Vercellese;L451;VC
+;Valduggia;L566;VC
+;Varallo;L669;VC
+;Vercelli;L750;VC
+;Villarboit;M003;VC
+;Villata;M028;VC
+;Vocca;M106;VC
+;Affi;A061;VR
+;Albaredo d'Adige;A137;VR
+;Angiari;A292;VR
+;Arcole;A374;VR
+;Badia Calavena;A540;VR
+;Bardolino;A650;VR
+;Belfiore;A737;VR
+;Bevilacqua;A837;VR
+;Bonavigo;A964;VR
+;Boschi Sant'Anna;B070;VR
+;Bosco Chiesanuova;B073;VR
+;Bovolone;B107;VR
+;Brentino Belluno;B152;VR
+;Brenzone sul Garda;B154;VR
+;Bussolengo;B296;VR
+;Buttapietra;B304;VR
+;Caldiero;B402;VR
+;Caprino Veronese;B709;VR
+;Casaleone;B886;VR
+;Castagnaro;C041;VR
+;Castel d'Azzano;C078;VR
+;Castelnuovo del Garda;C225;VR
+;Cavaion Veronese;C370;VR
+;Cazzano di Tramigna;C412;VR
+;Cerea;C498;VR
+;Cerro Veronese;C538;VR
+;Cologna Veneta;C890;VR
+;Colognola ai Colli;C897;VR
+;Concamarise;C943;VR
+;Costermano sul Garda;D118;VR
+;Dolcè;D317;VR
+;Erbè;D419;VR
+;Erbezzo;D420;VR
+;Ferrara di Monte Baldo;D549;VR
+;Fumane;D818;VR
+;Garda;D915;VR
+;Gazzo Veronese;D957;VR
+;Grezzana;E171;VR
+;Illasi;E284;VR
+;Isola della Scala;E349;VR
+;Isola Rizza;E358;VR
+;Lavagno;E489;VR
+;Lazise;E502;VR
+;Legnago;E512;VR
+;Malcesine;E848;VR
+;Marano di Valpolicella;E911;VR
+;Mezzane di Sotto;F172;VR
+;Minerbe;F218;VR
+;Montecchia di Crosara;F461;VR
+;Monteforte d'Alpone;F508;VR
+;Mozzecane;F789;VR
+;Negrar;F861;VR
+;Nogara;F918;VR
+;Nogarole Rocca;F921;VR
+;Oppeano;G080;VR
+;Palù;G297;VR
+;Pastrengo;G365;VR
+;Pescantina;G481;VR
+;Peschiera del Garda;G489;VR
+;Povegliano Veronese;G945;VR
+;Pressana;H048;VR
+;Rivoli Veronese;H356;VR
+;Roncà;H522;VR
+;Ronco all'Adige;H540;VR
+;Roverchiara;H606;VR
+;Roverè Veronese;H608;VR
+;Roveredo di Guà;H610;VR
+;Salizzole;H714;VR
+;San Bonifacio;H783;VR
+;San Giovanni Ilarione;H916;VR
+;San Giovanni Lupatoto;H924;VR
+;San Martino Buon Albergo;I003;VR
+;San Mauro di Saline;H712;VR
+;San Pietro di Morubio;I105;VR
+;San Pietro in Cariano;I109;VR
+;San Zeno di Montagna;I414;VR
+;Sanguinetto;H944;VR
+;Sant'Ambrogio di Valpolicella;I259;VR
+;Sant'Anna d'Alfaedo;I292;VR
+;Selva di Progno;I594;VR
+;Soave;I775;VR
+;Sommacampagna;I821;VR
+;Sona;I826;VR
+;Sorgà;I850;VR
+;Terrazzo;L136;VR
+;Torri del Benaco;L287;VR
+;Tregnago;L364;VR
+;Trevenzuolo;L396;VR
+;Valeggio sul Mincio;L567;VR
+;Velo Veronese;L722;VR
+;Verona;L781;VR
+;Veronella;D193;VR
+;Vestenanova;L810;VR
+;Vigasio;L869;VR
+;Villa Bartolomea;L912;VR
+;Villafranca di Verona;L949;VR
+;Zevio;M172;VR
+;Zimella;M178;VR
+;Acquaro;A043;VV
+;Arena;A386;VV
+;Briatico;B169;VV
+;Brognaturo;B197;VV
+;Capistrano;B655;VV
+;Cessaniti;C581;VV
+;Dasà;D253;VV
+;Dinami;D303;VV
+;Drapia;D364;VV
+;Fabrizia;D453;VV
+;Filadelfia;D587;VV
+;Filandari;D589;VV
+;Filogaso;D596;VV
+;Francavilla Angitola;D762;VV
+;Francica;D767;VV
+;Gerocarne;D988;VV
+;Ionadi;E321;VV
+;Joppolo;E389;VV
+;Limbadi;E590;VV
+;Maierato;E836;VV
+;Mileto;F207;VV
+;Mongiana;F364;VV
+;Monterosso Calabro;F607;VV
+;Nardodipace;F843;VV
+;Nicotera;F893;VV
+;Parghelia;G335;VV
+;Pizzo;G722;VV
+;Pizzoni;G728;VV
+;Polia;G785;VV
+;Ricadi;H271;VV
+;Rombiolo;H516;VV
+;San Calogero;H785;VV
+;San Costantino Calabro;H807;VV
+;San Gregorio d'Ippona;H941;VV
+;San Nicola da Crissa;I058;VV
+;Sant'Onofrio;I350;VV
+;Serra San Bruno;I639;VV
+;Simbario;I744;VV
+;Sorianello;I853;VV
+;Soriano Calabro;I854;VV
+;Spadola;I884;VV
+;Spilinga;I905;VV
+;Stefanaconi;I945;VV
+;Tropea;L452;VV
+;Vallelonga;L607;VV
+;Vazzano;L699;VV
+;Vibo Valentia;F537;VV
+;Zaccanopoli;M138;VV
+;Zambrone;M143;VV
+;Zungri;M204;VV
+;Agugliaro;A093;VI
+;Albettone;A154;VI
+;Alonte;A220;VI
+;Altavilla Vicentina;A231;VI
+;Altissimo;A236;VI
+;Arcugnano;A377;VI
+;Arsiero;A444;VI
+;Arzignano;A459;VI
+;Asiago;A465;VI
+;Asigliano Veneto;A467;VI
+;Barbarano Mossano;M401;VI
+;Bassano del Grappa;A703;VI
+;Bolzano Vicentino;A954;VI
+;Breganze;B132;VI
+;Brendola;B143;VI
+;Bressanvido;B161;VI
+;Brogliano;B196;VI
+;Caldogno;B403;VI
+;Caltrano;B433;VI
+;Calvene;B441;VI
+;Camisano Vicentino;B485;VI
+;Campiglia dei Berici;B511;VI
+;Carrè;B835;VI
+;Cartigliano;B844;VI
+;Cassola;C037;VI
+;Castegnero;C056;VI
+;Castelgomberto;C119;VI
+;Chiampo;C605;VI
+;Chiuppano;C650;VI
+;Cogollo del Cengio;C824;VI
+;Colceresa;M426;VI
+;Cornedo Vicentino;D020;VI
+;Costabissara;D107;VI
+;Creazzo;D136;VI
+;Crespadoro;D156;VI
+;Dueville;D379;VI
+;Enego;D407;VI
+;Fara Vicentino;D496;VI
+;Foza;D750;VI
+;Gallio;D882;VI
+;Gambellara;D897;VI
+;Gambugliano;D902;VI
+;Grisignano di Zocco;E184;VI
+;Grumolo delle Abbadesse;E226;VI
+;Isola Vicentina;E354;VI
+;Laghi;E403;VI
+;Lastebasse;E465;VI
+;Longare;E671;VI
+;Lonigo;E682;VI
+;Lugo di Vicenza;E731;VI
+;Lusiana Conco;M427;VI
+;Malo;E864;VI
+;Marano Vicentino;E912;VI
+;Marostica;E970;VI
+;Monte di Malo;F486;VI
+;Montebello Vicentino;F442;VI
+;Montecchio Maggiore;F464;VI
+;Montecchio Precalcino;F465;VI
+;Montegalda;F514;VI
+;Montegaldella;F515;VI
+;Monteviale;F662;VI
+;Monticello Conte Otto;F675;VI
+;Montorso Vicentino;F696;VI
+;Mussolente;F829;VI
+;Nanto;F838;VI
+;Nogarole Vicentino;F922;VI
+;Nove;F957;VI
+;Noventa Vicentina;F964;VI
+;Orgiano;G095;VI
+;Pedemonte;G406;VI
+;Pianezze;G560;VI
+;Piovene Rocchette;G694;VI
+;Pojana Maggiore;G776;VI
+;Posina;G931;VI
+;Pove del Grappa;G943;VI
+;Pozzoleone;G957;VI
+;Quinto Vicentino;H134;VI
+;Recoaro Terme;H214;VI
+;Roana;H361;VI
+;Romano d'Ezzelino;H512;VI
+;Rosà;H556;VI
+;Rossano Veneto;H580;VI
+;Rotzo;H594;VI
+;Salcedo;F810;VI
+;San Pietro Mussolino;I117;VI
+;San Vito di Leguzzano;I401;VI
+;Sandrigo;H829;VI
+;Santorso;I353;VI
+;Sarcedo;I425;VI
+;Sarego;I430;VI
+;Schiavon;I527;VI
+;Schio;I531;VI
+;Solagna;I783;VI
+;Sossano;I867;VI
+;Sovizzo;I879;VI
+;Tezze sul Brenta;L156;VI
+;Thiene;L157;VI
+;Tonezza del Cimone;D717;VI
+;Torrebelvicino;L248;VI
+;Torri di Quartesolo;L297;VI
+;Trissino;L433;VI
+;Val Liona;M384;VI
+;Valbrenta;M423;VI
+;Valdagno;L551;VI
+;Valdastico;L554;VI
+;Valli del Pasubio;L624;VI
+;Velo d'Astico;L723;VI
+;Vicenza;L840;VI
+;Villaga;L952;VI
+;Villaverla;M032;VI
+;Zanè;M145;VI
+;Zermeghedo;M170;VI
+;Zovencedo;M194;VI
+;Zugliano;M199;VI
+;Acquapendente;A040;VT
+;Arlena di Castro;A412;VT
+;Bagnoregio;A577;VT
+;Barbarano Romano;A628;VT
+;Bassano in Teverina;A706;VT
+;Bassano Romano;A704;VT
+;Blera;A857;VT
+;Bolsena;A949;VT
+;Bomarzo;A955;VT
+;Calcata;B388;VT
+;Canepina;B597;VT
+;Canino;B604;VT
+;Capodimonte;B663;VT
+;Capranica;B688;VT
+;Caprarola;B691;VT
+;Carbognano;B735;VT
+;Castel Sant'Elia;C269;VT
+;Castiglione in Teverina;C315;VT
+;Celleno;C446;VT
+;Cellere;C447;VT
+;Civita Castellana;C765;VT
+;Civitella d'Agliano;C780;VT
+;Corchiano;C988;VT
+;Fabrica di Roma;D452;VT
+;Faleria;D475;VT
+;Farnese;D503;VT
+;Gallese;D870;VT
+;Gradoli;E126;VT
+;Graffignano;E128;VT
+;Grotte di Castro;E210;VT
+;Ischia di Castro;E330;VT
+;Latera;E467;VT
+;Lubriano;E713;VT
+;Marta;E978;VT
+;Montalto di Castro;F419;VT
+;Monte Romano;F603;VT
+;Montefiascone;F499;VT
+;Monterosi;F606;VT
+;Nepi;F868;VT
+;Onano;G065;VT
+;Oriolo Romano;G111;VT
+;Orte;G135;VT
+;Piansano;G571;VT
+;Proceno;H071;VT
+;Ronciglione;H534;VT
+;San Lorenzo Nuovo;H969;VT
+;Soriano nel Cimino;I855;VT
+;Sutri;L017;VT
+;Tarquinia;D024;VT
+;Tessennano;L150;VT
+;Tuscania;L310;VT
+;Valentano;L569;VT
+;Vallerano;L612;VT
+;Vasanello;A701;VT
+;Vejano;L713;VT
+;Vetralla;L814;VT
+;Vignanello;L882;VT
+;Villa San Giovanni in Tuscia;H913;VT
+;Viterbo;M082;VT
+;Vitorchiano;M086;VT
