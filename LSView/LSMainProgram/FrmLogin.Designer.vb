@@ -68,7 +68,7 @@ Partial Class FrmLogin
         Me.LSUTxtPassword.Name = "LSUTxtPassword"
         Me.LSUTxtPassword.Obbligatorio = False
         Me.LSUTxtPassword.Size = New System.Drawing.Size(556, 31)
-        Me.LSUTxtPassword.TabIndex = 4
+        Me.LSUTxtPassword.TabIndex = 1
         Me.LSUTxtPassword.TestoEtichetta = "Password:"
         Me.LSUTxtPassword.ValorePassword = ""
         '
@@ -76,7 +76,7 @@ Partial Class FrmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(570, 296)
+        Me.ClientSize = New System.Drawing.Size(566, 322)
         Me.ControlBox = False
         Me.Controls.Add(Me.LSUTxtPassword)
         Me.Controls.Add(Me.UBtnAnnulla)

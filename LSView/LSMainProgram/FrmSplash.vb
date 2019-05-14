@@ -1,5 +1,2 @@
-﻿Imports System.Threading
-
-Public Class FrmSplash
-
+﻿Public Class FrmSplash
 End Class

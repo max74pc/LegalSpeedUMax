@@ -30,18 +30,18 @@ Partial Class FrmSplash
         'ULblTitolo
         '
         Me.ULblTitolo.Font = New System.Drawing.Font("Linux Libertine Display G", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ULblTitolo.Location = New System.Drawing.Point(74, 12)
+        Me.ULblTitolo.Location = New System.Drawing.Point(46, 12)
         Me.ULblTitolo.Name = "ULblTitolo"
-        Me.ULblTitolo.Size = New System.Drawing.Size(493, 35)
+        Me.ULblTitolo.Size = New System.Drawing.Size(538, 35)
         Me.ULblTitolo.TabIndex = 0
         Me.ULblTitolo.Text = "Legal SpeeduMax - Gestionale per Avvocati"
         '
         'UlblInfo
         '
         Me.UlblInfo.Font = New System.Drawing.Font("Linux Libertine Display G", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UlblInfo.Location = New System.Drawing.Point(174, 506)
+        Me.UlblInfo.Location = New System.Drawing.Point(138, 612)
         Me.UlblInfo.Name = "UlblInfo"
-        Me.UlblInfo.Size = New System.Drawing.Size(239, 35)
+        Me.UlblInfo.Size = New System.Drawing.Size(337, 35)
         Me.UlblInfo.TabIndex = 1
         Me.UlblInfo.Text = "Versione 1.0.0. - 2019 "
         '
@@ -51,7 +51,7 @@ Partial Class FrmSplash
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(596, 553)
+        Me.ClientSize = New System.Drawing.Size(596, 650)
         Me.ControlBox = False
         Me.Controls.Add(Me.UlblInfo)
         Me.Controls.Add(Me.ULblTitolo)

@@ -121,6 +121,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LSCommon\LSCommon.vbproj">
+      <Project>{19eafe53-8339-4eb1-93d7-6723d0f22a35}</Project>
+      <Name>LSCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LSDataModel\LSDataModel.vbproj">
       <Project>{b7c67cd0-1dfc-4769-b440-3da3070c58e2}</Project>
       <Name>LSDataModel</Name>

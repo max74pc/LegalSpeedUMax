@@ -708,7 +708,6 @@ Partial Class FrmAnaAvvocati
         DockableControlPane1.Control = Me.UltraPanelToolbar
         DockableControlPane1.OriginalControlBounds = New System.Drawing.Rectangle(0, 0, 1095, 100)
         DockableControlPane1.Size = New System.Drawing.Size(100, 100)
-        DockableControlPane1.Text = "UltraPanelToolbar"
         DockAreaPane1.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane1})
         DockAreaPane1.Size = New System.Drawing.Size(1762, 95)
         DockAreaPane2.DockedBefore = New System.Guid("d5029311-2436-4210-a52c-8b45b6c51370")

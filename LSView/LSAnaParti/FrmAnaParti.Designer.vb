@@ -88,6 +88,7 @@ Partial Class FrmAnaParti
         Me.WindowDockingArea2 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.WindowDockingArea3 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.ImageListAnaParti = New System.Windows.Forms.ImageList(Me.components)
+        Me.LSUTxtCFRicerca = New LSUltraCasellaTesto.LSUltraCasellaTesto()
         Me.UltraPanelToolbar.ClientArea.SuspendLayout()
         Me.UltraPanelToolbar.SuspendLayout()
         CType(Me.UltraGroupBoxtoolbar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -231,6 +232,7 @@ Partial Class FrmAnaParti
         '
         'UltraGroupBoxFiltriRicerca
         '
+        Me.UltraGroupBoxFiltriRicerca.Controls.Add(Me.LSUTxtCFRicerca)
         Me.UltraGroupBoxFiltriRicerca.Controls.Add(Me.UBtnConfermaControparteTrovata)
         Me.UltraGroupBoxFiltriRicerca.Controls.Add(Me.LSUTxtNominativoRicerca)
         Me.UltraGroupBoxFiltriRicerca.Dock = System.Windows.Forms.DockStyle.Fill
@@ -245,7 +247,7 @@ Partial Class FrmAnaParti
         Me.UBtnConfermaControparteTrovata.Appearance = Appearance3
         Me.UBtnConfermaControparteTrovata.DialogResult = System.Windows.Forms.DialogResult.OK
         Me.UBtnConfermaControparteTrovata.Font = New System.Drawing.Font("Linux Libertine Display G", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UBtnConfermaControparteTrovata.Location = New System.Drawing.Point(86, 102)
+        Me.UBtnConfermaControparteTrovata.Location = New System.Drawing.Point(86, 135)
         Me.UBtnConfermaControparteTrovata.Name = "UBtnConfermaControparteTrovata"
         Me.UBtnConfermaControparteTrovata.Size = New System.Drawing.Size(298, 39)
         Me.UBtnConfermaControparteTrovata.TabIndex = 3
@@ -257,7 +259,7 @@ Partial Class FrmAnaParti
         Me.LSUTxtNominativoRicerca.ColoreSfondoCasellaTestoInUscita = System.Drawing.Color.White
         Me.LSUTxtNominativoRicerca.LarghezzaCasellaTesto = 204
         Me.LSUTxtNominativoRicerca.LarghezzaEtichetta = 209
-        Me.LSUTxtNominativoRicerca.Location = New System.Drawing.Point(13, 39)
+        Me.LSUTxtNominativoRicerca.Location = New System.Drawing.Point(6, 29)
         Me.LSUTxtNominativoRicerca.Name = "LSUTxtNominativoRicerca"
         Me.LSUTxtNominativoRicerca.Obbligatorio = False
         Me.LSUTxtNominativoRicerca.Size = New System.Drawing.Size(474, 30)
@@ -629,7 +631,6 @@ Partial Class FrmAnaParti
         DockableControlPane1.Control = Me.UltraPanelToolbar
         DockableControlPane1.OriginalControlBounds = New System.Drawing.Rectangle(0, 0, 1095, 100)
         DockableControlPane1.Size = New System.Drawing.Size(100, 100)
-        DockableControlPane1.Text = "UltraPanelToolbar"
         DockAreaPane1.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane1})
         DockAreaPane1.Size = New System.Drawing.Size(1762, 95)
         DockAreaPane2.DockedBefore = New System.Guid("d5029311-2436-4210-a52c-8b45b6c51370")
@@ -789,6 +790,20 @@ Partial Class FrmAnaParti
         Me.ImageListAnaParti.Images.SetKeyName(8, "Ricerca-Dati-68x75.png")
         Me.ImageListAnaParti.Images.SetKeyName(9, "Ricerca-Dati-highlight-68x75.png")
         '
+        'LSUTxtCFRicerca
+        '
+        Me.LSUTxtCFRicerca.ColoreSfondoCasellaTestoInEntrata = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(118, Byte), Integer))
+        Me.LSUTxtCFRicerca.ColoreSfondoCasellaTestoInUscita = System.Drawing.Color.White
+        Me.LSUTxtCFRicerca.LarghezzaCasellaTesto = 204
+        Me.LSUTxtCFRicerca.LarghezzaEtichetta = 209
+        Me.LSUTxtCFRicerca.Location = New System.Drawing.Point(7, 80)
+        Me.LSUTxtCFRicerca.Name = "LSUTxtCFRicerca"
+        Me.LSUTxtCFRicerca.Obbligatorio = False
+        Me.LSUTxtCFRicerca.Size = New System.Drawing.Size(474, 30)
+        Me.LSUTxtCFRicerca.TabIndex = 4
+        Me.LSUTxtCFRicerca.TestoEtichetta = "Codice Fiscale (compreso)"
+        Me.LSUTxtCFRicerca.ValoreCasellaTesto = ""
+        '
         'FrmAnaParti
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -886,4 +901,5 @@ Partial Class FrmAnaParti
     Friend WithEvents LSUTxtNomeLegaleRappr As LSUltraCasellaTesto.LSUltraCasellaTesto
     Friend WithEvents UPicBoxCaricaLegaleRappr As Infragistics.Win.UltraWinEditors.UltraPictureBox
     Friend WithEvents UBtnConfermaControparteTrovata As Infragistics.Win.Misc.UltraButton
+    Friend WithEvents LSUTxtCFRicerca As LSUltraCasellaTesto.LSUltraCasellaTesto
 End Class

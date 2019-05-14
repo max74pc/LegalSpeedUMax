@@ -26,6 +26,7 @@ Partial Class FrmAnaPersone
         Dim Appearance1 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmAnaPersone))
         Dim Appearance2 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance3 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim DockAreaPane1 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedTop, New System.Guid("d9501c4d-5458-4a0f-b82b-4f4a16acfbaa"))
         Dim DockableControlPane1 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("7283cb70-7756-4407-a457-1d02c1436f2a"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("d9501c4d-5458-4a0f-b82b-4f4a16acfbaa"), -1)
         Dim DockAreaPane2 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedLeft, New System.Guid("db9e0f80-60a3-406f-abdc-c9fc787c6999"))
@@ -34,7 +35,6 @@ Partial Class FrmAnaPersone
         Dim DockAreaPane3 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedTop, New System.Guid("d5029311-2436-4210-a52c-8b45b6c51370"))
         Dim DockableControlPane4 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("1c0f9105-e6ba-45e1-9ec0-9d46526b79c3"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("d5029311-2436-4210-a52c-8b45b6c51370"), 0)
         Dim Appearance4 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance3 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Me.UltraPanelToolbar = New Infragistics.Win.Misc.UltraPanel()
         Me.UltraGroupBoxtoolbar = New Infragistics.Win.Misc.UltraGroupBox()
         Me.UPicBoxRicercaDati = New Infragistics.Win.UltraWinEditors.UltraPictureBox()
@@ -46,6 +46,7 @@ Partial Class FrmAnaPersone
         Me.UPicBoxChiudiFinestra = New Infragistics.Win.UltraWinEditors.UltraPictureBox()
         Me.UltraPanelFiltriRicerca = New Infragistics.Win.Misc.UltraPanel()
         Me.UltraGroupBoxFiltriRicerca = New Infragistics.Win.Misc.UltraGroupBox()
+        Me.UBtnConfermaPersonaTrovata = New Infragistics.Win.Misc.UltraButton()
         Me.LSUTxtNominativoRicerca = New LSUltraCasellaTesto.LSUltraCasellaTesto()
         Me.UltraPanelDatiGrglia = New Infragistics.Win.Misc.UltraPanel()
         Me.UltraGroupBoxDatiGriglia = New Infragistics.Win.Misc.UltraGroupBox()
@@ -81,7 +82,6 @@ Partial Class FrmAnaPersone
         Me.WindowDockingArea2 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.WindowDockingArea3 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.ImageListAnaPersone = New System.Windows.Forms.ImageList(Me.components)
-        Me.UBtnConfermaPersonaTrovata = New Infragistics.Win.Misc.UltraButton()
         Me.UltraPanelToolbar.ClientArea.SuspendLayout()
         Me.UltraPanelToolbar.SuspendLayout()
         CType(Me.UltraGroupBoxtoolbar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -232,6 +232,18 @@ Partial Class FrmAnaPersone
         Me.UltraGroupBoxFiltriRicerca.Name = "UltraGroupBoxFiltriRicerca"
         Me.UltraGroupBoxFiltriRicerca.Size = New System.Drawing.Size(488, 190)
         Me.UltraGroupBoxFiltriRicerca.TabIndex = 1
+        '
+        'UBtnConfermaPersonaTrovata
+        '
+        Appearance3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.UBtnConfermaPersonaTrovata.Appearance = Appearance3
+        Me.UBtnConfermaPersonaTrovata.DialogResult = System.Windows.Forms.DialogResult.OK
+        Me.UBtnConfermaPersonaTrovata.Font = New System.Drawing.Font("Linux Libertine Display G", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UBtnConfermaPersonaTrovata.Location = New System.Drawing.Point(95, 107)
+        Me.UBtnConfermaPersonaTrovata.Name = "UBtnConfermaPersonaTrovata"
+        Me.UBtnConfermaPersonaTrovata.Size = New System.Drawing.Size(298, 39)
+        Me.UBtnConfermaPersonaTrovata.TabIndex = 5
+        Me.UBtnConfermaPersonaTrovata.Text = "Conferma Persona Trovata"
         '
         'LSUTxtNominativoRicerca
         '
@@ -525,7 +537,6 @@ Partial Class FrmAnaPersone
         DockableControlPane1.Control = Me.UltraPanelToolbar
         DockableControlPane1.OriginalControlBounds = New System.Drawing.Rectangle(0, 0, 1095, 100)
         DockableControlPane1.Size = New System.Drawing.Size(100, 100)
-        DockableControlPane1.Text = "UltraPanelToolbar"
         DockAreaPane1.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane1})
         DockAreaPane1.Size = New System.Drawing.Size(1762, 95)
         DockAreaPane2.DockedBefore = New System.Guid("d5029311-2436-4210-a52c-8b45b6c51370")
@@ -684,18 +695,6 @@ Partial Class FrmAnaPersone
         Me.ImageListAnaPersone.Images.SetKeyName(7, "Inserisci-Riga-highlight-68x75.png")
         Me.ImageListAnaPersone.Images.SetKeyName(8, "Ricerca-Dati-68x75.png")
         Me.ImageListAnaPersone.Images.SetKeyName(9, "Ricerca-Dati-highlight-68x75.png")
-        '
-        'UBtnConfermaPersonaTrovata
-        '
-        Appearance3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.UBtnConfermaPersonaTrovata.Appearance = Appearance3
-        Me.UBtnConfermaPersonaTrovata.DialogResult = System.Windows.Forms.DialogResult.OK
-        Me.UBtnConfermaPersonaTrovata.Font = New System.Drawing.Font("Linux Libertine Display G", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UBtnConfermaPersonaTrovata.Location = New System.Drawing.Point(95, 107)
-        Me.UBtnConfermaPersonaTrovata.Name = "UBtnConfermaPersonaTrovata"
-        Me.UBtnConfermaPersonaTrovata.Size = New System.Drawing.Size(298, 39)
-        Me.UBtnConfermaPersonaTrovata.TabIndex = 5
-        Me.UBtnConfermaPersonaTrovata.Text = "Conferma Persona Trovata"
         '
         'FrmAnaPersone
         '

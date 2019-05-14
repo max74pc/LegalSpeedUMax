@@ -26,6 +26,7 @@ Partial Class FrmAnaUtenti
         Dim Appearance1 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmAnaUtenti))
         Dim Appearance2 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance3 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim Appearance4 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim Appearance5 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim Appearance6 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
@@ -40,7 +41,6 @@ Partial Class FrmAnaUtenti
         Dim DockAreaPane3 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedTop, New System.Guid("d5029311-2436-4210-a52c-8b45b6c51370"))
         Dim DockableControlPane4 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("1c0f9105-e6ba-45e1-9ec0-9d46526b79c3"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("d5029311-2436-4210-a52c-8b45b6c51370"), 0)
         Dim Appearance10 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance3 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Me.UltraPanelToolbar = New Infragistics.Win.Misc.UltraPanel()
         Me.UltraGroupBoxtoolbar = New Infragistics.Win.Misc.UltraGroupBox()
         Me.UPicBoxRicercaDati = New Infragistics.Win.UltraWinEditors.UltraPictureBox()
@@ -56,9 +56,10 @@ Partial Class FrmAnaUtenti
         Me.LSUTxtNomeUtenteRicerca = New LSUltraCasellaTesto.LSUltraCasellaTesto()
         Me.UltraPanelDatiGrglia = New Infragistics.Win.Misc.UltraPanel()
         Me.UltraGroupBoxDatiGriglia = New Infragistics.Win.Misc.UltraGroupBox()
-        Me.UGrdAnaParti = New Infragistics.Win.UltraWinGrid.UltraGrid()
+        Me.UGrdAnaUtenti = New Infragistics.Win.UltraWinGrid.UltraGrid()
         Me.UltraPanelDatiDett = New Infragistics.Win.Misc.UltraPanel()
         Me.UltraGroupBoxdatiDett = New Infragistics.Win.Misc.UltraGroupBox()
+        Me.UChkEditPermessoUtility = New Infragistics.Win.UltraWinEditors.UltraCheckEditor()
         Me.UChckEditPermessoAgenda = New Infragistics.Win.UltraWinEditors.UltraCheckEditor()
         Me.UChckEditAppEsterne = New Infragistics.Win.UltraWinEditors.UltraCheckEditor()
         Me.UChkEditPermessoGenAtti = New Infragistics.Win.UltraWinEditors.UltraCheckEditor()
@@ -68,7 +69,7 @@ Partial Class FrmAnaUtenti
         Me.LSUPasswordDecriptata = New LSUltraCasellaTesto.LSUltraCasellaTesto()
         Me.LSUTxtNomeUtente = New LSUltraCasellaTesto.LSUltraCasellaTesto()
         Me.UlblRigaDatiTett = New Infragistics.Win.Misc.UltraLabel()
-        Me.UltraDockAnaParti = New Infragistics.Win.UltraWinDock.UltraDockManager(Me.components)
+        Me.UltraDockAnaUtenti = New Infragistics.Win.UltraWinDock.UltraDockManager(Me.components)
         Me._FrmAnaPartiUnpinnedTabAreaLeft = New Infragistics.Win.UltraWinDock.UnpinnedTabArea()
         Me._FrmAnaPartiUnpinnedTabAreaRight = New Infragistics.Win.UltraWinDock.UnpinnedTabArea()
         Me._FrmAnaPartiUnpinnedTabAreaTop = New Infragistics.Win.UltraWinDock.UnpinnedTabArea()
@@ -82,7 +83,6 @@ Partial Class FrmAnaUtenti
         Me.WindowDockingArea2 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.WindowDockingArea3 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.ImageListAnaUtenti = New System.Windows.Forms.ImageList(Me.components)
-        Me.UChkEditPermessoUtility = New Infragistics.Win.UltraWinEditors.UltraCheckEditor()
         Me.UltraPanelToolbar.ClientArea.SuspendLayout()
         Me.UltraPanelToolbar.SuspendLayout()
         CType(Me.UltraGroupBoxtoolbar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -95,18 +95,19 @@ Partial Class FrmAnaUtenti
         Me.UltraPanelDatiGrglia.SuspendLayout()
         CType(Me.UltraGroupBoxDatiGriglia, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UltraGroupBoxDatiGriglia.SuspendLayout()
-        CType(Me.UGrdAnaParti, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.UGrdAnaUtenti, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UltraPanelDatiDett.ClientArea.SuspendLayout()
         Me.UltraPanelDatiDett.SuspendLayout()
         CType(Me.UltraGroupBoxdatiDett, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UltraGroupBoxdatiDett.SuspendLayout()
+        CType(Me.UChkEditPermessoUtility, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UChckEditPermessoAgenda, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UChckEditAppEsterne, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UChkEditPermessoGenAtti, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UChkEditPermessoFatt, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UChkEditPermessoGestioneUtenti, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UChkEditPermessoAnagrafiche, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.UltraDockAnaParti, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.UltraDockAnaUtenti, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.WindowDockingArea1.SuspendLayout()
         Me.DockableWindow1.SuspendLayout()
         Me.DockableWindow3.SuspendLayout()
@@ -114,7 +115,6 @@ Partial Class FrmAnaUtenti
         Me.DockableWindow4.SuspendLayout()
         Me.WindowDockingArea2.SuspendLayout()
         Me.WindowDockingArea3.SuspendLayout()
-        CType(Me.UChkEditPermessoUtility, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'UltraPanelToolbar
@@ -155,7 +155,7 @@ Partial Class FrmAnaUtenti
         Me.UPicBoxRicercaDati.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UPicBoxRicercaDati.BorderShadowColor = System.Drawing.Color.Empty
         Me.UPicBoxRicercaDati.Image = CType(resources.GetObject("UPicBoxRicercaDati.Image"), Object)
-        Me.UPicBoxRicercaDati.Location = New System.Drawing.Point(1395, 3)
+        Me.UPicBoxRicercaDati.Location = New System.Drawing.Point(1392, 3)
         Me.UPicBoxRicercaDati.Name = "UPicBoxRicercaDati"
         Me.UPicBoxRicercaDati.Size = New System.Drawing.Size(68, 75)
         Me.UPicBoxRicercaDati.TabIndex = 12
@@ -165,7 +165,7 @@ Partial Class FrmAnaUtenti
         Me.UPicBoxInserisciRiga.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UPicBoxInserisciRiga.BorderShadowColor = System.Drawing.Color.Empty
         Me.UPicBoxInserisciRiga.Image = CType(resources.GetObject("UPicBoxInserisciRiga.Image"), Object)
-        Me.UPicBoxInserisciRiga.Location = New System.Drawing.Point(1469, 3)
+        Me.UPicBoxInserisciRiga.Location = New System.Drawing.Point(1466, 3)
         Me.UPicBoxInserisciRiga.Name = "UPicBoxInserisciRiga"
         Me.UPicBoxInserisciRiga.Size = New System.Drawing.Size(68, 75)
         Me.UPicBoxInserisciRiga.TabIndex = 11
@@ -175,7 +175,7 @@ Partial Class FrmAnaUtenti
         Me.UPicBoxEliminaRiga.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UPicBoxEliminaRiga.BorderShadowColor = System.Drawing.Color.Empty
         Me.UPicBoxEliminaRiga.Image = CType(resources.GetObject("UPicBoxEliminaRiga.Image"), Object)
-        Me.UPicBoxEliminaRiga.Location = New System.Drawing.Point(1543, 3)
+        Me.UPicBoxEliminaRiga.Location = New System.Drawing.Point(1540, 3)
         Me.UPicBoxEliminaRiga.Name = "UPicBoxEliminaRiga"
         Me.UPicBoxEliminaRiga.Size = New System.Drawing.Size(68, 75)
         Me.UPicBoxEliminaRiga.TabIndex = 10
@@ -185,7 +185,7 @@ Partial Class FrmAnaUtenti
         Me.UPicBoxSalvaDati.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UPicBoxSalvaDati.BorderShadowColor = System.Drawing.Color.Empty
         Me.UPicBoxSalvaDati.Image = CType(resources.GetObject("UPicBoxSalvaDati.Image"), Object)
-        Me.UPicBoxSalvaDati.Location = New System.Drawing.Point(1617, 3)
+        Me.UPicBoxSalvaDati.Location = New System.Drawing.Point(1614, 3)
         Me.UPicBoxSalvaDati.Name = "UPicBoxSalvaDati"
         Me.UPicBoxSalvaDati.Size = New System.Drawing.Size(68, 75)
         Me.UPicBoxSalvaDati.TabIndex = 9
@@ -214,7 +214,7 @@ Partial Class FrmAnaUtenti
         Me.UPicBoxChiudiFinestra.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UPicBoxChiudiFinestra.BorderShadowColor = System.Drawing.Color.Empty
         Me.UPicBoxChiudiFinestra.Image = CType(resources.GetObject("UPicBoxChiudiFinestra.Image"), Object)
-        Me.UPicBoxChiudiFinestra.Location = New System.Drawing.Point(1691, 3)
+        Me.UPicBoxChiudiFinestra.Location = New System.Drawing.Point(1688, 3)
         Me.UPicBoxChiudiFinestra.Name = "UPicBoxChiudiFinestra"
         Me.UPicBoxChiudiFinestra.Size = New System.Drawing.Size(68, 75)
         Me.UPicBoxChiudiFinestra.TabIndex = 2
@@ -246,13 +246,13 @@ Partial Class FrmAnaUtenti
         Me.LSUTxtPasswordRicerca.ColoreSfondoCasellaTestoInEntrata = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(118, Byte), Integer))
         Me.LSUTxtPasswordRicerca.ColoreSfondoCasellaTestoInUscita = System.Drawing.Color.White
         Me.LSUTxtPasswordRicerca.LarghezzaCasellaTesto = 204
-        Me.LSUTxtPasswordRicerca.LarghezzaEtichetta = 209
+        Me.LSUTxtPasswordRicerca.LarghezzaEtichetta = 225
         Me.LSUTxtPasswordRicerca.Location = New System.Drawing.Point(8, 105)
         Me.LSUTxtPasswordRicerca.Name = "LSUTxtPasswordRicerca"
         Me.LSUTxtPasswordRicerca.Obbligatorio = False
-        Me.LSUTxtPasswordRicerca.Size = New System.Drawing.Size(474, 30)
+        Me.LSUTxtPasswordRicerca.Size = New System.Drawing.Size(479, 39)
         Me.LSUTxtPasswordRicerca.TabIndex = 1
-        Me.LSUTxtPasswordRicerca.TestoEtichetta = "Password:"
+        Me.LSUTxtPasswordRicerca.TestoEtichetta = "Password Decriptata (Esatta):"
         Me.LSUTxtPasswordRicerca.ValoreCasellaTesto = ""
         '
         'LSUTxtNomeUtenteRicerca
@@ -260,13 +260,13 @@ Partial Class FrmAnaUtenti
         Me.LSUTxtNomeUtenteRicerca.ColoreSfondoCasellaTestoInEntrata = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(118, Byte), Integer))
         Me.LSUTxtNomeUtenteRicerca.ColoreSfondoCasellaTestoInUscita = System.Drawing.Color.White
         Me.LSUTxtNomeUtenteRicerca.LarghezzaCasellaTesto = 204
-        Me.LSUTxtNomeUtenteRicerca.LarghezzaEtichetta = 209
-        Me.LSUTxtNomeUtenteRicerca.Location = New System.Drawing.Point(13, 39)
+        Me.LSUTxtNomeUtenteRicerca.LarghezzaEtichetta = 225
+        Me.LSUTxtNomeUtenteRicerca.Location = New System.Drawing.Point(8, 40)
         Me.LSUTxtNomeUtenteRicerca.Name = "LSUTxtNomeUtenteRicerca"
         Me.LSUTxtNomeUtenteRicerca.Obbligatorio = False
-        Me.LSUTxtNomeUtenteRicerca.Size = New System.Drawing.Size(474, 30)
+        Me.LSUTxtNomeUtenteRicerca.Size = New System.Drawing.Size(485, 39)
         Me.LSUTxtNomeUtenteRicerca.TabIndex = 0
-        Me.LSUTxtNomeUtenteRicerca.TestoEtichetta = "Nome Utente:"
+        Me.LSUTxtNomeUtenteRicerca.TestoEtichetta = "Nome Utente (Contenuto):"
         Me.LSUTxtNomeUtenteRicerca.ValoreCasellaTesto = ""
         '
         'UltraPanelDatiGrglia
@@ -283,21 +283,21 @@ Partial Class FrmAnaUtenti
         '
         'UltraGroupBoxDatiGriglia
         '
-        Me.UltraGroupBoxDatiGriglia.Controls.Add(Me.UGrdAnaParti)
+        Me.UltraGroupBoxDatiGriglia.Controls.Add(Me.UGrdAnaUtenti)
         Me.UltraGroupBoxDatiGriglia.Dock = System.Windows.Forms.DockStyle.Fill
         Me.UltraGroupBoxDatiGriglia.Location = New System.Drawing.Point(0, 0)
         Me.UltraGroupBoxDatiGriglia.Name = "UltraGroupBoxDatiGriglia"
         Me.UltraGroupBoxDatiGriglia.Size = New System.Drawing.Size(488, 346)
         Me.UltraGroupBoxDatiGriglia.TabIndex = 1
         '
-        'UGrdAnaParti
+        'UGrdAnaUtenti
         '
-        Me.UGrdAnaParti.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.UGrdAnaParti.Location = New System.Drawing.Point(3, 3)
-        Me.UGrdAnaParti.Name = "UGrdAnaParti"
-        Me.UGrdAnaParti.Size = New System.Drawing.Size(482, 340)
-        Me.UGrdAnaParti.TabIndex = 1
-        Me.UGrdAnaParti.Text = "Griglia Anagrafica Utenti"
+        Me.UGrdAnaUtenti.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.UGrdAnaUtenti.Location = New System.Drawing.Point(3, 3)
+        Me.UGrdAnaUtenti.Name = "UGrdAnaUtenti"
+        Me.UGrdAnaUtenti.Size = New System.Drawing.Size(482, 340)
+        Me.UGrdAnaUtenti.TabIndex = 1
+        Me.UGrdAnaUtenti.Text = "Griglia Anagrafica Utenti"
         '
         'UltraPanelDatiDett
         '
@@ -329,27 +329,39 @@ Partial Class FrmAnaUtenti
         Me.UltraGroupBoxdatiDett.Size = New System.Drawing.Size(1269, 555)
         Me.UltraGroupBoxdatiDett.TabIndex = 1
         '
+        'UChkEditPermessoUtility
+        '
+        Appearance3.FontData.Name = "Linux Libertine Display G"
+        Appearance3.FontData.SizeInPoints = 11.0!
+        Me.UChkEditPermessoUtility.Appearance = Appearance3
+        Me.UChkEditPermessoUtility.Location = New System.Drawing.Point(64, 290)
+        Me.UChkEditPermessoUtility.Name = "UChkEditPermessoUtility"
+        Me.UChkEditPermessoUtility.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.UChkEditPermessoUtility.Size = New System.Drawing.Size(237, 23)
+        Me.UChkEditPermessoUtility.TabIndex = 51
+        Me.UChkEditPermessoUtility.Text = "         :Permesso Utility"
+        '
         'UChckEditPermessoAgenda
         '
         Appearance4.FontData.Name = "Linux Libertine Display G"
         Appearance4.FontData.SizeInPoints = 11.0!
         Me.UChckEditPermessoAgenda.Appearance = Appearance4
-        Me.UChckEditPermessoAgenda.Location = New System.Drawing.Point(522, 251)
+        Me.UChckEditPermessoAgenda.Location = New System.Drawing.Point(561, 251)
         Me.UChckEditPermessoAgenda.Name = "UChckEditPermessoAgenda"
         Me.UChckEditPermessoAgenda.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.UChckEditPermessoAgenda.Size = New System.Drawing.Size(179, 20)
+        Me.UChckEditPermessoAgenda.Size = New System.Drawing.Size(364, 25)
         Me.UChckEditPermessoAgenda.TabIndex = 50
-        Me.UChckEditPermessoAgenda.Text = ":Permesso Agenda"
+        Me.UChckEditPermessoAgenda.Text = "               :Permesso Agenda"
         '
         'UChckEditAppEsterne
         '
         Appearance5.FontData.Name = "Linux Libertine Display G"
         Appearance5.FontData.SizeInPoints = 11.0!
         Me.UChckEditAppEsterne.Appearance = Appearance5
-        Me.UChckEditAppEsterne.Location = New System.Drawing.Point(19, 251)
+        Me.UChckEditAppEsterne.Location = New System.Drawing.Point(67, 251)
         Me.UChckEditAppEsterne.Name = "UChckEditAppEsterne"
         Me.UChckEditAppEsterne.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.UChckEditAppEsterne.Size = New System.Drawing.Size(216, 20)
+        Me.UChckEditAppEsterne.Size = New System.Drawing.Size(234, 20)
         Me.UChckEditAppEsterne.TabIndex = 49
         Me.UChckEditAppEsterne.Text = ":Permesso App Esterne"
         '
@@ -358,22 +370,22 @@ Partial Class FrmAnaUtenti
         Appearance6.FontData.Name = "Linux Libertine Display G"
         Appearance6.FontData.SizeInPoints = 11.0!
         Me.UChkEditPermessoGenAtti.Appearance = Appearance6
-        Me.UChkEditPermessoGenAtti.Location = New System.Drawing.Point(496, 211)
+        Me.UChkEditPermessoGenAtti.Location = New System.Drawing.Point(581, 211)
         Me.UChkEditPermessoGenAtti.Name = "UChkEditPermessoGenAtti"
         Me.UChkEditPermessoGenAtti.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.UChkEditPermessoGenAtti.Size = New System.Drawing.Size(260, 20)
+        Me.UChkEditPermessoGenAtti.Size = New System.Drawing.Size(344, 20)
         Me.UChkEditPermessoGenAtti.TabIndex = 48
-        Me.UChkEditPermessoGenAtti.Text = ":Permesso Generazione Atti"
+        Me.UChkEditPermessoGenAtti.Text = " :Permesso Generazione Atti"
         '
         'UChkEditPermessoFatt
         '
         Appearance7.FontData.Name = "Linux Libertine Display G"
         Appearance7.FontData.SizeInPoints = 11.0!
         Me.UChkEditPermessoFatt.Appearance = Appearance7
-        Me.UChkEditPermessoFatt.Location = New System.Drawing.Point(19, 211)
+        Me.UChkEditPermessoFatt.Location = New System.Drawing.Point(67, 211)
         Me.UChkEditPermessoFatt.Name = "UChkEditPermessoFatt"
         Me.UChkEditPermessoFatt.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.UChkEditPermessoFatt.Size = New System.Drawing.Size(216, 20)
+        Me.UChkEditPermessoFatt.Size = New System.Drawing.Size(234, 20)
         Me.UChkEditPermessoFatt.TabIndex = 47
         Me.UChkEditPermessoFatt.Text = ":Permesso Fatturazione"
         '
@@ -382,22 +394,22 @@ Partial Class FrmAnaUtenti
         Appearance8.FontData.Name = "Linux Libertine Display G"
         Appearance8.FontData.SizeInPoints = 11.0!
         Me.UChkEditPermessoGestioneUtenti.Appearance = Appearance8
-        Me.UChkEditPermessoGestioneUtenti.Location = New System.Drawing.Point(509, 170)
+        Me.UChkEditPermessoGestioneUtenti.Location = New System.Drawing.Point(570, 170)
         Me.UChkEditPermessoGestioneUtenti.Name = "UChkEditPermessoGestioneUtenti"
         Me.UChkEditPermessoGestioneUtenti.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.UChkEditPermessoGestioneUtenti.Size = New System.Drawing.Size(247, 20)
+        Me.UChkEditPermessoGestioneUtenti.Size = New System.Drawing.Size(355, 20)
         Me.UChkEditPermessoGestioneUtenti.TabIndex = 46
-        Me.UChkEditPermessoGestioneUtenti.Text = ":Permesso Gestione Utenti"
+        Me.UChkEditPermessoGestioneUtenti.Text = "   :Permesso Gestione Utenti"
         '
         'UChkEditPermessoAnagrafiche
         '
         Appearance9.FontData.Name = "Linux Libertine Display G"
         Appearance9.FontData.SizeInPoints = 11.0!
         Me.UChkEditPermessoAnagrafiche.Appearance = Appearance9
-        Me.UChkEditPermessoAnagrafiche.Location = New System.Drawing.Point(19, 170)
+        Me.UChkEditPermessoAnagrafiche.Location = New System.Drawing.Point(69, 170)
         Me.UChkEditPermessoAnagrafiche.Name = "UChkEditPermessoAnagrafiche"
         Me.UChkEditPermessoAnagrafiche.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.UChkEditPermessoAnagrafiche.Size = New System.Drawing.Size(216, 20)
+        Me.UChkEditPermessoAnagrafiche.Size = New System.Drawing.Size(232, 20)
         Me.UChkEditPermessoAnagrafiche.TabIndex = 45
         Me.UChkEditPermessoAnagrafiche.Text = ":Permesso Anagrafiche"
         '
@@ -406,11 +418,11 @@ Partial Class FrmAnaUtenti
         Me.LSUPasswordDecriptata.ColoreSfondoCasellaTestoInEntrata = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(118, Byte), Integer))
         Me.LSUPasswordDecriptata.ColoreSfondoCasellaTestoInUscita = System.Drawing.Color.White
         Me.LSUPasswordDecriptata.LarghezzaCasellaTesto = 204
-        Me.LSUPasswordDecriptata.LarghezzaEtichetta = 209
-        Me.LSUPasswordDecriptata.Location = New System.Drawing.Point(522, 114)
+        Me.LSUPasswordDecriptata.LarghezzaEtichetta = 180
+        Me.LSUPasswordDecriptata.Location = New System.Drawing.Point(657, 114)
         Me.LSUPasswordDecriptata.Name = "LSUPasswordDecriptata"
         Me.LSUPasswordDecriptata.Obbligatorio = True
-        Me.LSUPasswordDecriptata.Size = New System.Drawing.Size(460, 30)
+        Me.LSUPasswordDecriptata.Size = New System.Drawing.Size(616, 30)
         Me.LSUPasswordDecriptata.TabIndex = 44
         Me.LSUPasswordDecriptata.TestoEtichetta = "Password Decriptata:"
         Me.LSUPasswordDecriptata.ValoreCasellaTesto = ""
@@ -420,11 +432,11 @@ Partial Class FrmAnaUtenti
         Me.LSUTxtNomeUtente.ColoreSfondoCasellaTestoInEntrata = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(118, Byte), Integer))
         Me.LSUTxtNomeUtente.ColoreSfondoCasellaTestoInUscita = System.Drawing.Color.White
         Me.LSUTxtNomeUtente.LarghezzaCasellaTesto = 204
-        Me.LSUTxtNomeUtente.LarghezzaEtichetta = 180
-        Me.LSUTxtNomeUtente.Location = New System.Drawing.Point(30, 114)
+        Me.LSUTxtNomeUtente.LarghezzaEtichetta = 140
+        Me.LSUTxtNomeUtente.Location = New System.Drawing.Point(82, 114)
         Me.LSUTxtNomeUtente.Name = "LSUTxtNomeUtente"
         Me.LSUTxtNomeUtente.Obbligatorio = True
-        Me.LSUTxtNomeUtente.Size = New System.Drawing.Size(440, 30)
+        Me.LSUTxtNomeUtente.Size = New System.Drawing.Size(575, 30)
         Me.LSUTxtNomeUtente.TabIndex = 43
         Me.LSUTxtNomeUtente.TestoEtichetta = "Nome Utente:"
         Me.LSUTxtNomeUtente.ValoreCasellaTesto = ""
@@ -439,14 +451,13 @@ Partial Class FrmAnaUtenti
         Me.UlblRigaDatiTett.Size = New System.Drawing.Size(1250, 3)
         Me.UlblRigaDatiTett.TabIndex = 42
         '
-        'UltraDockAnaParti
+        'UltraDockAnaUtenti
         '
-        Me.UltraDockAnaParti.CompressUnpinnedTabs = False
+        Me.UltraDockAnaUtenti.CompressUnpinnedTabs = False
         DockAreaPane1.DockedBefore = New System.Guid("db9e0f80-60a3-406f-abdc-c9fc787c6999")
         DockableControlPane1.Control = Me.UltraPanelToolbar
-        DockableControlPane1.OriginalControlBounds = New System.Drawing.Rectangle(0, 0, 1095, 100)
+        DockableControlPane1.OriginalControlBounds = New System.Drawing.Rectangle(493, 679, 1269, 81)
         DockableControlPane1.Size = New System.Drawing.Size(100, 100)
-        DockableControlPane1.Text = "UltraPanelToolbar"
         DockAreaPane1.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane1})
         DockAreaPane1.Size = New System.Drawing.Size(1762, 95)
         DockAreaPane2.DockedBefore = New System.Guid("d5029311-2436-4210-a52c-8b45b6c51370")
@@ -467,10 +478,10 @@ Partial Class FrmAnaUtenti
         DockableControlPane4.Text = "Dati di Dettaglio"
         DockAreaPane3.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane4})
         DockAreaPane3.Size = New System.Drawing.Size(1269, 574)
-        Me.UltraDockAnaParti.DockAreas.AddRange(New Infragistics.Win.UltraWinDock.DockAreaPane() {DockAreaPane1, DockAreaPane2, DockAreaPane3})
-        Me.UltraDockAnaParti.HostControl = Me
+        Me.UltraDockAnaUtenti.DockAreas.AddRange(New Infragistics.Win.UltraWinDock.DockAreaPane() {DockAreaPane1, DockAreaPane2, DockAreaPane3})
+        Me.UltraDockAnaUtenti.HostControl = Me
         Appearance10.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.UltraDockAnaParti.SplitterBarAppearance = Appearance10
+        Me.UltraDockAnaUtenti.SplitterBarAppearance = Appearance10
         '
         '_FrmAnaPartiUnpinnedTabAreaLeft
         '
@@ -478,7 +489,7 @@ Partial Class FrmAnaUtenti
         Me._FrmAnaPartiUnpinnedTabAreaLeft.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._FrmAnaPartiUnpinnedTabAreaLeft.Location = New System.Drawing.Point(0, 0)
         Me._FrmAnaPartiUnpinnedTabAreaLeft.Name = "_FrmAnaPartiUnpinnedTabAreaLeft"
-        Me._FrmAnaPartiUnpinnedTabAreaLeft.Owner = Me.UltraDockAnaParti
+        Me._FrmAnaPartiUnpinnedTabAreaLeft.Owner = Me.UltraDockAnaUtenti
         Me._FrmAnaPartiUnpinnedTabAreaLeft.Size = New System.Drawing.Size(0, 679)
         Me._FrmAnaPartiUnpinnedTabAreaLeft.TabIndex = 0
         '
@@ -488,7 +499,7 @@ Partial Class FrmAnaUtenti
         Me._FrmAnaPartiUnpinnedTabAreaRight.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._FrmAnaPartiUnpinnedTabAreaRight.Location = New System.Drawing.Point(1762, 0)
         Me._FrmAnaPartiUnpinnedTabAreaRight.Name = "_FrmAnaPartiUnpinnedTabAreaRight"
-        Me._FrmAnaPartiUnpinnedTabAreaRight.Owner = Me.UltraDockAnaParti
+        Me._FrmAnaPartiUnpinnedTabAreaRight.Owner = Me.UltraDockAnaUtenti
         Me._FrmAnaPartiUnpinnedTabAreaRight.Size = New System.Drawing.Size(0, 679)
         Me._FrmAnaPartiUnpinnedTabAreaRight.TabIndex = 1
         '
@@ -498,7 +509,7 @@ Partial Class FrmAnaUtenti
         Me._FrmAnaPartiUnpinnedTabAreaTop.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._FrmAnaPartiUnpinnedTabAreaTop.Location = New System.Drawing.Point(0, 0)
         Me._FrmAnaPartiUnpinnedTabAreaTop.Name = "_FrmAnaPartiUnpinnedTabAreaTop"
-        Me._FrmAnaPartiUnpinnedTabAreaTop.Owner = Me.UltraDockAnaParti
+        Me._FrmAnaPartiUnpinnedTabAreaTop.Owner = Me.UltraDockAnaUtenti
         Me._FrmAnaPartiUnpinnedTabAreaTop.Size = New System.Drawing.Size(1762, 0)
         Me._FrmAnaPartiUnpinnedTabAreaTop.TabIndex = 2
         '
@@ -508,7 +519,7 @@ Partial Class FrmAnaUtenti
         Me._FrmAnaPartiUnpinnedTabAreaBottom.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._FrmAnaPartiUnpinnedTabAreaBottom.Location = New System.Drawing.Point(0, 679)
         Me._FrmAnaPartiUnpinnedTabAreaBottom.Name = "_FrmAnaPartiUnpinnedTabAreaBottom"
-        Me._FrmAnaPartiUnpinnedTabAreaBottom.Owner = Me.UltraDockAnaParti
+        Me._FrmAnaPartiUnpinnedTabAreaBottom.Owner = Me.UltraDockAnaUtenti
         Me._FrmAnaPartiUnpinnedTabAreaBottom.Size = New System.Drawing.Size(1762, 0)
         Me._FrmAnaPartiUnpinnedTabAreaBottom.TabIndex = 3
         '
@@ -517,7 +528,7 @@ Partial Class FrmAnaUtenti
         Me._FrmAnaPartiAutoHideControl.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._FrmAnaPartiAutoHideControl.Location = New System.Drawing.Point(0, 0)
         Me._FrmAnaPartiAutoHideControl.Name = "_FrmAnaPartiAutoHideControl"
-        Me._FrmAnaPartiAutoHideControl.Owner = Me.UltraDockAnaParti
+        Me._FrmAnaPartiAutoHideControl.Owner = Me.UltraDockAnaUtenti
         Me._FrmAnaPartiAutoHideControl.Size = New System.Drawing.Size(0, 0)
         Me._FrmAnaPartiAutoHideControl.TabIndex = 4
         '
@@ -528,7 +539,7 @@ Partial Class FrmAnaUtenti
         Me.WindowDockingArea1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WindowDockingArea1.Location = New System.Drawing.Point(0, 0)
         Me.WindowDockingArea1.Name = "WindowDockingArea1"
-        Me.WindowDockingArea1.Owner = Me.UltraDockAnaParti
+        Me.WindowDockingArea1.Owner = Me.UltraDockAnaUtenti
         Me.WindowDockingArea1.Size = New System.Drawing.Size(1762, 100)
         Me.WindowDockingArea1.TabIndex = 9
         '
@@ -537,7 +548,7 @@ Partial Class FrmAnaUtenti
         Me.DockableWindow1.Controls.Add(Me.UltraPanelToolbar)
         Me.DockableWindow1.Location = New System.Drawing.Point(0, 0)
         Me.DockableWindow1.Name = "DockableWindow1"
-        Me.DockableWindow1.Owner = Me.UltraDockAnaParti
+        Me.DockableWindow1.Owner = Me.UltraDockAnaUtenti
         Me.DockableWindow1.Size = New System.Drawing.Size(1762, 95)
         Me.DockableWindow1.TabIndex = 14
         '
@@ -546,7 +557,7 @@ Partial Class FrmAnaUtenti
         Me.DockableWindow3.Controls.Add(Me.UltraPanelFiltriRicerca)
         Me.DockableWindow3.Location = New System.Drawing.Point(0, 0)
         Me.DockableWindow3.Name = "DockableWindow3"
-        Me.DockableWindow3.Owner = Me.UltraDockAnaParti
+        Me.DockableWindow3.Owner = Me.UltraDockAnaUtenti
         Me.DockableWindow3.Size = New System.Drawing.Size(488, 209)
         Me.DockableWindow3.TabIndex = 15
         '
@@ -555,7 +566,7 @@ Partial Class FrmAnaUtenti
         Me.DockableWindow2.Controls.Add(Me.UltraPanelDatiGrglia)
         Me.DockableWindow2.Location = New System.Drawing.Point(0, 214)
         Me.DockableWindow2.Name = "DockableWindow2"
-        Me.DockableWindow2.Owner = Me.UltraDockAnaParti
+        Me.DockableWindow2.Owner = Me.UltraDockAnaUtenti
         Me.DockableWindow2.Size = New System.Drawing.Size(488, 365)
         Me.DockableWindow2.TabIndex = 16
         '
@@ -564,19 +575,19 @@ Partial Class FrmAnaUtenti
         Me.DockableWindow4.Controls.Add(Me.UltraPanelDatiDett)
         Me.DockableWindow4.Location = New System.Drawing.Point(0, 0)
         Me.DockableWindow4.Name = "DockableWindow4"
-        Me.DockableWindow4.Owner = Me.UltraDockAnaParti
+        Me.DockableWindow4.Owner = Me.UltraDockAnaUtenti
         Me.DockableWindow4.Size = New System.Drawing.Size(1269, 574)
         Me.DockableWindow4.TabIndex = 17
         '
         'WindowDockingArea2
         '
-        Me.WindowDockingArea2.Controls.Add(Me.DockableWindow2)
         Me.WindowDockingArea2.Controls.Add(Me.DockableWindow3)
+        Me.WindowDockingArea2.Controls.Add(Me.DockableWindow2)
         Me.WindowDockingArea2.Dock = System.Windows.Forms.DockStyle.Left
         Me.WindowDockingArea2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WindowDockingArea2.Location = New System.Drawing.Point(0, 100)
         Me.WindowDockingArea2.Name = "WindowDockingArea2"
-        Me.WindowDockingArea2.Owner = Me.UltraDockAnaParti
+        Me.WindowDockingArea2.Owner = Me.UltraDockAnaUtenti
         Me.WindowDockingArea2.Size = New System.Drawing.Size(493, 579)
         Me.WindowDockingArea2.TabIndex = 10
         '
@@ -587,7 +598,7 @@ Partial Class FrmAnaUtenti
         Me.WindowDockingArea3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WindowDockingArea3.Location = New System.Drawing.Point(493, 100)
         Me.WindowDockingArea3.Name = "WindowDockingArea3"
-        Me.WindowDockingArea3.Owner = Me.UltraDockAnaParti
+        Me.WindowDockingArea3.Owner = Me.UltraDockAnaUtenti
         Me.WindowDockingArea3.Size = New System.Drawing.Size(1269, 579)
         Me.WindowDockingArea3.TabIndex = 13
         '
@@ -606,18 +617,6 @@ Partial Class FrmAnaUtenti
         Me.ImageListAnaUtenti.Images.SetKeyName(8, "Ricerca-Dati-68x75.png")
         Me.ImageListAnaUtenti.Images.SetKeyName(9, "Ricerca-Dati-highlight-68x75.png")
         '
-        'UChkEditPermessoUtility
-        '
-        Appearance3.FontData.Name = "Linux Libertine Display G"
-        Appearance3.FontData.SizeInPoints = 11.0!
-        Me.UChkEditPermessoUtility.Appearance = Appearance3
-        Me.UChkEditPermessoUtility.Location = New System.Drawing.Point(19, 297)
-        Me.UChkEditPermessoUtility.Name = "UChkEditPermessoUtility"
-        Me.UChkEditPermessoUtility.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.UChkEditPermessoUtility.Size = New System.Drawing.Size(179, 20)
-        Me.UChkEditPermessoUtility.TabIndex = 51
-        Me.UChkEditPermessoUtility.Text = ":Permesso Utility"
-        '
         'FrmAnaUtenti
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -632,7 +631,7 @@ Partial Class FrmAnaUtenti
         Me.Controls.Add(Me._FrmAnaPartiUnpinnedTabAreaRight)
         Me.Controls.Add(Me._FrmAnaPartiUnpinnedTabAreaLeft)
         Me.Name = "FrmAnaUtenti"
-        Me.Text = "Anagrafiche Parti"
+        Me.Text = "Anagrafiche Utenti"
         Me.UltraPanelToolbar.ClientArea.ResumeLayout(False)
         Me.UltraPanelToolbar.ResumeLayout(False)
         CType(Me.UltraGroupBoxtoolbar, System.ComponentModel.ISupportInitialize).EndInit()
@@ -645,18 +644,19 @@ Partial Class FrmAnaUtenti
         Me.UltraPanelDatiGrglia.ResumeLayout(False)
         CType(Me.UltraGroupBoxDatiGriglia, System.ComponentModel.ISupportInitialize).EndInit()
         Me.UltraGroupBoxDatiGriglia.ResumeLayout(False)
-        CType(Me.UGrdAnaParti, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.UGrdAnaUtenti, System.ComponentModel.ISupportInitialize).EndInit()
         Me.UltraPanelDatiDett.ClientArea.ResumeLayout(False)
         Me.UltraPanelDatiDett.ResumeLayout(False)
         CType(Me.UltraGroupBoxdatiDett, System.ComponentModel.ISupportInitialize).EndInit()
         Me.UltraGroupBoxdatiDett.ResumeLayout(False)
+        CType(Me.UChkEditPermessoUtility, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UChckEditPermessoAgenda, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UChckEditAppEsterne, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UChkEditPermessoGenAtti, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UChkEditPermessoFatt, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UChkEditPermessoGestioneUtenti, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UChkEditPermessoAnagrafiche, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.UltraDockAnaParti, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.UltraDockAnaUtenti, System.ComponentModel.ISupportInitialize).EndInit()
         Me.WindowDockingArea1.ResumeLayout(False)
         Me.DockableWindow1.ResumeLayout(False)
         Me.DockableWindow3.ResumeLayout(False)
@@ -664,12 +664,11 @@ Partial Class FrmAnaUtenti
         Me.DockableWindow4.ResumeLayout(False)
         Me.WindowDockingArea2.ResumeLayout(False)
         Me.WindowDockingArea3.ResumeLayout(False)
-        CType(Me.UChkEditPermessoUtility, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents UltraDockAnaParti As Infragistics.Win.UltraWinDock.UltraDockManager
+    Friend WithEvents UltraDockAnaUtenti As Infragistics.Win.UltraWinDock.UltraDockManager
     Friend WithEvents _FrmAnaPartiAutoHideControl As Infragistics.Win.UltraWinDock.AutoHideControl
     Friend WithEvents _FrmAnaPartiUnpinnedTabAreaBottom As Infragistics.Win.UltraWinDock.UnpinnedTabArea
     Friend WithEvents _FrmAnaPartiUnpinnedTabAreaTop As Infragistics.Win.UltraWinDock.UnpinnedTabArea
@@ -694,7 +693,7 @@ Partial Class FrmAnaUtenti
     Friend WithEvents UltraGroupBoxDatiGriglia As Infragistics.Win.Misc.UltraGroupBox
     Friend WithEvents UltraGroupBoxdatiDett As Infragistics.Win.Misc.UltraGroupBox
     Friend WithEvents ImageListAnaUtenti As ImageList
-    Friend WithEvents UGrdAnaParti As Infragistics.Win.UltraWinGrid.UltraGrid
+    Friend WithEvents UGrdAnaUtenti As Infragistics.Win.UltraWinGrid.UltraGrid
     Friend WithEvents UlblRigaDatiTett As Infragistics.Win.Misc.UltraLabel
     Friend WithEvents UPicBoxSalvaDati As Infragistics.Win.UltraWinEditors.UltraPictureBox
     Friend WithEvents UPicBoxRicercaDati As Infragistics.Win.UltraWinEditors.UltraPictureBox

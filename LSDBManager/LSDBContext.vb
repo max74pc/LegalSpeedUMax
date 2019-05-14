@@ -1,6 +1,6 @@
 ﻿Imports System.Data.Entity
-Imports System.Windows.Forms
 Imports LSDataModel.LSDataModelNS
+Imports LSCommon.LSCommonNS
 
 Namespace LSDBContextNS
 
@@ -34,7 +34,7 @@ Namespace LSDBContextNS
     ''' </summary>
     Public Class Operazioni
 
-        Public Sub Aggiungi(Of Entity)(ByVal intEntityID As Integer, myEntity As Entity)
+        Public Shared Sub Aggiungi(Of Entity)(ByVal intEntityID As Integer, myEntity As Entity)
 
             Using dbc = New LSDBContext()
 
@@ -44,7 +44,7 @@ Namespace LSDBContextNS
 
                         Dim strNomeCompleto() = Split(TryCast(myEntity, Avvocato).NomeCompleto, " ")
 
-                        Dim iMaxIdPersona = Me.RicavaMaxId(Of Persona)()
+                        Dim iMaxIdPersona = RicavaMaxId(Of Persona)()
 
                         'Creo un nuovo avvocato
                         Dim avv = New Avvocato With
@@ -86,7 +86,7 @@ Namespace LSDBContextNS
 
                         Dim strNomeCompleto() = Split(TryCast(myEntity, Parte).NomeCompleto, " ")
 
-                        Dim iMaxIdPersona = Me.RicavaMaxId(Of Persona)()
+                        Dim iMaxIdPersona = RicavaMaxId(Of Persona)()
 
                         'Creo una nuova parte
                         Dim parte = New Parte With
@@ -126,7 +126,7 @@ Namespace LSDBContextNS
                         'devo creare una nuova persona e salvarla
                         Dim strNomeCompleto() = Split(TryCast(myEntity, Controparte).NomeCompleto, " ")
 
-                        Dim iMaxIdPersona = Me.RicavaMaxId(Of Persona)()
+                        Dim iMaxIdPersona = RicavaMaxId(Of Persona)()
 
                         'Creo una nuova controparte associata alla persona appena creata
                         Dim controparte = New Controparte With
@@ -192,89 +192,79 @@ Namespace LSDBContextNS
 
                     dbc.SaveChanges()
 
-                Catch exEF As Validation.DbEntityValidationException
-                    Dim strFullErrorMessages As String = ""
-
-                    For Each a In exEF.EntityValidationErrors
-                        For Each b In a.ValidationErrors
-                            strFullErrorMessages = strFullErrorMessages & "; " & b.ErrorMessage
-                        Next
-                    Next
-
-                    Dim exceptionMessage = String.Concat(exEF.Message, " Gli errori di validazione sono: ", Mid(strFullErrorMessages, 3, Len(strFullErrorMessages) - 2))
-
-                    Throw New Exception(exceptionMessage, exEF)
-
-                    dbc.Database.CurrentTransaction.Rollback()
-
-                    Exit Sub
-
+                Catch ex As Exception
+                    ClsComune.GestisciEccezzioni(ex, "Operazioni: Sub Aggiungi. ", True, ClsComune.GlbStrUserNameLS, "", True)
                 End Try
 
             End Using
 
         End Sub
 
-        Public Sub Elimina(Of Entity)(ByVal intEntityID As Integer)
+        Public Shared Sub Elimina(Of Entity)(ByVal intEntityID As Integer)
 
             Dim intID As Integer = 0
 
             Using dbc = New LSDBContext()
 
-                If GetType(Entity) = GetType(Avvocato) Then
+                Try
+                    If GetType(Entity) = GetType(Avvocato) Then
 
-                    Dim avv = dbc.Avvocati.FirstOrDefault(Function(w) w.IdPersona = intEntityID)
+                        Dim avv = dbc.Avvocati.FirstOrDefault(Function(w) w.IdPersona = intEntityID)
 
-                    If Not IsDBNull(avv) Then
-                        dbc.Avvocati.Remove(avv)
-                        Dim pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = avv.IdPersona)
-                        dbc.Persone.Remove(pers)
+                        If Not IsDBNull(avv) Then
+                            dbc.Avvocati.Remove(avv)
+                            Dim pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = avv.IdPersona)
+                            dbc.Persone.Remove(pers)
+                        End If
+
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Parte) Then
 
-                If GetType(Entity) = GetType(Parte) Then
+                        Dim parte = dbc.Parti.FirstOrDefault(Function(w) w.IdPersona = intEntityID)
 
-                    Dim parte = dbc.Parti.FirstOrDefault(Function(w) w.IdPersona = intEntityID)
+                        If Not IsDBNull(parte) Then
+                            dbc.Parti.Remove(parte)
+                            Dim pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = parte.IdPersona)
+                            dbc.Persone.Remove(pers)
+                        End If
 
-                    If Not IsDBNull(parte) Then
-                        dbc.Parti.Remove(parte)
-                        Dim pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = parte.IdPersona)
-                        dbc.Persone.Remove(pers)
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Controparte) Then
 
-                If GetType(Entity) = GetType(Controparte) Then
+                        Dim controparte = dbc.Controparti.FirstOrDefault(Function(w) w.IdPersona = intEntityID)
 
-                    Dim controparte = dbc.Controparti.FirstOrDefault(Function(w) w.IdPersona = intEntityID)
+                        If Not IsDBNull(controparte) Then
+                            dbc.Persone.Remove(controparte)
+                            Dim pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = controparte.IdPersona)
+                            dbc.Persone.Remove(pers)
+                        End If
 
-                    If Not IsDBNull(controparte) Then
-                        dbc.Persone.Remove(controparte)
-                        Dim pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = controparte.IdPersona)
-                        dbc.Persone.Remove(pers)
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Persona) Then
 
-                If GetType(Entity) = GetType(Persona) Then
+                        Dim pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = intEntityID)
 
-                    Dim pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = intEntityID)
+                        If Not IsDBNull(pers) Then
+                            dbc.Persone.Remove(pers)
+                        End If
 
-                    If Not IsDBNull(pers) Then
-                        dbc.Persone.Remove(pers)
                     End If
 
-                End If
+                    'salvo le modifiche del database
+                    dbc.SaveChanges()
 
-                'salvo le modifiche del database
-                dbc.SaveChanges()
+                Catch ex As Exception
+                    ClsComune.GestisciEccezzioni(ex, "Operazioni: Elimina. ", True, ClsComune.GlbStrUserNameLS, "", True)
+                End Try
 
             End Using
 
         End Sub
 
-        Public Sub Aggiorna(Of Entity)(ByVal intEntityID As Integer, myEntity As Entity)
+        Public Shared Sub Aggiorna(Of Entity)(ByVal intEntityID As Integer, myEntity As Entity)
 
             Using dbc = New LSDBContext()
 
@@ -413,306 +403,345 @@ Namespace LSDBContextNS
 
                     End If
 
+                    If GetType(Entity) = GetType(Utente) Then
+
+                        Dim utente = dbc.Utenti.FirstOrDefault(Function(w) w.IdUtente = intEntityID)
+
+                        utente.IdUtente = intEntityID
+                        utente.NomeUtente = TryCast(myEntity, Utente).NomeUtente
+                        utente.PasswordCriptata = TryCast(myEntity, Utente).PasswordCriptata
+                        utente.PermessoAgenda = TryCast(myEntity, Utente).PermessoAgenda
+                        utente.PermessoAnagrafiche = TryCast(myEntity, Utente).PermessoAnagrafiche
+                        utente.PermessoAppEsterne = TryCast(myEntity, Utente).PermessoAppEsterne
+                        utente.PermessoFatturazione = TryCast(myEntity, Utente).PermessoFatturazione
+                        utente.PermessoGenerazioneAtti = TryCast(myEntity, Utente).PermessoGenerazioneAtti
+                        utente.PermessoGestioneUtenti = TryCast(myEntity, Utente).PermessoGestioneUtenti
+                        utente.PermessoUtility = TryCast(myEntity, Utente).PermessoUtility
+                    End If
+
                     'salvo le modifiche del database
                     dbc.SaveChanges()
                     dbc.Database.CurrentTransaction.Commit()
 
-                Catch exEF As Validation.DbEntityValidationException
-                    Dim strFullErrorMessages As String = ""
-
-                    For Each a In exEF.EntityValidationErrors
-                        For Each b In a.ValidationErrors
-                            strFullErrorMessages = strFullErrorMessages & "; " & b.ErrorMessage
-                        Next
-                    Next
-
-                    Dim exceptionMessage = String.Concat(exEF.Message, " Gli errori di validazione sono: ", Mid(strFullErrorMessages, 3, Len(strFullErrorMessages) - 2))
-
-                    Throw New Exception(exceptionMessage, exEF)
-
-                    dbc.Database.CurrentTransaction.Rollback()
+                Catch ex As Exception
+                    ClsComune.GestisciEccezzioni(ex, "Operazioni: Aggiorna. ", True, ClsComune.GlbStrUserNameLS, "", True)
                 End Try
 
             End Using
 
         End Sub
 
-        Public Function CaricaDatiFiltrati(Of Entity)(ByVal listaDiFiltri As Dictionary(Of String, String)) As List(Of Entity)
+        Public Shared Function CaricaDatiFiltrati(Of Entity)(ByVal listaDiFiltri As Dictionary(Of String, String)) As List(Of Entity)
 
             Using dbc = New LSDBContext()
 
-                If GetType(Entity) = GetType(Avvocato) Then
+                Try
 
-                    Dim strSQL As String = ""
-                    Dim strSQLFilter As String = ""
-                    Dim parametri As String() = Nothing
+                    If GetType(Entity) = GetType(Avvocato) Then
 
-                    For Each filtro In listaDiFiltri
+                        Dim strSQL As String = "Select * From Avvocati Inner Join Persone On Avvocati.IdPersona = Persone.IdPersona Where "
+                        Dim strSQLFilter As String = ""
+                        Dim parametri As String() = Nothing
+                        Dim iContaFiltri As Integer = 0
 
-                        strSQL = "Select * From Avvocati Inner Join Persone On Avvocati.IdPersona = Persone.IdPersona Where "
+                        For Each filtro In listaDiFiltri
 
-                        Select Case filtro.Key
-                            Case "Nominativo"
-                                strSQLFilter = strSQLFilter & "And Persone.Cognome Like '%" & filtro.Value & "%'"
-                            Case "IndirizzoStudio"
-                                strSQLFilter = strSQLFilter & "AND Persone.IndirizzoResidenza like '%" & filtro.Value & "%'"
-                            Case "IdAvvocato"
-                                strSQLFilter = strSQLFilter & "And Avvocati.IdPersona = " & filtro.Value
-                        End Select
+                            Select Case filtro.Key
+                                Case "Nominativo"
+                                    strSQLFilter = strSQLFilter & " And Persone.Cognome Like '%" & filtro.Value & "%'"
+                                Case "IndirizzoStudio"
+                                    strSQLFilter = strSQLFilter & " AND Persone.IndirizzoResidenza like '%" & filtro.Value & "%'"
+                                Case "IdAvvocato"
+                                    strSQLFilter = strSQLFilter & " And Avvocati.IdPersona = " & filtro.Value
+                            End Select
 
-                        strSQLFilter = strSQLFilter.Substring(4, strSQLFilter.Length - 4)
-                        strSQL = strSQL & strSQLFilter
+                            If iContaFiltri = 0 Then
+                                strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
+                            End If
+                            strSQL = strSQL & strSQLFilter
 
-                        If (parametri Is Nothing) Then
-                            Array.Resize(parametri, 1)
-                        Else
-                            Array.Resize(parametri, parametri.Length + 1)
+                                If (parametri Is Nothing) Then
+                                Array.Resize(parametri, 1)
+                            Else
+                                Array.Resize(parametri, parametri.Length + 1)
+                            End If
+
+                            parametri(parametri.Length - 1) = filtro.Value
+
+                            strSQLFilter = ""
+                            iContaFiltri = iContaFiltri + 1
+                        Next
+
+                        If (Not parametri Is Nothing) Then
+                            Dim listaAvv = dbc.Database.SqlQuery(Of Avvocato)(strSQL).ToList()
+                            Return TryCast(CObj(listaAvv), List(Of Entity))
                         End If
 
-                        parametri(parametri.Length - 1) = filtro.Value
-
-                    Next
-
-                    If (Not parametri Is Nothing) Then
-                        Dim listaAvv = dbc.Database.SqlQuery(Of Avvocato)(strSQL).ToList()
-                        Return TryCast(CObj(listaAvv), List(Of Entity))
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(ComuneItaliano) Then
 
-                If GetType(Entity) = GetType(ComuneItaliano) Then
+                        Dim strSQL As String = "Select * From ComuniItaliani Where "
+                        Dim strSQLFilter As String = ""
+                        Dim parametri As String() = Nothing
+                        Dim iContaFiltri As Integer = 0
 
-                    Dim strSQL As String = ""
-                    Dim strSQLFilter As String = ""
-                    Dim parametri As String() = Nothing
+                        For Each filtro In listaDiFiltri
 
-                    For Each filtro In listaDiFiltri
+                            Select Case filtro.Key
+                                Case "SiglaAutoProvincia"
+                                    strSQLFilter = strSQLFilter & " And SiglaAutoProvincia Like '%" & filtro.Value & "%'"
+                                Case "CodiceCatasto"
+                                    strSQLFilter = strSQLFilter & " And DenominazioneComune = '" & filtro.Value & "'"
+                            End Select
 
-                        strSQL = "Select * From ComuniItaliani Where "
+                            If iContaFiltri = 0 Then
+                                strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
+                            End If
+                            strSQL = strSQL & strSQLFilter
 
-                        Select Case filtro.Key
-                            Case "SiglaAutoProvincia"
-                                strSQLFilter = strSQLFilter & "And SiglaAutoProvincia Like '%" & filtro.Value & "%'"
-                            Case "CodiceCatasto"
-                                strSQLFilter = strSQLFilter & "And DenominazioneComune = '" & filtro.Value & "'"
-                        End Select
+                            If (parametri Is Nothing) Then
+                                Array.Resize(parametri, 1)
+                            Else
+                                Array.Resize(parametri, parametri.Length + 1)
+                            End If
 
-                        strSQLFilter = strSQLFilter.Substring(4, strSQLFilter.Length - 4)
-                        strSQL = strSQL & strSQLFilter
+                            parametri(parametri.Length - 1) = filtro.Value
 
-                        If (parametri Is Nothing) Then
-                            Array.Resize(parametri, 1)
-                        Else
-                            Array.Resize(parametri, parametri.Length + 1)
+                            strSQLFilter = ""
+                            iContaFiltri = iContaFiltri + 1
+                        Next
+
+                        If (Not parametri Is Nothing) Then
+                            Dim listaComuni = dbc.Database.SqlQuery(Of ComuneItaliano)(strSQL).ToList()
+                            Return TryCast(CObj(listaComuni), List(Of Entity))
                         End If
 
-                        parametri(parametri.Length - 1) = filtro.Value
-
-                    Next
-
-                    If (Not parametri Is Nothing) Then
-                        Dim listaComuni = dbc.Database.SqlQuery(Of ComuneItaliano)(strSQL).ToList()
-                        Return TryCast(CObj(listaComuni), List(Of Entity))
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(EnteGiuridico) Then
 
-                If GetType(Entity) = GetType(EnteGiuridico) Then
+                        Dim strSQL As String = "Select distinct IdEnteGiuridico,SUBSTRING(DenominazioneEnte,24,len(DenominazioneEnte) - 23) As DenominazioneEnte, ' ' as EMailEnte,  ' ' as ResponsabileEnte, ' ' as IndirizzoEnte, 0 as IdTipoEnteGiuridico  "
+                        Dim strSQLFilter As String = ""
+                        Dim parametri As String() = Nothing
+                        Dim strSQLTipoEnte As String = ""
+                        Dim iContaFiltri As Integer = 0
 
-                    Dim strSQL As String = ""
-                    Dim strSQLFilter As String = ""
-                    Dim parametri As String() = Nothing
-                    Dim strSQLTipoEnte As String = ""
-
-                    For Each filtro In listaDiFiltri
-
-                        strSQL = "Select distinct IdEnteGiuridico,SUBSTRING(DenominazioneEnte,24,len(DenominazioneEnte) - 23) As DenominazioneEnte, ' ' as EMailEnte,  ' ' as ResponsabileEnte, ' ' as IndirizzoEnte, 0 as IdTipoEnteGiuridico  "
                         strSQL = strSQL & "From EntiGiuridici Where "
 
-                        Select Case filtro.Key
-                            Case "ForoCompetenza"
-                                strSQLFilter = strSQLFilter & "And DenominazioneEnte Like '%" & filtro.Value & "%' and DenominazioneEnte not like '%Ufficio%' and DenominazioneEnte not like '%-%'"
-                            Case "TipoEnteGiuridico"
-                                'Ricavo l'Id del tipo dalla descrizione passata come parametro
-                                strSQL = "Select * From EntiGiuridici Where "
-                                strSQLTipoEnte = "Select * " &
+                        For Each filtro In listaDiFiltri
+
+                            Select Case filtro.Key
+                                Case "ForoCompetenza"
+                                    strSQLFilter = strSQLFilter & " And DenominazioneEnte Like '%" & filtro.Value & "%' and DenominazioneEnte not like '%Ufficio%' and DenominazioneEnte not like '%-%'"
+                                Case "TipoEnteGiuridico"
+                                    'Ricavo l'Id del tipo dalla descrizione passata come parametro
+                                    strSQL = "Select * From EntiGiuridici Where "
+                                    strSQLTipoEnte = "Select * " &
                                                  "From TipiEntiGiuridici " &
                                                  "Where DescrizioneTipoEnteGiuridico = '" & filtro.Value & "'"
 
-                                Dim listaTipiEnti = dbc.Database.SqlQuery(Of TipoEnteGiuridico)(strSQLTipoEnte).ToList()
+                                    Dim listaTipiEnti = dbc.Database.SqlQuery(Of TipoEnteGiuridico)(strSQLTipoEnte).ToList()
 
-                                For Each tipoEnte In listaTipiEnti
-                                    strSQLFilter = strSQLFilter & "And IdTipoEnteGiuridico =" & tipoEnte.IdTipoEnteGiuridico
-                                Next
-                        End Select
+                                    For Each tipoEnte In listaTipiEnti
+                                        strSQLFilter = strSQLFilter & " And IdTipoEnteGiuridico =" & tipoEnte.IdTipoEnteGiuridico
+                                    Next
+                            End Select
 
-                        strSQLFilter = strSQLFilter.Substring(4, strSQLFilter.Length - 4)
-                        strSQL = strSQL & strSQLFilter & " order by DenominazioneEnte"
+                            If iContaFiltri = 0 Then
+                                strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
+                            End If
+                            strSQL = strSQL & strSQLFilter & " order by DenominazioneEnte"
 
-                        If (parametri Is Nothing) Then
-                            Array.Resize(parametri, 1)
-                        Else
-                            Array.Resize(parametri, parametri.Length + 1)
-                        End If
+                            If (parametri Is Nothing) Then
+                                Array.Resize(parametri, 1)
+                            Else
+                                Array.Resize(parametri, parametri.Length + 1)
+                            End If
 
-                        parametri(parametri.Length - 1) = filtro.Value
+                            parametri(parametri.Length - 1) = filtro.Value
+
+                            strSQLFilter = ""
+                            iContaFiltri = iContaFiltri + 1
+                        Next
 
                         If (Not parametri Is Nothing) Then
                             Dim listaEntiGiuridici = dbc.Database.SqlQuery(Of EnteGiuridico)(strSQL).ToList()
                             Return TryCast(CObj(listaEntiGiuridici), List(Of Entity))
                         End If
-
-                    Next
-
-                End If
-
-                If GetType(Entity) = GetType(Parte) Then
-
-                    Dim strSQL As String = ""
-                    Dim strSQLFilter As String = ""
-                    Dim parametri As String() = Nothing
-
-                    For Each filtro In listaDiFiltri
-
-                        strSQL = "Select * From Parti Inner Join Persone On Parti.IdPersona = Persone.IdPersona Where "
-
-                        Select Case filtro.Key
-                            Case "Denominazione"
-                                strSQLFilter = strSQLFilter & "And Persone.Cognome Like '%" & filtro.Value & "%'"
-                            Case "IdParte"
-                                strSQLFilter = strSQLFilter & "And Parti.IdPersona = " & filtro.Value
-                        End Select
-
-                        strSQLFilter = strSQLFilter.Substring(4, strSQLFilter.Length - 4)
-                        strSQL = strSQL & strSQLFilter
-
-                        If (parametri Is Nothing) Then
-                            Array.Resize(parametri, 1)
-                        Else
-                            Array.Resize(parametri, parametri.Length + 1)
-                        End If
-
-                        parametri(parametri.Length - 1) = filtro.Value
-
-                    Next
-
-                    If (Not parametri Is Nothing) Then
-                        Dim listaParti = dbc.Database.SqlQuery(Of Parte)(strSQL).ToList()
-                        Return TryCast(CObj(listaParti), List(Of Entity))
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Parte) Then
 
-                If GetType(Entity) = GetType(Controparte) Then
+                        Dim strSQL As String = "Select * From Parti Inner Join Persone On Parti.IdPersona = Persone.IdPersona Where "
+                        Dim strSQLFilter As String = ""
+                        Dim parametri As String() = Nothing
+                        Dim iContaFiltri As Integer = 0
 
-                    Dim strSQL As String = ""
-                    Dim strSQLFilter As String = ""
-                    Dim parametri As String() = Nothing
+                        For Each filtro In listaDiFiltri
 
-                    For Each filtro In listaDiFiltri
+                            Select Case filtro.Key
+                                Case "Denominazione"
+                                    strSQLFilter = strSQLFilter & " And Persone.Cognome Like '%" & filtro.Value & "%'"
+                                Case "IdParte"
+                                    strSQLFilter = strSQLFilter & " And Parti.IdPersona = " & filtro.Value
+                                Case "Nominativo"
+                                    strSQLFilter = strSQLFilter & " And (Persone.Cognome Like '%" & filtro.Value & "%' OR Persone.Nome Like '%" & filtro.Value & "%')"
+                                Case "CodiceFiscale"
+                                    strSQLFilter = strSQLFilter & " And Persone.CodiceFiscale Like '%" & filtro.Value & "%'"
+                            End Select
 
-                        strSQL = "Select * From Controparti Inner Join Persone On Controparti.IdPersona = Persone.IdPersona Where "
+                            If iContaFiltri = 0 Then
+                                strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
+                            End If
+                            strSQL = strSQL & strSQLFilter
 
-                        Select Case filtro.Key
-                            Case "Denominazione"
-                                strSQLFilter = strSQLFilter & "And Persone.Cognome Like '%" & filtro.Value & "%'"
-                            Case "IdControparte"
-                                strSQLFilter = strSQLFilter & "And Controparti.IdPersona = " & filtro.Value
-                        End Select
+                            If (parametri Is Nothing) Then
+                                Array.Resize(parametri, 1)
+                            Else
+                                Array.Resize(parametri, parametri.Length + 1)
+                            End If
 
-                        strSQLFilter = strSQLFilter.Substring(4, strSQLFilter.Length - 4)
-                        strSQL = strSQL & strSQLFilter
+                            parametri(parametri.Length - 1) = filtro.Value
 
-                        If (parametri Is Nothing) Then
-                            Array.Resize(parametri, 1)
-                        Else
-                            Array.Resize(parametri, parametri.Length + 1)
+                            strSQLFilter = ""
+                            iContaFiltri = iContaFiltri + 1
+                        Next
+
+                        If (Not parametri Is Nothing) Then
+                            Dim listaParti = dbc.Database.SqlQuery(Of Parte)(strSQL).ToList()
+                            Return TryCast(CObj(listaParti), List(Of Entity))
                         End If
 
-                        parametri(parametri.Length - 1) = filtro.Value
-
-                    Next
-
-                    If (Not parametri Is Nothing) Then
-                        Dim listaControparti = dbc.Database.SqlQuery(Of Controparte)(strSQL).ToList()
-                        Return TryCast(CObj(listaControparti), List(Of Entity))
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Controparte) Then
 
-                If GetType(Entity) = GetType(Persona) Then
+                        Dim strSQL As String = "Select * From Controparti Inner Join Persone On Controparti.IdPersona = Persone.IdPersona Where "
+                        Dim strSQLFilter As String = ""
+                        Dim parametri As String() = Nothing
+                        Dim iContaFiltri As Integer = 0
 
-                    Dim strSQL As String = ""
-                    Dim strSQLFilter As String = ""
-                    Dim parametri As String() = Nothing
+                        For Each filtro In listaDiFiltri
 
-                    For Each filtro In listaDiFiltri
+                            Select Case filtro.Key
+                                Case "Denominazione"
+                                    strSQLFilter = strSQLFilter & " And Persone.Cognome Like '%" & filtro.Value & "%'"
+                                Case "IdControparte"
+                                    strSQLFilter = strSQLFilter & " And Controparti.IdPersona = " & filtro.Value
+                                Case "Nominativo"
+                                    strSQLFilter = strSQLFilter & " And (Persone.Cognome Like '%" & filtro.Value & "%' OR Persone.Nome Like '%" & filtro.Value & "%')"
+                                Case "CodiceFiscale"
+                                    strSQLFilter = strSQLFilter & " And Persone.CodiceFiscale Like '%" & filtro.Value & "%'"
+                            End Select
 
-                        strSQL = "Select * From Persone Where "
+                            If iContaFiltri = 0 Then
+                                strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
+                            End If
+                            strSQL = strSQL & strSQLFilter
 
-                        Select Case filtro.Key
-                            Case "Denominazione"
-                                strSQLFilter = strSQLFilter & "And Persone.Cognome Like '%" & filtro.Value & "%'"
-                            Case "IdPersona"
-                                strSQLFilter = strSQLFilter & "And Persone.IdPersona = " & filtro.Value
-                        End Select
+                            If (parametri Is Nothing) Then
+                                Array.Resize(parametri, 1)
+                            Else
+                                Array.Resize(parametri, parametri.Length + 1)
+                            End If
 
-                        strSQLFilter = strSQLFilter.Substring(4, strSQLFilter.Length - 4)
-                        strSQL = strSQL & strSQLFilter
+                            parametri(parametri.Length - 1) = filtro.Value
 
-                        If (parametri Is Nothing) Then
-                            Array.Resize(parametri, 1)
-                        Else
-                            Array.Resize(parametri, parametri.Length + 1)
+                            strSQLFilter = ""
+                            iContaFiltri = iContaFiltri + 1
+                        Next
+
+                        If (Not parametri Is Nothing) Then
+                            Dim listaControparti = dbc.Database.SqlQuery(Of Controparte)(strSQL).ToList()
+                            Return TryCast(CObj(listaControparti), List(Of Entity))
                         End If
 
-                        parametri(parametri.Length - 1) = filtro.Value
-
-                    Next
-
-                    If (Not parametri Is Nothing) Then
-                        Dim listaPers = dbc.Database.SqlQuery(Of Persona)(strSQL).ToList()
-                        Return TryCast(CObj(listaPers), List(Of Entity))
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Persona) Then
 
-                If GetType(Entity) = GetType(Utente) Then
+                        Dim strSQL As String = "Select * From Persone Where "
+                        Dim strSQLFilter As String = ""
+                        Dim parametri As String() = Nothing
+                        Dim iContaFiltri As Integer = 0
 
-                    Dim strSQL As String = ""
-                    Dim strSQLFilter As String = ""
-                    Dim parametri As String() = Nothing
+                        For Each filtro In listaDiFiltri
 
-                    For Each filtro In listaDiFiltri
+                            Select Case filtro.Key
+                                Case "Denominazione"
+                                    strSQLFilter = strSQLFilter & " And Persone.Cognome Like '%" & filtro.Value & "%'"
+                                Case "IdPersona"
+                                    strSQLFilter = strSQLFilter & " And Persone.IdPersona = " & filtro.Value
+                            End Select
 
-                        strSQL = "Select * From Utenti Where "
+                            If iContaFiltri = 0 Then
+                                strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
+                            End If
+                            strSQL = strSQL & strSQLFilter
 
-                        Select Case filtro.Key
-                            Case "NomeUtente"
-                                strSQLFilter = strSQLFilter & "And Utenti.NomeUtente = '" & filtro.Value & "'"
-                            Case "PasswordCriptata"
-                                strSQLFilter = strSQLFilter & "And Utenti.PasswordCriptata = '" & filtro.Value & "'"
-                        End Select
+                            If (parametri Is Nothing) Then
+                                Array.Resize(parametri, 1)
+                            Else
+                                Array.Resize(parametri, parametri.Length + 1)
+                            End If
 
-                        strSQLFilter = strSQLFilter.Substring(4, strSQLFilter.Length - 4)
-                        strSQL = strSQL & strSQLFilter
+                            parametri(parametri.Length - 1) = filtro.Value
 
-                        If (parametri Is Nothing) Then
-                            Array.Resize(parametri, 1)
-                        Else
-                            Array.Resize(parametri, parametri.Length + 1)
+                            strSQLFilter = ""
+                            iContaFiltri = iContaFiltri + 1
+                        Next
+
+                        If (Not parametri Is Nothing) Then
+                            Dim listaPers = dbc.Database.SqlQuery(Of Persona)(strSQL).ToList()
+                            Return TryCast(CObj(listaPers), List(Of Entity))
                         End If
 
-                        parametri(parametri.Length - 1) = filtro.Value
-
-                    Next
-
-                    If (Not parametri Is Nothing) Then
-                        Dim listaUtenti = dbc.Database.SqlQuery(Of Avvocato)(strSQL).ToList()
-                        Return TryCast(CObj(listaUtenti), List(Of Entity))
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Utente) Then
+
+                        Dim strSQL As String = "Select * From Utenti Where "
+                        Dim strSQLFilter As String = ""
+                        Dim parametri As String() = Nothing
+                        Dim iContaFiltri As Integer = 0
+
+                        For Each filtro In listaDiFiltri
+
+                            Select Case filtro.Key
+                                Case "NomeUtente"
+                                    strSQLFilter = strSQLFilter & " And Utenti.NomeUtente Like '%" & filtro.Value & "%'"
+                                Case "PasswordCriptata"
+                                    strSQLFilter = strSQLFilter & " And Utenti.PasswordCriptata = '" & filtro.Value & "'"
+                            End Select
+
+                            If iContaFiltri = 0 Then
+                                strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
+                            End If
+                            strSQL = strSQL & strSQLFilter
+
+                            If (parametri Is Nothing) Then
+                                Array.Resize(parametri, 1)
+                            Else
+                                Array.Resize(parametri, parametri.Length + 1)
+                            End If
+
+                            parametri(parametri.Length - 1) = filtro.Value
+
+                            strSQLFilter = ""
+                            iContaFiltri = iContaFiltri + 1
+                        Next
+
+                        If (Not parametri Is Nothing) Then
+                            Dim listaUtenti = dbc.Database.SqlQuery(Of Utente)(strSQL).ToList()
+                            Return TryCast(CObj(listaUtenti), List(Of Entity))
+                        End If
+
+                    End If
+
+                Catch ex As Exception
+                    ClsComune.GestisciEccezzioni(ex, "Operazioni: CaricaDatiFiltrati. ", True, ClsComune.GlbStrUserNameLS, "", True)
+                End Try
 
                 Return Nothing
 
@@ -720,65 +749,78 @@ Namespace LSDBContextNS
 
         End Function
 
-        Public Function CaricaTutti(Of Entity)() As List(Of Entity)
+        Public Shared Function CaricaTutti(Of Entity)() As List(Of Entity)
 
             Using dbc = New LSDBContext()
 
-                If GetType(Entity) = GetType(Avvocato) Then
+                Try
+                    If GetType(Entity) = GetType(Avvocato) Then
 
-                    Dim avvocatiList As New List(Of Avvocato)
-                    avvocatiList = dbc.Avvocati.ToList()
-                    Return TryCast(CObj(avvocatiList), List(Of Entity))
+                        Dim avvocatiList As New List(Of Avvocato)
+                        avvocatiList = dbc.Avvocati.ToList()
+                        Return TryCast(CObj(avvocatiList), List(Of Entity))
 
-                End If
+                    End If
 
-                If GetType(Entity) = GetType(Provincia) Then
+                    If GetType(Entity) = GetType(Provincia) Then
 
-                    Dim provList As New List(Of Provincia)
-                    provList = dbc.Province.ToList()
-                    Return TryCast(CObj(provList), List(Of Entity))
+                        Dim provList As New List(Of Provincia)
+                        provList = dbc.Province.ToList()
+                        Return TryCast(CObj(provList), List(Of Entity))
 
-                End If
+                    End If
 
-                If GetType(Entity) = GetType(Nazione) Then
+                    If GetType(Entity) = GetType(Nazione) Then
 
-                    Dim nazioneList As New List(Of Nazione)
-                    nazioneList = dbc.Nazioni.ToList()
-                    Return TryCast(CObj(nazioneList), List(Of Entity))
+                        Dim nazioneList As New List(Of Nazione)
+                        nazioneList = dbc.Nazioni.ToList()
+                        Return TryCast(CObj(nazioneList), List(Of Entity))
 
-                End If
+                    End If
 
-                If GetType(Entity) = GetType(TipoEnteGiuridico) Then
+                    If GetType(Entity) = GetType(TipoEnteGiuridico) Then
 
-                    Dim tipiEntiList As New List(Of TipoEnteGiuridico)
-                    tipiEntiList = dbc.TipiEntiGiuridici.ToList()
-                    Return TryCast(CObj(tipiEntiList), List(Of Entity))
+                        Dim tipiEntiList As New List(Of TipoEnteGiuridico)
+                        tipiEntiList = dbc.TipiEntiGiuridici.ToList()
+                        Return TryCast(CObj(tipiEntiList), List(Of Entity))
 
-                End If
+                    End If
 
-                If GetType(Entity) = GetType(Parte) Then
+                    If GetType(Entity) = GetType(Parte) Then
 
-                    Dim partiList As New List(Of Parte)
-                    partiList = dbc.Parti.ToList()
-                    Return TryCast(CObj(partiList), List(Of Entity))
+                        Dim partiList As New List(Of Parte)
+                        partiList = dbc.Parti.ToList()
+                        Return TryCast(CObj(partiList), List(Of Entity))
 
-                End If
+                    End If
 
-                If GetType(Entity) = GetType(Controparte) Then
+                    If GetType(Entity) = GetType(Controparte) Then
 
-                    Dim contropartiList As New List(Of Controparte)
-                    contropartiList = dbc.Controparti.ToList()
-                    Return TryCast(CObj(contropartiList), List(Of Entity))
+                        Dim contropartiList As New List(Of Controparte)
+                        contropartiList = dbc.Controparti.ToList()
+                        Return TryCast(CObj(contropartiList), List(Of Entity))
 
-                End If
+                    End If
 
-                If GetType(Entity) = GetType(Persona) Then
+                    If GetType(Entity) = GetType(Persona) Then
 
-                    Dim persList As New List(Of Persona)
-                    persList = dbc.Persone.ToList()
-                    Return TryCast(CObj(persList), List(Of Entity))
+                        Dim persList As New List(Of Persona)
+                        persList = dbc.Persone.ToList()
+                        Return TryCast(CObj(persList), List(Of Entity))
 
-                End If
+                    End If
+
+                    If GetType(Entity) = GetType(Utente) Then
+
+                        Dim utentiList As New List(Of Utente)
+                        utentiList = dbc.Utenti.ToList()
+                        Return TryCast(CObj(utentiList), List(Of Entity))
+
+                    End If
+
+                Catch ex As Exception
+                    ClsComune.GestisciEccezzioni(ex, "Operazioni: CaricaTutti. ", True, ClsComune.GlbStrUserNameLS, "", True)
+                End Try
 
             End Using
 
@@ -786,107 +828,125 @@ Namespace LSDBContextNS
 
         End Function
 
-        Private Function Convert(Of T)(ByVal data As Object) As T
-
-            If (data Is Nothing OrElse data Is DBNull.Value) Then
-                Return Nothing
-            Else
-                Return CType(data, T)
-            End If
-
+        Private Shared Function Convert(Of T)(ByVal data As Object) As T
+            Try
+                If (data Is Nothing OrElse data Is DBNull.Value) Then
+                    Return Nothing
+                Else
+                    Return CType(data, T)
+                End If
+            Catch ex As Exception
+                ClsComune.GestisciEccezzioni(ex, "Operazioni: Convert. ", True, ClsComune.GlbStrUserNameLS, "", True)
+            End Try
         End Function
 
-        Public Function CaricaRigaDatoId(Of Entity)(ByVal intIdEntita As Integer) As Entity
+        Public Shared Function CaricaRigaDatoId(Of Entity)(ByVal intIdEntita As Integer) As Entity
 
             Using dbc = New LSDBContext()
+                Try
+                    If GetType(Entity) = GetType(Avvocato) Then
 
-                If GetType(Entity) = GetType(Avvocato) Then
+                        Dim avv As Avvocato
+                        avv = dbc.Avvocati.FirstOrDefault(Function(w) w.IdPersona = intIdEntita)
 
-                    Dim avv As Avvocato
-                    avv = dbc.Avvocati.FirstOrDefault(Function(w) w.IdPersona = intIdEntita)
+                        Return Convert(Of Entity)(avv)
 
-                    Return Convert(Of Entity)(avv)
+                    End If
 
-                End If
+                    If GetType(Entity) = GetType(Parte) Then
 
-                If GetType(Entity) = GetType(Parte) Then
+                        Dim parte As Parte
+                        parte = dbc.Parti.FirstOrDefault(Function(w) w.IdPersona = intIdEntita)
 
-                    Dim parte As Parte
-                    parte = dbc.Parti.FirstOrDefault(Function(w) w.IdPersona = intIdEntita)
+                        Return Convert(Of Entity)(parte)
 
-                    Return Convert(Of Entity)(parte)
+                    End If
 
-                End If
+                    If GetType(Entity) = GetType(Controparte) Then
 
-                If GetType(Entity) = GetType(Controparte) Then
+                        Dim controparte As Controparte
+                        controparte = dbc.Controparti.FirstOrDefault(Function(w) w.IdPersona = intIdEntita)
 
-                    Dim controparte As Controparte
-                    controparte = dbc.Controparti.FirstOrDefault(Function(w) w.IdPersona = intIdEntita)
+                        Return Convert(Of Entity)(controparte)
 
-                    Return Convert(Of Entity)(controparte)
+                    End If
 
-                End If
+                    If GetType(Entity) = GetType(Persona) Then
 
-                If GetType(Entity) = GetType(Persona) Then
+                        Dim pers As Persona
+                        pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = intIdEntita)
 
-                    Dim pers As Persona
-                    pers = dbc.Persone.FirstOrDefault(Function(w) w.IdPersona = intIdEntita)
+                        Return Convert(Of Entity)(pers)
 
-                    Return Convert(Of Entity)(pers)
+                    End If
 
-                End If
+                    If GetType(Entity) = GetType(Utente) Then
 
+                        Dim utente As Utente
+                        utente = dbc.Utenti.FirstOrDefault(Function(w) w.IdUtente = intIdEntita)
+
+                        Return Convert(Of Entity)(utente)
+
+                    End If
+                Catch ex As Exception
+                    ClsComune.GestisciEccezzioni(ex, "Operazioni: CaricaRigaDatoId. ", True, ClsComune.GlbStrUserNameLS, "", True)
+                End Try
             End Using
 
         End Function
 
-        Public Function RicavaMaxId(Of Entity)() As Integer
+        Public Shared Function RicavaMaxId(Of Entity)() As Integer
 
             Using dbc = New LSDBContext()
+                Try
 
-                If GetType(Entity) = GetType(Avvocato) Then
+                    If GetType(Entity) = GetType(Avvocato) Then
 
-                    Dim intMaxIdAvvocato = (From avv In dbc.Avvocati
-                                            Select CType(avv.IdPersona, Integer?)).Max
+                        Dim intMaxIdAvvocato = (From avv In dbc.Avvocati
+                                                Select CType(avv.IdPersona, Integer?)).Max
 
-                    If Not intMaxIdAvvocato Is Nothing Then
-                        Return intMaxIdAvvocato
+                        If Not intMaxIdAvvocato Is Nothing Then
+                            Return intMaxIdAvvocato
+                        End If
+
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Persona) Then
 
-                If GetType(Entity) = GetType(Persona) Then
+                        Dim intMaxIdPersona = (From pers In dbc.Persone
+                                               Select CType(pers.IdPersona, Integer?)).Max
 
-                    Dim intMaxIdPersona = (From pers In dbc.Persone
-                                           Select CType(pers.IdPersona, Integer?)).Max
+                        If Not intMaxIdPersona Is Nothing Then
+                            Return intMaxIdPersona
+                        End If
 
-                    If Not intMaxIdPersona Is Nothing Then
-                        Return intMaxIdPersona
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Parte) Then
 
-                If GetType(Entity) = GetType(Parte) Then
+                        Dim intMaxIdParte = (From parte In dbc.Parti
+                                             Select CType(parte.IdPersona, Integer?)).Max
 
-                    Dim intMaxIdParte = (From parte In dbc.Parti
-                                         Select CType(parte.IdPersona, Integer?)).Max
+                        If Not intMaxIdParte Is Nothing Then
+                            Return intMaxIdParte
+                        End If
 
-                    If Not intMaxIdParte Is Nothing Then
-                        Return intMaxIdParte
                     End If
 
-                End If
+                    If GetType(Entity) = GetType(Controparte) Then
 
-                If GetType(Entity) = GetType(Controparte) Then
+                        Dim intMaxIdControparte = (From controparte In dbc.Controparti
+                                                   Select CType(controparte.IdPersona, Integer?)).Max
 
-                    Dim intMaxIdControparte = (From controparte In dbc.Controparti
-                                               Select CType(controparte.IdPersona, Integer?)).Max
+                        If Not intMaxIdControparte Is Nothing Then
+                            Return intMaxIdControparte
+                        End If
 
-                    If Not intMaxIdControparte Is Nothing Then
-                        Return intMaxIdControparte
                     End If
 
-                End If
+                Catch ex As Exception
+                    ClsComune.GestisciEccezzioni(ex, "Operazioni: RicavaMaxId. ", True, ClsComune.GlbStrUserNameLS, "", True)
+                End Try
 
             End Using
 

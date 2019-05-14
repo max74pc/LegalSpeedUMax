@@ -655,7 +655,6 @@ Partial Class FrmComAtti
         DockableControlPane4.Control = Me.UltraPanelToolbar
         DockableControlPane4.OriginalControlBounds = New System.Drawing.Rectangle(0, 0, 1102, 56)
         DockableControlPane4.Size = New System.Drawing.Size(100, 100)
-        DockableControlPane4.Text = "UltraPanelToolbar"
         DockAreaPane3.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane4})
         DockAreaPane3.Settings.AllowClose = Infragistics.Win.DefaultableBoolean.[False]
         DockAreaPane3.Settings.AllowDockAsTab = Infragistics.Win.DefaultableBoolean.[False]
