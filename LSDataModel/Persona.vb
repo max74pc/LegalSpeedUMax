@@ -6,8 +6,6 @@ Namespace LSDataModelNS
     <Table("Persone")>
     Public Class Persona
 
-        Private mNomeCompleto As String
-
         ''' <summary>
         ''' Codice identificativo della persona.
         ''' </summary>
@@ -152,14 +150,6 @@ Namespace LSDataModelNS
         ''' <returns>Ritorna il valore alfanumerico del nome completo della persona (nome e cognome)</returns>
         <MaxLength(60)>
         Public Property NomeCompleto() As String
-            Get
-                Return String.Format("{0} {1}", Nome, Cognome)
-            End Get
-            Set(ByVal value As String)
-                mNomeCompleto = value
-            End Set
-        End Property
-
 
     End Class
 

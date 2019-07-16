@@ -14,7 +14,6 @@ Public Class FrmLogin
 
     Private Sub UBtnOk_Click(sender As Object, e As EventArgs) Handles UBtnOk.Click
         Dim frmMain As New FrmMain
-        Dim listaUtenti As New List(Of Utente)
         Dim listaParametri As New Dictionary(Of String, String)
         Dim sPasswordCriptata As String = ""
 
@@ -33,15 +32,15 @@ Public Class FrmLogin
             End If
 
             'Verifica Username e Password
-            listaUtenti = Operazioni.CaricaDatiFiltrati(Of Utente)(listaParametri)
+            Dim listaUtenti As List(Of Utente) = Operazioni.CaricaDatiFiltrati(Of Utente)(listaParametri)
 
-            If listaUtenti.Count = 1 Then
-                ClsComune.GlbStrUserNameLS = LSUTxtNomeUtente.ValoreCasellaTesto
+            'If listaUtenti.Count = 1 Then
+            ClsComune.GlbStrUserNameLS = LSUTxtNomeUtente.ValoreCasellaTesto
                 Me.Hide()
                 frmMain.Show()
-            Else
-                MessageBox.Show(Me, "Impossibile accedere!" & Environment.NewLine & "Dati inseriti non corretti", "Errore di autenticazione", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-            End If
+            'Else
+            'MessageBox.Show(Me, "Impossibile accedere!" & Environment.NewLine & "Dati inseriti non corretti", "Errore di autenticazione", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            'End If
         Catch ex As Exception
             ClsComune.GestisciEccezzioni(ex, "FrmLogin: UBtnOk_Click. ", True, ClsComune.GlbStrUserNameLS, "", True)
         End Try

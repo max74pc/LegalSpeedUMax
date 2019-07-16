@@ -1,0 +1,116 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:RibbonCustom="http://infragistics.com/Ribbon" xmlns:DockManCustom="http://infragistics.com/DockManager"
+        xmlns:ig="clr-namespace:Infragistics.Controls.Interactions;assembly=InfragisticsWPF4.v18.1" x:Class="MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="960" Loaded="Window_Loaded">
+    
+    <Grid>
+        <RibbonCustom:XamRibbon Name ="RibbonCustomMain" Height="140" VerticalAlignment="Top" Margin="0,0,0,0">
+            <RibbonCustom:XamRibbon.ApplicationMenu>
+                <RibbonCustom:ApplicationMenu Image="Img/Logo-LS-Def-44x44.png"/>
+            </RibbonCustom:XamRibbon.ApplicationMenu>
+            <RibbonCustom:XamRibbon.QuickAccessToolbar>
+                <RibbonCustom:QuickAccessToolbar/>
+            </RibbonCustom:XamRibbon.QuickAccessToolbar>
+            <RibbonCustom:RibbonTabItem Header="Principale" FontFamily="Linux Libertine Display G" FontSize="12">
+                <RibbonCustom:RibbonGroup Caption="Anagrafiche" Margin="0,-3,-293,0" RenderTransformOrigin="0.521,0.583" Height="77" VerticalAlignment="Top" FontFamily="Linux Libertine Display G" FontSize="12">
+                    <RibbonCustom:ButtonTool x:Name="BtnToolAnaAvv" Caption="Avvocati" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" Width="55" Margin="0,0,0,11.8" Click="BtnToolAnaAvv_Click" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/Avvocato48.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                    <RibbonCustom:ButtonTool x:Name="BtnAnaParti" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Margin="0,0,0,10.8" Width="44" Content="Parti" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/parti-def-64x64.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                    <RibbonCustom:ButtonTool x:Name="BtnAnaControparti" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Margin="0,0,0,-0.2" Width="67" Content="Controparti">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/controparti-64x64.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                    <RibbonCustom:ButtonTool x:Name="BtnAnaPersone" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Margin="0,0,0,-0.2" Width="58" Content="Persone">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/persone-def-64x64.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                    <RibbonCustom:ButtonTool x:Name="BtnAnaUtenti" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Content="Utenti">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/utenti-def-64x64.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                </RibbonCustom:RibbonGroup>
+                <RibbonCustom:RibbonGroup Caption="Compositori Atti" Margin="296,-4,-379.6,0" Height="77" VerticalAlignment="Top" FontFamily="Linux Libertine Display G" FontSize="12">
+                    <RibbonCustom:ButtonTool x:Name="BtnComAtti" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Margin="0,0,0,11.8" Width="37" Content="Atti">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/Notary-icon64.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                </RibbonCustom:RibbonGroup>
+                <RibbonCustom:RibbonGroup Caption="ADS" Margin="383.6,-5,-459.6,10.8" Height="79" VerticalAlignment="Bottom">
+                    <RibbonCustom:ButtonTool x:Name="BtnADSBilancio" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Margin="0,0,0,-0.2" Width="58" Content="Bilanacio">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/bilancioADS-def-64x64.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                </RibbonCustom:RibbonGroup>
+                <RibbonCustom:RibbonGroup Caption="Fatture" Margin="463.6,-3,-462,0" Height="77" VerticalAlignment="Top">
+                    <RibbonCustom:ButtonTool x:Name="BtnFatGenera" Caption="Fatture" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/Fattura-def-64x64.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                </RibbonCustom:RibbonGroup>
+                <RibbonCustom:RibbonGroup Caption="Link App" Height="79" Margin="464,-4,-482,0" VerticalAlignment="Top">
+                    <RibbonCustom:ButtonTool x:Name="BtnLinkAppSLPCT" Caption="SLPCT" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/slpct-def-64x64.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                </RibbonCustom:RibbonGroup>
+                <RibbonCustom:RibbonGroup Caption="Scadenze" Margin="484,-6,-482,8.8" Height="82" VerticalAlignment="Bottom">
+                    <RibbonCustom:ButtonTool x:Name="BtnScaAgenda" Caption="Agenda" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/planner-icon48.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                </RibbonCustom:RibbonGroup>
+                <RibbonCustom:RibbonGroup Caption="Utility" Margin="485.8,-4,-585,0" Height="78" VerticalAlignment="Top">
+                    <RibbonCustom:ButtonTool x:Name="BtnUtiCodificaCF" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Content="Codifica CF" Margin="0,0,0,11.8" Width="52">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/Codifica%20CF-Def.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                    <RibbonCustom:ButtonTool x:Name="BtnDecodificaCF" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Content="Decodiifica">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/DecodCodFiscale3d-64x64-def.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                </RibbonCustom:RibbonGroup>
+                <RibbonCustom:RibbonGroup Caption="Uscita" Margin="588,-4,-586.4,0" Height="79" VerticalAlignment="Top">
+                    <RibbonCustom:ButtonTool x:Name="BtnEsci" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Content="Esci">
+                        <RibbonCustom:ButtonTool.LargeImage>
+                            <BitmapImage UriSource="/LSMainProgramWPF;component/Img/uscita-applicazione-48x48.png"/>
+                        </RibbonCustom:ButtonTool.LargeImage>
+                    </RibbonCustom:ButtonTool>
+                </RibbonCustom:RibbonGroup>
+            </RibbonCustom:RibbonTabItem>
+        </RibbonCustom:XamRibbon>
+        <ig:XamBusyIndicator IsBusy="{Binding IsBusyProp}">
+                 
+            <DockManCustom:XamDockManager Name="XamDockManagerMio"  Margin="0,140,0,0" >
+            <DockManCustom:DocumentContentHost>
+                <DockManCustom:SplitPane Name="SplitPaneMain">
+                    <DockManCustom:TabGroupPane Name="TabGroupPaneMain">
+                    </DockManCustom:TabGroupPane>
+                </DockManCustom:SplitPane>
+            </DockManCustom:DocumentContentHost>
+        </DockManCustom:XamDockManager>
+        </ig:XamBusyIndicator>
+    </Grid>
+    
+</Window>

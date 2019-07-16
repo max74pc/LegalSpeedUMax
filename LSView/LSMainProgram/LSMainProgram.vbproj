@@ -179,6 +179,10 @@
       <Project>{19eafe53-8339-4eb1-93d7-6723d0f22a35}</Project>
       <Name>LSCommon</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\LSControls\LSCtrlAnaAvv\LSCtrlAnaAvv.vbproj">
+      <Project>{55624181-ad8a-41cc-aa00-b2de8528ba1c}</Project>
+      <Name>LSCtrlAnaAvv</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\LSDataModel\LSDataModel.vbproj">
       <Project>{b7c67cd0-1dfc-4769-b440-3da3070c58e2}</Project>
       <Name>LSDataModel</Name>
@@ -186,30 +190,6 @@
     <ProjectReference Include="..\..\LSDBManager\LSDBManager.vbproj">
       <Project>{962aebd4-dd8c-4d30-a7dc-5e9b10f66e0e}</Project>
       <Name>LSDBManager</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LSAnaAvvocati\LSAnaAvvocati.vbproj">
-      <Project>{e31a7975-faef-4997-883a-018aef8061ab}</Project>
-      <Name>LSAnaAvvocati</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LSAnaControparti\LSAnaControparti.vbproj">
-      <Project>{7a6d8e96-53fa-4a06-ac72-db21bd3dc22d}</Project>
-      <Name>LSAnaControparti</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LSAnaParti\LSAnaParti.vbproj">
-      <Project>{e8cf7083-0f43-487b-a4be-f9563998f8c9}</Project>
-      <Name>LSAnaParti</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LSAnaPersone\LSAnaPersone.vbproj">
-      <Project>{688db63b-dbed-4011-865f-94860544cf12}</Project>
-      <Name>LSAnaPersone</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LSAnaUtenti\LSAnaUtenti.vbproj">
-      <Project>{46797787-ab37-43fe-ac74-487f41505da2}</Project>
-      <Name>LSAnaUtenti</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LSComAtti\LSComAtti.vbproj">
-      <Project>{fce43908-4183-42fc-bbe8-44bbc7a33a0d}</Project>
-      <Name>LSComAtti</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

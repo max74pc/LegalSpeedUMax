@@ -68,7 +68,6 @@ Namespace LSCommonNS
                                                       Optional sUserName As String = "",
                                                       Optional sSql As String = "",
                                                       Optional ByVal bNotificaAdUtente As Boolean = False)
-            Dim strFileName As String = ""
             Dim strCtlName As String = ""
             Dim strFormName As String = ""
             Dim strText As String = ""
@@ -211,7 +210,6 @@ Namespace LSCommonNS
         End Sub
 
         Private Shared Function StringCarattereControllo(ByVal CodiceFiscale As String) As String
-            Dim risultato As Integer = 0
             Dim sommapari As Integer = 0
             Dim sommadispari As Integer = 0
             Dim ArrayChar() As String = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}
@@ -220,6 +218,7 @@ Namespace LSCommonNS
             Dim ArrayDispari As New ArrayList
 
             Try
+                Dim risultato As Integer
                 If CodiceFiscale.ToString <> "" Then
                     For i As Integer = 0 To CodiceFiscale.Length - 1 Step 1
                         'Vi ricordo che l'array parte da zero ma noi dobbiamo calcolare come se fosse 1 
@@ -234,11 +233,11 @@ Namespace LSCommonNS
                     Next
                     For i As Integer = 0 To ArrayPari.Count - 1 Step 1
                         If IsNumeric(ArrayPari(i).ToString) Then
-                            sommapari = sommapari + ArrayPari(i).ToString
+                            sommapari += ArrayPari(i).ToString
                         Else
                             For j As Integer = 0 To ArrayChar.Length - 1 Step 1
                                 If (UCase(ArrayPari(i).ToString) = ArrayChar(j).ToString) Then
-                                    sommapari = sommapari + j
+                                    sommapari += j
                                     Exit For
                                 End If
                             Next
@@ -246,11 +245,11 @@ Namespace LSCommonNS
                     Next
                     For i As Integer = 0 To ArrayDispari.Count - 1 Step 1
                         If IsNumeric(ArrayDispari(i).ToString) Then
-                            sommadispari = sommadispari + ArrayCharPosizioneDispari(ArrayDispari(i).ToString).ToString
+                            sommadispari += ArrayCharPosizioneDispari(ArrayDispari(i).ToString).ToString
                         Else
                             For j As Integer = 0 To ArrayChar.Length - 1 Step 1
                                 If (UCase(ArrayDispari(i).ToString) = ArrayChar(j).ToString) Then
-                                    sommadispari = sommadispari + ArrayCharPosizioneDispari(j).ToString
+                                    sommadispari += ArrayCharPosizioneDispari(j).ToString
                                     Exit For
                                 End If
                             Next
@@ -271,18 +270,18 @@ Namespace LSCommonNS
         End Function
 
         Public Shared Function CalcolaCodiceFiscale(sNomeCompleto As String, dtDataNascita As Date,
-                                                    sSesso As String, sLuogoNascita As String, sCodiceCatasto As string) As String
+                                                    sSesso As String, sCodiceCatasto As String) As String
             Dim sCognome As String
             Dim sNome As String
             Dim ArrayMesi() As String = {"A", "B", "C", "D", "E", "H", "L", "M", "P", "R", "S", "T"} 'Lettere che corrispondono al mese
+            Dim ArrayConsonantiTemp() As String = {"B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"}
             Dim ArrayVocali() As String = {"A", "E", "I", "O", "U"}
             Dim Parte1CodiceFiscale As String = ""
             Dim Parte2CodiceFiscale As String = ""
-            Dim Parte3CodiceFiscale As String = ""
             Dim ArrayConsonanti As Array
             Dim giorno As Integer
             Dim mese As Integer
-            Dim sTEMP As String
+            Dim sNomeTEMP As String
             Dim splitNomeCompleto() As String
 
             Try
@@ -297,7 +296,7 @@ Namespace LSCommonNS
                 If IsDate(dtDataNascita) Then
 
                     If (sSesso = "FEMMINA") Then
-                        giorno = giorno + 40
+                        giorno += 40
                     End If
 
                     If giorno < 10 Then
@@ -342,13 +341,22 @@ Namespace LSCommonNS
                 End Select
 
                 If Parte1CodiceFiscale.Length = 2 Then
-                    Parte1CodiceFiscale = Parte1CodiceFiscale & "X"
+                    Parte1CodiceFiscale &= "X"
                 End If
 
+                sNomeTEMP = sNome
                 If sNome.Length > 2 Then
                     For i As Integer = 0 To sNome.Length - 1
                         For j As Integer = 0 To ArrayVocali.Length - 1
                             sNome = sNome.ToString.Replace(ArrayVocali(j).ToString, "")
+                        Next
+                    Next
+                End If
+
+                If sNomeTEMP.Length > 2 Then
+                    For i As Integer = 0 To sNomeTEMP.Length - 1
+                        For j As Integer = 0 To ArrayConsonantiTemp.Length - 1
+                            sNomeTEMP = sNomeTEMP.ToString.Replace(ArrayConsonantiTemp(j).ToString, "")
                         Next
                     Next
                 End If
@@ -366,37 +374,35 @@ Namespace LSCommonNS
                     Case Is = 2
                         'Luca = LCU
                         ArrayConsonanti = sNome.ToArray
-                        sTEMP = sNome
-                        If sTEMP.Length > 0 Then
-                            Parte1CodiceFiscale = Parte1CodiceFiscale & ArrayConsonanti(0).ToString & ArrayConsonanti(1).ToString & sTEMP(0).ToString
+                        If sNome.Length > 0 Then
+                            Parte1CodiceFiscale = Parte1CodiceFiscale & ArrayConsonanti(0).ToString & ArrayConsonanti(1).ToString & sNomeTEMP(0).ToString
                         Else
                             Parte1CodiceFiscale = Parte1CodiceFiscale & ArrayConsonanti(0).ToString & ArrayConsonanti(1).ToString & "X"
                         End If
                     Case Is = 1
                         'Lia = LIA
                         ArrayConsonanti = sNome.ToArray
-                        sTEMP = sNome
-                        If sTEMP.Length > 0 Then
-                            Parte1CodiceFiscale = Parte1CodiceFiscale & ArrayConsonanti(0).ToString & sTEMP(0).ToString & sTEMP(1).ToString
+                        If sNome.Length > 0 Then
+                            Parte1CodiceFiscale = Parte1CodiceFiscale & ArrayConsonanti(0).ToString & sNomeTEMP(0).ToString & sNomeTEMP(1).ToString
                         Else
-                            Parte1CodiceFiscale = Parte1CodiceFiscale & ArrayConsonanti(0).ToString & "X"
+                            Parte1CodiceFiscale = Parte1CodiceFiscale & ArrayConsonanti(0).ToString & "XX"
                         End If
                     Case Is = 0
                         Select Case splitNomeCompleto(0).Length
                             Case Is = 3, Is > 4
-                                Parte1CodiceFiscale = Parte1CodiceFiscale & splitNomeCompleto(0).Substring(0, 3).ToString
+                                Parte1CodiceFiscale &= splitNomeCompleto(0).Substring(0, 3).ToString
                             Case Is = 2
                                 Parte1CodiceFiscale = Parte1CodiceFiscale & splitNomeCompleto(0).Substring(0, 2).ToString & "X"
                             Case Is = 1
                                 Parte1CodiceFiscale = Parte1CodiceFiscale & splitNomeCompleto(0).Substring(0, 1).ToString & "XX"
                             Case Is = 0
-                                Parte1CodiceFiscale = Parte1CodiceFiscale & "XXX"
+                                Parte1CodiceFiscale &= "XXX"
                         End Select
                 End Select
 
-                Parte2CodiceFiscale = Parte2CodiceFiscale & sCodiceCatasto
+                Parte2CodiceFiscale &= sCodiceCatasto
                 Parte2CodiceFiscale = Parte1CodiceFiscale & Parte2CodiceFiscale
-                Parte3CodiceFiscale = StringCarattereControllo(Parte2CodiceFiscale)
+                Dim Parte3CodiceFiscale As String = StringCarattereControllo(Parte2CodiceFiscale)
 
                 CalcolaCodiceFiscale = Parte2CodiceFiscale & Parte3CodiceFiscale
             Catch ex As Exception
@@ -434,7 +440,7 @@ Namespace LSCommonNS
                     iChiave(i) = Asc(Mid$(sStringaChiave, i, 1)) - Asc("M")
                     iCodice(i) = Asc(Mid$(sPwdCodificata, i + 1, 1))
                     iCodice(i) = iCodice(i) - iChiave(i) - iIncremento - i
-                    sPwdDecodificata = sPwdDecodificata + Chr(iCodice(i))
+                    sPwdDecodificata += Chr(iCodice(i))
                 Next i
                 DecodificaPwd = sPwdDecodificata
             Catch ex As Exception
@@ -471,7 +477,7 @@ Namespace LSCommonNS
                 For I = 1 To iLunghezzaPwd
                     iChiave(I) = Asc(Mid(sStringaChiave, I, 1)) - Asc("M")
                     iCodice(I) = Asc(Mid(sPwdInchiaro, I, 1))
-                    iSomma = iSomma + iCodice(I)
+                    iSomma += iCodice(I)
                 Next I
 
                 iIncremento = (iSomma Mod 7)
@@ -479,7 +485,7 @@ Namespace LSCommonNS
 
                 For I = 1 To iLunghezzaPwd
                     iCodice(I) = iCodice(I) + iChiave(I) + iIncremento + I
-                    sPwdCodificata = sPwdCodificata + Chr(iCodice(I))
+                    sPwdCodificata += Chr(iCodice(I))
                 Next I
 
                 CodificaPwd = sPwdCodificata

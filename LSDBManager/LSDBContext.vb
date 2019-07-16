@@ -9,8 +9,28 @@ Namespace LSDBContextNS
         'imposto il nome e il path che desidero per il database locale tramite il parametro del costruttore
         Public Sub New()
             MyBase.New("name=LSDBManager")
-            Dim sLocalDBPath As String = "D:\ProgettiVS2017\LegalSpeedUMax\LSDBManager"
-            AppDomain.CurrentDomain.SetData("DataDirectory", sLocalDBPath)
+            Dim splitPath() As String
+            Dim iNumDir As Integer
+            Dim iNumTmp As Integer
+            Dim sLocalDBPath As String = ""
+            Try
+                'Ricavo il Path del DB Locale dalla cartella corrente dell'esegiubile dell'applicazione
+                splitPath = Environment.CurrentDirectory.Split("\")
+                For iNumDir = 0 To splitPath.Count - 1
+                    If splitPath(iNumDir) = "LSView" Then
+                        iNumTmp = iNumDir
+                        Exit For
+                    End If
+                Next
+                For iNumDir = 0 To iNumTmp - 1
+                    sLocalDBPath = sLocalDBPath & splitPath(iNumDir) & "\"
+                Next
+                sLocalDBPath = sLocalDBPath & "LSDBManager" & "\"
+
+                AppDomain.CurrentDomain.SetData("DataDirectory", sLocalDBPath)
+            Catch exc As Exception
+
+            End Try
         End Sub
 
         Public Property Amministrati As DbSet(Of Amministrato)
@@ -34,7 +54,7 @@ Namespace LSDBContextNS
     ''' </summary>
     Public Class Operazioni
 
-        Public Shared Sub Aggiungi(Of Entity)(ByVal intEntityID As Integer, myEntity As Entity)
+        Public Shared Sub Aggiungi(Of Entity)(myEntity As Entity)
 
             Using dbc = New LSDBContext()
 
@@ -458,9 +478,9 @@ Namespace LSDBContextNS
                             If iContaFiltri = 0 Then
                                 strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
                             End If
-                            strSQL = strSQL & strSQLFilter
+                            strSQL &= strSQLFilter
 
-                                If (parametri Is Nothing) Then
+                            If (parametri Is Nothing) Then
                                 Array.Resize(parametri, 1)
                             Else
                                 Array.Resize(parametri, parametri.Length + 1)
@@ -469,7 +489,7 @@ Namespace LSDBContextNS
                             parametri(parametri.Length - 1) = filtro.Value
 
                             strSQLFilter = ""
-                            iContaFiltri = iContaFiltri + 1
+                            iContaFiltri += 1
                         Next
 
                         If (Not parametri Is Nothing) Then
@@ -498,7 +518,7 @@ Namespace LSDBContextNS
                             If iContaFiltri = 0 Then
                                 strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
                             End If
-                            strSQL = strSQL & strSQLFilter
+                            strSQL &= strSQLFilter
 
                             If (parametri Is Nothing) Then
                                 Array.Resize(parametri, 1)
@@ -509,7 +529,7 @@ Namespace LSDBContextNS
                             parametri(parametri.Length - 1) = filtro.Value
 
                             strSQLFilter = ""
-                            iContaFiltri = iContaFiltri + 1
+                            iContaFiltri += 1
                         Next
 
                         If (Not parametri Is Nothing) Then
@@ -527,7 +547,7 @@ Namespace LSDBContextNS
                         Dim strSQLTipoEnte As String = ""
                         Dim iContaFiltri As Integer = 0
 
-                        strSQL = strSQL & "From EntiGiuridici Where "
+                        strSQL &= "From EntiGiuridici Where "
 
                         For Each filtro In listaDiFiltri
 
@@ -562,7 +582,7 @@ Namespace LSDBContextNS
                             parametri(parametri.Length - 1) = filtro.Value
 
                             strSQLFilter = ""
-                            iContaFiltri = iContaFiltri + 1
+                            iContaFiltri += 1
                         Next
 
                         If (Not parametri Is Nothing) Then
@@ -594,7 +614,7 @@ Namespace LSDBContextNS
                             If iContaFiltri = 0 Then
                                 strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
                             End If
-                            strSQL = strSQL & strSQLFilter
+                            strSQL &= strSQLFilter
 
                             If (parametri Is Nothing) Then
                                 Array.Resize(parametri, 1)
@@ -605,7 +625,7 @@ Namespace LSDBContextNS
                             parametri(parametri.Length - 1) = filtro.Value
 
                             strSQLFilter = ""
-                            iContaFiltri = iContaFiltri + 1
+                            iContaFiltri += 1
                         Next
 
                         If (Not parametri Is Nothing) Then
@@ -638,7 +658,7 @@ Namespace LSDBContextNS
                             If iContaFiltri = 0 Then
                                 strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
                             End If
-                            strSQL = strSQL & strSQLFilter
+                            strSQL &= strSQLFilter
 
                             If (parametri Is Nothing) Then
                                 Array.Resize(parametri, 1)
@@ -649,7 +669,7 @@ Namespace LSDBContextNS
                             parametri(parametri.Length - 1) = filtro.Value
 
                             strSQLFilter = ""
-                            iContaFiltri = iContaFiltri + 1
+                            iContaFiltri += 1
                         Next
 
                         If (Not parametri Is Nothing) Then
@@ -678,7 +698,7 @@ Namespace LSDBContextNS
                             If iContaFiltri = 0 Then
                                 strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
                             End If
-                            strSQL = strSQL & strSQLFilter
+                            strSQL &= strSQLFilter
 
                             If (parametri Is Nothing) Then
                                 Array.Resize(parametri, 1)
@@ -689,7 +709,7 @@ Namespace LSDBContextNS
                             parametri(parametri.Length - 1) = filtro.Value
 
                             strSQLFilter = ""
-                            iContaFiltri = iContaFiltri + 1
+                            iContaFiltri += 1
                         Next
 
                         If (Not parametri Is Nothing) Then
@@ -718,7 +738,7 @@ Namespace LSDBContextNS
                             If iContaFiltri = 0 Then
                                 strSQLFilter = strSQLFilter.Substring(5, strSQLFilter.Length - 5)
                             End If
-                            strSQL = strSQL & strSQLFilter
+                            strSQL &= strSQLFilter
 
                             If (parametri Is Nothing) Then
                                 Array.Resize(parametri, 1)
@@ -729,7 +749,7 @@ Namespace LSDBContextNS
                             parametri(parametri.Length - 1) = filtro.Value
 
                             strSQLFilter = ""
-                            iContaFiltri = iContaFiltri + 1
+                            iContaFiltri += 1
                         Next
 
                         If (Not parametri Is Nothing) Then

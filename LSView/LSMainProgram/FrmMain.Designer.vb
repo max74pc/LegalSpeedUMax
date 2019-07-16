@@ -25,26 +25,26 @@ Partial Class FrmMain
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmMain))
         Dim RibbonTab1 As Infragistics.Win.UltraWinToolbars.RibbonTab = New Infragistics.Win.UltraWinToolbars.RibbonTab("ribMain")
-        Dim RibbonGroupAna As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpAna")
+        Dim RibbonGroup1 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpAna")
         Dim ButtonTool1 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolAnaAvv")
         Dim ButtonTool3 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolAnaParti")
         Dim ButtonTool5 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolAnaControparti")
         Dim ButtonTool7 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolAnaPersone")
         Dim ButtonTool9 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolAnaUtenti")
-        Dim RibbonGroupCom As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpComAtti")
+        Dim RibbonGroup2 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpComAtti")
         Dim ButtonTool11 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolComAtti")
-        Dim RibbonGroupADS As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpADS")
+        Dim RibbonGroup3 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpADS")
         Dim ButtonTool13 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolADSBilancio")
-        Dim RibbonGroupFat As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpc")
+        Dim RibbonGroup4 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpc")
         Dim ButtonTool15 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolFatture")
-        Dim RibbonGroupLin As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpLin")
+        Dim RibbonGroup5 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpLin")
         Dim ButtonTool17 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolSLPCT")
-        Dim RibbonGroup4 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpAgenda")
+        Dim RibbonGroup6 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpAgenda")
         Dim ButtonTool19 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolAgenda")
-        Dim RibbonGroupUti As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpUti")
+        Dim RibbonGroup7 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribGrpUti")
         Dim ButtonTool21 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolCodificaCF")
         Dim ButtonTool23 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolDecodificaCF")
-        Dim RibbonGroupEsci As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribbonGroup1")
+        Dim RibbonGroup8 As Infragistics.Win.UltraWinToolbars.RibbonGroup = New Infragistics.Win.UltraWinToolbars.RibbonGroup("ribbonGroup1")
         Dim ButtonTool25 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolEsci")
         Dim ButtonTool2 As Infragistics.Win.UltraWinToolbars.ButtonTool = New Infragistics.Win.UltraWinToolbars.ButtonTool("BtnToolAnaAvv")
         Dim Appearance1 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
@@ -91,34 +91,34 @@ Partial Class FrmMain
         Me.UltraTlbrsManagerMain.DockWithinContainerBaseType = GetType(System.Windows.Forms.Form)
         Me.UltraTlbrsManagerMain.Ribbon.ApplicationMenuButtonImage = CType(resources.GetObject("UltraTlbrsManagerMain.Ribbon.ApplicationMenuButtonImage"), System.Drawing.Image)
         RibbonTab1.Caption = "Principale"
-        RibbonGroupAna.Caption = "Anagrafiche"
-        RibbonGroupAna.PreferredToolSize = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
+        RibbonGroup1.Caption = "Anagrafiche"
+        RibbonGroup1.PreferredToolSize = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
         ButtonTool1.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
         ButtonTool3.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
-        RibbonGroupAna.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool1, ButtonTool3, ButtonTool5, ButtonTool7, ButtonTool9})
-        RibbonGroupCom.Caption = "Compositore Atti"
+        RibbonGroup1.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool1, ButtonTool3, ButtonTool5, ButtonTool7, ButtonTool9})
+        RibbonGroup2.Caption = "Compositore Atti"
         ButtonTool11.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
-        RibbonGroupCom.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool11})
-        RibbonGroupADS.Caption = "ADS"
+        RibbonGroup2.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool11})
+        RibbonGroup3.Caption = "ADS"
         ButtonTool13.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
-        RibbonGroupADS.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool13})
-        RibbonGroupFat.Caption = "Fatture"
+        RibbonGroup3.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool13})
+        RibbonGroup4.Caption = "Fatture"
         ButtonTool15.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
-        RibbonGroupFat.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool15})
-        RibbonGroupLin.Caption = "Link App"
+        RibbonGroup4.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool15})
+        RibbonGroup5.Caption = "Link App"
         ButtonTool17.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
-        RibbonGroupLin.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool17})
-        RibbonGroup4.Caption = "Agenda"
+        RibbonGroup5.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool17})
+        RibbonGroup6.Caption = "Agenda"
         ButtonTool19.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
-        RibbonGroup4.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool19})
-        RibbonGroupUti.Caption = "Utility"
+        RibbonGroup6.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool19})
+        RibbonGroup7.Caption = "Utility"
         ButtonTool21.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
         ButtonTool23.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
-        RibbonGroupUti.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool21, ButtonTool23})
-        RibbonGroupEsci.Caption = "Uscita"
+        RibbonGroup7.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool21, ButtonTool23})
+        RibbonGroup8.Caption = "Uscita"
         ButtonTool25.InstanceProps.PreferredSizeOnRibbon = Infragistics.Win.UltraWinToolbars.RibbonToolSize.Large
-        RibbonGroupEsci.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool25})
-        RibbonTab1.Groups.AddRange(New Infragistics.Win.UltraWinToolbars.RibbonGroup() {RibbonGroupAna, RibbonGroupCom, RibbonGroupADS, RibbonGroupFat, RibbonGroupLin, RibbonGroup4, RibbonGroupUti, RibbonGroupEsci})
+        RibbonGroup8.Tools.AddRange(New Infragistics.Win.UltraWinToolbars.ToolBase() {ButtonTool25})
+        RibbonTab1.Groups.AddRange(New Infragistics.Win.UltraWinToolbars.RibbonGroup() {RibbonGroup1, RibbonGroup2, RibbonGroup3, RibbonGroup4, RibbonGroup5, RibbonGroup6, RibbonGroup7, RibbonGroup8})
         Me.UltraTlbrsManagerMain.Ribbon.NonInheritedRibbonTabs.AddRange(New Infragistics.Win.UltraWinToolbars.RibbonTab() {RibbonTab1})
         Me.UltraTlbrsManagerMain.Ribbon.Visible = True
         Me.UltraTlbrsManagerMain.ShowFullMenusDelay = 500
