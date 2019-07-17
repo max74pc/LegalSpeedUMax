@@ -203,6 +203,10 @@
       <Project>{fd630cc9-c081-4a45-9145-674497fd30cd}</Project>
       <Name>LSCtrlComAtti</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\LSControls\LSUltraCasellaTesto\LSUltraCasellaTesto.vbproj">
+      <Project>{f71d0c0f-3388-4214-afee-86d37f48afb5}</Project>
+      <Name>LSUltraCasellaTesto</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\LSControls\LSUltraPassword\LSUltraPassword.vbproj">
       <Project>{cc3e6ad3-1de9-460c-b621-33a68bf35cd0}</Project>
       <Name>LSUltraPassword</Name>
