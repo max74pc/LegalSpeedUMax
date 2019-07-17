@@ -87,12 +87,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BusyIndicator.xaml.vb">
+      <DependentUpon>BusyIndicator.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoginWindow.xaml.vb">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="SplashScreen.xaml.vb">
       <DependentUpon>SplashScreen.xaml</DependentUpon>
     </Compile>
+    <Page Include="BusyIndicator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoginWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -168,6 +175,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\LSCommon\LSCommon.vbproj">
+      <Project>{19eafe53-8339-4eb1-93d7-6723d0f22a35}</Project>
+      <Name>LSCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\LSControls\LSCtrlAnaAvv\LSCtrlAnaAvv.vbproj">
       <Project>{55624181-ad8a-41cc-aa00-b2de8528ba1c}</Project>
       <Name>LSCtrlAnaAvv</Name>
@@ -195,6 +206,14 @@
     <ProjectReference Include="..\..\..\LSControls\LSUltraPassword\LSUltraPassword.vbproj">
       <Project>{cc3e6ad3-1de9-460c-b621-33a68bf35cd0}</Project>
       <Name>LSUltraPassword</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\LSDataModel\LSDataModel.vbproj">
+      <Project>{b7c67cd0-1dfc-4769-b440-3da3070c58e2}</Project>
+      <Name>LSDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\LSDBManager\LSDBManager.vbproj">
+      <Project>{962aebd4-dd8c-4d30-a7dc-5e9b10f66e0e}</Project>
+      <Name>LSDBManager</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

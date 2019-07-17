@@ -1,0 +1,14 @@
+﻿<Window x:Class="BusyIndicator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LSMainProgramWPF"
+        xmlns:ig="http://schemas.infragistics.com/xaml"
+        Title="BusyIndicator" Height="110" Width="110" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <ig:XamBusyIndicator IsBusy="True" BusyContent="Attendere Prego ..." FontFamily="Linux Libertine Display G">
+        <Grid>
+            
+        </Grid>
+    </ig:XamBusyIndicator>
+</Window>

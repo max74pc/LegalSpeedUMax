@@ -1,14 +1,18 @@
-﻿<Window x:Class="LoginWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LSMainProgramWPF"
+        xmlns:Custom="http://infragistics.com/Editors" x:Class="LoginWindow"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="OK" HorizontalAlignment="Left" Height="57" Margin="121,277,0,0" VerticalAlignment="Top" Width="160" Click="Button_Click"/>
-        <Button Content="ANNULLA" HorizontalAlignment="Left" Height="57" Margin="461,277,0,0" VerticalAlignment="Top" Width="160" Click="Button_Click"/>
-
+        Title="LoginWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid x:Name="MainGrid">
+        <Button x:Name="BtnOK" Content="OK" HorizontalAlignment="Left" Height="57" Margin="121,277,0,0" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="BtnAnnulla" Content="ANNULLA" HorizontalAlignment="Left" Height="57" Margin="461,277,0,0" VerticalAlignment="Top" Width="160"/>
+        <PasswordBox  x:Name="PwdBox" HorizontalAlignment="Left" Margin="344,183,0,0" VerticalAlignment="Top" Width="326" Height="37" FontSize="16"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="121,194,0,0" VerticalAlignment="Top" Width="141" FontSize="16" FontFamily="Linux Libertine Display G"/>
+        <Label Content="Username:" HorizontalAlignment="Left" Margin="121,108,0,0" VerticalAlignment="Top" Width="141" FontSize="16" FontFamily="Linux Libertine G"/>
+        <Custom:XamTextEditor x:Name="TxtEdUsername" HorizontalAlignment="Left" Margin="344,108,0,0" VerticalAlignment="Top" Height="32" Width="326"/>
     </Grid>
 </Window>

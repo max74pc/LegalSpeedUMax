@@ -6,8 +6,13 @@ Imports LSCtrlAnaControparti
 Imports LSCtrlAnaPersone
 Imports LSCtrlAnaUtenti
 Imports LSCtrlComAtti
+Imports System.Runtime.InteropServices
+Imports System.Threading
 
 Class MainWindow
+    <DllImport("user32.dll", SetLastError:=True)>
+    Private Shared Function FindWindow(lpClassName As String, lpWindowName As String) As IntPtr
+    End Function
 
     Private _isBusy As Boolean = True
 
@@ -36,7 +41,13 @@ Class MainWindow
     End Sub
 
     Private Sub BtnToolAnaAvv_Click(sender As Object, e As RoutedEventArgs)
-        IsBusyProp = True
+        Dim indicatoreOccupato As New BusyIndicator With {
+            .Title = "IndicatoreOccupato"
+        }
+        indicatoreOccupato.Show()
+
+        Dim hWnd As IntPtr = FindWindow(Nothing, "IndicatoreOccupato")
+        'MessageBox.Show(hWnd.ToString)
         'Creato un nuovo ContentPane e imposto la proprietà Header
         Dim AnaAvvPane As New ContentPane With {
             .Header = "Anagrafica Avvocati"
@@ -56,7 +67,8 @@ Class MainWindow
 
         Dim CtrlAnaAvv As New UsrCtrlAnaAvv With {
             .Dock = DockStyle.Fill,
-            .Visible = True
+            .Visible = True,
+            .HWND = hWnd
         }
         AddHandler CtrlAnaAvv.Disposed, AddressOf FormChiusa
 
@@ -66,7 +78,6 @@ Class MainWindow
         HostAnaAvv.Height = Me.Height
         'Aggiungo allo StackPanel come nuovo figlio il WindowsFormsHost Host2
         panelAnaAvv.Children.Add(HostAnaAvv)
-        IsBusyProp = False
     End Sub
 
     Private Sub BtnAnaParti_Click(sender As Object, e As RoutedEventArgs) Handles BtnAnaParti.Click

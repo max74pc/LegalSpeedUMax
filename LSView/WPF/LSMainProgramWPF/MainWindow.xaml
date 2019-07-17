@@ -100,7 +100,6 @@
                 </RibbonCustom:RibbonGroup>
             </RibbonCustom:RibbonTabItem>
         </RibbonCustom:XamRibbon>
-        <ig:XamBusyIndicator IsBusy="{Binding IsBusyProp}">
                  
             <DockManCustom:XamDockManager Name="XamDockManagerMio"  Margin="0,140,0,0" >
             <DockManCustom:DocumentContentHost>
@@ -110,7 +109,6 @@
                 </DockManCustom:SplitPane>
             </DockManCustom:DocumentContentHost>
         </DockManCustom:XamDockManager>
-        </ig:XamBusyIndicator>
     </Grid>
     
 </Window>

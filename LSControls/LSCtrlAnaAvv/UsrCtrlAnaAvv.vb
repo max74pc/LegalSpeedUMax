@@ -1,6 +1,8 @@
 ﻿Imports LSDBManager.LSDBContextNS
 Imports LSDataModel.LSDataModelNS
 Imports LSCommon.LSCommonNS
+Imports System.Runtime.InteropServices
+Imports System.Threading
 
 Public Class UsrCtrlAnaAvv
 
@@ -11,6 +13,24 @@ Public Class UsrCtrlAnaAvv
     Private mIdAvvocato As Integer
     Private mNomeCompletoAvvocato As String
     Private mVisualizzaDaAltraFinestra As Boolean
+
+
+    Private Const WM_SYSCOMMAND = &H112
+    Private Const SC_CLOSE = &HF060&
+
+    <DllImport("user32.dll", CharSet:=CharSet.Auto)>
+    Public Shared Function SendMessage(ByVal hWnd As Integer, ByVal msg As Integer, ByVal wParam As Integer, ByVal lParam As IntPtr) As Integer
+    End Function
+
+    Public _HWND As Integer
+    Public Property HWND() As Integer
+        Get
+            Return _HWND
+        End Get
+        Set(ByVal value As Integer)
+            _HWND = value
+        End Set
+    End Property
 
     Public Property VisualizzaDaAltraFinestra() As Boolean
         Get
@@ -116,6 +136,10 @@ Public Class UsrCtrlAnaAvv
             UGrdAnaAvv.DisplayLayout.Bands(0).Columns(25).Hidden = True
             UGrdAnaAvv.DisplayLayout.Bands(0).Columns(26).Hidden = True
             UGrdAnaAvv.DisplayLayout.Bands(0).Columns(27).Header.Caption = "Nome Completo"
+
+            If _HWND <> IntPtr.Zero Then
+                SendMessage(_HWND, WM_SYSCOMMAND, SC_CLOSE, 0)
+            End If
 
         Catch ex As Exception
             ClsComune.GestisciEccezzioni(ex, "UsrCtrlAnaAvv: Sub InizializzaControlli. ", True, ClsComune.GlbStrUserNameLS, "", True)
