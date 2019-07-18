@@ -1,0 +1,13 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LSCtrlCasellaTestoWpf"
+             xmlns:Custom="http://infragistics.com/Editors" x:Class="UsrCtrlCasellaTestoWPF"
+             mc:Ignorable="d" Height="27.919" Width="344.079">
+    <Grid>
+        <Label x:Name="lblDescrizione"  Content="Descrizione:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0,0" Width="82" Height="26"/>
+        <Custom:XamTextEditor x:Name="txtEdCasellatestoWPF" HorizontalAlignment="Left" Margin="82,0,0,0" VerticalAlignment="Top" Width="262" Height="26"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,15 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LSCtrlPasswordWPF"
+             xmlns:Custom="http://infragistics.com/Editors" x:Class="UsrCtrlPwdWPF"
+             mc:Ignorable="d" Height="26.363" Width="316.8">
+    <Grid Margin="0,0,0,0">
+        <Label x:Name="lblDescrizione"  Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" FontFamily="Linux Libertine Display G" FontSize="14"/>
+        <PasswordBox x:Name="PwdBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="26" PasswordChar="*" FontFamily="Times New Roman" FontSize="18" Canvas.Left="69" Margin="61,0,0,0"/>
+        <Custom:XamTextEditor x:Name="TxtEdPwdVisibile" HorizontalAlignment="Left" Margin="61,0,0,0" VerticalAlignment="Top" Width="229" Height="26" FontSize="16" Canvas.Left="69"/>
+        <Image x:Name="ImgOcchio"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="26" Source="Img/eye-32x32.png" RenderTransformOrigin="0.39,0.462" Canvas.Left="298" Margin="290,0,0,0"/>
+    </Grid>
+</UserControl>

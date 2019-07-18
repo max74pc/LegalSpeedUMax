@@ -199,9 +199,17 @@
       <Project>{eca555d4-91f7-47c1-b054-31eb428c4a72}</Project>
       <Name>LSCtrlAnaUtenti</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\LSControls\LSCtrlCasellaTestoWpf\LSCtrlCasellaTestoWpf.vbproj">
+      <Project>{99f60500-c7e0-425d-a23c-62cbebdeb1e1}</Project>
+      <Name>LSCtrlCasellaTestoWpf</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\LSControls\LSCtrlComAtti\LSCtrlComAtti.vbproj">
       <Project>{fd630cc9-c081-4a45-9145-674497fd30cd}</Project>
       <Name>LSCtrlComAtti</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\LSControls\LSCtrlPasswordWPF\LSCtrlPasswordWPF.vbproj">
+      <Project>{6f82cbfb-bf43-4aae-bbff-6c5e6d5f3f95}</Project>
+      <Name>LSCtrlPasswordWPF</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\LSControls\LSUltraCasellaTesto\LSUltraCasellaTesto.vbproj">
       <Project>{f71d0c0f-3388-4214-afee-86d37f48afb5}</Project>
