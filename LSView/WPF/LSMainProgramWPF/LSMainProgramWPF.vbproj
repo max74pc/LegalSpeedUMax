@@ -56,13 +56,34 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="InfragisticsWPF4.Controls.Charts.XamDataChart.v20.1, Version=20.1.20201.9, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="InfragisticsWPF4.Controls.Gauges.v20.1, Version=20.1.20201.9, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="InfragisticsWPF4.DataVisualization.v20.1, Version=20.1.20201.9, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="InfragisticsWPF4.DockManager.v20.1, Version=20.1.20201.9, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="InfragisticsWPF4.Editors.v20.1, Version=20.1.20201.9, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="InfragisticsWPF4.Ribbon.v20.1, Version=20.1.20201.9, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="InfragisticsWPF4.v20.1, Version=20.1.20201.9, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="InfragisticsWPF4.Controls.Charts.XamDataChart.v21.1, Version=21.1.20211.48, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\WPF\CLR4.0\Bin\InfragisticsWPF4.Controls.Charts.XamDataChart.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.Controls.Gauges.v21.1, Version=21.1.20211.48, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\WPF\CLR4.0\Bin\InfragisticsWPF4.Controls.Gauges.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.DataVisualization.v21.1, Version=21.1.20211.48, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\WPF\CLR4.0\Bin\InfragisticsWPF4.DataVisualization.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.DockManager.v21.1, Version=21.1.20211.48, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\WPF\CLR4.0\Bin\InfragisticsWPF4.DockManager.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.Editors.v21.1, Version=21.1.20211.48, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\WPF\CLR4.0\Bin\InfragisticsWPF4.Editors.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.Ribbon.v21.1, Version=21.1.20211.48, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\WPF\CLR4.0\Bin\InfragisticsWPF4.Ribbon.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.v21.1, Version=21.1.20211.48, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\WPF\CLR4.0\Bin\InfragisticsWPF4.v21.1.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -164,7 +185,6 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Licenses.licx" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
@@ -251,7 +271,9 @@
     <Resource Include="Img\uscita-applicazione-48x48.png" />
     <Resource Include="Img\utenti-def-64x64.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Img\view-form-table-export-excel-48x48.png" />
   </ItemGroup>

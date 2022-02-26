@@ -53,17 +53,50 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Shared.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.DataVisualization.Barcode.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.DataVisualization.Shared.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.DataVisualization.UltraDataChart.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.DataVisualization.UltraSparkline.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.Misc.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.Portable.Core.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinDock.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinEditors.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinGrid.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Shared.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Shared.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.DataVisualization.Barcode.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.DataVisualization.Barcode.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.DataVisualization.Shared.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.DataVisualization.Shared.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.DataVisualization.UltraDataChart.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.DataVisualization.UltraDataChart.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.DataVisualization.UltraSparkline.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.DataVisualization.UltraSparkline.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.Misc.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.Misc.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.Portable.Core.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.Portable.Core.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinDock.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinDock.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinEditors.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinEditors.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinGrid.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinGrid.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.v21.1.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />

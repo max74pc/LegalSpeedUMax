@@ -53,17 +53,50 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Shared.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.AppStylistSupport.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.Misc.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinEditors.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinExplorerBar.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinGrid.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinListView.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinTabControl.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinToolbars.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinTree.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.v20.1, Version=20.1.20201.12, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Shared.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Shared.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.AppStylistSupport.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.AppStylistSupport.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.Misc.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.Misc.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinEditors.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinEditors.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinExplorerBar.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinExplorerBar.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinGrid.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinGrid.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinListView.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinListView.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinTabControl.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinTabControl.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinToolbars.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinToolbars.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinTree.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinTree.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.v21.1.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />

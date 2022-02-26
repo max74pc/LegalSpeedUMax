@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:RibbonCustom="http://infragistics.com/Ribbon" xmlns:DockManCustom="http://infragistics.com/DockManager"
-        xmlns:ig="clr-namespace:Infragistics.Controls.Interactions;assembly=InfragisticsWPF4.v19.1" x:Class="MainWindow"
+        xmlns:ig="clr-namespace:Infragistics.Controls.Interactions;assembly=InfragisticsWPF4.v21.1" x:Class="MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="960" Loaded="Window_Loaded">
     

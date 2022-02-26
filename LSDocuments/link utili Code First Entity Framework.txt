@@ -1,0 +1,7 @@
+https://www.mikesdotnetting.com/article/246/mvc-5-with-ef-6-in-visual-basic-creating-a-more-complex-data-model
+
+https://www.devart.com/dotconnect/sqlite/docs/Tutorial_EFCore.html
+
+
+https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/workflows/new-database
+molto importante: https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/data-annotations

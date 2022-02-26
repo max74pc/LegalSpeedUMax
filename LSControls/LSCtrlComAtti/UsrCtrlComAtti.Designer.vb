@@ -168,12 +168,12 @@ Partial Class UsrCtrlComAtti
         '
         Appearance2.BackColorAlpha = Infragistics.Win.Alpha.Transparent
         Me.UlblTitoloAnaBase.Appearance = Appearance2
-        Me.UlblTitoloAnaBase.Font = New System.Drawing.Font("Linux Libertine Display G", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UlblTitoloAnaBase.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblTitoloAnaBase.Location = New System.Drawing.Point(19, 12)
         Me.UlblTitoloAnaBase.Name = "UlblTitoloAnaBase"
-        Me.UlblTitoloAnaBase.Size = New System.Drawing.Size(372, 40)
+        Me.UlblTitoloAnaBase.Size = New System.Drawing.Size(314, 40)
         Me.UlblTitoloAnaBase.TabIndex = 10
-        Me.UlblTitoloAnaBase.Text = "Compositore Atti"
+        Me.UlblTitoloAnaBase.Text = "Generazione Atti"
         '
         'UlblRigaTitolo
         '
@@ -269,7 +269,7 @@ Partial Class UsrCtrlComAtti
         Appearance3.TextHAlignAsString = "Center"
         Me.UlblAltriDati.Appearance = Appearance3
         Me.UlblAltriDati.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid
-        Me.UlblAltriDati.Font = New System.Drawing.Font("Linux Libertine Display G", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UlblAltriDati.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblAltriDati.Location = New System.Drawing.Point(3, 3)
         Me.UlblAltriDati.Name = "UlblAltriDati"
         Me.UlblAltriDati.Size = New System.Drawing.Size(174, 23)
@@ -320,7 +320,7 @@ Partial Class UsrCtrlComAtti
         Appearance4.TextHAlignAsString = "Center"
         Me.UlblDatiControparti.Appearance = Appearance4
         Me.UlblDatiControparti.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid
-        Me.UlblDatiControparti.Font = New System.Drawing.Font("Linux Libertine Display G", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UlblDatiControparti.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblDatiControparti.Location = New System.Drawing.Point(3, 6)
         Me.UlblDatiControparti.Name = "UlblDatiControparti"
         Me.UlblDatiControparti.Size = New System.Drawing.Size(174, 23)
@@ -371,7 +371,7 @@ Partial Class UsrCtrlComAtti
         Appearance5.TextHAlignAsString = "Center"
         Me.UlblDatiParti.Appearance = Appearance5
         Me.UlblDatiParti.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid
-        Me.UlblDatiParti.Font = New System.Drawing.Font("Linux Libertine Display G", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UlblDatiParti.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblDatiParti.Location = New System.Drawing.Point(3, 3)
         Me.UlblDatiParti.Name = "UlblDatiParti"
         Me.UlblDatiParti.Size = New System.Drawing.Size(174, 23)
@@ -422,7 +422,7 @@ Partial Class UsrCtrlComAtti
         Appearance6.TextHAlignAsString = "Center"
         Me.UlblDatiAvvocati.Appearance = Appearance6
         Me.UlblDatiAvvocati.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid
-        Me.UlblDatiAvvocati.Font = New System.Drawing.Font("Linux Libertine Display G", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UlblDatiAvvocati.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblDatiAvvocati.Location = New System.Drawing.Point(3, 3)
         Me.UlblDatiAvvocati.Name = "UlblDatiAvvocati"
         Me.UlblDatiAvvocati.Size = New System.Drawing.Size(174, 23)
@@ -477,7 +477,7 @@ Partial Class UsrCtrlComAtti
         Appearance7.TextHAlignAsString = "Center"
         Me.UlblDatiEnte.Appearance = Appearance7
         Me.UlblDatiEnte.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid
-        Me.UlblDatiEnte.Font = New System.Drawing.Font("Linux Libertine Display G", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UlblDatiEnte.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblDatiEnte.Location = New System.Drawing.Point(3, 3)
         Me.UlblDatiEnte.Name = "UlblDatiEnte"
         Me.UlblDatiEnte.Size = New System.Drawing.Size(174, 23)
@@ -532,7 +532,7 @@ Partial Class UsrCtrlComAtti
         Appearance8.TextHAlignAsString = "Center"
         Me.UlblEstremiAtto.Appearance = Appearance8
         Me.UlblEstremiAtto.BorderStyleOuter = Infragistics.Win.UIElementBorderStyle.Solid
-        Me.UlblEstremiAtto.Font = New System.Drawing.Font("Linux Libertine Display G", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UlblEstremiAtto.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblEstremiAtto.Location = New System.Drawing.Point(3, 3)
         Me.UlblEstremiAtto.Name = "UlblEstremiAtto"
         Me.UlblEstremiAtto.Size = New System.Drawing.Size(174, 23)
@@ -613,7 +613,7 @@ Partial Class UsrCtrlComAtti
         '
         Appearance11.BackColorAlpha = Infragistics.Win.Alpha.Transparent
         Me.UlblTitoloModelliAtti.Appearance = Appearance11
-        Me.UlblTitoloModelliAtti.Font = New System.Drawing.Font("Linux Libertine Display G", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UlblTitoloModelliAtti.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblTitoloModelliAtti.Location = New System.Drawing.Point(6, 3)
         Me.UlblTitoloModelliAtti.Name = "UlblTitoloModelliAtti"
         Me.UlblTitoloModelliAtti.Size = New System.Drawing.Size(100, 19)
@@ -653,6 +653,7 @@ Partial Class UsrCtrlComAtti
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.Location = New System.Drawing.Point(0, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.Name = "_UsrCtrlAnaAvvUnpinnedTabAreaLeft"
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.Owner = Me.UDockManagerComAtti
+        Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.Size = New System.Drawing.Size(0, 701)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.TabIndex = 5
         '
@@ -663,6 +664,7 @@ Partial Class UsrCtrlComAtti
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.Location = New System.Drawing.Point(1696, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.Name = "_UsrCtrlAnaAvvUnpinnedTabAreaRight"
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.Owner = Me.UDockManagerComAtti
+        Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.Size = New System.Drawing.Size(0, 701)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.TabIndex = 6
         '
@@ -673,6 +675,7 @@ Partial Class UsrCtrlComAtti
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.Location = New System.Drawing.Point(0, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.Name = "_UsrCtrlAnaAvvUnpinnedTabAreaTop"
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.Owner = Me.UDockManagerComAtti
+        Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.Size = New System.Drawing.Size(1696, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.TabIndex = 7
         '
@@ -683,6 +686,7 @@ Partial Class UsrCtrlComAtti
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.Location = New System.Drawing.Point(0, 701)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.Name = "_UsrCtrlAnaAvvUnpinnedTabAreaBottom"
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.Owner = Me.UDockManagerComAtti
+        Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.Size = New System.Drawing.Size(1696, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.TabIndex = 8
         '
@@ -692,6 +696,7 @@ Partial Class UsrCtrlComAtti
         Me._UsrCtrlAnaAvvAutoHideControl.Location = New System.Drawing.Point(0, 0)
         Me._UsrCtrlAnaAvvAutoHideControl.Name = "_UsrCtrlAnaAvvAutoHideControl"
         Me._UsrCtrlAnaAvvAutoHideControl.Owner = Me.UDockManagerComAtti
+        Me._UsrCtrlAnaAvvAutoHideControl.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvAutoHideControl.Size = New System.Drawing.Size(0, 701)
         Me._UsrCtrlAnaAvvAutoHideControl.TabIndex = 9
         '
@@ -723,6 +728,7 @@ Partial Class UsrCtrlComAtti
         Me.WindowDockingArea3.Location = New System.Drawing.Point(0, 0)
         Me.WindowDockingArea3.Name = "WindowDockingArea3"
         Me.WindowDockingArea3.Owner = Me.UDockManagerComAtti
+        Me.WindowDockingArea3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.WindowDockingArea3.Size = New System.Drawing.Size(1696, 105)
         Me.WindowDockingArea3.TabIndex = 15
         '
@@ -744,6 +750,7 @@ Partial Class UsrCtrlComAtti
         Me.WindowDockingArea2.Location = New System.Drawing.Point(354, 105)
         Me.WindowDockingArea2.Name = "WindowDockingArea2"
         Me.WindowDockingArea2.Owner = Me.UDockManagerComAtti
+        Me.WindowDockingArea2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.WindowDockingArea2.Size = New System.Drawing.Size(1342, 596)
         Me.WindowDockingArea2.TabIndex = 16
         '

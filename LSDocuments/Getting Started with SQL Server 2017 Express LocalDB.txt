@@ -1,0 +1,13 @@
+Getting Started with SQL Server 2017 Express LocalDB:
+https://www.mssqltips.com/sqlservertip/5612/getting-started-with-sql-server-2017-express-localdb/
+
+https://docs.microsoft.com/it-it/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15
+
+SQL Server: How to find all localdb instance names:
+https://stackoverflow.com/questions/36157191/sql-server-how-to-find-all-localdb-instance-names
+
+DataGrip 2020.2 - Connect to SQL Server Express LocalDB
+https://www.jetbrains.com/help/datagrip/connecting-to-sql-server-express-localdb.html#step-4-enter-credentials-and-test-your-connection
+
+ASP.NET - Working with SQL Server LocalDB
+https://jakeydocs.readthedocs.io/en/latest/tutorials/first-mvc-app/working-with-sql.html
