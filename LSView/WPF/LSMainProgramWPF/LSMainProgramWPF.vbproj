@@ -229,6 +229,10 @@
       <Project>{fd630cc9-c081-4a45-9145-674497fd30cd}</Project>
       <Name>LSCtrlComAtti</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\LSControls\LSCtrlFattGen\LSCtrlFattGen.vbproj">
+      <Project>{b4345c36-c418-43f9-9d37-5b334770ffd6}</Project>
+      <Name>LSCtrlFattGen</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\LSControls\LSCtrlPasswordWPF\LSCtrlPasswordWPF.vbproj">
       <Project>{6f82cbfb-bf43-4aae-bbff-6c5e6d5f3f95}</Project>
       <Name>LSCtrlPasswordWPF</Name>

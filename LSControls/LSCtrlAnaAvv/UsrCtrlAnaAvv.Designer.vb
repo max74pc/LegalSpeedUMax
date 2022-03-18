@@ -417,7 +417,7 @@ Partial Class UsrCtrlAnaAvv
         Me.LSUTxtInidirizzoResidenza.Obbligatorio = False
         Me.LSUTxtInidirizzoResidenza.Size = New System.Drawing.Size(611, 30)
         Me.LSUTxtInidirizzoResidenza.TabIndex = 57
-        Me.LSUTxtInidirizzoResidenza.TestoEtichetta = "Inidirizzo di Residenza:"
+        Me.LSUTxtInidirizzoResidenza.TestoEtichetta = "Indirizzo di Residenza:"
         Me.LSUTxtInidirizzoResidenza.ValoreCasellaTesto = ""
         '
         'LSUTxtPartitaIVA
@@ -784,6 +784,7 @@ Partial Class UsrCtrlAnaAvv
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.Location = New System.Drawing.Point(0, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.Name = "_UsrCtrlAnaAvvUnpinnedTabAreaLeft"
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.Owner = Me.UDockManAnaAvv
+        Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.Size = New System.Drawing.Size(0, 701)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaLeft.TabIndex = 5
         '
@@ -794,6 +795,7 @@ Partial Class UsrCtrlAnaAvv
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.Location = New System.Drawing.Point(1772, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.Name = "_UsrCtrlAnaAvvUnpinnedTabAreaRight"
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.Owner = Me.UDockManAnaAvv
+        Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.Size = New System.Drawing.Size(0, 701)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaRight.TabIndex = 6
         '
@@ -804,6 +806,7 @@ Partial Class UsrCtrlAnaAvv
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.Location = New System.Drawing.Point(0, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.Name = "_UsrCtrlAnaAvvUnpinnedTabAreaTop"
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.Owner = Me.UDockManAnaAvv
+        Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.Size = New System.Drawing.Size(1772, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop.TabIndex = 7
         '
@@ -814,6 +817,7 @@ Partial Class UsrCtrlAnaAvv
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.Location = New System.Drawing.Point(0, 701)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.Name = "_UsrCtrlAnaAvvUnpinnedTabAreaBottom"
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.Owner = Me.UDockManAnaAvv
+        Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.Size = New System.Drawing.Size(1772, 0)
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom.TabIndex = 8
         '
@@ -823,6 +827,7 @@ Partial Class UsrCtrlAnaAvv
         Me._UsrCtrlAnaAvvAutoHideControl.Location = New System.Drawing.Point(0, 0)
         Me._UsrCtrlAnaAvvAutoHideControl.Name = "_UsrCtrlAnaAvvAutoHideControl"
         Me._UsrCtrlAnaAvvAutoHideControl.Owner = Me.UDockManAnaAvv
+        Me._UsrCtrlAnaAvvAutoHideControl.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me._UsrCtrlAnaAvvAutoHideControl.Size = New System.Drawing.Size(0, 701)
         Me._UsrCtrlAnaAvvAutoHideControl.TabIndex = 9
         '
@@ -834,6 +839,7 @@ Partial Class UsrCtrlAnaAvv
         Me.WindowDockingArea1.Location = New System.Drawing.Point(0, 0)
         Me.WindowDockingArea1.Name = "WindowDockingArea1"
         Me.WindowDockingArea1.Owner = Me.UDockManAnaAvv
+        Me.WindowDockingArea1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.WindowDockingArea1.Size = New System.Drawing.Size(1772, 105)
         Me.WindowDockingArea1.TabIndex = 14
         '
@@ -854,6 +860,7 @@ Partial Class UsrCtrlAnaAvv
         Me.WindowDockingArea3.Location = New System.Drawing.Point(481, 105)
         Me.WindowDockingArea3.Name = "WindowDockingArea3"
         Me.WindowDockingArea3.Owner = Me.UDockManAnaAvv
+        Me.WindowDockingArea3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.WindowDockingArea3.Size = New System.Drawing.Size(1291, 596)
         Me.WindowDockingArea3.TabIndex = 15
         '
@@ -874,6 +881,7 @@ Partial Class UsrCtrlAnaAvv
         Me.WindowDockingArea2.Location = New System.Drawing.Point(0, 105)
         Me.WindowDockingArea2.Name = "WindowDockingArea2"
         Me.WindowDockingArea2.Owner = Me.UDockManAnaAvv
+        Me.WindowDockingArea2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.WindowDockingArea2.Size = New System.Drawing.Size(481, 219)
         Me.WindowDockingArea2.TabIndex = 16
         '

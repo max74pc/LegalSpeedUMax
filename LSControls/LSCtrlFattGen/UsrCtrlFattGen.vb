@@ -10,10 +10,10 @@ Imports System.Windows.Controls.Primitives
 
 Public Class UsrCtrlFattGen
 
-    Private glbIdAvv As Integer
-    Private glbIdParte As Integer
-    Private glbIdControparte As Integer
-    Private sGlbNomeAtto As String
+    'Private glbIdAvv As Integer
+    'Private glbIdParte As Integer
+    'Private glbIdControparte As Integer
+    Private ReadOnly sGlbNomeAtto As String
 
     Private Sub UsrCtrlComAtti_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
@@ -151,7 +151,7 @@ Public Class UsrCtrlFattGen
     End Sub
 
     Private Sub UltraTreeModelliAtti_DoubleClick(sender As Object, e As EventArgs)
-        Dim strPathModelli As String = "D:\ProgettiVS2017\LegalSpeedUMax\Modelli Atti\"
+        'Dim strPathModelli As String = "D:\ProgettiVS2017\LegalSpeedUMax\Modelli Atti\"
         Try
 
         Catch ex As Exception

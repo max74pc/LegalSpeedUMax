@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B4345C36-C418-43F9-9D37-5B334770FFD6}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>LSCtrlComAtti</RootNamespace>
-    <AssemblyName>LSCtrlComAtti</AssemblyName>
+    <RootNamespace>LSCtrlFattGen</RootNamespace>
+    <AssemblyName>LSCtrlFattGen</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>LSCtrlComAtti.xml</DocumentationFile>
+    <DocumentationFile>LSCtrlFattGen.xml</DocumentationFile>
     <DefineConstants>_MYFORMS=True</DefineConstants>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>LSCtrlComAtti.xml</DocumentationFile>
+    <DocumentationFile>LSCtrlFattGen.xml</DocumentationFile>
     <DefineConstants>_MYFORMS=True</DefineConstants>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
@@ -142,6 +142,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="UsrCtrlFattGen.vb">
       <SubType>UserControl</SubType>

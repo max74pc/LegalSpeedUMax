@@ -52,7 +52,7 @@
                     </RibbonCustom:ButtonTool>
                 </RibbonCustom:RibbonGroup>
                 <RibbonCustom:RibbonGroup Caption="ADS" Margin="383.6,-5,-459.6,10.8" Height="79" VerticalAlignment="Bottom">
-                    <RibbonCustom:ButtonTool x:Name="BtnADSBilancio" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Margin="0,0,0,-0.2" Width="58" Content="Bilanacio">
+                    <RibbonCustom:ButtonTool x:Name="BtnADSBilancio" Caption="Btn" RibbonCustom:RibbonGroup.MaximumSize="ImageAndTextLarge" RibbonCustom:RibbonGroup.MinimumSize="ImageAndTextLarge" Margin="0,0,0,-0.2" Width="58" Content="Bilancio">
                         <RibbonCustom:ButtonTool.LargeImage>
                             <BitmapImage UriSource="/LSMainProgramWPF;component/Img/bilancioADS-def-64x64.png"/>
                         </RibbonCustom:ButtonTool.LargeImage>

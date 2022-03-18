@@ -6,8 +6,8 @@ Imports LSCtrlAnaControparti
 Imports LSCtrlAnaPersone
 Imports LSCtrlAnaUtenti
 Imports LSCtrlComAtti
+Imports LSCtrlFattGen
 Imports System.Runtime.InteropServices
-Imports System.Threading
 
 Class MainWindow
     <DllImport("user32.dll", SetLastError:=True)>
@@ -244,7 +244,35 @@ Class MainWindow
     End Sub
 
     Private Sub BtnFatGenera_Click(sender As Object, e As RoutedEventArgs) Handles BtnFatGenera.Click
-        'TODO
+        'Creato un nuovo ContentPane e imposto la proprietà Header
+        Dim FatGeneraPane As New ContentPane With {
+            .Header = "Generatore Fatture"
+        }
+
+        'Aggiungo il ContentPane appena creato alla collezzione dei panelli del TabGroupPaneMain
+        TabGroupPaneMain.Items.Add(FatGeneraPane)
+
+        'Creo un nuov StackPanel
+        Dim panelFatGenera As New StackPanel()
+
+        'Imposto la proprietà Content della ContentPane allo StackPanel appena creato
+        FatGeneraPane.Content = panelFatGenera
+
+        'Creo un nuovo WindowsFormsHost
+        Dim HostFatGenera As New Integration.WindowsFormsHost()
+
+        Dim CtrlFattGen As New UsrCtrlFattGen With {
+            .Dock = DockStyle.Fill,
+            .Visible = True
+        }
+        AddHandler CtrlFattGen.Disposed, AddressOf FormChiusa
+
+        'Assegno alla proprietà Child del WindowsFormHost il controllo Anagrafica Avvocato
+        HostFatGenera.Child = CtrlFattGen
+
+        HostFatGenera.Height = Me.Height
+        'Aggiungo allo StackPanel come nuovo figlio il WindowsFormsHost Host2
+        panelFatGenera.Children.Add(HostFatGenera)
     End Sub
 
     Private Sub BtnLinkAppSLPCT_Click(sender As Object, e As RoutedEventArgs) Handles BtnLinkAppSLPCT.Click

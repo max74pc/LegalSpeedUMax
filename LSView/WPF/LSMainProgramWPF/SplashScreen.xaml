@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:LSMainProgramWPF"
         mc:Ignorable="d"
         Title="SplashScreen" Height="669.43" Width="711.184" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
-    <Grid>
-        <Image HorizontalAlignment="Left" Height="521" Margin="94,75,0,0" VerticalAlignment="Top" Width="543" Source="Img/LegalScaleandBooks.jpg"/>
-        <Label Content="Legal SpeeduMax - Gestionale per Avvocati" HorizontalAlignment="Left" Margin="121,10,0,0" VerticalAlignment="Top" Width="473" Height="36" FontFamily="Linux Libertine Display G" FontSize="24" FontWeight="Bold"/>
-        <Label Content="Versione 1.0.0. - © CopyRight 2019 - Tutti i diritti sono riservati" HorizontalAlignment="Left" Margin="35,601,0,0" VerticalAlignment="Top" Width="650" Height="36" FontFamily="Linux Libertine Display G" FontSize="24" FontWeight="Bold"/>
+	<Grid>
+		<Image HorizontalAlignment="Left" Height="521" Margin="94,75,0,0" VerticalAlignment="Top" Width="543" Source="Img/LegalScaleandBooks.jpg"/>
+		<Label Content="Legal SpeeduMax - Gestionale per Avvocati" HorizontalAlignment="Left" Margin="121,10,0,0" VerticalAlignment="Top" Width="473" Height="36" FontFamily="Linux Libertine Display G" FontSize="24" FontWeight="Bold"/>
+		<Label Content="Versione 1.0.0. - © CopyRight 2019-22 - Tutti i diritti sono riservati" HorizontalAlignment="Center" Margin="0,601,0,0" VerticalAlignment="Top" Width="691" Height="39" FontFamily="Linux Libertine Display G" FontSize="24" FontWeight="Bold"/>
 
-    </Grid>
+	</Grid>
 </Window>

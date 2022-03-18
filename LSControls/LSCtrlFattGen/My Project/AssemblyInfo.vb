@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Controllare i valori degli attributi degli assembly
 
-<Assembly: AssemblyTitle("LSAnaAvvCtrl")>
+<Assembly: AssemblyTitle("LSCtrlFattGen")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("LSAnaAvvCtrl")>
-<Assembly: AssemblyCopyright("Copyright ©  2019")>
+<Assembly: AssemblyProduct("LSCtrlFattGen")>
+<Assembly: AssemblyCopyright("Copyright © 2019-22")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
