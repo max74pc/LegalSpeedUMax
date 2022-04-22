@@ -23,18 +23,18 @@ Partial Class UsrCtrlAnaAvv
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Appearance1 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance6 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UsrCtrlAnaAvv))
-        Dim Appearance2 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance3 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance4 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance5 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim DockAreaPane1 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedTop, New System.Guid("97c2ed93-f1ba-4bc5-b8a8-dcd491601297"))
-        Dim DockableControlPane1 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("862ae136-1f90-4c2f-a51c-cc9389153556"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("97c2ed93-f1ba-4bc5-b8a8-dcd491601297"), 0)
-        Dim DockAreaPane2 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedRight, New System.Guid("7fb753d1-3ccd-4e71-872d-71ed3ee9ea2b"))
-        Dim DockableControlPane2 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("48440a24-6df5-4980-9b59-b3fd66c17942"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("7fb753d1-3ccd-4e71-872d-71ed3ee9ea2b"), 0)
-        Dim DockAreaPane3 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedTop, New System.Guid("a5f09bbf-1865-4b5a-88ab-07dd37ad60eb"))
-        Dim DockableControlPane3 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("df31f873-6e13-4ca3-9eff-879232ee0e68"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("a5f09bbf-1865-4b5a-88ab-07dd37ad60eb"), -1)
+        Dim Appearance7 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance8 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance9 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance10 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim DockAreaPane4 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedTop, New System.Guid("97c2ed93-f1ba-4bc5-b8a8-dcd491601297"))
+        Dim DockableControlPane4 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("862ae136-1f90-4c2f-a51c-cc9389153556"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("97c2ed93-f1ba-4bc5-b8a8-dcd491601297"), 0)
+        Dim DockAreaPane5 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedRight, New System.Guid("7fb753d1-3ccd-4e71-872d-71ed3ee9ea2b"))
+        Dim DockableControlPane5 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("48440a24-6df5-4980-9b59-b3fd66c17942"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("7fb753d1-3ccd-4e71-872d-71ed3ee9ea2b"), 0)
+        Dim DockAreaPane6 As Infragistics.Win.UltraWinDock.DockAreaPane = New Infragistics.Win.UltraWinDock.DockAreaPane(Infragistics.Win.UltraWinDock.DockedLocation.DockedTop, New System.Guid("a5f09bbf-1865-4b5a-88ab-07dd37ad60eb"))
+        Dim DockableControlPane6 As Infragistics.Win.UltraWinDock.DockableControlPane = New Infragistics.Win.UltraWinDock.DockableControlPane(New System.Guid("df31f873-6e13-4ca3-9eff-879232ee0e68"), New System.Guid("00000000-0000-0000-0000-000000000000"), -1, New System.Guid("a5f09bbf-1865-4b5a-88ab-07dd37ad60eb"), -1)
         Me.UPanelToolbar = New Infragistics.Win.Misc.UltraPanel()
         Me.UGrpBoxToolbar = New Infragistics.Win.Misc.UltraGroupBox()
         Me.PicBoxEsportaExcel = New System.Windows.Forms.PictureBox()
@@ -88,13 +88,14 @@ Partial Class UsrCtrlAnaAvv
         Me._UsrCtrlAnaAvvUnpinnedTabAreaTop = New Infragistics.Win.UltraWinDock.UnpinnedTabArea()
         Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom = New Infragistics.Win.UltraWinDock.UnpinnedTabArea()
         Me._UsrCtrlAnaAvvAutoHideControl = New Infragistics.Win.UltraWinDock.AutoHideControl()
-        Me.WindowDockingArea1 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
+        Me.ImageListAnaAvv = New System.Windows.Forms.ImageList(Me.components)
+        Me.WindowDockingArea2 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.DockableWindow1 = New Infragistics.Win.UltraWinDock.DockableWindow()
         Me.WindowDockingArea3 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.DockableWindow2 = New Infragistics.Win.UltraWinDock.DockableWindow()
-        Me.WindowDockingArea2 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
+        Me.WindowDockingArea1 = New Infragistics.Win.UltraWinDock.WindowDockingArea()
         Me.DockableWindow3 = New Infragistics.Win.UltraWinDock.DockableWindow()
-        Me.ImageListAnaAvv = New System.Windows.Forms.ImageList(Me.components)
+        Me.UltraGridBagLayoutManager1 = New Infragistics.Win.Misc.UltraGridBagLayoutManager(Me.components)
         Me.UPanelToolbar.ClientArea.SuspendLayout()
         Me.UPanelToolbar.SuspendLayout()
         CType(Me.UGrpBoxToolbar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -120,12 +121,13 @@ Partial Class UsrCtrlAnaAvv
         CType(Me.UGrpBoxTitoloDatiGriglia, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UGrpBoxTitoloDatiGriglia.SuspendLayout()
         CType(Me.UDockManAnaAvv, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.WindowDockingArea1.SuspendLayout()
+        Me.WindowDockingArea2.SuspendLayout()
         Me.DockableWindow1.SuspendLayout()
         Me.WindowDockingArea3.SuspendLayout()
         Me.DockableWindow2.SuspendLayout()
-        Me.WindowDockingArea2.SuspendLayout()
+        Me.WindowDockingArea1.SuspendLayout()
         Me.DockableWindow3.SuspendLayout()
+        CType(Me.UltraGridBagLayoutManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'UPanelToolbar
@@ -144,8 +146,8 @@ Partial Class UsrCtrlAnaAvv
         '
         'UGrpBoxToolbar
         '
-        Appearance1.ImageBackground = CType(resources.GetObject("Appearance1.ImageBackground"), System.Drawing.Image)
-        Me.UGrpBoxToolbar.Appearance = Appearance1
+        Appearance6.ImageBackground = CType(resources.GetObject("Appearance6.ImageBackground"), System.Drawing.Image)
+        Me.UGrpBoxToolbar.Appearance = Appearance6
         Me.UGrpBoxToolbar.Controls.Add(Me.PicBoxEsportaExcel)
         Me.UGrpBoxToolbar.Controls.Add(Me.PicBoxEsportaPDF)
         Me.UGrpBoxToolbar.Controls.Add(Me.UlblTitoloAnaBase)
@@ -185,8 +187,8 @@ Partial Class UsrCtrlAnaAvv
         '
         'UlblTitoloAnaBase
         '
-        Appearance2.BackColorAlpha = Infragistics.Win.Alpha.Transparent
-        Me.UlblTitoloAnaBase.Appearance = Appearance2
+        Appearance7.BackColorAlpha = Infragistics.Win.Alpha.Transparent
+        Me.UlblTitoloAnaBase.Appearance = Appearance7
         Me.UlblTitoloAnaBase.Font = New System.Drawing.Font("Linux Libertine Display G", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblTitoloAnaBase.Location = New System.Drawing.Point(19, 12)
         Me.UlblTitoloAnaBase.Name = "UlblTitoloAnaBase"
@@ -665,8 +667,8 @@ Partial Class UsrCtrlAnaAvv
         '
         'UBtnConfermaAvvTrovato
         '
-        Appearance3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.UBtnConfermaAvvTrovato.Appearance = Appearance3
+        Appearance8.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.UBtnConfermaAvvTrovato.Appearance = Appearance8
         Me.UBtnConfermaAvvTrovato.DialogResult = System.Windows.Forms.DialogResult.OK
         Me.UBtnConfermaAvvTrovato.Font = New System.Drawing.Font("Linux Libertine Display G", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UBtnConfermaAvvTrovato.Location = New System.Drawing.Point(89, 126)
@@ -727,9 +729,9 @@ Partial Class UsrCtrlAnaAvv
         '
         'UGrpBoxTitoloDatiGriglia
         '
-        Appearance4.BorderAlpha = Infragistics.Win.Alpha.Transparent
-        Appearance4.ImageBackground = CType(resources.GetObject("Appearance4.ImageBackground"), System.Drawing.Image)
-        Me.UGrpBoxTitoloDatiGriglia.Appearance = Appearance4
+        Appearance9.BorderAlpha = Infragistics.Win.Alpha.Transparent
+        Appearance9.ImageBackground = CType(resources.GetObject("Appearance9.ImageBackground"), System.Drawing.Image)
+        Me.UGrpBoxTitoloDatiGriglia.Appearance = Appearance9
         Me.UGrpBoxTitoloDatiGriglia.Controls.Add(Me.UlblTitoloDatiGriglia)
         Me.UGrpBoxTitoloDatiGriglia.Dock = System.Windows.Forms.DockStyle.Top
         Me.UGrpBoxTitoloDatiGriglia.Location = New System.Drawing.Point(0, 0)
@@ -739,8 +741,8 @@ Partial Class UsrCtrlAnaAvv
         '
         'UlblTitoloDatiGriglia
         '
-        Appearance5.BackColorAlpha = Infragistics.Win.Alpha.Transparent
-        Me.UlblTitoloDatiGriglia.Appearance = Appearance5
+        Appearance10.BackColorAlpha = Infragistics.Win.Alpha.Transparent
+        Me.UlblTitoloDatiGriglia.Appearance = Appearance10
         Me.UlblTitoloDatiGriglia.Font = New System.Drawing.Font("Linux Libertine Display G", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UlblTitoloDatiGriglia.Location = New System.Drawing.Point(6, 3)
         Me.UlblTitoloDatiGriglia.Name = "UlblTitoloDatiGriglia"
@@ -751,28 +753,28 @@ Partial Class UsrCtrlAnaAvv
         'UDockManAnaAvv
         '
         Me.UDockManAnaAvv.CompressUnpinnedTabs = False
-        DockAreaPane1.DockedBefore = New System.Guid("7fb753d1-3ccd-4e71-872d-71ed3ee9ea2b")
-        DockAreaPane1.MaximumSize = New System.Drawing.Size(2300, 100)
-        DockAreaPane1.MinimumSize = New System.Drawing.Size(1300, 100)
-        DockableControlPane1.Control = Me.UPanelToolbar
-        DockableControlPane1.OriginalControlBounds = New System.Drawing.Rectangle(0, 0, 1300, 100)
-        DockableControlPane1.Size = New System.Drawing.Size(100, 100)
-        DockAreaPane1.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane1})
-        DockAreaPane1.Size = New System.Drawing.Size(1772, 100)
-        DockAreaPane2.DockedBefore = New System.Guid("a5f09bbf-1865-4b5a-88ab-07dd37ad60eb")
-        DockableControlPane2.Control = Me.UPanelDatiDett
-        DockableControlPane2.OriginalControlBounds = New System.Drawing.Rectangle(587, 129, 713, 572)
-        DockableControlPane2.Size = New System.Drawing.Size(100, 100)
-        DockableControlPane2.Text = "Dati di Dettaglio"
-        DockAreaPane2.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane2})
-        DockAreaPane2.Size = New System.Drawing.Size(1286, 596)
-        DockableControlPane3.Control = Me.UPanelFiltriRicerca
-        DockableControlPane3.OriginalControlBounds = New System.Drawing.Rectangle(0, 119, 539, 180)
-        DockableControlPane3.Size = New System.Drawing.Size(100, 100)
-        DockableControlPane3.Text = "Filtri di Ricerca"
-        DockAreaPane3.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane3})
-        DockAreaPane3.Size = New System.Drawing.Size(481, 214)
-        Me.UDockManAnaAvv.DockAreas.AddRange(New Infragistics.Win.UltraWinDock.DockAreaPane() {DockAreaPane1, DockAreaPane2, DockAreaPane3})
+        DockAreaPane4.DockedBefore = New System.Guid("7fb753d1-3ccd-4e71-872d-71ed3ee9ea2b")
+        DockAreaPane4.MaximumSize = New System.Drawing.Size(2300, 100)
+        DockAreaPane4.MinimumSize = New System.Drawing.Size(1300, 100)
+        DockableControlPane4.Control = Me.UPanelToolbar
+        DockableControlPane4.OriginalControlBounds = New System.Drawing.Rectangle(0, 0, 1300, 100)
+        DockableControlPane4.Size = New System.Drawing.Size(100, 100)
+        DockAreaPane4.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane4})
+        DockAreaPane4.Size = New System.Drawing.Size(1772, 100)
+        DockAreaPane5.DockedBefore = New System.Guid("a5f09bbf-1865-4b5a-88ab-07dd37ad60eb")
+        DockableControlPane5.Control = Me.UPanelDatiDett
+        DockableControlPane5.OriginalControlBounds = New System.Drawing.Rectangle(587, 129, 713, 572)
+        DockableControlPane5.Size = New System.Drawing.Size(100, 100)
+        DockableControlPane5.Text = "Dati di Dettaglio"
+        DockAreaPane5.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane5})
+        DockAreaPane5.Size = New System.Drawing.Size(1286, 596)
+        DockableControlPane6.Control = Me.UPanelFiltriRicerca
+        DockableControlPane6.OriginalControlBounds = New System.Drawing.Rectangle(0, 119, 539, 180)
+        DockableControlPane6.Size = New System.Drawing.Size(100, 100)
+        DockableControlPane6.Text = "Filtri di Ricerca"
+        DockAreaPane6.Panes.AddRange(New Infragistics.Win.UltraWinDock.DockablePaneBase() {DockableControlPane6})
+        DockAreaPane6.Size = New System.Drawing.Size(481, 214)
+        Me.UDockManAnaAvv.DockAreas.AddRange(New Infragistics.Win.UltraWinDock.DockAreaPane() {DockAreaPane4, DockAreaPane5, DockAreaPane6})
         Me.UDockManAnaAvv.HostControl = Me
         Me.UDockManAnaAvv.ShowCloseButton = False
         Me.UDockManAnaAvv.ShowPinButton = False
@@ -831,17 +833,36 @@ Partial Class UsrCtrlAnaAvv
         Me._UsrCtrlAnaAvvAutoHideControl.Size = New System.Drawing.Size(0, 701)
         Me._UsrCtrlAnaAvvAutoHideControl.TabIndex = 9
         '
-        'WindowDockingArea1
+        'ImageListAnaAvv
         '
-        Me.WindowDockingArea1.Controls.Add(Me.DockableWindow1)
-        Me.WindowDockingArea1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.WindowDockingArea1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.WindowDockingArea1.Location = New System.Drawing.Point(0, 0)
-        Me.WindowDockingArea1.Name = "WindowDockingArea1"
-        Me.WindowDockingArea1.Owner = Me.UDockManAnaAvv
-        Me.WindowDockingArea1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.WindowDockingArea1.Size = New System.Drawing.Size(1772, 105)
-        Me.WindowDockingArea1.TabIndex = 14
+        Me.ImageListAnaAvv.ImageStream = CType(resources.GetObject("ImageListAnaAvv.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageListAnaAvv.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageListAnaAvv.Images.SetKeyName(0, "Chiudi-Finestra-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(1, "Chiudi-Finestra-highlight-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(2, "Salva Dati-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(3, "Salva Dati-highlight-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(4, "Elimina-Riga-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(5, "Elimina-Riga-highlight-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(6, "Inserisci-Riga-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(7, "Inserisci-Riga-highlight-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(8, "Ricerca-Dati-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(9, "Ricerca-Dati-highlight-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(10, "Esporta-PDF-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(11, "Esporta-PDF-highlight-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(12, "Esporta-Excel-68x75.png")
+        Me.ImageListAnaAvv.Images.SetKeyName(13, "Esporta-Excel-highlight-68x75.png")
+        '
+        'WindowDockingArea2
+        '
+        Me.WindowDockingArea2.Controls.Add(Me.DockableWindow1)
+        Me.WindowDockingArea2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.WindowDockingArea2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.WindowDockingArea2.Location = New System.Drawing.Point(0, 0)
+        Me.WindowDockingArea2.Name = "WindowDockingArea2"
+        Me.WindowDockingArea2.Owner = Me.UDockManAnaAvv
+        Me.WindowDockingArea2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.WindowDockingArea2.Size = New System.Drawing.Size(1772, 105)
+        Me.WindowDockingArea2.TabIndex = 16
         '
         'DockableWindow1
         '
@@ -873,17 +894,17 @@ Partial Class UsrCtrlAnaAvv
         Me.DockableWindow2.Size = New System.Drawing.Size(1286, 596)
         Me.DockableWindow2.TabIndex = 18
         '
-        'WindowDockingArea2
+        'WindowDockingArea1
         '
-        Me.WindowDockingArea2.Controls.Add(Me.DockableWindow3)
-        Me.WindowDockingArea2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.WindowDockingArea2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.WindowDockingArea2.Location = New System.Drawing.Point(0, 105)
-        Me.WindowDockingArea2.Name = "WindowDockingArea2"
-        Me.WindowDockingArea2.Owner = Me.UDockManAnaAvv
-        Me.WindowDockingArea2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.WindowDockingArea2.Size = New System.Drawing.Size(481, 219)
-        Me.WindowDockingArea2.TabIndex = 16
+        Me.WindowDockingArea1.Controls.Add(Me.DockableWindow3)
+        Me.WindowDockingArea1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.WindowDockingArea1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.WindowDockingArea1.Location = New System.Drawing.Point(0, 105)
+        Me.WindowDockingArea1.Name = "WindowDockingArea1"
+        Me.WindowDockingArea1.Owner = Me.UDockManAnaAvv
+        Me.WindowDockingArea1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.WindowDockingArea1.Size = New System.Drawing.Size(481, 219)
+        Me.WindowDockingArea1.TabIndex = 14
         '
         'DockableWindow3
         '
@@ -893,25 +914,6 @@ Partial Class UsrCtrlAnaAvv
         Me.DockableWindow3.Owner = Me.UDockManAnaAvv
         Me.DockableWindow3.Size = New System.Drawing.Size(481, 214)
         Me.DockableWindow3.TabIndex = 19
-        '
-        'ImageListAnaAvv
-        '
-        Me.ImageListAnaAvv.ImageStream = CType(resources.GetObject("ImageListAnaAvv.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageListAnaAvv.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageListAnaAvv.Images.SetKeyName(0, "Chiudi-Finestra-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(1, "Chiudi-Finestra-highlight-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(2, "Salva Dati-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(3, "Salva Dati-highlight-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(4, "Elimina-Riga-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(5, "Elimina-Riga-highlight-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(6, "Inserisci-Riga-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(7, "Inserisci-Riga-highlight-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(8, "Ricerca-Dati-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(9, "Ricerca-Dati-highlight-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(10, "Esporta-PDF-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(11, "Esporta-PDF-highlight-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(12, "Esporta-Excel-68x75.png")
-        Me.ImageListAnaAvv.Images.SetKeyName(13, "Esporta-Excel-highlight-68x75.png")
         '
         'UsrCtrlAnaAvv
         '
@@ -923,9 +925,9 @@ Partial Class UsrCtrlAnaAvv
         Me.Controls.Add(Me._UsrCtrlAnaAvvUnpinnedTabAreaTop)
         Me.Controls.Add(Me._UsrCtrlAnaAvvUnpinnedTabAreaBottom)
         Me.Controls.Add(Me._UsrCtrlAnaAvvUnpinnedTabAreaRight)
-        Me.Controls.Add(Me.WindowDockingArea2)
-        Me.Controls.Add(Me.WindowDockingArea3)
         Me.Controls.Add(Me.WindowDockingArea1)
+        Me.Controls.Add(Me.WindowDockingArea3)
+        Me.Controls.Add(Me.WindowDockingArea2)
         Me.Name = "UsrCtrlAnaAvv"
         Me.Size = New System.Drawing.Size(1772, 701)
         Me.UPanelToolbar.ClientArea.ResumeLayout(False)
@@ -953,12 +955,13 @@ Partial Class UsrCtrlAnaAvv
         CType(Me.UGrpBoxTitoloDatiGriglia, System.ComponentModel.ISupportInitialize).EndInit()
         Me.UGrpBoxTitoloDatiGriglia.ResumeLayout(False)
         CType(Me.UDockManAnaAvv, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.WindowDockingArea1.ResumeLayout(False)
+        Me.WindowDockingArea2.ResumeLayout(False)
         Me.DockableWindow1.ResumeLayout(False)
         Me.WindowDockingArea3.ResumeLayout(False)
         Me.DockableWindow2.ResumeLayout(False)
-        Me.WindowDockingArea2.ResumeLayout(False)
+        Me.WindowDockingArea1.ResumeLayout(False)
         Me.DockableWindow3.ResumeLayout(False)
+        CType(Me.UltraGridBagLayoutManager1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -970,12 +973,6 @@ Partial Class UsrCtrlAnaAvv
     Friend WithEvents UPanelDatiGriglia As Infragistics.Win.Misc.UltraPanel
     Friend WithEvents UDockManAnaAvv As Infragistics.Win.UltraWinDock.UltraDockManager
     Friend WithEvents _UsrCtrlAnaAvvAutoHideControl As Infragistics.Win.UltraWinDock.AutoHideControl
-    Friend WithEvents WindowDockingArea2 As Infragistics.Win.UltraWinDock.WindowDockingArea
-    Friend WithEvents DockableWindow3 As Infragistics.Win.UltraWinDock.DockableWindow
-    Friend WithEvents WindowDockingArea3 As Infragistics.Win.UltraWinDock.WindowDockingArea
-    Friend WithEvents DockableWindow2 As Infragistics.Win.UltraWinDock.DockableWindow
-    Friend WithEvents WindowDockingArea1 As Infragistics.Win.UltraWinDock.WindowDockingArea
-    Friend WithEvents DockableWindow1 As Infragistics.Win.UltraWinDock.DockableWindow
     Friend WithEvents _UsrCtrlAnaAvvUnpinnedTabAreaBottom As Infragistics.Win.UltraWinDock.UnpinnedTabArea
     Friend WithEvents _UsrCtrlAnaAvvUnpinnedTabAreaTop As Infragistics.Win.UltraWinDock.UnpinnedTabArea
     Friend WithEvents _UsrCtrlAnaAvvUnpinnedTabAreaRight As Infragistics.Win.UltraWinDock.UnpinnedTabArea
@@ -1023,4 +1020,11 @@ Partial Class UsrCtrlAnaAvv
     Friend WithEvents LSUTxtIndirizzoStudioRicerca As LSUltraCasellaTesto.LSUltraCasellaTesto
     Friend WithEvents LSUTxtNominativoRicerca As LSUltraCasellaTesto.LSUltraCasellaTesto
     Friend WithEvents UPicBoxLogoAvv As Infragistics.Win.UltraWinEditors.UltraPictureBox
+    Friend WithEvents WindowDockingArea1 As Infragistics.Win.UltraWinDock.WindowDockingArea
+    Friend WithEvents DockableWindow3 As Infragistics.Win.UltraWinDock.DockableWindow
+    Friend WithEvents WindowDockingArea3 As Infragistics.Win.UltraWinDock.WindowDockingArea
+    Friend WithEvents DockableWindow2 As Infragistics.Win.UltraWinDock.DockableWindow
+    Friend WithEvents WindowDockingArea2 As Infragistics.Win.UltraWinDock.WindowDockingArea
+    Friend WithEvents DockableWindow1 As Infragistics.Win.UltraWinDock.DockableWindow
+    Friend WithEvents UltraGridBagLayoutManager1 As Infragistics.Win.Misc.UltraGridBagLayoutManager
 End Class
