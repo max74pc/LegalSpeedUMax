@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29326.143
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LSCommon", "LSCommon\LSCommon.vbproj", "{19EAFE53-8339-4EB1-93D7-6723D0F22A35}"
 EndProject
@@ -48,6 +48,10 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LSMainProgramWPF", "LSView\WPF\LSMainProgramWPF\LSMainProgramWPF.vbproj", "{C2C70C2E-811A-4AE9-BCB0-68BFB6FA2A4D}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LSCtrlFattGen", "LSControls\LSCtrlFattGen\LSCtrlFattGen.vbproj", "{B4345C36-C418-43F9-9D37-5B334770FFD6}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "LSAngularApp", "LSWebApp\LSAngularApp\LSAngularApp.esproj", "{47490886-AA18-4561-9BB5-D5F080B944C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSWebAPI", "LSWebApp\LSWebAPI\LSWebAPI.csproj", "{AA4A22AA-8613-4731-884C-898F5D684C77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +131,16 @@ Global
 		{B4345C36-C418-43F9-9D37-5B334770FFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4345C36-C418-43F9-9D37-5B334770FFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4345C36-C418-43F9-9D37-5B334770FFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47490886-AA18-4561-9BB5-D5F080B944C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47490886-AA18-4561-9BB5-D5F080B944C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47490886-AA18-4561-9BB5-D5F080B944C8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{47490886-AA18-4561-9BB5-D5F080B944C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47490886-AA18-4561-9BB5-D5F080B944C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47490886-AA18-4561-9BB5-D5F080B944C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AA4A22AA-8613-4731-884C-898F5D684C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4A22AA-8613-4731-884C-898F5D684C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4A22AA-8613-4731-884C-898F5D684C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4A22AA-8613-4731-884C-898F5D684C77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
