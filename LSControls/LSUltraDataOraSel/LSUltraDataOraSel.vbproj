@@ -56,49 +56,38 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Shared.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Shared.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Shared.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Shared.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.AppStylistSupport.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.AppStylistSupport.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.AppStylistSupport.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.AppStylistSupport.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.Misc.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.Misc.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.Misc.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.Misc.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinEditors.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinEditors.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.UltraWinEditors.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.UltraWinEditors.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinExplorerBar.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinExplorerBar.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.UltraWinExplorerBar.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.UltraWinExplorerBar.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinGrid.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinGrid.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.UltraWinGrid.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.UltraWinGrid.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinListView.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinListView.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.UltraWinListView.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.UltraWinListView.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinTabControl.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinTabControl.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.UltraWinTabControl.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.UltraWinTabControl.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinToolbars.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinToolbars.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.UltraWinToolbars.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.UltraWinToolbars.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinTree.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinTree.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.UltraWinTree.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.UltraWinTree.v23.1.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.v21.1, Version=21.1.20211.62, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Infragistics\2021.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.v21.1.dll</HintPath>
+    <Reference Include="Infragistics4.Win.v23.1">
+      <HintPath>C:\Program Files (x86)\Infragistics\2023.1\ASP.NET\AppStylist for ASP.NET\Infragistics4.Win.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />

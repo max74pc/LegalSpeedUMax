@@ -6,7 +6,7 @@ Imports LSCtrlAnaControparti
 Imports LSCommon.LSCommonNS
 Imports LSDBManager.LSDBContextNS
 Imports Infragistics.Win.UltraWinTree
-Imports System.Windows.Controls.Primitives
+Imports System.Runtime
 
 Public Class UsrCtrlComAtti
 
@@ -264,7 +264,8 @@ Public Class UsrCtrlComAtti
                 document.Replace("{Avvocato.EMailPEC}", avv.EmailPEC, False, True)
             Next
 
-            document.SaveToFile("D:\DI_" & Now.Year & "." & Now.Month & "." & Now.Day & "-" & Now.Hour & "." & Now.Minute & ".docx", FileFormat.Docx)
+            'ocument.SaveToFile("D:\DI_" & Now.Year & "." & Now.Month & "." & Now.Day & "-" & Now.Hour & "." & Now.Minute & ".docx", FileFormat.Docx)
+            document.SaveToFile("D:\DI_" & Now.Year & "." & Now.Month & "." & Now.Day & "-" & Now.Hour & "." & Now.Minute & ".docx")
             MessageBox.Show("Documento generato con successo!")
         Catch ex As Exception
             ClsComune.GestisciEccezzioni(ex, "UsrCtrlComAtti: Sub GeneraDecretoIngiuntivo. ", True, ClsComune.GlbStrUserNameLS, "", True)
