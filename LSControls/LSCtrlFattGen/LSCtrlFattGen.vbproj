@@ -97,7 +97,8 @@
     <Reference Include="Spire.DocViewer.Forms">
       <HintPath>C:\Program Files (x86)\e-iceblue\spire.office\Bin\NET4.6\Spire.DocViewer.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="Spire.License">
+    <Reference Include="Spire.License, Version=1.3.6.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\e-iceblue\spire.office\Bin\NET4.6\Spire.License.dll</HintPath>
     </Reference>
     <Reference Include="System" />
